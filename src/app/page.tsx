@@ -1,65 +1,175 @@
-import Image from "next/image";
+'use client'
 
-export default function Home() {
+import { useRouter } from 'next/navigation'
+import { useUserStore } from '@/stores'
+import { Button, Select } from '@/components/ui'
+import { t } from '@/i18n'
+import type { WordListMode, CEFRLevel, ChinaLevel, Language, WordLevel } from '@/types'
+
+const wordListOptions = [
+  { value: 'cefr', label: { zh: 'CEFR 欧标', en: 'CEFR Standard' } },
+  { value: 'china', label: { zh: '中国教材', en: 'China Textbook' } },
+]
+
+const cefrLevelOptions: { value: CEFRLevel; label: string }[] = [
+  { value: 'a1', label: 'A1' },
+  { value: 'a2', label: 'A2' },
+  { value: 'b1', label: 'B1' },
+  { value: 'b2', label: 'B2' },
+  { value: 'c1', label: 'C1' },
+  { value: 'c2', label: 'C2' },
+]
+
+const chinaLevelOptions: { value: ChinaLevel; label: { zh: string; en: string } }[] = [
+  { value: 'primary', label: { zh: '小学', en: 'Primary' } },
+  { value: 'junior', label: { zh: '初中', en: 'Junior High' } },
+  { value: 'senior', label: { zh: '高中', en: 'Senior High' } },
+  { value: 'cet4', label: { zh: '四级', en: 'CET-4' } },
+  { value: 'cet6', label: { zh: '六级', en: 'CET-6' } },
+]
+
+const languageOptions: { value: Language; label: string }[] = [
+  { value: 'zh', label: '中文' },
+  { value: 'en', label: 'English' },
+]
+
+export default function HomePage() {
+  const router = useRouter()
+  const { settings, stats, updateSettings, getCurrentProgress } = useUserStore()
+
+  const lang = settings.language
+  const progress = getCurrentProgress()
+
+  // 处理词库模式切换
+  const handleWordListChange = (mode: WordListMode) => {
+    // 切换词库模式时，同时更新当前等级为该模式的默认等级
+    const defaultGrade: WordLevel = mode === 'cefr' ? 'a1' : 'primary'
+    updateSettings({ wordListMode: mode, currentGrade: defaultGrade })
+  }
+
+  // 处理等级切换
+  const handleLevelChange = (level: string) => {
+    updateSettings({ currentGrade: level as WordLevel })
+  }
+
+  // 处理语言切换
+  const handleLanguageChange = (language: Language) => {
+    updateSettings({ language })
+  }
+
+  // 开始游戏
+  const handleStartGame = () => {
+    router.push('/game')
+  }
+
+  // 获取当前等级选项
+  const currentLevelOptions =
+    settings.wordListMode === 'cefr'
+      ? cefrLevelOptions.map((o) => ({ value: o.value, label: o.label }))
+      : chinaLevelOptions.map((o) => ({
+          value: o.value,
+          label: o.label[lang],
+        }))
+
+  // 当前关卡数 (completedLevels + 1)
+  const currentLevelNum = progress.completedLevels + 1
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white flex flex-col">
+      {/* 顶栏 */}
+      <header className="p-4 flex justify-between items-center">
+        <h1 className="text-2xl font-bold text-blue-600">🦆 {t('app.name', lang)}</h1>
+        <Select
+          value={settings.language}
+          onChange={(v) => handleLanguageChange(v as Language)}
+          options={languageOptions}
+          className="w-24"
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+      </header>
+
+      {/* 主要内容 */}
+      <main className="flex-1 flex flex-col items-center justify-center p-6 gap-8">
+        {/* Logo 和标语 */}
+        <div className="text-center">
+          <div className="text-8xl mb-4">🦆</div>
+          <h2 className="text-3xl font-bold text-gray-800 mb-2">
+            {t('app.name', lang)}
+          </h2>
+          <p className="text-gray-600">{t('app.tagline', lang)}</p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+
+        {/* 设置区域 */}
+        <div className="w-full max-w-sm space-y-4">
+          {/* 词库选择 */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              {t('settings.wordList', lang)}
+            </label>
+            <div className="flex gap-2">
+              {wordListOptions.map((option) => (
+                <button
+                  key={option.value}
+                  onClick={() => handleWordListChange(option.value as WordListMode)}
+                  className={`flex-1 py-2 px-4 rounded-lg text-sm font-medium transition-colors ${
+                    settings.wordListMode === option.value
+                      ? 'bg-blue-600 text-white'
+                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                  }`}
+                >
+                  {option.label[lang]}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* 等级选择 */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              {t('settings.level', lang)}
+            </label>
+            <Select
+              value={settings.currentGrade}
+              onChange={handleLevelChange}
+              options={currentLevelOptions}
+              className="w-full"
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+          </div>
         </div>
+
+        {/* 统计信息 */}
+        <div className="grid grid-cols-3 gap-4 w-full max-w-sm">
+          <div className="bg-white rounded-xl p-4 text-center shadow-sm">
+            <div className="text-2xl font-bold text-blue-600">
+              {currentLevelNum}
+            </div>
+            <div className="text-xs text-gray-500">{t('stats.currentLevel', lang)}</div>
+          </div>
+          <div className="bg-white rounded-xl p-4 text-center shadow-sm">
+            <div className="text-2xl font-bold text-green-600">
+              {stats.totalWordsLearned}
+            </div>
+            <div className="text-xs text-gray-500">{t('stats.wordsLearned', lang)}</div>
+          </div>
+          <div className="bg-white rounded-xl p-4 text-center shadow-sm">
+            <div className="text-2xl font-bold text-orange-600">
+              {stats.streakDays}
+            </div>
+            <div className="text-xs text-gray-500">{t('stats.streakDays', lang)}</div>
+          </div>
+        </div>
+
+        {/* 开始按钮 */}
+        <Button onClick={handleStartGame} size="lg" className="w-full max-w-sm">
+          {currentLevelNum > 1
+            ? t('home.continue', lang)
+            : t('home.start', lang)}
+        </Button>
       </main>
+
+      {/* 底部 */}
+      <footer className="p-4 text-center text-sm text-gray-400">
+        {t('app.copyright', lang)}
+      </footer>
     </div>
-  );
+  )
 }
