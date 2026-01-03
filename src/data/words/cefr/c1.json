@@ -1,6 +1,6 @@
 {
   "level": "C1",
-  "totalWords": 1009,
+  "totalWords": 1010,
   "version": 2,
   "words": [
     {
@@ -10091,6 +10091,16 @@
       "meaning": {
         "zh": "描述；刻画",
         "en": "The act or process of characterizing."
+      }
+    },
+    {
+      "id": "c1_1010",
+      "word": "turn to",
+      "phonetic": "/tɜːn tuː/",
+      "pos": "phrasal verb",
+      "meaning": {
+        "zh": "求助于；转向；翻到",
+        "en": "To go to someone for help or information; to direct attention to"
       }
     }
   ]

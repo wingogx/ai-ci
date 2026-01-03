@@ -1,6 +1,6 @@
 {
   "level": "C2",
-  "totalWords": 972,
+  "totalWords": 973,
   "version": 2,
   "words": [
     {
@@ -9721,6 +9721,16 @@
       "meaning": {
         "zh": "自我膨胀",
         "en": ""
+      }
+    },
+    {
+      "id": "c2_973",
+      "word": "laud",
+      "phonetic": "/lɔːd/",
+      "pos": "verb",
+      "meaning": {
+        "zh": "赞美；称赞；颂扬",
+        "en": "To praise highly; to extol"
       }
     }
   ]
