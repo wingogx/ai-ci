@@ -138,6 +138,14 @@ describe('工具函数', () => {
       expect(getPreFillRatio('c2')).toBe(0.15)
     })
 
+    test('CET4等级返回0.25', () => {
+      expect(getPreFillRatio('cet4')).toBe(0.25)
+    })
+
+    test('CET6等级返回0.2', () => {
+      expect(getPreFillRatio('cet6')).toBe(0.2)
+    })
+
     test('未知等级返回默认0.4', () => {
       expect(getPreFillRatio('unknown')).toBe(0.4)
     })

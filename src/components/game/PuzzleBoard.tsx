@@ -9,7 +9,9 @@ interface PuzzleBoardProps {
   placedLetters: Map<string, string>
   correctCells?: Set<string>
   wrongCells?: Set<string>
+  highlightedCells?: Set<string>
   onRemoveLetter?: (cellId: string) => void
+  onCellClick?: (cellId: string) => void
   className?: string
 }
 
@@ -18,7 +20,9 @@ export function PuzzleBoard({
   placedLetters,
   correctCells = new Set(),
   wrongCells = new Set(),
+  highlightedCells = new Set(),
   onRemoveLetter,
+  onCellClick,
   className,
 }: PuzzleBoardProps) {
   return (
@@ -35,7 +39,9 @@ export function PuzzleBoard({
               placedLetter={placedLetters.get(cell.id)}
               isCorrect={correctCells.has(cell.id)}
               isWrong={wrongCells.has(cell.id)}
+              isHighlighted={highlightedCells.has(cell.id)}
               onRemove={onRemoveLetter}
+              onCellClick={onCellClick}
             />
           ))}
         </div>

@@ -68,7 +68,7 @@ describe('国际化', () => {
         expect(t(`cefrLevels.${level}`, 'en')).not.toBe(`cefrLevels.${level}`)
       })
 
-      const chinaLevels = ['primary', 'junior', 'senior']
+      const chinaLevels = ['primary', 'junior', 'senior', 'cet4', 'cet6']
       chinaLevels.forEach((level) => {
         expect(t(`chinaLevels.${level}`, 'zh')).not.toBe(`chinaLevels.${level}`)
         expect(t(`chinaLevels.${level}`, 'en')).not.toBe(`chinaLevels.${level}`)

@@ -46,6 +46,7 @@ export function useGame() {
     addHelpedWord,
     completeLevel,
     addHelpCount,
+    useHelp: userUseHelp,
   } = useUserStore()
 
   /**
@@ -114,8 +115,10 @@ export function useGame() {
    * 使用帮助
    */
   const useHelp = useCallback(() => {
+    // 同时更新游戏状态和持久化存储
     storeUseHelp()
-  }, [storeUseHelp])
+    userUseHelp()
+  }, [storeUseHelp, userUseHelp])
 
   /**
    * 处理通关
@@ -168,13 +171,14 @@ export function useGame() {
     loadWords()
   }, [loadWords])
 
-  // 词库加载完成后开始游戏
+  // 词库加载完成后开始游戏（只在首次加载时执行）
   useEffect(() => {
     if (allWords.length > 0 && !currentPuzzle) {
       const progress = getCurrentProgress()
       startLevel(progress.completedLevels + 1)
     }
-  }, [allWords, currentPuzzle, getCurrentProgress, startLevel])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [allWords.length]) // 只依赖词库是否加载完成
 
   // 进入关卡时播放单词
   useEffect(() => {

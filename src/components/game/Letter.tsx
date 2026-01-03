@@ -41,8 +41,8 @@ export function Letter({
       {...attributes}
       className={cn(
         'w-12 h-12 flex items-center justify-center',
-        'text-xl font-bold uppercase rounded-lg',
-        'select-none transition-all duration-150',
+        'text-xl font-bold lowercase rounded-lg',
+        'select-none touch-none transition-colors duration-150',
         // 默认状态
         !isPreFilled && !isUsed && !isCorrect && !isWrong && 'bg-yellow-400 text-gray-900 shadow-md cursor-grab active:cursor-grabbing hover:scale-105 hover:shadow-lg',
         // 预填状态

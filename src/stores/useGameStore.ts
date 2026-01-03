@@ -83,12 +83,13 @@ export const useGameStore = create<GameState>((set, get) => ({
     while (!puzzle && attempts < maxAttempts) {
       attempts++
 
-      // 选择单词
+      // 选择单词（传入 level 控制词长）
       const result = selectWordsForLevel(
         allWords,
         learnedWords,
         helpedWords,
-        wordCount
+        wordCount,
+        level
       )
       words = result.words
 
@@ -124,7 +125,8 @@ export const useGameStore = create<GameState>((set, get) => ({
         allWords,
         new Set(), // 重置已学列表
         helpedWords,
-        reducedCount
+        reducedCount,
+        level
       )
       words = result.words
       const wordStrings = words.map((w) => w.word)

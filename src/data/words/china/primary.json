@@ -1,107 +1,5037 @@
 {
-  "level": "primary",
-  "totalWords": 100,
+  "level": "Primary",
+  "totalWords": 503,
   "version": 2,
   "words": [
-    { "id": "pri_001", "word": "I", "phonetic": "aɪ", "pos": "pron", "meaning": { "zh": "我", "en": "myself" } },
-    { "id": "pri_002", "word": "a", "phonetic": "ə", "pos": "art", "meaning": { "zh": "一个", "en": "one" } },
-    { "id": "pri_003", "word": "am", "phonetic": "æm", "pos": "v", "meaning": { "zh": "是", "en": "be (I am)" } },
-    { "id": "pri_004", "word": "an", "phonetic": "ən", "pos": "art", "meaning": { "zh": "一个", "en": "one (before vowel)" } },
-    { "id": "pri_005", "word": "at", "phonetic": "æt", "pos": "prep", "meaning": { "zh": "在", "en": "in a place" } },
-    { "id": "pri_006", "word": "be", "phonetic": "biː", "pos": "v", "meaning": { "zh": "是", "en": "exist" } },
-    { "id": "pri_007", "word": "do", "phonetic": "duː", "pos": "v", "meaning": { "zh": "做", "en": "perform" } },
-    { "id": "pri_008", "word": "go", "phonetic": "ɡoʊ", "pos": "v", "meaning": { "zh": "去", "en": "move to" } },
-    { "id": "pri_009", "word": "he", "phonetic": "hiː", "pos": "pron", "meaning": { "zh": "他", "en": "that male" } },
-    { "id": "pri_010", "word": "hi", "phonetic": "haɪ", "pos": "int", "meaning": { "zh": "嗨", "en": "hello" } },
-    { "id": "pri_011", "word": "in", "phonetic": "ɪn", "pos": "prep", "meaning": { "zh": "在...里", "en": "inside" } },
-    { "id": "pri_012", "word": "is", "phonetic": "ɪz", "pos": "v", "meaning": { "zh": "是", "en": "be (he/she/it)" } },
-    { "id": "pri_013", "word": "it", "phonetic": "ɪt", "pos": "pron", "meaning": { "zh": "它", "en": "that thing" } },
-    { "id": "pri_014", "word": "me", "phonetic": "miː", "pos": "pron", "meaning": { "zh": "我（宾格）", "en": "myself (object)" } },
-    { "id": "pri_015", "word": "my", "phonetic": "maɪ", "pos": "pron", "meaning": { "zh": "我的", "en": "belonging to me" } },
-    { "id": "pri_016", "word": "no", "phonetic": "noʊ", "pos": "adv", "meaning": { "zh": "不", "en": "not yes" } },
-    { "id": "pri_017", "word": "of", "phonetic": "ʌv", "pos": "prep", "meaning": { "zh": "...的", "en": "belonging to" } },
-    { "id": "pri_018", "word": "on", "phonetic": "ɑːn", "pos": "prep", "meaning": { "zh": "在...上", "en": "on top of" } },
-    { "id": "pri_019", "word": "or", "phonetic": "ɔːr", "pos": "conj", "meaning": { "zh": "或者", "en": "alternative" } },
-    { "id": "pri_020", "word": "so", "phonetic": "soʊ", "pos": "adv", "meaning": { "zh": "如此", "en": "very, therefore" } },
-    { "id": "pri_021", "word": "to", "phonetic": "tuː", "pos": "prep", "meaning": { "zh": "到", "en": "toward" } },
-    { "id": "pri_022", "word": "up", "phonetic": "ʌp", "pos": "adv", "meaning": { "zh": "向上", "en": "upward" } },
-    { "id": "pri_023", "word": "we", "phonetic": "wiː", "pos": "pron", "meaning": { "zh": "我们", "en": "us" } },
-    { "id": "pri_024", "word": "yes", "phonetic": "jes", "pos": "adv", "meaning": { "zh": "是的", "en": "affirmative" } },
-    { "id": "pri_025", "word": "add", "phonetic": "æd", "pos": "v", "meaning": { "zh": "添加", "en": "put together" } },
-    { "id": "pri_026", "word": "age", "phonetic": "eɪdʒ", "pos": "n", "meaning": { "zh": "年龄", "en": "how old" } },
-    { "id": "pri_027", "word": "all", "phonetic": "ɔːl", "pos": "det", "meaning": { "zh": "所有的", "en": "every one" } },
-    { "id": "pri_028", "word": "and", "phonetic": "ænd", "pos": "conj", "meaning": { "zh": "和", "en": "also, plus" } },
-    { "id": "pri_029", "word": "ant", "phonetic": "ænt", "pos": "n", "meaning": { "zh": "蚂蚁", "en": "small insect" } },
-    { "id": "pri_030", "word": "any", "phonetic": "ˈeni", "pos": "det", "meaning": { "zh": "任何", "en": "some" } },
-    { "id": "pri_031", "word": "are", "phonetic": "ɑːr", "pos": "v", "meaning": { "zh": "是", "en": "be (we/you/they)" } },
-    { "id": "pri_032", "word": "arm", "phonetic": "ɑːrm", "pos": "n", "meaning": { "zh": "手臂", "en": "body part" } },
-    { "id": "pri_033", "word": "art", "phonetic": "ɑːrt", "pos": "n", "meaning": { "zh": "艺术", "en": "creative work" } },
-    { "id": "pri_034", "word": "ask", "phonetic": "æsk", "pos": "v", "meaning": { "zh": "问", "en": "request info" } },
-    { "id": "pri_035", "word": "bad", "phonetic": "bæd", "pos": "adj", "meaning": { "zh": "坏的", "en": "not good" } },
-    { "id": "pri_036", "word": "bag", "phonetic": "bæɡ", "pos": "n", "meaning": { "zh": "包", "en": "container" } },
-    { "id": "pri_037", "word": "bat", "phonetic": "bæt", "pos": "n", "meaning": { "zh": "蝙蝠/球棒", "en": "flying animal/stick" } },
-    { "id": "pri_038", "word": "bed", "phonetic": "bed", "pos": "n", "meaning": { "zh": "床", "en": "for sleeping" } },
-    { "id": "pri_039", "word": "bee", "phonetic": "biː", "pos": "n", "meaning": { "zh": "蜜蜂", "en": "makes honey" } },
-    { "id": "pri_040", "word": "big", "phonetic": "bɪɡ", "pos": "adj", "meaning": { "zh": "大的", "en": "large" } },
-    { "id": "pri_041", "word": "box", "phonetic": "bɑːks", "pos": "n", "meaning": { "zh": "盒子", "en": "container" } },
-    { "id": "pri_042", "word": "boy", "phonetic": "bɔɪ", "pos": "n", "meaning": { "zh": "男孩", "en": "male child" } },
-    { "id": "pri_043", "word": "bus", "phonetic": "bʌs", "pos": "n", "meaning": { "zh": "公共汽车", "en": "large vehicle" } },
-    { "id": "pri_044", "word": "but", "phonetic": "bʌt", "pos": "conj", "meaning": { "zh": "但是", "en": "however" } },
-    { "id": "pri_045", "word": "buy", "phonetic": "baɪ", "pos": "v", "meaning": { "zh": "买", "en": "purchase" } },
-    { "id": "pri_046", "word": "bye", "phonetic": "baɪ", "pos": "int", "meaning": { "zh": "再见", "en": "goodbye" } },
-    { "id": "pri_047", "word": "can", "phonetic": "kæn", "pos": "v", "meaning": { "zh": "能", "en": "be able to" } },
-    { "id": "pri_048", "word": "cap", "phonetic": "kæp", "pos": "n", "meaning": { "zh": "帽子", "en": "head covering" } },
-    { "id": "pri_049", "word": "car", "phonetic": "kɑːr", "pos": "n", "meaning": { "zh": "汽车", "en": "vehicle" } },
-    { "id": "pri_050", "word": "cat", "phonetic": "kæt", "pos": "n", "meaning": { "zh": "猫", "en": "pet animal" } },
-    { "id": "pri_051", "word": "cow", "phonetic": "kaʊ", "pos": "n", "meaning": { "zh": "奶牛", "en": "farm animal" } },
-    { "id": "pri_052", "word": "cup", "phonetic": "kʌp", "pos": "n", "meaning": { "zh": "杯子", "en": "for drinks" } },
-    { "id": "pri_053", "word": "cut", "phonetic": "kʌt", "pos": "v", "meaning": { "zh": "切", "en": "divide" } },
-    { "id": "pri_054", "word": "dad", "phonetic": "dæd", "pos": "n", "meaning": { "zh": "爸爸", "en": "father" } },
-    { "id": "pri_055", "word": "day", "phonetic": "deɪ", "pos": "n", "meaning": { "zh": "天", "en": "24 hours" } },
-    { "id": "pri_056", "word": "did", "phonetic": "dɪd", "pos": "v", "meaning": { "zh": "做（过去式）", "en": "past of do" } },
-    { "id": "pri_057", "word": "dog", "phonetic": "dɔːɡ", "pos": "n", "meaning": { "zh": "狗", "en": "pet animal" } },
-    { "id": "pri_058", "word": "ear", "phonetic": "ɪr", "pos": "n", "meaning": { "zh": "耳朵", "en": "for hearing" } },
-    { "id": "pri_059", "word": "eat", "phonetic": "iːt", "pos": "v", "meaning": { "zh": "吃", "en": "take food" } },
-    { "id": "pri_060", "word": "egg", "phonetic": "eɡ", "pos": "n", "meaning": { "zh": "鸡蛋", "en": "from birds" } },
-    { "id": "pri_061", "word": "end", "phonetic": "end", "pos": "n", "meaning": { "zh": "结束", "en": "final part" } },
-    { "id": "pri_062", "word": "eye", "phonetic": "aɪ", "pos": "n", "meaning": { "zh": "眼睛", "en": "for seeing" } },
-    { "id": "pri_063", "word": "fan", "phonetic": "fæn", "pos": "n", "meaning": { "zh": "风扇/粉丝", "en": "cooling device" } },
-    { "id": "pri_064", "word": "fat", "phonetic": "fæt", "pos": "adj", "meaning": { "zh": "胖的", "en": "not thin" } },
-    { "id": "pri_065", "word": "fly", "phonetic": "flaɪ", "pos": "v", "meaning": { "zh": "飞", "en": "move in air" } },
-    { "id": "pri_066", "word": "for", "phonetic": "fɔːr", "pos": "prep", "meaning": { "zh": "为了", "en": "intended for" } },
-    { "id": "pri_067", "word": "fox", "phonetic": "fɑːks", "pos": "n", "meaning": { "zh": "狐狸", "en": "wild animal" } },
-    { "id": "pri_068", "word": "fun", "phonetic": "fʌn", "pos": "n", "meaning": { "zh": "乐趣", "en": "enjoyment" } },
-    { "id": "pri_069", "word": "get", "phonetic": "ɡet", "pos": "v", "meaning": { "zh": "得到", "en": "obtain" } },
-    { "id": "pri_070", "word": "got", "phonetic": "ɡɑːt", "pos": "v", "meaning": { "zh": "得到（过去式）", "en": "past of get" } },
-    { "id": "pri_071", "word": "had", "phonetic": "hæd", "pos": "v", "meaning": { "zh": "有（过去式）", "en": "past of have" } },
-    { "id": "pri_072", "word": "has", "phonetic": "hæz", "pos": "v", "meaning": { "zh": "有", "en": "possess" } },
-    { "id": "pri_073", "word": "hat", "phonetic": "hæt", "pos": "n", "meaning": { "zh": "帽子", "en": "head covering" } },
-    { "id": "pri_074", "word": "hen", "phonetic": "hen", "pos": "n", "meaning": { "zh": "母鸡", "en": "female chicken" } },
-    { "id": "pri_075", "word": "her", "phonetic": "hɜːr", "pos": "pron", "meaning": { "zh": "她的", "en": "belonging to her" } },
-    { "id": "pri_076", "word": "him", "phonetic": "hɪm", "pos": "pron", "meaning": { "zh": "他（宾格）", "en": "that male (object)" } },
-    { "id": "pri_077", "word": "his", "phonetic": "hɪz", "pos": "pron", "meaning": { "zh": "他的", "en": "belonging to him" } },
-    { "id": "pri_078", "word": "hot", "phonetic": "hɑːt", "pos": "adj", "meaning": { "zh": "热的", "en": "high temperature" } },
-    { "id": "pri_079", "word": "how", "phonetic": "haʊ", "pos": "adv", "meaning": { "zh": "如何", "en": "in what way" } },
-    { "id": "pri_080", "word": "ice", "phonetic": "aɪs", "pos": "n", "meaning": { "zh": "冰", "en": "frozen water" } },
-    { "id": "pri_081", "word": "job", "phonetic": "dʒɑːb", "pos": "n", "meaning": { "zh": "工作", "en": "paid work" } },
-    { "id": "pri_082", "word": "key", "phonetic": "kiː", "pos": "n", "meaning": { "zh": "钥匙", "en": "opens locks" } },
-    { "id": "pri_083", "word": "leg", "phonetic": "leɡ", "pos": "n", "meaning": { "zh": "腿", "en": "body part" } },
-    { "id": "pri_084", "word": "let", "phonetic": "let", "pos": "v", "meaning": { "zh": "让", "en": "allow" } },
-    { "id": "pri_085", "word": "man", "phonetic": "mæn", "pos": "n", "meaning": { "zh": "男人", "en": "adult male" } },
-    { "id": "pri_086", "word": "map", "phonetic": "mæp", "pos": "n", "meaning": { "zh": "地图", "en": "drawing of area" } },
-    { "id": "pri_087", "word": "mom", "phonetic": "mɑːm", "pos": "n", "meaning": { "zh": "妈妈", "en": "mother" } },
-    { "id": "pri_088", "word": "mum", "phonetic": "mʌm", "pos": "n", "meaning": { "zh": "妈妈", "en": "mother (British)" } },
-    { "id": "pri_089", "word": "new", "phonetic": "nuː", "pos": "adj", "meaning": { "zh": "新的", "en": "recently made" } },
-    { "id": "pri_090", "word": "not", "phonetic": "nɑːt", "pos": "adv", "meaning": { "zh": "不", "en": "negative" } },
-    { "id": "pri_091", "word": "now", "phonetic": "naʊ", "pos": "adv", "meaning": { "zh": "现在", "en": "at this time" } },
-    { "id": "pri_092", "word": "old", "phonetic": "oʊld", "pos": "adj", "meaning": { "zh": "老的", "en": "not young" } },
-    { "id": "pri_093", "word": "one", "phonetic": "wʌn", "pos": "num", "meaning": { "zh": "一", "en": "number 1" } },
-    { "id": "pri_094", "word": "our", "phonetic": "aʊr", "pos": "pron", "meaning": { "zh": "我们的", "en": "belonging to us" } },
-    { "id": "pri_095", "word": "out", "phonetic": "aʊt", "pos": "adv", "meaning": { "zh": "外面", "en": "not inside" } },
-    { "id": "pri_096", "word": "pen", "phonetic": "pen", "pos": "n", "meaning": { "zh": "钢笔", "en": "writing tool" } },
-    { "id": "pri_097", "word": "pet", "phonetic": "pet", "pos": "n", "meaning": { "zh": "宠物", "en": "animal at home" } },
-    { "id": "pri_098", "word": "pig", "phonetic": "pɪɡ", "pos": "n", "meaning": { "zh": "猪", "en": "farm animal" } },
-    { "id": "pri_099", "word": "put", "phonetic": "pʊt", "pos": "v", "meaning": { "zh": "放", "en": "place" } },
-    { "id": "pri_100", "word": "red", "phonetic": "red", "pos": "adj", "meaning": { "zh": "红色的", "en": "color of blood" } }
+    {
+      "id": "pri_001",
+      "word": "add",
+      "phonetic": "/æd/",
+      "pos": "v",
+      "meaning": {
+        "zh": "添加",
+        "en": "put together"
+      }
+    },
+    {
+      "id": "pri_002",
+      "word": "age",
+      "phonetic": "/eɪdʒ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "年龄",
+        "en": "how old"
+      }
+    },
+    {
+      "id": "pri_003",
+      "word": "all",
+      "phonetic": "/ɔːl/",
+      "pos": "det",
+      "meaning": {
+        "zh": "所有的",
+        "en": "every one"
+      }
+    },
+    {
+      "id": "pri_004",
+      "word": "and",
+      "phonetic": "/ænd/",
+      "pos": "conj",
+      "meaning": {
+        "zh": "和",
+        "en": "also, plus"
+      }
+    },
+    {
+      "id": "pri_005",
+      "word": "ant",
+      "phonetic": "/ænt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "蚂蚁",
+        "en": "small insect"
+      }
+    },
+    {
+      "id": "pri_006",
+      "word": "any",
+      "phonetic": "/ˈeni/",
+      "pos": "det",
+      "meaning": {
+        "zh": "任何",
+        "en": "some"
+      }
+    },
+    {
+      "id": "pri_007",
+      "word": "are",
+      "phonetic": "/ɑːr/",
+      "pos": "v",
+      "meaning": {
+        "zh": "是",
+        "en": "be (we/you/they)"
+      }
+    },
+    {
+      "id": "pri_008",
+      "word": "arm",
+      "phonetic": "/ɑːrm/",
+      "pos": "n",
+      "meaning": {
+        "zh": "手臂",
+        "en": "body part"
+      }
+    },
+    {
+      "id": "pri_009",
+      "word": "art",
+      "phonetic": "/ɑːt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "艺术",
+        "en": "creative work"
+      }
+    },
+    {
+      "id": "pri_010",
+      "word": "ask",
+      "phonetic": "/æsk/",
+      "pos": "v",
+      "meaning": {
+        "zh": "问",
+        "en": "request info"
+      }
+    },
+    {
+      "id": "pri_011",
+      "word": "baby",
+      "phonetic": "/ˈbeɪbi/",
+      "pos": "n",
+      "meaning": {
+        "zh": "婴儿",
+        "en": "very young child"
+      }
+    },
+    {
+      "id": "pri_012",
+      "word": "back",
+      "phonetic": "/bæk/",
+      "pos": "n",
+      "meaning": {
+        "zh": "背部",
+        "en": "rear part"
+      }
+    },
+    {
+      "id": "pri_013",
+      "word": "bad",
+      "phonetic": "/bæd/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "坏的",
+        "en": "not good"
+      }
+    },
+    {
+      "id": "pri_014",
+      "word": "bag",
+      "phonetic": "/bæɡ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "包",
+        "en": "container"
+      }
+    },
+    {
+      "id": "pri_015",
+      "word": "ball",
+      "phonetic": "/bɔːl/",
+      "pos": "n",
+      "meaning": {
+        "zh": "球",
+        "en": "round toy"
+      }
+    },
+    {
+      "id": "pri_016",
+      "word": "banana",
+      "phonetic": "/bəˈnænə/",
+      "pos": "n",
+      "meaning": {
+        "zh": "香蕉",
+        "en": "yellow fruit"
+      }
+    },
+    {
+      "id": "pri_017",
+      "word": "bat",
+      "phonetic": "/bæt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "蝙蝠/球棒",
+        "en": "animal or stick"
+      }
+    },
+    {
+      "id": "pri_018",
+      "word": "bear",
+      "phonetic": "/ber/",
+      "pos": "n",
+      "meaning": {
+        "zh": "熊",
+        "en": "large animal"
+      }
+    },
+    {
+      "id": "pri_019",
+      "word": "bed",
+      "phonetic": "/bed/",
+      "pos": "n",
+      "meaning": {
+        "zh": "床",
+        "en": "for sleeping"
+      }
+    },
+    {
+      "id": "pri_020",
+      "word": "bee",
+      "phonetic": "/biː/",
+      "pos": "n",
+      "meaning": {
+        "zh": "蜜蜂",
+        "en": "makes honey"
+      }
+    },
+    {
+      "id": "pri_021",
+      "word": "big",
+      "phonetic": "/bɪɡ/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "大的",
+        "en": "large"
+      }
+    },
+    {
+      "id": "pri_022",
+      "word": "bike",
+      "phonetic": "/baɪk/",
+      "pos": "n",
+      "meaning": {
+        "zh": "自行车",
+        "en": "bicycle"
+      }
+    },
+    {
+      "id": "pri_023",
+      "word": "bird",
+      "phonetic": "/bɜːd/",
+      "pos": "n",
+      "meaning": {
+        "zh": "鸟",
+        "en": "flying animal"
+      }
+    },
+    {
+      "id": "pri_024",
+      "word": "black",
+      "phonetic": "/blæk/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "黑色的",
+        "en": "dark color"
+      }
+    },
+    {
+      "id": "pri_025",
+      "word": "blue",
+      "phonetic": "/bluː/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "蓝色的",
+        "en": "sky color"
+      }
+    },
+    {
+      "id": "pri_026",
+      "word": "boat",
+      "phonetic": "/boʊt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "船",
+        "en": "water vehicle"
+      }
+    },
+    {
+      "id": "pri_027",
+      "word": "body",
+      "phonetic": "/ˈbɑːdi/",
+      "pos": "n",
+      "meaning": {
+        "zh": "身体",
+        "en": "physical form"
+      }
+    },
+    {
+      "id": "pri_028",
+      "word": "book",
+      "phonetic": "/bʊk/",
+      "pos": "n",
+      "meaning": {
+        "zh": "书",
+        "en": "for reading"
+      }
+    },
+    {
+      "id": "pri_029",
+      "word": "box",
+      "phonetic": "/bɑːks/",
+      "pos": "n",
+      "meaning": {
+        "zh": "盒子",
+        "en": "container"
+      }
+    },
+    {
+      "id": "pri_030",
+      "word": "boy",
+      "phonetic": "/bɔɪ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "男孩",
+        "en": "male child"
+      }
+    },
+    {
+      "id": "pri_031",
+      "word": "bread",
+      "phonetic": "/bred/",
+      "pos": "n",
+      "meaning": {
+        "zh": "面包",
+        "en": "baked food"
+      }
+    },
+    {
+      "id": "pri_032",
+      "word": "brother",
+      "phonetic": "/ˈbrʌðər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "兄弟",
+        "en": "male sibling"
+      }
+    },
+    {
+      "id": "pri_033",
+      "word": "brown",
+      "phonetic": "/braʊn/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "棕色的",
+        "en": "earth color"
+      }
+    },
+    {
+      "id": "pri_034",
+      "word": "bus",
+      "phonetic": "/bʌs/",
+      "pos": "n",
+      "meaning": {
+        "zh": "公共汽车",
+        "en": "large vehicle"
+      }
+    },
+    {
+      "id": "pri_035",
+      "word": "but",
+      "phonetic": "/bʌt/",
+      "pos": "conj",
+      "meaning": {
+        "zh": "但是",
+        "en": "however"
+      }
+    },
+    {
+      "id": "pri_036",
+      "word": "buy",
+      "phonetic": "/baɪ/",
+      "pos": "v",
+      "meaning": {
+        "zh": "买",
+        "en": "purchase"
+      }
+    },
+    {
+      "id": "pri_037",
+      "word": "bye",
+      "phonetic": "/baɪ/",
+      "pos": "int",
+      "meaning": {
+        "zh": "再见",
+        "en": "goodbye"
+      }
+    },
+    {
+      "id": "pri_038",
+      "word": "cake",
+      "phonetic": "/keɪk/",
+      "pos": "n",
+      "meaning": {
+        "zh": "蛋糕",
+        "en": "sweet dessert"
+      }
+    },
+    {
+      "id": "pri_039",
+      "word": "call",
+      "phonetic": "/kɔːl/",
+      "pos": "v",
+      "meaning": {
+        "zh": "打电话/叫",
+        "en": "phone or name"
+      }
+    },
+    {
+      "id": "pri_040",
+      "word": "can",
+      "phonetic": "/kæn/",
+      "pos": "v",
+      "meaning": {
+        "zh": "能",
+        "en": "be able to"
+      }
+    },
+    {
+      "id": "pri_041",
+      "word": "cap",
+      "phonetic": "/kæp/",
+      "pos": "n",
+      "meaning": {
+        "zh": "帽子",
+        "en": "head covering"
+      }
+    },
+    {
+      "id": "pri_042",
+      "word": "car",
+      "phonetic": "/kɑːr/",
+      "pos": "n",
+      "meaning": {
+        "zh": "汽车",
+        "en": "vehicle"
+      }
+    },
+    {
+      "id": "pri_043",
+      "word": "card",
+      "phonetic": "/kɑːd/",
+      "pos": "n",
+      "meaning": {
+        "zh": "卡片",
+        "en": "paper card"
+      }
+    },
+    {
+      "id": "pri_044",
+      "word": "cat",
+      "phonetic": "/kæt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "猫",
+        "en": "pet animal"
+      }
+    },
+    {
+      "id": "pri_045",
+      "word": "chair",
+      "phonetic": "/tʃer/",
+      "pos": "n",
+      "meaning": {
+        "zh": "椅子",
+        "en": "for sitting"
+      }
+    },
+    {
+      "id": "pri_046",
+      "word": "chicken",
+      "phonetic": "/ˈtʃɪkɪn/",
+      "pos": "n",
+      "meaning": {
+        "zh": "鸡/鸡肉",
+        "en": "bird or meat"
+      }
+    },
+    {
+      "id": "pri_047",
+      "word": "child",
+      "phonetic": "/tʃaɪld/",
+      "pos": "n",
+      "meaning": {
+        "zh": "孩子",
+        "en": "young person"
+      }
+    },
+    {
+      "id": "pri_048",
+      "word": "city",
+      "phonetic": "/ˈsɪti/",
+      "pos": "n",
+      "meaning": {
+        "zh": "城市",
+        "en": "large town"
+      }
+    },
+    {
+      "id": "pri_049",
+      "word": "class",
+      "phonetic": "/klæs/",
+      "pos": "n",
+      "meaning": {
+        "zh": "班级",
+        "en": "group of students"
+      }
+    },
+    {
+      "id": "pri_050",
+      "word": "classroom",
+      "phonetic": "/ˈklæsruːm/",
+      "pos": "n",
+      "meaning": {
+        "zh": "教室",
+        "en": "room for teaching"
+      }
+    },
+    {
+      "id": "pri_051",
+      "word": "clean",
+      "phonetic": "/kliːn/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "干净的",
+        "en": "not dirty"
+      }
+    },
+    {
+      "id": "pri_052",
+      "word": "clock",
+      "phonetic": "/klɑːk/",
+      "pos": "n",
+      "meaning": {
+        "zh": "时钟",
+        "en": "shows time"
+      }
+    },
+    {
+      "id": "pri_053",
+      "word": "close",
+      "phonetic": "/kloʊz/",
+      "pos": "v",
+      "meaning": {
+        "zh": "关闭",
+        "en": "shut"
+      }
+    },
+    {
+      "id": "pri_054",
+      "word": "coat",
+      "phonetic": "/koʊt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "外套",
+        "en": "outer clothing"
+      }
+    },
+    {
+      "id": "pri_055",
+      "word": "coffee",
+      "phonetic": "/ˈkɔːrfi/",
+      "pos": "n",
+      "meaning": {
+        "zh": "咖啡",
+        "en": "hot drink"
+      }
+    },
+    {
+      "id": "pri_056",
+      "word": "cold",
+      "phonetic": "/koʊld/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "冷的",
+        "en": "low temperature"
+      }
+    },
+    {
+      "id": "pri_057",
+      "word": "color",
+      "phonetic": "/ˈkʌlər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "颜色",
+        "en": "hue"
+      }
+    },
+    {
+      "id": "pri_058",
+      "word": "come",
+      "phonetic": "/kʌm/",
+      "pos": "v",
+      "meaning": {
+        "zh": "来",
+        "en": "move toward"
+      }
+    },
+    {
+      "id": "pri_059",
+      "word": "cook",
+      "phonetic": "/kʊk/",
+      "pos": "v",
+      "meaning": {
+        "zh": "烹饪",
+        "en": "prepare food"
+      }
+    },
+    {
+      "id": "pri_060",
+      "word": "cool",
+      "phonetic": "/kuːl/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "凉爽的",
+        "en": "slightly cold"
+      }
+    },
+    {
+      "id": "pri_061",
+      "word": "cow",
+      "phonetic": "/kaʊ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "奶牛",
+        "en": "farm animal"
+      }
+    },
+    {
+      "id": "pri_062",
+      "word": "cup",
+      "phonetic": "/kʌp/",
+      "pos": "n",
+      "meaning": {
+        "zh": "杯子",
+        "en": "for drinks"
+      }
+    },
+    {
+      "id": "pri_063",
+      "word": "cut",
+      "phonetic": "/kʌt/",
+      "pos": "v",
+      "meaning": {
+        "zh": "切",
+        "en": "divide"
+      }
+    },
+    {
+      "id": "pri_064",
+      "word": "dad",
+      "phonetic": "/dæd/",
+      "pos": "n",
+      "meaning": {
+        "zh": "爸爸",
+        "en": "father"
+      }
+    },
+    {
+      "id": "pri_065",
+      "word": "dance",
+      "phonetic": "/dæns/",
+      "pos": "v",
+      "meaning": {
+        "zh": "跳舞",
+        "en": "move to music"
+      }
+    },
+    {
+      "id": "pri_066",
+      "word": "day",
+      "phonetic": "/deɪ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "天",
+        "en": "24 hours"
+      }
+    },
+    {
+      "id": "pri_067",
+      "word": "desk",
+      "phonetic": "/desk/",
+      "pos": "n",
+      "meaning": {
+        "zh": "书桌",
+        "en": "work table"
+      }
+    },
+    {
+      "id": "pri_068",
+      "word": "did",
+      "phonetic": "/dɪd/",
+      "pos": "v",
+      "meaning": {
+        "zh": "做（过去式）",
+        "en": "past of do"
+      }
+    },
+    {
+      "id": "pri_069",
+      "word": "dinner",
+      "phonetic": "/ˈdɪnər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "晚餐",
+        "en": "evening meal"
+      }
+    },
+    {
+      "id": "pri_070",
+      "word": "doctor",
+      "phonetic": "/ˈdɑːktər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "医生",
+        "en": "medical person"
+      }
+    },
+    {
+      "id": "pri_071",
+      "word": "dog",
+      "phonetic": "/dɔːrɡ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "狗",
+        "en": "pet animal"
+      }
+    },
+    {
+      "id": "pri_072",
+      "word": "door",
+      "phonetic": "/dɔːr/",
+      "pos": "n",
+      "meaning": {
+        "zh": "门",
+        "en": "entrance"
+      }
+    },
+    {
+      "id": "pri_073",
+      "word": "down",
+      "phonetic": "/daʊn/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "向下",
+        "en": "downward"
+      }
+    },
+    {
+      "id": "pri_074",
+      "word": "draw",
+      "phonetic": "/drɔːr/",
+      "pos": "v",
+      "meaning": {
+        "zh": "画",
+        "en": "make picture"
+      }
+    },
+    {
+      "id": "pri_075",
+      "word": "dress",
+      "phonetic": "/dres/",
+      "pos": "n",
+      "meaning": {
+        "zh": "连衣裙",
+        "en": "women's clothing"
+      }
+    },
+    {
+      "id": "pri_076",
+      "word": "drink",
+      "phonetic": "/drɪŋk/",
+      "pos": "v",
+      "meaning": {
+        "zh": "喝",
+        "en": "take liquid"
+      }
+    },
+    {
+      "id": "pri_077",
+      "word": "duck",
+      "phonetic": "/dʌk/",
+      "pos": "n",
+      "meaning": {
+        "zh": "鸭子",
+        "en": "water bird"
+      }
+    },
+    {
+      "id": "pri_078",
+      "word": "ear",
+      "phonetic": "/ɪr/",
+      "pos": "n",
+      "meaning": {
+        "zh": "耳朵",
+        "en": "for hearing"
+      }
+    },
+    {
+      "id": "pri_079",
+      "word": "eat",
+      "phonetic": "/iːt/",
+      "pos": "v",
+      "meaning": {
+        "zh": "吃",
+        "en": "take food"
+      }
+    },
+    {
+      "id": "pri_080",
+      "word": "egg",
+      "phonetic": "/eɡ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "鸡蛋",
+        "en": "from birds"
+      }
+    },
+    {
+      "id": "pri_081",
+      "word": "eight",
+      "phonetic": "/eɪt/",
+      "pos": "num",
+      "meaning": {
+        "zh": "八",
+        "en": "number 8"
+      }
+    },
+    {
+      "id": "pri_082",
+      "word": "eleven",
+      "phonetic": "/ɪˈlevən/",
+      "pos": "num",
+      "meaning": {
+        "zh": "十一",
+        "en": "number 11"
+      }
+    },
+    {
+      "id": "pri_083",
+      "word": "end",
+      "phonetic": "/end/",
+      "pos": "n",
+      "meaning": {
+        "zh": "结束",
+        "en": "final part"
+      }
+    },
+    {
+      "id": "pri_084",
+      "word": "English",
+      "phonetic": "/ˈɪŋɡlɪʃ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "英语",
+        "en": "language"
+      }
+    },
+    {
+      "id": "pri_085",
+      "word": "evening",
+      "phonetic": "/ˈiːvnɪŋ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "晚上",
+        "en": "night time"
+      }
+    },
+    {
+      "id": "pri_086",
+      "word": "eye",
+      "phonetic": "/aɪ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "眼睛",
+        "en": "for seeing"
+      }
+    },
+    {
+      "id": "pri_087",
+      "word": "face",
+      "phonetic": "/feɪs/",
+      "pos": "n",
+      "meaning": {
+        "zh": "脸",
+        "en": "front of head"
+      }
+    },
+    {
+      "id": "pri_088",
+      "word": "family",
+      "phonetic": "/ˈfæməli/",
+      "pos": "n",
+      "meaning": {
+        "zh": "家庭",
+        "en": "relatives"
+      }
+    },
+    {
+      "id": "pri_089",
+      "word": "fan",
+      "phonetic": "/fæn/",
+      "pos": "n",
+      "meaning": {
+        "zh": "风扇/粉丝",
+        "en": "cooling device"
+      }
+    },
+    {
+      "id": "pri_090",
+      "word": "farm",
+      "phonetic": "/fɑːrm/",
+      "pos": "n",
+      "meaning": {
+        "zh": "农场",
+        "en": "for crops/animals"
+      }
+    },
+    {
+      "id": "pri_091",
+      "word": "fat",
+      "phonetic": "/fæt/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "胖的",
+        "en": "not thin"
+      }
+    },
+    {
+      "id": "pri_092",
+      "word": "father",
+      "phonetic": "/ˈfɑːðər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "父亲",
+        "en": "male parent"
+      }
+    },
+    {
+      "id": "pri_093",
+      "word": "fifteen",
+      "phonetic": "/ˌfɪfˈtiːn/",
+      "pos": "num",
+      "meaning": {
+        "zh": "十五",
+        "en": "number 15"
+      }
+    },
+    {
+      "id": "pri_094",
+      "word": "fifty",
+      "phonetic": "/ˈfɪfti/",
+      "pos": "num",
+      "meaning": {
+        "zh": "五十",
+        "en": "number 50"
+      }
+    },
+    {
+      "id": "pri_095",
+      "word": "find",
+      "phonetic": "/faɪnd/",
+      "pos": "v",
+      "meaning": {
+        "zh": "找到",
+        "en": "discover"
+      }
+    },
+    {
+      "id": "pri_096",
+      "word": "fine",
+      "phonetic": "/faɪn/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "好的",
+        "en": "okay"
+      }
+    },
+    {
+      "id": "pri_097",
+      "word": "finger",
+      "phonetic": "/ˈfɪŋɡər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "手指",
+        "en": "hand part"
+      }
+    },
+    {
+      "id": "pri_098",
+      "word": "fish",
+      "phonetic": "/fɪʃ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "鱼",
+        "en": "water animal"
+      }
+    },
+    {
+      "id": "pri_099",
+      "word": "five",
+      "phonetic": "/faɪv/",
+      "pos": "num",
+      "meaning": {
+        "zh": "五",
+        "en": "number 5"
+      }
+    },
+    {
+      "id": "pri_100",
+      "word": "floor",
+      "phonetic": "/flɔːr/",
+      "pos": "n",
+      "meaning": {
+        "zh": "地板",
+        "en": "bottom surface"
+      }
+    },
+    {
+      "id": "pri_101",
+      "word": "flower",
+      "phonetic": "/ˈflaʊər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "花",
+        "en": "plant bloom"
+      }
+    },
+    {
+      "id": "pri_102",
+      "word": "fly",
+      "phonetic": "/flaɪ/",
+      "pos": "v",
+      "meaning": {
+        "zh": "飞",
+        "en": "move in air"
+      }
+    },
+    {
+      "id": "pri_103",
+      "word": "food",
+      "phonetic": "/fuːd/",
+      "pos": "n",
+      "meaning": {
+        "zh": "食物",
+        "en": "to eat"
+      }
+    },
+    {
+      "id": "pri_104",
+      "word": "foot",
+      "phonetic": "/fʊt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "脚",
+        "en": "body part"
+      }
+    },
+    {
+      "id": "pri_105",
+      "word": "for",
+      "phonetic": "/fɔːr/",
+      "pos": "prep",
+      "meaning": {
+        "zh": "为了",
+        "en": "intended for"
+      }
+    },
+    {
+      "id": "pri_106",
+      "word": "forty",
+      "phonetic": "/ˈfɔːti/",
+      "pos": "num",
+      "meaning": {
+        "zh": "四十",
+        "en": "number 40"
+      }
+    },
+    {
+      "id": "pri_107",
+      "word": "four",
+      "phonetic": "/fɔːr/",
+      "pos": "num",
+      "meaning": {
+        "zh": "四",
+        "en": "number 4"
+      }
+    },
+    {
+      "id": "pri_108",
+      "word": "fourteen",
+      "phonetic": "/ˌfɔːrˈtiːn/",
+      "pos": "num",
+      "meaning": {
+        "zh": "十四",
+        "en": "number 14"
+      }
+    },
+    {
+      "id": "pri_109",
+      "word": "fox",
+      "phonetic": "/fɑːks/",
+      "pos": "n",
+      "meaning": {
+        "zh": "狐狸",
+        "en": "wild animal"
+      }
+    },
+    {
+      "id": "pri_110",
+      "word": "friend",
+      "phonetic": "/frend/",
+      "pos": "n",
+      "meaning": {
+        "zh": "朋友",
+        "en": "companion"
+      }
+    },
+    {
+      "id": "pri_111",
+      "word": "from",
+      "phonetic": "/frʌm/",
+      "pos": "prep",
+      "meaning": {
+        "zh": "从",
+        "en": "starting point"
+      }
+    },
+    {
+      "id": "pri_112",
+      "word": "fruit",
+      "phonetic": "/fruːt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "水果",
+        "en": "plant food"
+      }
+    },
+    {
+      "id": "pri_113",
+      "word": "fun",
+      "phonetic": "/fʌn/",
+      "pos": "n",
+      "meaning": {
+        "zh": "乐趣",
+        "en": "enjoyment"
+      }
+    },
+    {
+      "id": "pri_114",
+      "word": "game",
+      "phonetic": "/ɡeɪm/",
+      "pos": "n",
+      "meaning": {
+        "zh": "游戏",
+        "en": "play activity"
+      }
+    },
+    {
+      "id": "pri_115",
+      "word": "garden",
+      "phonetic": "/ˈɡɑːdn/",
+      "pos": "n",
+      "meaning": {
+        "zh": "花园",
+        "en": "outdoor space"
+      }
+    },
+    {
+      "id": "pri_116",
+      "word": "get",
+      "phonetic": "/ɡet/",
+      "pos": "v",
+      "meaning": {
+        "zh": "得到",
+        "en": "obtain"
+      }
+    },
+    {
+      "id": "pri_117",
+      "word": "gift",
+      "phonetic": "/ɡɪft/",
+      "pos": "n",
+      "meaning": {
+        "zh": "礼物",
+        "en": "present"
+      }
+    },
+    {
+      "id": "pri_118",
+      "word": "girl",
+      "phonetic": "/ɡɜːl/",
+      "pos": "n",
+      "meaning": {
+        "zh": "女孩",
+        "en": "female child"
+      }
+    },
+    {
+      "id": "pri_119",
+      "word": "give",
+      "phonetic": "/ɡɪv/",
+      "pos": "v",
+      "meaning": {
+        "zh": "给",
+        "en": "provide"
+      }
+    },
+    {
+      "id": "pri_120",
+      "word": "glad",
+      "phonetic": "/ɡlæd/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "高兴的",
+        "en": "happy"
+      }
+    },
+    {
+      "id": "pri_121",
+      "word": "glass",
+      "phonetic": "/ɡlæs/",
+      "pos": "n",
+      "meaning": {
+        "zh": "玻璃杯",
+        "en": "drinking vessel"
+      }
+    },
+    {
+      "id": "pri_122",
+      "word": "glove",
+      "phonetic": "/ɡlʌv/",
+      "pos": "n",
+      "meaning": {
+        "zh": "手套",
+        "en": "hand covering"
+      }
+    },
+    {
+      "id": "pri_123",
+      "word": "good",
+      "phonetic": "/ɡʊd/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "好的",
+        "en": "nice"
+      }
+    },
+    {
+      "id": "pri_124",
+      "word": "goodbye",
+      "phonetic": "/ɡʊdˈbaɪ/",
+      "pos": "int",
+      "meaning": {
+        "zh": "再见",
+        "en": "farewell"
+      }
+    },
+    {
+      "id": "pri_125",
+      "word": "got",
+      "phonetic": "/ɡɑːt/",
+      "pos": "v",
+      "meaning": {
+        "zh": "得到（过去式）",
+        "en": "past of get"
+      }
+    },
+    {
+      "id": "pri_126",
+      "word": "grandfather",
+      "phonetic": "/ˈɡrænfɑːðər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "爷爷/外公",
+        "en": "father's father"
+      }
+    },
+    {
+      "id": "pri_127",
+      "word": "grandmother",
+      "phonetic": "/ˈɡrænmʌðər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "奶奶/外婆",
+        "en": "mother's mother"
+      }
+    },
+    {
+      "id": "pri_128",
+      "word": "grape",
+      "phonetic": "/ɡreɪp/",
+      "pos": "n",
+      "meaning": {
+        "zh": "葡萄",
+        "en": "small fruit"
+      }
+    },
+    {
+      "id": "pri_129",
+      "word": "grass",
+      "phonetic": "/ɡræs/",
+      "pos": "n",
+      "meaning": {
+        "zh": "草",
+        "en": "ground plant"
+      }
+    },
+    {
+      "id": "pri_130",
+      "word": "great",
+      "phonetic": "/ɡreɪt/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "伟大的",
+        "en": "very good"
+      }
+    },
+    {
+      "id": "pri_131",
+      "word": "green",
+      "phonetic": "/ɡriːn/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "绿色的",
+        "en": "grass color"
+      }
+    },
+    {
+      "id": "pri_132",
+      "word": "had",
+      "phonetic": "/hæd/",
+      "pos": "v",
+      "meaning": {
+        "zh": "有（过去式）",
+        "en": "past of have"
+      }
+    },
+    {
+      "id": "pri_133",
+      "word": "hair",
+      "phonetic": "/her/",
+      "pos": "n",
+      "meaning": {
+        "zh": "头发",
+        "en": "on head"
+      }
+    },
+    {
+      "id": "pri_134",
+      "word": "hand",
+      "phonetic": "/hænd/",
+      "pos": "n",
+      "meaning": {
+        "zh": "手",
+        "en": "body part"
+      }
+    },
+    {
+      "id": "pri_135",
+      "word": "happy",
+      "phonetic": "/ˈhæpi/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "快乐的",
+        "en": "joyful"
+      }
+    },
+    {
+      "id": "pri_136",
+      "word": "has",
+      "phonetic": "/hæz/",
+      "pos": "v",
+      "meaning": {
+        "zh": "有",
+        "en": "possess"
+      }
+    },
+    {
+      "id": "pri_137",
+      "word": "hat",
+      "phonetic": "/hæt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "帽子",
+        "en": "head covering"
+      }
+    },
+    {
+      "id": "pri_138",
+      "word": "have",
+      "phonetic": "/hæv/",
+      "pos": "v",
+      "meaning": {
+        "zh": "有",
+        "en": "possess"
+      }
+    },
+    {
+      "id": "pri_139",
+      "word": "head",
+      "phonetic": "/hed/",
+      "pos": "n",
+      "meaning": {
+        "zh": "头",
+        "en": "top of body"
+      }
+    },
+    {
+      "id": "pri_140",
+      "word": "hello",
+      "phonetic": "/həˈloʊ/",
+      "pos": "int",
+      "meaning": {
+        "zh": "你好",
+        "en": "greeting"
+      }
+    },
+    {
+      "id": "pri_141",
+      "word": "help",
+      "phonetic": "/help/",
+      "pos": "v",
+      "meaning": {
+        "zh": "帮助",
+        "en": "assist"
+      }
+    },
+    {
+      "id": "pri_142",
+      "word": "hen",
+      "phonetic": "/hen/",
+      "pos": "n",
+      "meaning": {
+        "zh": "母鸡",
+        "en": "female chicken"
+      }
+    },
+    {
+      "id": "pri_143",
+      "word": "her",
+      "phonetic": "/hɜːr/",
+      "pos": "pron",
+      "meaning": {
+        "zh": "她的",
+        "en": "belonging to her"
+      }
+    },
+    {
+      "id": "pri_144",
+      "word": "here",
+      "phonetic": "/hɪr/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "这里",
+        "en": "this place"
+      }
+    },
+    {
+      "id": "pri_145",
+      "word": "him",
+      "phonetic": "/hɪm/",
+      "pos": "pron",
+      "meaning": {
+        "zh": "他（宾格）",
+        "en": "that male (object)"
+      }
+    },
+    {
+      "id": "pri_146",
+      "word": "his",
+      "phonetic": "/hɪz/",
+      "pos": "pron",
+      "meaning": {
+        "zh": "他的",
+        "en": "belonging to him"
+      }
+    },
+    {
+      "id": "pri_147",
+      "word": "home",
+      "phonetic": "/hoʊm/",
+      "pos": "n",
+      "meaning": {
+        "zh": "家",
+        "en": "where you live"
+      }
+    },
+    {
+      "id": "pri_148",
+      "word": "horse",
+      "phonetic": "/hɔːs/",
+      "pos": "n",
+      "meaning": {
+        "zh": "马",
+        "en": "riding animal"
+      }
+    },
+    {
+      "id": "pri_149",
+      "word": "hot",
+      "phonetic": "/hɑːt/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "热的",
+        "en": "high temperature"
+      }
+    },
+    {
+      "id": "pri_150",
+      "word": "house",
+      "phonetic": "/haʊs/",
+      "pos": "n",
+      "meaning": {
+        "zh": "房子",
+        "en": "building to live"
+      }
+    },
+    {
+      "id": "pri_151",
+      "word": "how",
+      "phonetic": "/haʊ/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "如何",
+        "en": "in what way"
+      }
+    },
+    {
+      "id": "pri_152",
+      "word": "hundred",
+      "phonetic": "/ˈhʌndrəd/",
+      "pos": "num",
+      "meaning": {
+        "zh": "一百",
+        "en": "number 100"
+      }
+    },
+    {
+      "id": "pri_153",
+      "word": "ice",
+      "phonetic": "/aɪs/",
+      "pos": "n",
+      "meaning": {
+        "zh": "冰",
+        "en": "frozen water"
+      }
+    },
+    {
+      "id": "pri_154",
+      "word": "ice-cream",
+      "phonetic": "/ˈaɪs kriːm/",
+      "pos": "n",
+      "meaning": {
+        "zh": "冰淇淋",
+        "en": "frozen dessert"
+      }
+    },
+    {
+      "id": "pri_155",
+      "word": "into",
+      "phonetic": "/ˈɪntu/",
+      "pos": "prep",
+      "meaning": {
+        "zh": "进入",
+        "en": "toward inside"
+      }
+    },
+    {
+      "id": "pri_156",
+      "word": "job",
+      "phonetic": "/dʒɑːb/",
+      "pos": "n",
+      "meaning": {
+        "zh": "工作",
+        "en": "paid work"
+      }
+    },
+    {
+      "id": "pri_157",
+      "word": "juice",
+      "phonetic": "/dʒuːs/",
+      "pos": "n",
+      "meaning": {
+        "zh": "果汁",
+        "en": "fruit drink"
+      }
+    },
+    {
+      "id": "pri_158",
+      "word": "jump",
+      "phonetic": "/dʒʌmp/",
+      "pos": "v",
+      "meaning": {
+        "zh": "跳",
+        "en": "leap up"
+      }
+    },
+    {
+      "id": "pri_159",
+      "word": "key",
+      "phonetic": "/kiː/",
+      "pos": "n",
+      "meaning": {
+        "zh": "钥匙",
+        "en": "opens locks"
+      }
+    },
+    {
+      "id": "pri_160",
+      "word": "kind",
+      "phonetic": "/kaɪnd/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "善良的",
+        "en": "nice"
+      }
+    },
+    {
+      "id": "pri_161",
+      "word": "kite",
+      "phonetic": "/kaɪt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "风筝",
+        "en": "flying toy"
+      }
+    },
+    {
+      "id": "pri_162",
+      "word": "knee",
+      "phonetic": "/niː/",
+      "pos": "n",
+      "meaning": {
+        "zh": "膝盖",
+        "en": "leg joint"
+      }
+    },
+    {
+      "id": "pri_163",
+      "word": "knife",
+      "phonetic": "/naɪf/",
+      "pos": "n",
+      "meaning": {
+        "zh": "刀",
+        "en": "cutting tool"
+      }
+    },
+    {
+      "id": "pri_164",
+      "word": "know",
+      "phonetic": "/noʊ/",
+      "pos": "v",
+      "meaning": {
+        "zh": "知道",
+        "en": "be aware"
+      }
+    },
+    {
+      "id": "pri_165",
+      "word": "lake",
+      "phonetic": "/leɪk/",
+      "pos": "n",
+      "meaning": {
+        "zh": "湖",
+        "en": "water body"
+      }
+    },
+    {
+      "id": "pri_166",
+      "word": "lamp",
+      "phonetic": "/læmp/",
+      "pos": "n",
+      "meaning": {
+        "zh": "台灯",
+        "en": "light source"
+      }
+    },
+    {
+      "id": "pri_167",
+      "word": "last",
+      "phonetic": "/læst/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "最后的",
+        "en": "final"
+      }
+    },
+    {
+      "id": "pri_168",
+      "word": "late",
+      "phonetic": "/leɪt/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "迟的",
+        "en": "not on time"
+      }
+    },
+    {
+      "id": "pri_169",
+      "word": "left",
+      "phonetic": "/left/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "左边的",
+        "en": "opposite of right"
+      }
+    },
+    {
+      "id": "pri_170",
+      "word": "leg",
+      "phonetic": "/leɡ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "腿",
+        "en": "body part"
+      }
+    },
+    {
+      "id": "pri_171",
+      "word": "lemon",
+      "phonetic": "/ˈlemən/",
+      "pos": "n",
+      "meaning": {
+        "zh": "柠檬",
+        "en": "sour fruit"
+      }
+    },
+    {
+      "id": "pri_172",
+      "word": "let",
+      "phonetic": "/let/",
+      "pos": "v",
+      "meaning": {
+        "zh": "让",
+        "en": "allow"
+      }
+    },
+    {
+      "id": "pri_173",
+      "word": "library",
+      "phonetic": "/ˈlaɪbreri/",
+      "pos": "n",
+      "meaning": {
+        "zh": "图书馆",
+        "en": "book building"
+      }
+    },
+    {
+      "id": "pri_174",
+      "word": "like",
+      "phonetic": "/laɪk/",
+      "pos": "v",
+      "meaning": {
+        "zh": "喜欢",
+        "en": "enjoy"
+      }
+    },
+    {
+      "id": "pri_175",
+      "word": "lion",
+      "phonetic": "/ˈlaɪən/",
+      "pos": "n",
+      "meaning": {
+        "zh": "狮子",
+        "en": "big cat"
+      }
+    },
+    {
+      "id": "pri_176",
+      "word": "listen",
+      "phonetic": "/ˈlɪsən/",
+      "pos": "v",
+      "meaning": {
+        "zh": "听",
+        "en": "hear"
+      }
+    },
+    {
+      "id": "pri_177",
+      "word": "little",
+      "phonetic": "/ˈlɪtl/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "小的",
+        "en": "small"
+      }
+    },
+    {
+      "id": "pri_178",
+      "word": "live",
+      "phonetic": "/lɪv/",
+      "pos": "v",
+      "meaning": {
+        "zh": "住/生活",
+        "en": "reside"
+      }
+    },
+    {
+      "id": "pri_179",
+      "word": "long",
+      "phonetic": "/lɔːrŋ/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "长的",
+        "en": "not short"
+      }
+    },
+    {
+      "id": "pri_180",
+      "word": "look",
+      "phonetic": "/lʊk/",
+      "pos": "v",
+      "meaning": {
+        "zh": "看",
+        "en": "use eyes"
+      }
+    },
+    {
+      "id": "pri_181",
+      "word": "love",
+      "phonetic": "/lʌv/",
+      "pos": "v",
+      "meaning": {
+        "zh": "爱",
+        "en": "have affection"
+      }
+    },
+    {
+      "id": "pri_182",
+      "word": "lunch",
+      "phonetic": "/lʌntʃ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "午餐",
+        "en": "midday meal"
+      }
+    },
+    {
+      "id": "pri_183",
+      "word": "make",
+      "phonetic": "/meɪk/",
+      "pos": "v",
+      "meaning": {
+        "zh": "制作",
+        "en": "create"
+      }
+    },
+    {
+      "id": "pri_184",
+      "word": "man",
+      "phonetic": "/mæn/",
+      "pos": "n",
+      "meaning": {
+        "zh": "男人",
+        "en": "adult male"
+      }
+    },
+    {
+      "id": "pri_185",
+      "word": "mango",
+      "phonetic": "/ˈmæŋɡoʊ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "芒果",
+        "en": "tropical fruit"
+      }
+    },
+    {
+      "id": "pri_186",
+      "word": "many",
+      "phonetic": "/ˈmeni/",
+      "pos": "det",
+      "meaning": {
+        "zh": "许多",
+        "en": "a lot of"
+      }
+    },
+    {
+      "id": "pri_187",
+      "word": "map",
+      "phonetic": "/mæp/",
+      "pos": "n",
+      "meaning": {
+        "zh": "地图",
+        "en": "drawing of area"
+      }
+    },
+    {
+      "id": "pri_188",
+      "word": "milk",
+      "phonetic": "/mɪlk/",
+      "pos": "n",
+      "meaning": {
+        "zh": "牛奶",
+        "en": "white drink"
+      }
+    },
+    {
+      "id": "pri_189",
+      "word": "mom",
+      "phonetic": "/mɑːm/",
+      "pos": "n",
+      "meaning": {
+        "zh": "妈妈",
+        "en": "mother"
+      }
+    },
+    {
+      "id": "pri_190",
+      "word": "monkey",
+      "phonetic": "/ˈmʌŋki/",
+      "pos": "n",
+      "meaning": {
+        "zh": "猴子",
+        "en": "tree animal"
+      }
+    },
+    {
+      "id": "pri_191",
+      "word": "month",
+      "phonetic": "/mʌnθ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "月",
+        "en": "time period"
+      }
+    },
+    {
+      "id": "pri_192",
+      "word": "moon",
+      "phonetic": "/muːn/",
+      "pos": "n",
+      "meaning": {
+        "zh": "月亮",
+        "en": "night sky"
+      }
+    },
+    {
+      "id": "pri_193",
+      "word": "morning",
+      "phonetic": "/ˈmɔːnɪŋ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "早上",
+        "en": "early day"
+      }
+    },
+    {
+      "id": "pri_194",
+      "word": "mother",
+      "phonetic": "/ˈmʌðər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "母亲",
+        "en": "female parent"
+      }
+    },
+    {
+      "id": "pri_195",
+      "word": "mouse",
+      "phonetic": "/maʊs/",
+      "pos": "n",
+      "meaning": {
+        "zh": "老鼠",
+        "en": "small animal"
+      }
+    },
+    {
+      "id": "pri_196",
+      "word": "mouth",
+      "phonetic": "/maʊθ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "嘴",
+        "en": "for eating"
+      }
+    },
+    {
+      "id": "pri_197",
+      "word": "movie",
+      "phonetic": "/ˈmuːvi/",
+      "pos": "n",
+      "meaning": {
+        "zh": "电影",
+        "en": "film"
+      }
+    },
+    {
+      "id": "pri_198",
+      "word": "mum",
+      "phonetic": "/mʌm/",
+      "pos": "n",
+      "meaning": {
+        "zh": "妈妈",
+        "en": "mother (British)"
+      }
+    },
+    {
+      "id": "pri_199",
+      "word": "music",
+      "phonetic": "/ˈmjuːzɪk/",
+      "pos": "n",
+      "meaning": {
+        "zh": "音乐",
+        "en": "songs and sounds"
+      }
+    },
+    {
+      "id": "pri_200",
+      "word": "name",
+      "phonetic": "/neɪm/",
+      "pos": "n",
+      "meaning": {
+        "zh": "名字",
+        "en": "what you are called"
+      }
+    },
+    {
+      "id": "pri_201",
+      "word": "near",
+      "phonetic": "/nɪr/",
+      "pos": "prep",
+      "meaning": {
+        "zh": "接近",
+        "en": "close to"
+      }
+    },
+    {
+      "id": "pri_202",
+      "word": "need",
+      "phonetic": "/niːd/",
+      "pos": "v",
+      "meaning": {
+        "zh": "需要",
+        "en": "require"
+      }
+    },
+    {
+      "id": "pri_203",
+      "word": "new",
+      "phonetic": "/nuː/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "新的",
+        "en": "recently made"
+      }
+    },
+    {
+      "id": "pri_204",
+      "word": "next",
+      "phonetic": "/nekst/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "下一个",
+        "en": "following"
+      }
+    },
+    {
+      "id": "pri_205",
+      "word": "nice",
+      "phonetic": "/naɪs/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "好的",
+        "en": "pleasant"
+      }
+    },
+    {
+      "id": "pri_206",
+      "word": "night",
+      "phonetic": "/naɪt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "夜晚",
+        "en": "dark time"
+      }
+    },
+    {
+      "id": "pri_207",
+      "word": "nine",
+      "phonetic": "/naɪn/",
+      "pos": "num",
+      "meaning": {
+        "zh": "九",
+        "en": "number 9"
+      }
+    },
+    {
+      "id": "pri_208",
+      "word": "nineteen",
+      "phonetic": "/ˌnaɪnˈtiːn/",
+      "pos": "num",
+      "meaning": {
+        "zh": "十九",
+        "en": "number 19"
+      }
+    },
+    {
+      "id": "pri_209",
+      "word": "ninety",
+      "phonetic": "/ˈnaɪnti/",
+      "pos": "num",
+      "meaning": {
+        "zh": "九十",
+        "en": "number 90"
+      }
+    },
+    {
+      "id": "pri_210",
+      "word": "noodle",
+      "phonetic": "/ˈnuːdl/",
+      "pos": "n",
+      "meaning": {
+        "zh": "面条",
+        "en": "long pasta"
+      }
+    },
+    {
+      "id": "pri_211",
+      "word": "noon",
+      "phonetic": "/nuːn/",
+      "pos": "n",
+      "meaning": {
+        "zh": "中午",
+        "en": "12 o'clock"
+      }
+    },
+    {
+      "id": "pri_212",
+      "word": "nose",
+      "phonetic": "/noʊz/",
+      "pos": "n",
+      "meaning": {
+        "zh": "鼻子",
+        "en": "for smelling"
+      }
+    },
+    {
+      "id": "pri_213",
+      "word": "not",
+      "phonetic": "/nɑːt/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "不",
+        "en": "negative"
+      }
+    },
+    {
+      "id": "pri_214",
+      "word": "notebook",
+      "phonetic": "/ˈnoʊtbʊk/",
+      "pos": "n",
+      "meaning": {
+        "zh": "笔记本",
+        "en": "for writing"
+      }
+    },
+    {
+      "id": "pri_215",
+      "word": "now",
+      "phonetic": "/naʊ/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "现在",
+        "en": "at this time"
+      }
+    },
+    {
+      "id": "pri_216",
+      "word": "number",
+      "phonetic": "/ˈnʌmbər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "数字",
+        "en": "counting symbol"
+      }
+    },
+    {
+      "id": "pri_217",
+      "word": "nurse",
+      "phonetic": "/nɜːs/",
+      "pos": "n",
+      "meaning": {
+        "zh": "护士",
+        "en": "medical helper"
+      }
+    },
+    {
+      "id": "pri_218",
+      "word": "old",
+      "phonetic": "/oʊld/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "老的",
+        "en": "not young"
+      }
+    },
+    {
+      "id": "pri_219",
+      "word": "one",
+      "phonetic": "/wʌn/",
+      "pos": "num",
+      "meaning": {
+        "zh": "一",
+        "en": "number 1"
+      }
+    },
+    {
+      "id": "pri_220",
+      "word": "only",
+      "phonetic": "/ˈoʊnli/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "仅仅",
+        "en": "just"
+      }
+    },
+    {
+      "id": "pri_221",
+      "word": "open",
+      "phonetic": "/ˈoʊpən/",
+      "pos": "v",
+      "meaning": {
+        "zh": "打开",
+        "en": "not closed"
+      }
+    },
+    {
+      "id": "pri_222",
+      "word": "orange",
+      "phonetic": "/ˈɔːrɪndʒ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "橙子",
+        "en": "citrus fruit"
+      }
+    },
+    {
+      "id": "pri_223",
+      "word": "our",
+      "phonetic": "/aʊr/",
+      "pos": "pron",
+      "meaning": {
+        "zh": "我们的",
+        "en": "belonging to us"
+      }
+    },
+    {
+      "id": "pri_224",
+      "word": "out",
+      "phonetic": "/aʊt/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "外面",
+        "en": "not inside"
+      }
+    },
+    {
+      "id": "pri_225",
+      "word": "panda",
+      "phonetic": "/ˈpændə/",
+      "pos": "n",
+      "meaning": {
+        "zh": "熊猫",
+        "en": "Chinese bear"
+      }
+    },
+    {
+      "id": "pri_226",
+      "word": "parent",
+      "phonetic": "/ˈperənt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "父母",
+        "en": "mother or father"
+      }
+    },
+    {
+      "id": "pri_227",
+      "word": "park",
+      "phonetic": "/pɑːrk/",
+      "pos": "n",
+      "meaning": {
+        "zh": "公园",
+        "en": "outdoor space"
+      }
+    },
+    {
+      "id": "pri_228",
+      "word": "party",
+      "phonetic": "/ˈpɑːti/",
+      "pos": "n",
+      "meaning": {
+        "zh": "聚会",
+        "en": "celebration"
+      }
+    },
+    {
+      "id": "pri_229",
+      "word": "peach",
+      "phonetic": "/piːtʃ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "桃子",
+        "en": "soft fruit"
+      }
+    },
+    {
+      "id": "pri_230",
+      "word": "pear",
+      "phonetic": "/per/",
+      "pos": "n",
+      "meaning": {
+        "zh": "梨",
+        "en": "green fruit"
+      }
+    },
+    {
+      "id": "pri_231",
+      "word": "pen",
+      "phonetic": "/pen/",
+      "pos": "n",
+      "meaning": {
+        "zh": "钢笔",
+        "en": "writing tool"
+      }
+    },
+    {
+      "id": "pri_232",
+      "word": "pencil",
+      "phonetic": "/ˈpensl/",
+      "pos": "n",
+      "meaning": {
+        "zh": "铅笔",
+        "en": "drawing tool"
+      }
+    },
+    {
+      "id": "pri_233",
+      "word": "people",
+      "phonetic": "/ˈpiːpl/",
+      "pos": "n",
+      "meaning": {
+        "zh": "人们",
+        "en": "persons"
+      }
+    },
+    {
+      "id": "pri_234",
+      "word": "pet",
+      "phonetic": "/pet/",
+      "pos": "n",
+      "meaning": {
+        "zh": "宠物",
+        "en": "animal at home"
+      }
+    },
+    {
+      "id": "pri_235",
+      "word": "phone",
+      "phonetic": "/foʊn/",
+      "pos": "n",
+      "meaning": {
+        "zh": "电话",
+        "en": "communication device"
+      }
+    },
+    {
+      "id": "pri_236",
+      "word": "photo",
+      "phonetic": "/ˈfoʊtoʊ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "照片",
+        "en": "picture"
+      }
+    },
+    {
+      "id": "pri_237",
+      "word": "picture",
+      "phonetic": "/ˈpɪktʃər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "图画",
+        "en": "image"
+      }
+    },
+    {
+      "id": "pri_238",
+      "word": "pig",
+      "phonetic": "/pɪɡ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "猪",
+        "en": "farm animal"
+      }
+    },
+    {
+      "id": "pri_239",
+      "word": "pink",
+      "phonetic": "/pɪŋk/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "粉色的",
+        "en": "light red"
+      }
+    },
+    {
+      "id": "pri_240",
+      "word": "pizza",
+      "phonetic": "/ˈpiːtsə/",
+      "pos": "n",
+      "meaning": {
+        "zh": "披萨",
+        "en": "Italian food"
+      }
+    },
+    {
+      "id": "pri_241",
+      "word": "place",
+      "phonetic": "/pleɪs/",
+      "pos": "n",
+      "meaning": {
+        "zh": "地方",
+        "en": "location"
+      }
+    },
+    {
+      "id": "pri_242",
+      "word": "plane",
+      "phonetic": "/pleɪn/",
+      "pos": "n",
+      "meaning": {
+        "zh": "飞机",
+        "en": "aircraft"
+      }
+    },
+    {
+      "id": "pri_243",
+      "word": "play",
+      "phonetic": "/pleɪ/",
+      "pos": "v",
+      "meaning": {
+        "zh": "玩",
+        "en": "have fun"
+      }
+    },
+    {
+      "id": "pri_244",
+      "word": "please",
+      "phonetic": "/pliːz/",
+      "pos": "int",
+      "meaning": {
+        "zh": "请",
+        "en": "polite request"
+      }
+    },
+    {
+      "id": "pri_245",
+      "word": "present",
+      "phonetic": "/ˈprezənt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "礼物",
+        "en": "gift"
+      }
+    },
+    {
+      "id": "pri_246",
+      "word": "pretty",
+      "phonetic": "/ˈprɪti/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "漂亮的",
+        "en": "beautiful"
+      }
+    },
+    {
+      "id": "pri_247",
+      "word": "pupil",
+      "phonetic": "/ˈpjuːpl/",
+      "pos": "n",
+      "meaning": {
+        "zh": "学生",
+        "en": "child learner"
+      }
+    },
+    {
+      "id": "pri_248",
+      "word": "purple",
+      "phonetic": "/ˈpɜːrpl/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "紫色的",
+        "en": "violet color"
+      }
+    },
+    {
+      "id": "pri_249",
+      "word": "put",
+      "phonetic": "/pʊt/",
+      "pos": "v",
+      "meaning": {
+        "zh": "放",
+        "en": "place"
+      }
+    },
+    {
+      "id": "pri_250",
+      "word": "rabbit",
+      "phonetic": "/ˈræbɪt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "兔子",
+        "en": "hopping animal"
+      }
+    },
+    {
+      "id": "pri_251",
+      "word": "rain",
+      "phonetic": "/reɪn/",
+      "pos": "n",
+      "meaning": {
+        "zh": "雨",
+        "en": "water from sky"
+      }
+    },
+    {
+      "id": "pri_252",
+      "word": "read",
+      "phonetic": "/riːd/",
+      "pos": "v",
+      "meaning": {
+        "zh": "读",
+        "en": "look at words"
+      }
+    },
+    {
+      "id": "pri_253",
+      "word": "red",
+      "phonetic": "/red/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "红色的",
+        "en": "color of blood"
+      }
+    },
+    {
+      "id": "pri_254",
+      "word": "rice",
+      "phonetic": "/raɪs/",
+      "pos": "n",
+      "meaning": {
+        "zh": "米饭",
+        "en": "grain food"
+      }
+    },
+    {
+      "id": "pri_255",
+      "word": "right",
+      "phonetic": "/raɪt/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "右边的",
+        "en": "opposite of left"
+      }
+    },
+    {
+      "id": "pri_256",
+      "word": "river",
+      "phonetic": "/ˈrɪvər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "河流",
+        "en": "water flow"
+      }
+    },
+    {
+      "id": "pri_257",
+      "word": "road",
+      "phonetic": "/roʊd/",
+      "pos": "n",
+      "meaning": {
+        "zh": "路",
+        "en": "for vehicles"
+      }
+    },
+    {
+      "id": "pri_258",
+      "word": "room",
+      "phonetic": "/ruːm/",
+      "pos": "n",
+      "meaning": {
+        "zh": "房间",
+        "en": "space in house"
+      }
+    },
+    {
+      "id": "pri_259",
+      "word": "ruler",
+      "phonetic": "/ˈruːlər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "尺子",
+        "en": "measuring tool"
+      }
+    },
+    {
+      "id": "pri_260",
+      "word": "run",
+      "phonetic": "/rʌn/",
+      "pos": "v",
+      "meaning": {
+        "zh": "跑",
+        "en": "move fast"
+      }
+    },
+    {
+      "id": "pri_261",
+      "word": "sad",
+      "phonetic": "/sæd/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "悲伤的",
+        "en": "unhappy"
+      }
+    },
+    {
+      "id": "pri_262",
+      "word": "say",
+      "phonetic": "/seɪ/",
+      "pos": "v",
+      "meaning": {
+        "zh": "说",
+        "en": "speak"
+      }
+    },
+    {
+      "id": "pri_263",
+      "word": "school",
+      "phonetic": "/skuːl/",
+      "pos": "n",
+      "meaning": {
+        "zh": "学校",
+        "en": "place to learn"
+      }
+    },
+    {
+      "id": "pri_264",
+      "word": "see",
+      "phonetic": "/siː/",
+      "pos": "v",
+      "meaning": {
+        "zh": "看见",
+        "en": "use eyes"
+      }
+    },
+    {
+      "id": "pri_265",
+      "word": "seven",
+      "phonetic": "/ˈsevən/",
+      "pos": "num",
+      "meaning": {
+        "zh": "七",
+        "en": "number 7"
+      }
+    },
+    {
+      "id": "pri_266",
+      "word": "seventeen",
+      "phonetic": "/ˌsevənˈtiːn/",
+      "pos": "num",
+      "meaning": {
+        "zh": "十七",
+        "en": "number 17"
+      }
+    },
+    {
+      "id": "pri_267",
+      "word": "seventy",
+      "phonetic": "/ˈsevənti/",
+      "pos": "num",
+      "meaning": {
+        "zh": "七十",
+        "en": "number 70"
+      }
+    },
+    {
+      "id": "pri_268",
+      "word": "she",
+      "phonetic": "/ʃiː/",
+      "pos": "pron",
+      "meaning": {
+        "zh": "她",
+        "en": "female person"
+      }
+    },
+    {
+      "id": "pri_269",
+      "word": "sheep",
+      "phonetic": "/ʃiːp/",
+      "pos": "n",
+      "meaning": {
+        "zh": "羊",
+        "en": "farm animal"
+      }
+    },
+    {
+      "id": "pri_270",
+      "word": "ship",
+      "phonetic": "/ʃɪp/",
+      "pos": "n",
+      "meaning": {
+        "zh": "轮船",
+        "en": "large boat"
+      }
+    },
+    {
+      "id": "pri_271",
+      "word": "shirt",
+      "phonetic": "/ʃɜːt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "衬衫",
+        "en": "upper clothing"
+      }
+    },
+    {
+      "id": "pri_272",
+      "word": "shoe",
+      "phonetic": "/ʃuː/",
+      "pos": "n",
+      "meaning": {
+        "zh": "鞋子",
+        "en": "foot covering"
+      }
+    },
+    {
+      "id": "pri_273",
+      "word": "shop",
+      "phonetic": "/ʃɑːp/",
+      "pos": "n",
+      "meaning": {
+        "zh": "商店",
+        "en": "store"
+      }
+    },
+    {
+      "id": "pri_274",
+      "word": "short",
+      "phonetic": "/ʃɔːt/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "短的",
+        "en": "not long"
+      }
+    },
+    {
+      "id": "pri_275",
+      "word": "sing",
+      "phonetic": "/sɪŋ/",
+      "pos": "v",
+      "meaning": {
+        "zh": "唱歌",
+        "en": "make music"
+      }
+    },
+    {
+      "id": "pri_276",
+      "word": "sister",
+      "phonetic": "/ˈsɪstər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "姐妹",
+        "en": "female sibling"
+      }
+    },
+    {
+      "id": "pri_277",
+      "word": "sit",
+      "phonetic": "/sɪt/",
+      "pos": "v",
+      "meaning": {
+        "zh": "坐",
+        "en": "be seated"
+      }
+    },
+    {
+      "id": "pri_278",
+      "word": "six",
+      "phonetic": "/sɪks/",
+      "pos": "num",
+      "meaning": {
+        "zh": "六",
+        "en": "number 6"
+      }
+    },
+    {
+      "id": "pri_279",
+      "word": "sixteen",
+      "phonetic": "/ˌsɪksˈtiːn/",
+      "pos": "num",
+      "meaning": {
+        "zh": "十六",
+        "en": "number 16"
+      }
+    },
+    {
+      "id": "pri_280",
+      "word": "sixty",
+      "phonetic": "/ˈsɪksti/",
+      "pos": "num",
+      "meaning": {
+        "zh": "六十",
+        "en": "number 60"
+      }
+    },
+    {
+      "id": "pri_281",
+      "word": "skirt",
+      "phonetic": "/skɜːt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "裙子",
+        "en": "women's clothing"
+      }
+    },
+    {
+      "id": "pri_282",
+      "word": "sleep",
+      "phonetic": "/sliːp/",
+      "pos": "v",
+      "meaning": {
+        "zh": "睡觉",
+        "en": "rest in bed"
+      }
+    },
+    {
+      "id": "pri_283",
+      "word": "small",
+      "phonetic": "/smɔːl/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "小的",
+        "en": "not big"
+      }
+    },
+    {
+      "id": "pri_284",
+      "word": "snow",
+      "phonetic": "/snoʊ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "雪",
+        "en": "frozen rain"
+      }
+    },
+    {
+      "id": "pri_285",
+      "word": "some",
+      "phonetic": "/sʌm/",
+      "pos": "det",
+      "meaning": {
+        "zh": "一些",
+        "en": "a few"
+      }
+    },
+    {
+      "id": "pri_286",
+      "word": "son",
+      "phonetic": "/sʌn/",
+      "pos": "n",
+      "meaning": {
+        "zh": "儿子",
+        "en": "male child"
+      }
+    },
+    {
+      "id": "pri_287",
+      "word": "song",
+      "phonetic": "/sɔːrŋ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "歌曲",
+        "en": "music with words"
+      }
+    },
+    {
+      "id": "pri_288",
+      "word": "sorry",
+      "phonetic": "/ˈsɑːri/",
+      "pos": "int",
+      "meaning": {
+        "zh": "对不起",
+        "en": "apology"
+      }
+    },
+    {
+      "id": "pri_289",
+      "word": "spell",
+      "phonetic": "/spel/",
+      "pos": "v",
+      "meaning": {
+        "zh": "拼写",
+        "en": "write letters"
+      }
+    },
+    {
+      "id": "pri_290",
+      "word": "sport",
+      "phonetic": "/spɔːt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "运动",
+        "en": "physical activity"
+      }
+    },
+    {
+      "id": "pri_291",
+      "word": "spring",
+      "phonetic": "/sprɪŋ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "春天",
+        "en": "warm season"
+      }
+    },
+    {
+      "id": "pri_292",
+      "word": "stand",
+      "phonetic": "/stænd/",
+      "pos": "v",
+      "meaning": {
+        "zh": "站",
+        "en": "be upright"
+      }
+    },
+    {
+      "id": "pri_293",
+      "word": "star",
+      "phonetic": "/stɑːr/",
+      "pos": "n",
+      "meaning": {
+        "zh": "星星",
+        "en": "in night sky"
+      }
+    },
+    {
+      "id": "pri_294",
+      "word": "stop",
+      "phonetic": "/stɑːp/",
+      "pos": "v",
+      "meaning": {
+        "zh": "停止",
+        "en": "cease"
+      }
+    },
+    {
+      "id": "pri_295",
+      "word": "story",
+      "phonetic": "/ˈstɔːri/",
+      "pos": "n",
+      "meaning": {
+        "zh": "故事",
+        "en": "tale"
+      }
+    },
+    {
+      "id": "pri_296",
+      "word": "street",
+      "phonetic": "/striːt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "街道",
+        "en": "road in town"
+      }
+    },
+    {
+      "id": "pri_297",
+      "word": "student",
+      "phonetic": "/ˈstuːdənt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "学生",
+        "en": "learner"
+      }
+    },
+    {
+      "id": "pri_298",
+      "word": "study",
+      "phonetic": "/ˈstʌdi/",
+      "pos": "v",
+      "meaning": {
+        "zh": "学习",
+        "en": "learn"
+      }
+    },
+    {
+      "id": "pri_299",
+      "word": "summer",
+      "phonetic": "/ˈsʌmər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "夏天",
+        "en": "hot season"
+      }
+    },
+    {
+      "id": "pri_300",
+      "word": "sun",
+      "phonetic": "/sʌn/",
+      "pos": "n",
+      "meaning": {
+        "zh": "太阳",
+        "en": "day star"
+      }
+    },
+    {
+      "id": "pri_301",
+      "word": "Sunday",
+      "phonetic": "/ˈsʌndeɪ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "星期日",
+        "en": "day of week"
+      }
+    },
+    {
+      "id": "pri_302",
+      "word": "swim",
+      "phonetic": "/swɪm/",
+      "pos": "v",
+      "meaning": {
+        "zh": "游泳",
+        "en": "move in water"
+      }
+    },
+    {
+      "id": "pri_303",
+      "word": "table",
+      "phonetic": "/ˈteɪbl/",
+      "pos": "n",
+      "meaning": {
+        "zh": "桌子",
+        "en": "flat furniture"
+      }
+    },
+    {
+      "id": "pri_304",
+      "word": "tall",
+      "phonetic": "/tɔːl/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "高的",
+        "en": "high"
+      }
+    },
+    {
+      "id": "pri_305",
+      "word": "taxi",
+      "phonetic": "/ˈtæksi/",
+      "pos": "n",
+      "meaning": {
+        "zh": "出租车",
+        "en": "hired car"
+      }
+    },
+    {
+      "id": "pri_306",
+      "word": "tea",
+      "phonetic": "/tiː/",
+      "pos": "n",
+      "meaning": {
+        "zh": "茶",
+        "en": "hot drink"
+      }
+    },
+    {
+      "id": "pri_307",
+      "word": "teach",
+      "phonetic": "/tiːtʃ/",
+      "pos": "v",
+      "meaning": {
+        "zh": "教",
+        "en": "instruct"
+      }
+    },
+    {
+      "id": "pri_308",
+      "word": "teacher",
+      "phonetic": "/ˈtiːtʃər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "老师",
+        "en": "educator"
+      }
+    },
+    {
+      "id": "pri_309",
+      "word": "tell",
+      "phonetic": "/tel/",
+      "pos": "v",
+      "meaning": {
+        "zh": "告诉",
+        "en": "inform"
+      }
+    },
+    {
+      "id": "pri_310",
+      "word": "ten",
+      "phonetic": "/ten/",
+      "pos": "num",
+      "meaning": {
+        "zh": "十",
+        "en": "number 10"
+      }
+    },
+    {
+      "id": "pri_311",
+      "word": "thank",
+      "phonetic": "/θæŋk/",
+      "pos": "v",
+      "meaning": {
+        "zh": "感谢",
+        "en": "express gratitude"
+      }
+    },
+    {
+      "id": "pri_312",
+      "word": "that",
+      "phonetic": "/ðæt/",
+      "pos": "det",
+      "meaning": {
+        "zh": "那个",
+        "en": "not this"
+      }
+    },
+    {
+      "id": "pri_313",
+      "word": "the",
+      "phonetic": "/ðə/",
+      "pos": "art",
+      "meaning": {
+        "zh": "这个/那个",
+        "en": "definite article"
+      }
+    },
+    {
+      "id": "pri_314",
+      "word": "their",
+      "phonetic": "/ðer/",
+      "pos": "pron",
+      "meaning": {
+        "zh": "他们的",
+        "en": "belonging to them"
+      }
+    },
+    {
+      "id": "pri_315",
+      "word": "them",
+      "phonetic": "/ðem/",
+      "pos": "pron",
+      "meaning": {
+        "zh": "他们（宾格）",
+        "en": "those people (object)"
+      }
+    },
+    {
+      "id": "pri_316",
+      "word": "then",
+      "phonetic": "/ðen/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "然后",
+        "en": "after that"
+      }
+    },
+    {
+      "id": "pri_317",
+      "word": "there",
+      "phonetic": "/ðer/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "那里",
+        "en": "that place"
+      }
+    },
+    {
+      "id": "pri_318",
+      "word": "these",
+      "phonetic": "/ðiːz/",
+      "pos": "det",
+      "meaning": {
+        "zh": "这些",
+        "en": "plural of this"
+      }
+    },
+    {
+      "id": "pri_319",
+      "word": "they",
+      "phonetic": "/ðeɪ/",
+      "pos": "pron",
+      "meaning": {
+        "zh": "他们",
+        "en": "those people"
+      }
+    },
+    {
+      "id": "pri_320",
+      "word": "thin",
+      "phonetic": "/θɪn/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "瘦的",
+        "en": "not fat"
+      }
+    },
+    {
+      "id": "pri_321",
+      "word": "thing",
+      "phonetic": "/θɪŋ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "东西",
+        "en": "object"
+      }
+    },
+    {
+      "id": "pri_322",
+      "word": "think",
+      "phonetic": "/θɪŋk/",
+      "pos": "v",
+      "meaning": {
+        "zh": "想",
+        "en": "use mind"
+      }
+    },
+    {
+      "id": "pri_323",
+      "word": "third",
+      "phonetic": "/θɜːd/",
+      "pos": "num",
+      "meaning": {
+        "zh": "第三",
+        "en": "ordinal 3"
+      }
+    },
+    {
+      "id": "pri_324",
+      "word": "thirteen",
+      "phonetic": "/ˌθɜːrˈtiːn/",
+      "pos": "num",
+      "meaning": {
+        "zh": "十三",
+        "en": "number 13"
+      }
+    },
+    {
+      "id": "pri_325",
+      "word": "thirty",
+      "phonetic": "/ˈθɜːti/",
+      "pos": "num",
+      "meaning": {
+        "zh": "三十",
+        "en": "number 30"
+      }
+    },
+    {
+      "id": "pri_326",
+      "word": "this",
+      "phonetic": "/ðɪs/",
+      "pos": "det",
+      "meaning": {
+        "zh": "这个",
+        "en": "near thing"
+      }
+    },
+    {
+      "id": "pri_327",
+      "word": "those",
+      "phonetic": "/ðoʊz/",
+      "pos": "det",
+      "meaning": {
+        "zh": "那些",
+        "en": "plural of that"
+      }
+    },
+    {
+      "id": "pri_328",
+      "word": "three",
+      "phonetic": "/θriː/",
+      "pos": "num",
+      "meaning": {
+        "zh": "三",
+        "en": "number 3"
+      }
+    },
+    {
+      "id": "pri_329",
+      "word": "tiger",
+      "phonetic": "/ˈtaɪɡər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "老虎",
+        "en": "big cat"
+      }
+    },
+    {
+      "id": "pri_330",
+      "word": "time",
+      "phonetic": "/taɪm/",
+      "pos": "n",
+      "meaning": {
+        "zh": "时间",
+        "en": "hours and minutes"
+      }
+    },
+    {
+      "id": "pri_331",
+      "word": "today",
+      "phonetic": "/təˈdeɪ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "今天",
+        "en": "this day"
+      }
+    },
+    {
+      "id": "pri_332",
+      "word": "together",
+      "phonetic": "/təˈɡeðər/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "一起",
+        "en": "with each other"
+      }
+    },
+    {
+      "id": "pri_333",
+      "word": "tomorrow",
+      "phonetic": "/təˈmɑːroʊ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "明天",
+        "en": "next day"
+      }
+    },
+    {
+      "id": "pri_334",
+      "word": "too",
+      "phonetic": "/tuː/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "也/太",
+        "en": "also, excessively"
+      }
+    },
+    {
+      "id": "pri_335",
+      "word": "toy",
+      "phonetic": "/tɔɪ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "玩具",
+        "en": "for playing"
+      }
+    },
+    {
+      "id": "pri_336",
+      "word": "train",
+      "phonetic": "/treɪn/",
+      "pos": "n",
+      "meaning": {
+        "zh": "火车",
+        "en": "railway vehicle"
+      }
+    },
+    {
+      "id": "pri_337",
+      "word": "tree",
+      "phonetic": "/triː/",
+      "pos": "n",
+      "meaning": {
+        "zh": "树",
+        "en": "tall plant"
+      }
+    },
+    {
+      "id": "pri_338",
+      "word": "trousers",
+      "phonetic": "/ˈtraʊzərz/",
+      "pos": "n",
+      "meaning": {
+        "zh": "裤子",
+        "en": "leg clothing"
+      }
+    },
+    {
+      "id": "pri_339",
+      "word": "truck",
+      "phonetic": "/trʌk/",
+      "pos": "n",
+      "meaning": {
+        "zh": "卡车",
+        "en": "large vehicle"
+      }
+    },
+    {
+      "id": "pri_340",
+      "word": "twelve",
+      "phonetic": "/twelv/",
+      "pos": "num",
+      "meaning": {
+        "zh": "十二",
+        "en": "number 12"
+      }
+    },
+    {
+      "id": "pri_341",
+      "word": "twenty",
+      "phonetic": "/ˈtwenti/",
+      "pos": "num",
+      "meaning": {
+        "zh": "二十",
+        "en": "number 20"
+      }
+    },
+    {
+      "id": "pri_342",
+      "word": "two",
+      "phonetic": "/tuː/",
+      "pos": "num",
+      "meaning": {
+        "zh": "二",
+        "en": "number 2"
+      }
+    },
+    {
+      "id": "pri_343",
+      "word": "uncle",
+      "phonetic": "/ˈʌŋkl/",
+      "pos": "n",
+      "meaning": {
+        "zh": "叔叔/舅舅",
+        "en": "parent's brother"
+      }
+    },
+    {
+      "id": "pri_344",
+      "word": "under",
+      "phonetic": "/ˈʌndər/",
+      "pos": "prep",
+      "meaning": {
+        "zh": "在...下面",
+        "en": "below"
+      }
+    },
+    {
+      "id": "pri_345",
+      "word": "use",
+      "phonetic": "/juːz/",
+      "pos": "v",
+      "meaning": {
+        "zh": "使用",
+        "en": "employ"
+      }
+    },
+    {
+      "id": "pri_346",
+      "word": "very",
+      "phonetic": "/ˈveri/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "非常",
+        "en": "extremely"
+      }
+    },
+    {
+      "id": "pri_347",
+      "word": "wait",
+      "phonetic": "/weɪt/",
+      "pos": "v",
+      "meaning": {
+        "zh": "等待",
+        "en": "stay for"
+      }
+    },
+    {
+      "id": "pri_348",
+      "word": "walk",
+      "phonetic": "/wɔːrk/",
+      "pos": "v",
+      "meaning": {
+        "zh": "走路",
+        "en": "move on foot"
+      }
+    },
+    {
+      "id": "pri_349",
+      "word": "wall",
+      "phonetic": "/wɔːl/",
+      "pos": "n",
+      "meaning": {
+        "zh": "墙",
+        "en": "room barrier"
+      }
+    },
+    {
+      "id": "pri_350",
+      "word": "want",
+      "phonetic": "/wɑːnt/",
+      "pos": "v",
+      "meaning": {
+        "zh": "想要",
+        "en": "desire"
+      }
+    },
+    {
+      "id": "pri_351",
+      "word": "warm",
+      "phonetic": "/wɔːrm/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "温暖的",
+        "en": "not cold"
+      }
+    },
+    {
+      "id": "pri_352",
+      "word": "wash",
+      "phonetic": "/wɑːʃ/",
+      "pos": "v",
+      "meaning": {
+        "zh": "洗",
+        "en": "clean with water"
+      }
+    },
+    {
+      "id": "pri_353",
+      "word": "watch",
+      "phonetic": "/wɑːtʃ/",
+      "pos": "v",
+      "meaning": {
+        "zh": "观看",
+        "en": "look at"
+      }
+    },
+    {
+      "id": "pri_354",
+      "word": "water",
+      "phonetic": "/ˈwɔːtər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "水",
+        "en": "liquid to drink"
+      }
+    },
+    {
+      "id": "pri_355",
+      "word": "way",
+      "phonetic": "/weɪ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "方法/路",
+        "en": "method or path"
+      }
+    },
+    {
+      "id": "pri_356",
+      "word": "weather",
+      "phonetic": "/ˈweðər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "天气",
+        "en": "climate condition"
+      }
+    },
+    {
+      "id": "pri_357",
+      "word": "Wednesday",
+      "phonetic": "/ˈwenzdeɪ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "星期三",
+        "en": "day of week"
+      }
+    },
+    {
+      "id": "pri_358",
+      "word": "week",
+      "phonetic": "/wiːk/",
+      "pos": "n",
+      "meaning": {
+        "zh": "周",
+        "en": "seven days"
+      }
+    },
+    {
+      "id": "pri_359",
+      "word": "weekend",
+      "phonetic": "/ˌwiːkˈend/",
+      "pos": "n",
+      "meaning": {
+        "zh": "周末",
+        "en": "Saturday and Sunday"
+      }
+    },
+    {
+      "id": "pri_360",
+      "word": "welcome",
+      "phonetic": "/ˈwelkəm/",
+      "pos": "int",
+      "meaning": {
+        "zh": "欢迎",
+        "en": "greeting"
+      }
+    },
+    {
+      "id": "pri_361",
+      "word": "well",
+      "phonetic": "/wel/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "好",
+        "en": "in a good way"
+      }
+    },
+    {
+      "id": "pri_362",
+      "word": "went",
+      "phonetic": "/went/",
+      "pos": "v",
+      "meaning": {
+        "zh": "去（过去式）",
+        "en": "past of go"
+      }
+    },
+    {
+      "id": "pri_363",
+      "word": "what",
+      "phonetic": "/wʌt/",
+      "pos": "pron",
+      "meaning": {
+        "zh": "什么",
+        "en": "which thing"
+      }
+    },
+    {
+      "id": "pri_364",
+      "word": "when",
+      "phonetic": "/wen/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "何时",
+        "en": "what time"
+      }
+    },
+    {
+      "id": "pri_365",
+      "word": "where",
+      "phonetic": "/wer/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "哪里",
+        "en": "what place"
+      }
+    },
+    {
+      "id": "pri_366",
+      "word": "which",
+      "phonetic": "/wɪtʃ/",
+      "pos": "det",
+      "meaning": {
+        "zh": "哪一个",
+        "en": "what one"
+      }
+    },
+    {
+      "id": "pri_367",
+      "word": "white",
+      "phonetic": "/waɪt/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "白色的",
+        "en": "snow color"
+      }
+    },
+    {
+      "id": "pri_368",
+      "word": "who",
+      "phonetic": "/huː/",
+      "pos": "pron",
+      "meaning": {
+        "zh": "谁",
+        "en": "what person"
+      }
+    },
+    {
+      "id": "pri_369",
+      "word": "why",
+      "phonetic": "/waɪ/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "为什么",
+        "en": "for what reason"
+      }
+    },
+    {
+      "id": "pri_370",
+      "word": "will",
+      "phonetic": "/wɪl/",
+      "pos": "v",
+      "meaning": {
+        "zh": "将要",
+        "en": "future tense"
+      }
+    },
+    {
+      "id": "pri_371",
+      "word": "wind",
+      "phonetic": "/wɪnd/",
+      "pos": "n",
+      "meaning": {
+        "zh": "风",
+        "en": "moving air"
+      }
+    },
+    {
+      "id": "pri_372",
+      "word": "window",
+      "phonetic": "/ˈwɪndoʊ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "窗户",
+        "en": "glass opening"
+      }
+    },
+    {
+      "id": "pri_373",
+      "word": "winter",
+      "phonetic": "/ˈwɪntər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "冬天",
+        "en": "cold season"
+      }
+    },
+    {
+      "id": "pri_374",
+      "word": "with",
+      "phonetic": "/wɪð/",
+      "pos": "prep",
+      "meaning": {
+        "zh": "和",
+        "en": "together"
+      }
+    },
+    {
+      "id": "pri_375",
+      "word": "woman",
+      "phonetic": "/ˈwʊmən/",
+      "pos": "n",
+      "meaning": {
+        "zh": "女人",
+        "en": "adult female"
+      }
+    },
+    {
+      "id": "pri_376",
+      "word": "work",
+      "phonetic": "/wɜːrk/",
+      "pos": "v",
+      "meaning": {
+        "zh": "工作",
+        "en": "do job"
+      }
+    },
+    {
+      "id": "pri_377",
+      "word": "world",
+      "phonetic": "/wɜːld/",
+      "pos": "n",
+      "meaning": {
+        "zh": "世界",
+        "en": "the earth"
+      }
+    },
+    {
+      "id": "pri_378",
+      "word": "write",
+      "phonetic": "/raɪt/",
+      "pos": "v",
+      "meaning": {
+        "zh": "写",
+        "en": "make words"
+      }
+    },
+    {
+      "id": "pri_379",
+      "word": "year",
+      "phonetic": "/jɪr/",
+      "pos": "n",
+      "meaning": {
+        "zh": "年",
+        "en": "12 months"
+      }
+    },
+    {
+      "id": "pri_380",
+      "word": "yellow",
+      "phonetic": "/ˈjeloʊ/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "黄色的",
+        "en": "sun color"
+      }
+    },
+    {
+      "id": "pri_381",
+      "word": "yes",
+      "phonetic": "/jes/",
+      "pos": "int",
+      "meaning": {
+        "zh": "是的",
+        "en": "affirmative"
+      }
+    },
+    {
+      "id": "pri_382",
+      "word": "yesterday",
+      "phonetic": "/ˈjestərdeɪ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "昨天",
+        "en": "day before"
+      }
+    },
+    {
+      "id": "pri_383",
+      "word": "you",
+      "phonetic": "/juː/",
+      "pos": "pron",
+      "meaning": {
+        "zh": "你/你们",
+        "en": "the person spoken to"
+      }
+    },
+    {
+      "id": "pri_384",
+      "word": "young",
+      "phonetic": "/jʌŋ/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "年轻的",
+        "en": "not old"
+      }
+    },
+    {
+      "id": "pri_385",
+      "word": "your",
+      "phonetic": "/jʊr/",
+      "pos": "pron",
+      "meaning": {
+        "zh": "你的/你们的",
+        "en": "belonging to you"
+      }
+    },
+    {
+      "id": "pri_386",
+      "word": "zoo",
+      "phonetic": "/zuː/",
+      "pos": "n",
+      "meaning": {
+        "zh": "动物园",
+        "en": "animal park"
+      }
+    },
+    {
+      "id": "pri_387",
+      "word": "after",
+      "phonetic": "/ˈæftər/",
+      "pos": "prep",
+      "meaning": {
+        "zh": "在...之后",
+        "en": "later than"
+      }
+    },
+    {
+      "id": "pri_388",
+      "word": "afternoon",
+      "phonetic": "/ˌæftərˈnuːn/",
+      "pos": "n",
+      "meaning": {
+        "zh": "下午",
+        "en": "after noon"
+      }
+    },
+    {
+      "id": "pri_389",
+      "word": "again",
+      "phonetic": "/əˈɡen/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "再次",
+        "en": "once more"
+      }
+    },
+    {
+      "id": "pri_390",
+      "word": "always",
+      "phonetic": "/ˈɔːlweɪz/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "总是",
+        "en": "every time"
+      }
+    },
+    {
+      "id": "pri_391",
+      "word": "animal",
+      "phonetic": "/ˈænɪməl/",
+      "pos": "n",
+      "meaning": {
+        "zh": "动物",
+        "en": "living creature"
+      }
+    },
+    {
+      "id": "pri_392",
+      "word": "answer",
+      "phonetic": "/ˈænsər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "答案",
+        "en": "response"
+      }
+    },
+    {
+      "id": "pri_393",
+      "word": "apple",
+      "phonetic": "/ˈæpl/",
+      "pos": "n",
+      "meaning": {
+        "zh": "苹果",
+        "en": "round fruit"
+      }
+    },
+    {
+      "id": "pri_394",
+      "word": "around",
+      "phonetic": "/əˈraʊnd/",
+      "pos": "prep",
+      "meaning": {
+        "zh": "周围",
+        "en": "surrounding"
+      }
+    },
+    {
+      "id": "pri_395",
+      "word": "aunt",
+      "phonetic": "/ænt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "姑姑/阿姨",
+        "en": "parent's sister"
+      }
+    },
+    {
+      "id": "pri_396",
+      "word": "autumn",
+      "phonetic": "/ˈɔːtəm/",
+      "pos": "n",
+      "meaning": {
+        "zh": "秋天",
+        "en": "fall season"
+      }
+    },
+    {
+      "id": "pri_397",
+      "word": "because",
+      "phonetic": "/bɪˈkɔːrz/",
+      "pos": "conj",
+      "meaning": {
+        "zh": "因为",
+        "en": "for the reason"
+      }
+    },
+    {
+      "id": "pri_398",
+      "word": "before",
+      "phonetic": "/bɪˈfɔːr/",
+      "pos": "prep",
+      "meaning": {
+        "zh": "在...之前",
+        "en": "earlier than"
+      }
+    },
+    {
+      "id": "pri_399",
+      "word": "behind",
+      "phonetic": "/bɪˈhaɪnd/",
+      "pos": "prep",
+      "meaning": {
+        "zh": "在...后面",
+        "en": "at back"
+      }
+    },
+    {
+      "id": "pri_400",
+      "word": "beside",
+      "phonetic": "/bɪˈsaɪd/",
+      "pos": "prep",
+      "meaning": {
+        "zh": "在...旁边",
+        "en": "next to"
+      }
+    },
+    {
+      "id": "pri_401",
+      "word": "between",
+      "phonetic": "/bɪˈtwiːn/",
+      "pos": "prep",
+      "meaning": {
+        "zh": "在...之间",
+        "en": "in the middle of"
+      }
+    },
+    {
+      "id": "pri_402",
+      "word": "birthday",
+      "phonetic": "/ˈbɜːrθdeɪ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "生日",
+        "en": "day of birth"
+      }
+    },
+    {
+      "id": "pri_403",
+      "word": "breakfast",
+      "phonetic": "/ˈbrekfəst/",
+      "pos": "n",
+      "meaning": {
+        "zh": "早餐",
+        "en": "morning meal"
+      }
+    },
+    {
+      "id": "pri_404",
+      "word": "busy",
+      "phonetic": "/ˈbɪzi/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "忙碌的",
+        "en": "occupied"
+      }
+    },
+    {
+      "id": "pri_405",
+      "word": "cheap",
+      "phonetic": "/tʃiːp/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "便宜的",
+        "en": "low price"
+      }
+    },
+    {
+      "id": "pri_406",
+      "word": "children",
+      "phonetic": "/ˈtʃɪldrən/",
+      "pos": "n",
+      "meaning": {
+        "zh": "孩子们",
+        "en": "plural of child"
+      }
+    },
+    {
+      "id": "pri_407",
+      "word": "china",
+      "phonetic": "/ˈtʃaɪnə/",
+      "pos": "n",
+      "meaning": {
+        "zh": "中国",
+        "en": "country name"
+      }
+    },
+    {
+      "id": "pri_408",
+      "word": "Chinese",
+      "phonetic": "/tʃaɪˈniːz/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "中国的/中文",
+        "en": "from China"
+      }
+    },
+    {
+      "id": "pri_409",
+      "word": "Christmas",
+      "phonetic": "/ˈkrɪsməs/",
+      "pos": "n",
+      "meaning": {
+        "zh": "圣诞节",
+        "en": "holiday"
+      }
+    },
+    {
+      "id": "pri_410",
+      "word": "clever",
+      "phonetic": "/ˈklevər/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "聪明的",
+        "en": "smart"
+      }
+    },
+    {
+      "id": "pri_411",
+      "word": "clothes",
+      "phonetic": "/kloʊðz/",
+      "pos": "n",
+      "meaning": {
+        "zh": "衣服",
+        "en": "things to wear"
+      }
+    },
+    {
+      "id": "pri_412",
+      "word": "cloudy",
+      "phonetic": "/ˈklaʊdi/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "多云的",
+        "en": "with clouds"
+      }
+    },
+    {
+      "id": "pri_413",
+      "word": "computer",
+      "phonetic": "/kəmˈpjuːtər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "电脑",
+        "en": "electronic device"
+      }
+    },
+    {
+      "id": "pri_414",
+      "word": "cousin",
+      "phonetic": "/ˈkʌzən/",
+      "pos": "n",
+      "meaning": {
+        "zh": "堂/表兄弟姐妹",
+        "en": "relative"
+      }
+    },
+    {
+      "id": "pri_415",
+      "word": "daughter",
+      "phonetic": "/ˈdɔːtər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "女儿",
+        "en": "female child"
+      }
+    },
+    {
+      "id": "pri_416",
+      "word": "dear",
+      "phonetic": "/dɪr/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "亲爱的",
+        "en": "beloved"
+      }
+    },
+    {
+      "id": "pri_417",
+      "word": "delicious",
+      "phonetic": "/dɪˈlɪʃəs/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "美味的",
+        "en": "tasty"
+      }
+    },
+    {
+      "id": "pri_418",
+      "word": "different",
+      "phonetic": "/ˈdɪfərənt/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "不同的",
+        "en": "not same"
+      }
+    },
+    {
+      "id": "pri_419",
+      "word": "difficult",
+      "phonetic": "/ˈdɪfɪkəlt/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "困难的",
+        "en": "hard"
+      }
+    },
+    {
+      "id": "pri_420",
+      "word": "each",
+      "phonetic": "/iːtʃ/",
+      "pos": "det",
+      "meaning": {
+        "zh": "每个",
+        "en": "every one"
+      }
+    },
+    {
+      "id": "pri_421",
+      "word": "early",
+      "phonetic": "/ˈɜːli/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "早的",
+        "en": "before time"
+      }
+    },
+    {
+      "id": "pri_422",
+      "word": "easy",
+      "phonetic": "/ˈiːzi/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "容易的",
+        "en": "not hard"
+      }
+    },
+    {
+      "id": "pri_423",
+      "word": "enough",
+      "phonetic": "/ɪˈnʌf/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "足够",
+        "en": "sufficient"
+      }
+    },
+    {
+      "id": "pri_424",
+      "word": "every",
+      "phonetic": "/ˈevri/",
+      "pos": "det",
+      "meaning": {
+        "zh": "每一个",
+        "en": "all"
+      }
+    },
+    {
+      "id": "pri_425",
+      "word": "everyone",
+      "phonetic": "/ˈevriwʌn/",
+      "pos": "pron",
+      "meaning": {
+        "zh": "每个人",
+        "en": "all people"
+      }
+    },
+    {
+      "id": "pri_426",
+      "word": "everything",
+      "phonetic": "/ˈevriθɪŋ/",
+      "pos": "pron",
+      "meaning": {
+        "zh": "一切",
+        "en": "all things"
+      }
+    },
+    {
+      "id": "pri_427",
+      "word": "everywhere",
+      "phonetic": "/ˈevriwer/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "到处",
+        "en": "all places"
+      }
+    },
+    {
+      "id": "pri_428",
+      "word": "excited",
+      "phonetic": "/ɪkˈsaɪtɪd/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "兴奋的",
+        "en": "thrilled"
+      }
+    },
+    {
+      "id": "pri_429",
+      "word": "expensive",
+      "phonetic": "/ɪkˈspensɪv/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "昂贵的",
+        "en": "high price"
+      }
+    },
+    {
+      "id": "pri_430",
+      "word": "famous",
+      "phonetic": "/ˈfeɪməs/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "著名的",
+        "en": "well-known"
+      }
+    },
+    {
+      "id": "pri_431",
+      "word": "favourite",
+      "phonetic": "/ˈfeɪvərɪt/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "最喜欢的",
+        "en": "most liked"
+      }
+    },
+    {
+      "id": "pri_432",
+      "word": "festival",
+      "phonetic": "/ˈfestɪvl/",
+      "pos": "n",
+      "meaning": {
+        "zh": "节日",
+        "en": "celebration"
+      }
+    },
+    {
+      "id": "pri_433",
+      "word": "first",
+      "phonetic": "/fɜːst/",
+      "pos": "num",
+      "meaning": {
+        "zh": "第一",
+        "en": "number one"
+      }
+    },
+    {
+      "id": "pri_434",
+      "word": "football",
+      "phonetic": "/ˈfʊtbɔːl/",
+      "pos": "n",
+      "meaning": {
+        "zh": "足球",
+        "en": "sport"
+      }
+    },
+    {
+      "id": "pri_435",
+      "word": "Friday",
+      "phonetic": "/ˈfraɪdeɪ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "星期五",
+        "en": "day of week"
+      }
+    },
+    {
+      "id": "pri_436",
+      "word": "front",
+      "phonetic": "/frʌnt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "前面",
+        "en": "forward part"
+      }
+    },
+    {
+      "id": "pri_438",
+      "word": "hard",
+      "phonetic": "/hɑːd/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "困难的/硬的",
+        "en": "difficult or solid"
+      }
+    },
+    {
+      "id": "pri_439",
+      "word": "healthy",
+      "phonetic": "/ˈhelθi/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "健康的",
+        "en": "well"
+      }
+    },
+    {
+      "id": "pri_440",
+      "word": "heavy",
+      "phonetic": "/ˈhevi/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "重的",
+        "en": "with weight"
+      }
+    },
+    {
+      "id": "pri_441",
+      "word": "helpful",
+      "phonetic": "/ˈhelpfəl/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "有帮助的",
+        "en": "useful"
+      }
+    },
+    {
+      "id": "pri_442",
+      "word": "high",
+      "phonetic": "/haɪ/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "高的",
+        "en": "tall"
+      }
+    },
+    {
+      "id": "pri_443",
+      "word": "hobby",
+      "phonetic": "/ˈhɑːbi/",
+      "pos": "n",
+      "meaning": {
+        "zh": "爱好",
+        "en": "interest"
+      }
+    },
+    {
+      "id": "pri_444",
+      "word": "holiday",
+      "phonetic": "/ˈhɑːlədeɪ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "假期",
+        "en": "vacation"
+      }
+    },
+    {
+      "id": "pri_445",
+      "word": "hospital",
+      "phonetic": "/ˈhɑːspɪtl/",
+      "pos": "n",
+      "meaning": {
+        "zh": "医院",
+        "en": "medical place"
+      }
+    },
+    {
+      "id": "pri_446",
+      "word": "hour",
+      "phonetic": "/aʊr/",
+      "pos": "n",
+      "meaning": {
+        "zh": "小时",
+        "en": "60 minutes"
+      }
+    },
+    {
+      "id": "pri_447",
+      "word": "hungry",
+      "phonetic": "/ˈhʌŋɡri/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "饥饿的",
+        "en": "want food"
+      }
+    },
+    {
+      "id": "pri_448",
+      "word": "important",
+      "phonetic": "/ɪmˈpɔːtənt/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "重要的",
+        "en": "significant"
+      }
+    },
+    {
+      "id": "pri_449",
+      "word": "interesting",
+      "phonetic": "/ˈɪntrəstɪŋ/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "有趣的",
+        "en": "engaging"
+      }
+    },
+    {
+      "id": "pri_450",
+      "word": "January",
+      "phonetic": "/ˈdʒænjueri/",
+      "pos": "n",
+      "meaning": {
+        "zh": "一月",
+        "en": "first month"
+      }
+    },
+    {
+      "id": "pri_451",
+      "word": "kitchen",
+      "phonetic": "/ˈkɪtʃɪn/",
+      "pos": "n",
+      "meaning": {
+        "zh": "厨房",
+        "en": "cooking room"
+      }
+    },
+    {
+      "id": "pri_452",
+      "word": "language",
+      "phonetic": "/ˈlæŋɡwɪdʒ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "语言",
+        "en": "speech system"
+      }
+    },
+    {
+      "id": "pri_453",
+      "word": "laugh",
+      "phonetic": "/læf/",
+      "pos": "v",
+      "meaning": {
+        "zh": "笑",
+        "en": "show joy"
+      }
+    },
+    {
+      "id": "pri_454",
+      "word": "learn",
+      "phonetic": "/lɜːn/",
+      "pos": "v",
+      "meaning": {
+        "zh": "学习",
+        "en": "gain knowledge"
+      }
+    },
+    {
+      "id": "pri_455",
+      "word": "lesson",
+      "phonetic": "/ˈlesən/",
+      "pos": "n",
+      "meaning": {
+        "zh": "课程",
+        "en": "teaching period"
+      }
+    },
+    {
+      "id": "pri_456",
+      "word": "letter",
+      "phonetic": "/ˈletər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "字母/信",
+        "en": "alphabet or mail"
+      }
+    },
+    {
+      "id": "pri_457",
+      "word": "light",
+      "phonetic": "/laɪt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "光/轻的",
+        "en": "brightness or not heavy"
+      }
+    },
+    {
+      "id": "pri_458",
+      "word": "living",
+      "phonetic": "/ˈlɪvɪŋ/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "生活的",
+        "en": "alive"
+      }
+    },
+    {
+      "id": "pri_459",
+      "word": "lovely",
+      "phonetic": "/ˈlʌvli/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "可爱的",
+        "en": "beautiful"
+      }
+    },
+    {
+      "id": "pri_460",
+      "word": "lucky",
+      "phonetic": "/ˈlʌki/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "幸运的",
+        "en": "fortunate"
+      }
+    },
+    {
+      "id": "pri_461",
+      "word": "math",
+      "phonetic": "/mæθ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "数学",
+        "en": "mathematics"
+      }
+    },
+    {
+      "id": "pri_462",
+      "word": "matter",
+      "phonetic": "/ˈmætər/",
+      "pos": "n",
+      "meaning": {
+        "zh": "事情",
+        "en": "issue"
+      }
+    },
+    {
+      "id": "pri_463",
+      "word": "maybe",
+      "phonetic": "/ˈmeɪbi/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "也许",
+        "en": "perhaps"
+      }
+    },
+    {
+      "id": "pri_464",
+      "word": "middle",
+      "phonetic": "/ˈmɪdl/",
+      "pos": "n",
+      "meaning": {
+        "zh": "中间",
+        "en": "center"
+      }
+    },
+    {
+      "id": "pri_465",
+      "word": "minute",
+      "phonetic": "/ˈmɪnɪt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "分钟",
+        "en": "60 seconds"
+      }
+    },
+    {
+      "id": "pri_466",
+      "word": "Monday",
+      "phonetic": "/ˈmʌndeɪ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "星期一",
+        "en": "day of week"
+      }
+    },
+    {
+      "id": "pri_467",
+      "word": "money",
+      "phonetic": "/ˈmʌni/",
+      "pos": "n",
+      "meaning": {
+        "zh": "钱",
+        "en": "currency"
+      }
+    },
+    {
+      "id": "pri_468",
+      "word": "mountain",
+      "phonetic": "/ˈmaʊntən/",
+      "pos": "n",
+      "meaning": {
+        "zh": "山",
+        "en": "high land"
+      }
+    },
+    {
+      "id": "pri_470",
+      "word": "never",
+      "phonetic": "/ˈnevər/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "从不",
+        "en": "not ever"
+      }
+    },
+    {
+      "id": "pri_471",
+      "word": "nothing",
+      "phonetic": "/ˈnʌθɪŋ/",
+      "pos": "pron",
+      "meaning": {
+        "zh": "没有什么",
+        "en": "not anything"
+      }
+    },
+    {
+      "id": "pri_472",
+      "word": "office",
+      "phonetic": "/ˈɔːrfɪs/",
+      "pos": "n",
+      "meaning": {
+        "zh": "办公室",
+        "en": "work place"
+      }
+    },
+    {
+      "id": "pri_473",
+      "word": "often",
+      "phonetic": "/ˈɔːrfən/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "经常",
+        "en": "frequently"
+      }
+    },
+    {
+      "id": "pri_474",
+      "word": "outside",
+      "phonetic": "/ˌaʊtˈsaɪd/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "外面",
+        "en": "not inside"
+      }
+    },
+    {
+      "id": "pri_475",
+      "word": "playground",
+      "phonetic": "/ˈpleɪɡraʊnd/",
+      "pos": "n",
+      "meaning": {
+        "zh": "操场",
+        "en": "play area"
+      }
+    },
+    {
+      "id": "pri_476",
+      "word": "popular",
+      "phonetic": "/ˈpɑːpjələr/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "受欢迎的",
+        "en": "well-liked"
+      }
+    },
+    {
+      "id": "pri_477",
+      "word": "problem",
+      "phonetic": "/ˈprɑːbləm/",
+      "pos": "n",
+      "meaning": {
+        "zh": "问题",
+        "en": "difficulty"
+      }
+    },
+    {
+      "id": "pri_478",
+      "word": "question",
+      "phonetic": "/ˈkwestʃən/",
+      "pos": "n",
+      "meaning": {
+        "zh": "问题",
+        "en": "inquiry"
+      }
+    },
+    {
+      "id": "pri_479",
+      "word": "rainy",
+      "phonetic": "/ˈreɪni/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "下雨的",
+        "en": "with rain"
+      }
+    },
+    {
+      "id": "pri_480",
+      "word": "ready",
+      "phonetic": "/ˈredi/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "准备好的",
+        "en": "prepared"
+      }
+    },
+    {
+      "id": "pri_481",
+      "word": "really",
+      "phonetic": "/ˈriːəli/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "真正地",
+        "en": "truly"
+      }
+    },
+    {
+      "id": "pri_482",
+      "word": "remember",
+      "phonetic": "/rɪˈmembər/",
+      "pos": "v",
+      "meaning": {
+        "zh": "记得",
+        "en": "recall"
+      }
+    },
+    {
+      "id": "pri_483",
+      "word": "restaurant",
+      "phonetic": "/ˈrestərɑːnt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "餐厅",
+        "en": "eating place"
+      }
+    },
+    {
+      "id": "pri_484",
+      "word": "saturday",
+      "phonetic": "/ˈsætərdeɪ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "星期六",
+        "en": "day of week"
+      }
+    },
+    {
+      "id": "pri_485",
+      "word": "science",
+      "phonetic": "/ˈsaɪəns/",
+      "pos": "n",
+      "meaning": {
+        "zh": "科学",
+        "en": "study of nature"
+      }
+    },
+    {
+      "id": "pri_486",
+      "word": "second",
+      "phonetic": "/ˈsekənd/",
+      "pos": "num",
+      "meaning": {
+        "zh": "第二",
+        "en": "ordinal 2"
+      }
+    },
+    {
+      "id": "pri_487",
+      "word": "shopping",
+      "phonetic": "/ˈʃɑːpɪŋ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "购物",
+        "en": "buying things"
+      }
+    },
+    {
+      "id": "pri_488",
+      "word": "show",
+      "phonetic": "/ʃoʊ/",
+      "pos": "v",
+      "meaning": {
+        "zh": "展示",
+        "en": "display"
+      }
+    },
+    {
+      "id": "pri_489",
+      "word": "snowy",
+      "phonetic": "/ˈsnoʊi/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "下雪的",
+        "en": "with snow"
+      }
+    },
+    {
+      "id": "pri_490",
+      "word": "sometimes",
+      "phonetic": "/ˈsʌmtaɪmz/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "有时",
+        "en": "occasionally"
+      }
+    },
+    {
+      "id": "pri_491",
+      "word": "special",
+      "phonetic": "/ˈspeʃəl/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "特别的",
+        "en": "unique"
+      }
+    },
+    {
+      "id": "pri_492",
+      "word": "strong",
+      "phonetic": "/strɔːrŋ/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "强壮的",
+        "en": "powerful"
+      }
+    },
+    {
+      "id": "pri_493",
+      "word": "subject",
+      "phonetic": "/ˈsʌbdʒɪkt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "科目",
+        "en": "school topic"
+      }
+    },
+    {
+      "id": "pri_494",
+      "word": "sunny",
+      "phonetic": "/ˈsʌni/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "晴朗的",
+        "en": "with sun"
+      }
+    },
+    {
+      "id": "pri_495",
+      "word": "supermarket",
+      "phonetic": "/ˈsuːpərmɑːrkɪt/",
+      "pos": "n",
+      "meaning": {
+        "zh": "超市",
+        "en": "large store"
+      }
+    },
+    {
+      "id": "pri_496",
+      "word": "sure",
+      "phonetic": "/ʃʊr/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "确定的",
+        "en": "certain"
+      }
+    },
+    {
+      "id": "pri_497",
+      "word": "telephone",
+      "phonetic": "/ˈtelɪfoʊn/",
+      "pos": "n",
+      "meaning": {
+        "zh": "电话",
+        "en": "communication device"
+      }
+    },
+    {
+      "id": "pri_498",
+      "word": "television",
+      "phonetic": "/ˈtelɪvɪʒən/",
+      "pos": "n",
+      "meaning": {
+        "zh": "电视",
+        "en": "TV"
+      }
+    },
+    {
+      "id": "pri_499",
+      "word": "term",
+      "phonetic": "/tɜːrm/",
+      "pos": "n",
+      "meaning": {
+        "zh": "学期",
+        "en": "school period"
+      }
+    },
+    {
+      "id": "pri_500",
+      "word": "thirsty",
+      "phonetic": "/ˈθɜːsti/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "口渴的",
+        "en": "want drink"
+      }
+    },
+    {
+      "id": "pri_501",
+      "word": "Thursday",
+      "phonetic": "/ˈθɜːrzdeɪ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "星期四",
+        "en": "day of week"
+      }
+    },
+    {
+      "id": "pri_502",
+      "word": "tired",
+      "phonetic": "/ˈtaɪərd/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "累的",
+        "en": "exhausted"
+      }
+    },
+    {
+      "id": "pri_503",
+      "word": "Tuesday",
+      "phonetic": "/ˈtuːzdeɪ/",
+      "pos": "n",
+      "meaning": {
+        "zh": "星期二",
+        "en": "day of week"
+      }
+    },
+    {
+      "id": "pri_504",
+      "word": "usually",
+      "phonetic": "/ˈjuːʒuəli/",
+      "pos": "adv",
+      "meaning": {
+        "zh": "通常",
+        "en": "normally"
+      }
+    },
+    {
+      "id": "pri_505",
+      "word": "wonderful",
+      "phonetic": "/ˈwʌndərfəl/",
+      "pos": "adj",
+      "meaning": {
+        "zh": "精彩的",
+        "en": "amazing"
+      }
+    }
   ]
 }

@@ -30,6 +30,8 @@ export const en = {
     currentLevel: 'Current Level',
     wordsLearned: 'Words Learned',
     streakDays: 'Streak Days',
+    progress: 'Progress',
+    completed: 'completed',
   },
 
   // Word list modes

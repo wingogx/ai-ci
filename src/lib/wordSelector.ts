@@ -47,6 +47,17 @@ function canCrossWithAny(candidate: Word, selected: Word[]): boolean {
 }
 
 /**
+ * 根据关卡获取推荐的最大词长
+ * 早期关卡使用短单词降低门槛
+ */
+function getMaxWordLength(level: number): number {
+  if (level <= 5) return 4      // 1-5关: 最长4字母
+  if (level <= 10) return 5     // 6-10关: 最长5字母
+  if (level <= 20) return 6     // 11-20关: 最长6字母
+  return Infinity               // 21+关: 不限制
+}
+
+/**
  * 选择关卡单词
  *
  * 出词策略（100% 覆盖）：
@@ -58,13 +69,16 @@ function canCrossWithAny(candidate: Word, selected: Word[]): boolean {
  * @param learnedWords 已学单词 ID 集合
  * @param helpedWords 需要重学的单词 ID 集合
  * @param wordCount 本关需要的单词数量
+ * @param level 当前关卡（用于控制词长）
  */
 export function selectWordsForLevel(
   allWords: Word[],
   learnedWords: Set<string>,
   helpedWords: Set<string>,
-  wordCount: number = 4
+  wordCount: number = 4,
+  level: number = 1
 ): LevelWords {
+  const maxLength = getMaxWordLength(level)
   const result: Word[] = []
   let hasRelearn = false
 
@@ -76,9 +90,15 @@ export function selectWordsForLevel(
     return true
   }
 
+  // 辅助函数：过滤符合词长限制的单词（优先短词，不够时放宽限制）
+  const filterByLength = (words: Word[]): Word[] => {
+    const shortWords = words.filter((w) => w.word.length <= maxLength)
+    return shortWords.length >= wordCount ? shortWords : words
+  }
+
   // 1. 优先放"需要重学"的词（用了帮助但还没重新学会的）
-  const relearns = allWords.filter(
-    (w) => helpedWords.has(w.id) && !learnedWords.has(w.id)
+  const relearns = filterByLength(
+    allWords.filter((w) => helpedWords.has(w.id) && !learnedWords.has(w.id))
   )
 
   if (relearns.length > 0) {
@@ -93,11 +113,13 @@ export function selectWordsForLevel(
   }
 
   // 2. 从未学过的词中选取（优先选能交叉且交叉友好度高的）
-  const unlearned = allWords.filter(
-    (w) =>
-      !learnedWords.has(w.id) &&
-      !helpedWords.has(w.id) &&
-      !result.some((r) => r.id === w.id)
+  const unlearned = filterByLength(
+    allWords.filter(
+      (w) =>
+        !learnedWords.has(w.id) &&
+        !helpedWords.has(w.id) &&
+        !result.some((r) => r.id === w.id)
+    )
   )
 
   // 按交叉友好度排序，然后随机选择前一半中的词（兼顾质量和多样性）
@@ -114,8 +136,10 @@ export function selectWordsForLevel(
 
   // 3. 如果未学词不够，从已学词中补充
   if (result.length < wordCount) {
-    const learned = allWords.filter(
-      (w) => learnedWords.has(w.id) && !result.some((r) => r.id === w.id)
+    const learned = filterByLength(
+      allWords.filter(
+        (w) => learnedWords.has(w.id) && !result.some((r) => r.id === w.id)
+      )
     )
     const shuffled = shuffle(learned)
 

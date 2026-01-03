@@ -1,9 +1,11 @@
 'use client'
 
 import { useRouter } from 'next/navigation'
+import { useState, useEffect } from 'react'
 import { useUserStore } from '@/stores'
 import { Button, Select } from '@/components/ui'
 import { t } from '@/i18n'
+import { getWordListInfo } from '@/lib/wordLoader'
 import type { WordListMode, CEFRLevel, ChinaLevel, Language, WordLevel } from '@/types'
 
 const wordListOptions = [
@@ -36,9 +38,17 @@ const languageOptions: { value: Language; label: string }[] = [
 export default function HomePage() {
   const router = useRouter()
   const { settings, stats, updateSettings, getCurrentProgress } = useUserStore()
+  const [totalWords, setTotalWords] = useState<number>(0)
 
   const lang = settings.language
   const progress = getCurrentProgress()
+
+  // 加载当前等级的总词汇量
+  useEffect(() => {
+    getWordListInfo(settings.currentGrade)
+      .then((info) => setTotalWords(info.totalWords))
+      .catch(() => setTotalWords(0))
+  }, [settings.currentGrade])
 
   // 处理词库模式切换
   const handleWordListChange = (mode: WordListMode) => {
@@ -146,7 +156,7 @@ export default function HomePage() {
           </div>
           <div className="bg-white rounded-xl p-4 text-center shadow-sm">
             <div className="text-2xl font-bold text-green-600">
-              {stats.totalWordsLearned}
+              {progress.learnedWords.length}
             </div>
             <div className="text-xs text-gray-500">{t('stats.wordsLearned', lang)}</div>
           </div>
@@ -157,6 +167,25 @@ export default function HomePage() {
             <div className="text-xs text-gray-500">{t('stats.streakDays', lang)}</div>
           </div>
         </div>
+
+        {/* 学习进度条 */}
+        {totalWords > 0 && (
+          <div className="w-full max-w-sm">
+            <div className="flex justify-between text-sm text-gray-600 mb-1">
+              <span>{t('stats.progress', lang)}</span>
+              <span>{progress.learnedWords.length} / {totalWords}</span>
+            </div>
+            <div className="h-3 bg-gray-200 rounded-full overflow-hidden">
+              <div
+                className="h-full bg-gradient-to-r from-green-400 to-green-600 rounded-full transition-all duration-500"
+                style={{ width: `${Math.min((progress.learnedWords.length / totalWords) * 100, 100)}%` }}
+              />
+            </div>
+            <div className="text-xs text-gray-500 mt-1 text-center">
+              {Math.round((progress.learnedWords.length / totalWords) * 100)}% {t('stats.completed', lang)}
+            </div>
+          </div>
+        )}
 
         {/* 开始按钮 */}
         <Button onClick={handleStartGame} size="lg" className="w-full max-w-sm">

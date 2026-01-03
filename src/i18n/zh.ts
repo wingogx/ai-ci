@@ -30,6 +30,8 @@ export const zh = {
     currentLevel: '当前关卡',
     wordsLearned: '已学单词',
     streakDays: '连续天数',
+    progress: '学习进度',
+    completed: '已完成',
   },
 
   // 词库模式

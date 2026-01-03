@@ -59,16 +59,36 @@ export function isChallengeLevel(level: number): boolean {
 
 /**
  * 根据关卡获取单词数量
- * 普通关: 3-4个
- * 挑战关: 5-7个
+ * 随等级递增：
+ * - 1-10关: 4-5个
+ * - 11-25关: 5-6个
+ * - 26-50关: 6-7个
+ * - 51+关: 7-8个
+ * 挑战关（每5关）: 在基础上+1-2个
  */
 export function getWordCountForLevel(level: number): number {
-  if (isChallengeLevel(level)) {
-    // 挑战关 5-7 个单词
-    return 5 + Math.floor(Math.random() * 3)
+  // 基础单词数随等级增加
+  let baseCount: number
+  if (level <= 10) {
+    baseCount = 4
+  } else if (level <= 25) {
+    baseCount = 5
+  } else if (level <= 50) {
+    baseCount = 6
+  } else {
+    baseCount = 7
   }
-  // 普通关 3-4 个单词
-  return 3 + Math.floor(Math.random() * 2)
+
+  // 随机浮动 +0 或 +1
+  const randomBonus = Math.floor(Math.random() * 2)
+
+  if (isChallengeLevel(level)) {
+    // 挑战关额外 +1-2 个单词
+    const challengeBonus = 1 + Math.floor(Math.random() * 2)
+    return baseCount + randomBonus + challengeBonus
+  }
+
+  return baseCount + randomBonus
 }
 
 /**
@@ -86,6 +106,8 @@ export function getPreFillRatio(grade: string): number {
     primary: 0.5,
     junior: 0.4,
     senior: 0.3,
+    cet4: 0.25,
+    cet6: 0.2,
   }
   return ratios[grade] ?? 0.4
 }

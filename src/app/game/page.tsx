@@ -11,6 +11,10 @@ import {
   useSensors,
   PointerSensor,
   TouchSensor,
+  pointerWithin,
+  closestCenter,
+  CollisionDetection,
+  DroppableContainer,
 } from '@dnd-kit/core'
 import { useGame } from '@/hooks'
 import { useUserStore } from '@/stores'
@@ -18,6 +22,7 @@ import { GameHeader, PuzzleBoard, LetterPool, Letter, WordCard } from '@/compone
 import { Confetti, BadgeModal } from '@/components/feedback'
 import { Modal, Button } from '@/components/ui'
 import { checkNewBadges, getBadgeById } from '@/data/badges'
+import { getWordListInfo } from '@/lib/wordLoader'
 import { t } from '@/i18n'
 
 export default function GamePage() {
@@ -28,6 +33,8 @@ export default function GamePage() {
   const [showCompletedModal, setShowCompletedModal] = useState(false)
   const [newBadge, setNewBadge] = useState<ReturnType<typeof getBadgeById> | null>(null)
   const [showBadgeModal, setShowBadgeModal] = useState(false)
+  const [totalWordsInGrade, setTotalWordsInGrade] = useState(0)
+  const [highlightedCells, setHighlightedCells] = useState<Set<string>>(new Set())
 
   const {
     isLoading,
@@ -42,6 +49,7 @@ export default function GamePage() {
     correctCells,
     wrongCells,
     helpCount,
+    isHelpUsed,
     revealedWords,
     placeLetter,
     removeLetter,
@@ -56,6 +64,24 @@ export default function GamePage() {
     useUserStore()
 
   const lang = settings.language
+
+  // 自定义碰撞检测：优先 pointerWithin，回退到 closestCenter
+  const customCollisionDetection: CollisionDetection = useCallback((args) => {
+    // 先尝试 pointerWithin - 指针在目标区域内
+    const pointerCollisions = pointerWithin(args)
+    if (pointerCollisions.length > 0) {
+      return pointerCollisions
+    }
+    // 回退到 closestCenter - 找最近的中心点
+    return closestCenter(args)
+  }, [])
+
+  // 加载当前等级总词汇量
+  useEffect(() => {
+    getWordListInfo(settings.currentGrade)
+      .then((info) => setTotalWordsInGrade(info.totalWords))
+      .catch(() => setTotalWordsInGrade(0))
+  }, [settings.currentGrade])
 
   // 拖拽传感器配置
   const sensors = useSensors(
@@ -122,6 +148,30 @@ export default function GamePage() {
     playAllWords()
   }
 
+  // 点击格子高亮整个单词
+  const handleCellClick = useCallback(
+    (cellId: string) => {
+      if (!currentPuzzle) return
+
+      // 找到包含此格子的单词
+      const word = currentPuzzle.words.find((w) =>
+        w.cells.some((c) => c.id === cellId)
+      )
+
+      if (word) {
+        // 高亮该单词的所有格子
+        const cellIds = new Set(word.cells.map((c) => c.id))
+        setHighlightedCells(cellIds)
+
+        // 3秒后清除高亮
+        setTimeout(() => {
+          setHighlightedCells(new Set())
+        }, 3000)
+      }
+    },
+    [currentPuzzle]
+  )
+
   // 重新开始当前关（重新选词生成拼图）
   const handleRestart = () => {
     startLevel(currentLevel)
@@ -149,8 +199,28 @@ export default function GamePage() {
       setShowConfetti(true)
 
       // 检查新勋章
+      // 注意：此时 useGame 的 handleLevelComplete 可能还未更新 progress
+      // 所以需要手动计算包含本关新学单词的 learnedWords
       const progress = getCurrentProgress()
-      const newBadges = checkNewBadges(stats, progress, earnedBadges)
+      const newWordIds = currentWords.map((w) => w.id)
+
+      // 计算更新后的 learnedWords（如果没用帮助，加入本关单词）
+      const updatedLearnedWords = isHelpUsed
+        ? progress.learnedWords
+        : [...new Set([...progress.learnedWords, ...newWordIds])]
+
+      const badgeCtx = {
+        stats,
+        progress: {
+          ...progress,
+          learnedWords: updatedLearnedWords,
+          completedLevels: progress.completedLevels + 1,
+        },
+        wordListMode: settings.wordListMode,
+        totalWordsInGrade,
+        currentLevel: settings.currentGrade,
+      }
+      const newBadges = checkNewBadges(badgeCtx, earnedBadges)
 
       if (newBadges.length > 0) {
         // 有新勋章，先显示勋章
@@ -204,6 +274,7 @@ export default function GamePage() {
   return (
     <DndContext
       sensors={sensors}
+      collisionDetection={customCollisionDetection}
       onDragStart={handleDragStart}
       onDragEnd={handleDragEnd}
     >
@@ -237,7 +308,9 @@ export default function GamePage() {
             placedLetters={placedLetters}
             correctCells={correctCells}
             wrongCells={wrongCells}
+            highlightedCells={highlightedCells}
             onRemoveLetter={removeLetter}
+            onCellClick={handleCellClick}
           />
 
           {/* 字母池 */}

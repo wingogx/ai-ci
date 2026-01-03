@@ -1,6 +1,17 @@
 'use client'
 
-import { useCallback, useRef } from 'react'
+import { useCallback, useRef, useState, useEffect } from 'react'
+
+// 优先使用美式英语语音（按优先级排序）
+const PREFERRED_VOICES = [
+  'Samantha',           // macOS 美式英语女声
+  'Alex',               // macOS 美式英语男声
+  'Google US English',  // Chrome 美式英语
+  'Microsoft Zira',     // Windows 美式英语女声
+  'Microsoft David',    // Windows 美式英语男声
+  'Ava',                // macOS 美式英语
+  'Tom',                // macOS 美式英语
+]
 
 /**
  * 发音 Hook
@@ -8,6 +19,7 @@ import { useCallback, useRef } from 'react'
  */
 export function useSpeech() {
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null)
+  const [preferredVoice, setPreferredVoice] = useState<SpeechSynthesisVoice | null>(null)
 
   /**
    * 检查浏览器是否支持 TTS
@@ -15,6 +27,53 @@ export function useSpeech() {
   const isSupported = useCallback(() => {
     return typeof window !== 'undefined' && 'speechSynthesis' in window
   }, [])
+
+  /**
+   * 获取最佳语音（同步方法，用于发音时动态获取）
+   * 优先选择美式英语 (en-US)
+   */
+  const getBestVoice = useCallback((): SpeechSynthesisVoice | null => {
+    if (!isSupported()) return null
+
+    const voices = speechSynthesis.getVoices()
+    // 优先美式英语 (en-US)，其次其他英语
+    const usVoices = voices.filter(v => v.lang === 'en-US' || v.lang === 'en_US')
+    const englishVoices = voices.filter(v => v.lang.startsWith('en'))
+
+    // 按优先级查找最佳美式语音
+    for (const name of PREFERRED_VOICES) {
+      const found = usVoices.find(v => v.name.includes(name))
+      if (found) return found
+    }
+
+    // 尝试在所有英语语音中查找
+    for (const name of PREFERRED_VOICES) {
+      const found = englishVoices.find(v => v.name.includes(name))
+      if (found) return found
+    }
+
+    // 没有优先语音，选择第一个美式英语语音
+    if (usVoices.length > 0) return usVoices[0]
+    return englishVoices.length > 0 ? englishVoices[0] : null
+  }, [isSupported])
+
+  /**
+   * 加载并选择最佳语音
+   */
+  useEffect(() => {
+    if (!isSupported()) return
+
+    const loadVoices = () => {
+      const voice = getBestVoice()
+      if (voice) {
+        setPreferredVoice(voice)
+      }
+    }
+
+    // 语音列表可能异步加载
+    loadVoices()
+    speechSynthesis.onvoiceschanged = loadVoices
+  }, [isSupported, getBestVoice])
 
   /**
    * 停止当前播放
@@ -39,15 +98,24 @@ export function useSpeech() {
       stop()
 
       const utterance = new SpeechSynthesisUtterance(text)
-      utterance.lang = options?.lang || 'en-US'
-      utterance.rate = options?.rate || 0.9 // 稍慢一点，适合学习
+
+      // 使用优选语音，如果还没加载则动态获取
+      const voice = preferredVoice || getBestVoice()
+      if (voice) {
+        utterance.voice = voice
+        utterance.lang = voice.lang
+      } else {
+        utterance.lang = options?.lang || 'en-US'
+      }
+
+      utterance.rate = options?.rate || 0.85 // 稍慢一点，更清晰
       utterance.pitch = 1
       utterance.volume = 1
 
       utteranceRef.current = utterance
       speechSynthesis.speak(utterance)
     },
-    [isSupported, stop]
+    [isSupported, stop, preferredVoice, getBestVoice]
   )
 
   /**

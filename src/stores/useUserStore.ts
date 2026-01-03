@@ -98,20 +98,6 @@ export const useUserStore = create<UserState>()(
       getCurrentProgress: () => {
         const { settings, progress } = get()
         const current = progress[settings.currentGrade] || { ...DEFAULT_GRADE_PROGRESS }
-
-        // 数据迁移：老用户如果 helpCount 为 0 且已完成关卡，补充帮助次数
-        if (current.helpCount === 0 && current.completedLevels > 0) {
-          const bonusHelp = Math.floor(current.completedLevels / 5) + 3 // 初始3次 + 每5关1次
-          current.helpCount = Math.min(bonusHelp, 5) // 最多5次
-          // 持久化更新
-          set({
-            progress: {
-              ...progress,
-              [settings.currentGrade]: current,
-            },
-          })
-        }
-
         return current
       },
 
@@ -156,7 +142,12 @@ export const useUserStore = create<UserState>()(
       completeLevel: (usedHelp, wordsLearned) => {
         const { settings, progress, stats } = get()
         const grade = settings.currentGrade
+        const mode = settings.wordListMode
         const current = progress[grade] || { ...DEFAULT_GRADE_PROGRESS }
+
+        // 根据词库模式更新对应的累计统计
+        const isCefr = mode === 'cefr'
+        const wordsToAdd = usedHelp ? 0 : wordsLearned
 
         set({
           progress: {
@@ -169,9 +160,20 @@ export const useUserStore = create<UserState>()(
           stats: {
             ...stats,
             totalLevelsCompleted: stats.totalLevelsCompleted + 1,
-            totalWordsLearned: usedHelp
-              ? stats.totalWordsLearned
-              : stats.totalWordsLearned + wordsLearned,
+            totalWordsLearned: stats.totalWordsLearned + wordsToAdd,
+            // 分词库累计
+            cefrWordsLearned: isCefr
+              ? (stats.cefrWordsLearned || 0) + wordsToAdd
+              : stats.cefrWordsLearned || 0,
+            chinaWordsLearned: !isCefr
+              ? (stats.chinaWordsLearned || 0) + wordsToAdd
+              : stats.chinaWordsLearned || 0,
+            cefrLevelsCompleted: isCefr
+              ? (stats.cefrLevelsCompleted || 0) + 1
+              : stats.cefrLevelsCompleted || 0,
+            chinaLevelsCompleted: !isCefr
+              ? (stats.chinaLevelsCompleted || 0) + 1
+              : stats.chinaLevelsCompleted || 0,
           },
         })
 

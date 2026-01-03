@@ -23,7 +23,7 @@ async function importWordList(level: WordLevel): Promise<WordList> {
   }
 
   // 中国教材等级
-  if (['primary', 'junior', 'senior'].includes(level)) {
+  if (['primary', 'junior', 'senior', 'cet4', 'cet6'].includes(level)) {
     const data = await import(`@/data/words/china/${level}.json`)
     return data.default || data
   }

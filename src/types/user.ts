@@ -39,8 +39,13 @@ export interface UserProgress {
 export interface UserStats {
   streakDays: number
   lastPlayDate: string
-  totalWordsLearned: number
+  totalWordsLearned: number // 保留兼容，不再使用
   totalLevelsCompleted: number
+  // 分词库累计
+  cefrWordsLearned: number
+  chinaWordsLearned: number
+  cefrLevelsCompleted: number
+  chinaLevelsCompleted: number
 }
 
 /**
@@ -94,6 +99,10 @@ export const DEFAULT_USER_STATS: UserStats = {
   lastPlayDate: '',
   totalWordsLearned: 0,
   totalLevelsCompleted: 0,
+  cefrWordsLearned: 0,
+  chinaWordsLearned: 0,
+  cefrLevelsCompleted: 0,
+  chinaLevelsCompleted: 0,
 }
 
 /**
