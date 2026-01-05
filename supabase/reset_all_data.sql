@@ -10,8 +10,8 @@ TRUNCATE TABLE public.user_stats CASCADE;
 TRUNCATE TABLE public.invitations CASCADE;
 TRUNCATE TABLE public.daily_tasks CASCADE;
 TRUNCATE TABLE public.share_logs CASCADE;
-TRUNCATE TABLE public.city_leaderboard CASCADE;
-TRUNCATE TABLE public.leaderboard CASCADE;
+
+-- 注意：city_leaderboard 和 leaderboard 是视图，不需要清理
 
 -- 2. 删除 users 表数据
 TRUNCATE TABLE public.users CASCADE;
