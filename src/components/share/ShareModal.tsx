@@ -3,7 +3,7 @@
 import { useState, useRef, useCallback, ReactNode, useEffect } from 'react'
 import { Modal, Button } from '@/components/ui'
 import { t } from '@/i18n'
-import { generateShareImage, copyToClipboard, downloadImage, isWeChatBrowser } from '@/lib/share'
+import { generateShareImage, copyToClipboard, isWeChatBrowser } from '@/lib/share'
 
 interface ShareModalProps {
   isOpen: boolean
@@ -13,7 +13,7 @@ interface ShareModalProps {
   children: ReactNode // 分享卡片组件
 }
 
-type ShareAction = 'wechat' | 'copy' | 'download' | null
+type ShareAction = 'wechat' | 'copy' | null
 
 export function ShareModal({
   isOpen,
@@ -66,18 +66,16 @@ export function ShareModal({
     setError(null)
     try {
       const imageBlob = await handleGenerateImage()
-      if (imageBlob) {
-        if (isInWeChat) {
-          // 微信内：生成图片 URL 显示出来，让用户长按保存
-          const imageUrl = URL.createObjectURL(imageBlob)
-          setGeneratedImageUrl(imageUrl)
-        } else {
-          // 非微信：直接下载
-          await downloadImage(imageBlob, 'wordduck-share.png')
-        }
+      if (!imageBlob) {
+        setError(lang === 'zh' ? '生成图片失败，请重试' : 'Failed to generate image')
+        return
       }
+      // 生成图片 URL 显示出来，让用户长按保存
+      const imageUrl = URL.createObjectURL(imageBlob)
+      setGeneratedImageUrl(imageUrl)
     } catch (err) {
-      setError(lang === 'zh' ? '分享失败' : 'Share failed')
+      console.error('分享失败:', err)
+      setError(lang === 'zh' ? '生成失败，请重试' : 'Generation failed')
     } finally {
       setLoading(null)
     }
@@ -92,27 +90,6 @@ export function ShareModal({
       setTimeout(() => setCopied(false), 2000)
     } catch (err) {
       setError(lang === 'zh' ? '复制失败' : 'Copy failed')
-    } finally {
-      setLoading(null)
-    }
-  }
-
-  const handleDownload = async () => {
-    setLoading('download')
-    setError(null)
-    try {
-      const imageBlob = await handleGenerateImage()
-      if (imageBlob) {
-        if (isInWeChat) {
-          // 微信内：生成图片 URL 显示出来，让用户长按保存
-          const imageUrl = URL.createObjectURL(imageBlob)
-          setGeneratedImageUrl(imageUrl)
-        } else {
-          await downloadImage(imageBlob, 'wordduck-share.png')
-        }
-      }
-    } catch (err) {
-      setError(lang === 'zh' ? '下载失败' : 'Download failed')
     } finally {
       setLoading(null)
     }
@@ -152,34 +129,17 @@ export function ShareModal({
         <div className="space-y-3">
           {/* 微信内已生成图片时只显示复制链接 */}
           {!(isInWeChat && generatedImageUrl) && (
-            <>
-              {/* 微信分享/生成图片 */}
-              <Button
-                onClick={handleWeChatShare}
-                disabled={loading !== null}
-                className="w-full bg-[#07C160] hover:bg-[#06AD56] text-white flex items-center justify-center gap-2"
-              >
-                <WeChatIcon />
-                {loading === 'wechat'
-                  ? t('share.downloading', lang)
-                  : isInWeChat
-                  ? (lang === 'zh' ? '生成分享图片' : 'Generate Image')
-                  : (lang === 'zh' ? '分享到微信' : 'Share to WeChat')}
-              </Button>
-
-              {/* 保存图片 */}
-              <Button
-                onClick={handleDownload}
-                disabled={loading !== null}
-                variant="secondary"
-                className="w-full flex items-center justify-center gap-2"
-              >
-                <DownloadIcon />
-                {loading === 'download'
-                  ? t('share.downloading', lang)
-                  : t('share.download', lang)}
-              </Button>
-            </>
+            /* 生成分享图片 */
+            <Button
+              onClick={handleWeChatShare}
+              disabled={loading !== null}
+              className="w-full bg-[#07C160] hover:bg-[#06AD56] text-white flex items-center justify-center gap-2"
+            >
+              <WeChatIcon />
+              {loading === 'wechat'
+                ? (lang === 'zh' ? '生成中...' : 'Generating...')
+                : (lang === 'zh' ? '生成分享图片' : 'Generate Share Image')}
+            </Button>
           )}
 
           {/* 复制链接 */}
@@ -220,19 +180,6 @@ function CopyIcon() {
         strokeLinejoin="round"
         strokeWidth={2}
         d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
-      />
-    </svg>
-  )
-}
-
-function DownloadIcon() {
-  return (
-    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={2}
-        d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
       />
     </svg>
   )
