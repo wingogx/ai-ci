@@ -8,6 +8,26 @@ import { getSupabaseClient } from '@/lib/supabase'
 import { useUserStore } from '@/stores'
 
 /**
+ * 确保用户在 public.users 表中存在
+ */
+async function ensureUserExists(userId: string): Promise<boolean> {
+  const supabase = getSupabaseClient()
+
+  // 检查用户是否存在
+  const { data: existingUser } = await supabase.rpc('get_user_by_id', {
+    p_user_id: userId
+  })
+
+  if (existingUser && existingUser.length > 0) {
+    return true
+  }
+
+  // 用户不存在，尝试创建（这通常应该由触发器完成）
+  console.log('用户在 users 表中不存在，跳过同步')
+  return false
+}
+
+/**
  * 上传本地进度到云端
  */
 export async function uploadProgress(): Promise<boolean> {
@@ -25,13 +45,31 @@ export async function uploadProgress(): Promise<boolean> {
 
   console.log('开始上传进度，用户ID:', user.id)
 
+  // 确保用户存在于 users 表
+  const userExists = await ensureUserExists(user.id)
+  if (!userExists) {
+    console.log('用户不存在于 users 表，跳过上传')
+    return false
+  }
+
   try {
     const store = useUserStore.getState()
     const { settings, progress, stats, earnedBadges } = store
 
     // 1. 上传用户进度（每个等级）
     for (const [key, gradeProgress] of Object.entries(progress)) {
-      const [vocabMode, grade] = key.split('-')
+      const parts = key.split('-')
+      if (parts.length < 2) {
+        console.warn('跳过无效的进度 key:', key)
+        continue
+      }
+      const [vocabMode, ...gradeParts] = parts
+      const grade = gradeParts.join('-') // 处理可能包含连字符的 grade
+
+      if (!vocabMode || !grade) {
+        console.warn('跳过无效的进度数据:', { key, vocabMode, grade })
+        continue
+      }
 
       const { error: progressError } = await supabase
         .from('user_progress')
@@ -77,18 +115,25 @@ export async function uploadProgress(): Promise<boolean> {
     }))
 
     if (badgeRecords.length > 0) {
-      await supabase
+      const { error: badgeError } = await supabase
         .from('user_badges')
         .upsert(badgeRecords, {
           onConflict: 'user_id,badge_id',
         })
+
+      if (badgeError) {
+        console.error('上传勋章失败:', badgeError)
+      }
     }
 
     // 4. 更新今日学习历史
     const today = new Date().toISOString().split('T')[0]
-    const currentProgress = progress[`${settings.wordListMode}-${settings.currentGrade}`]
+    const progressKey = `${settings.wordListMode}-${settings.currentGrade}`
+    const currentProgress = progress[progressKey]
 
-    if (currentProgress) {
+    console.log('查找进度 key:', progressKey, '所有 keys:', Object.keys(progress))
+
+    if (currentProgress && currentProgress.learnedWords.length > 0) {
       console.log('准备上传学习历史:', {
         user_id: user.id,
         date: today,
@@ -113,9 +158,12 @@ export async function uploadProgress(): Promise<boolean> {
         console.log('学习历史上传成功')
       }
     } else {
-      console.log('没有当前进度数据，跳过学习历史上传。settings:', {
+      console.log('没有当前进度数据或无学习单词，跳过学习历史上传。settings:', {
         wordListMode: settings.wordListMode,
         currentGrade: settings.currentGrade,
+        progressKey,
+        hasProgress: !!currentProgress,
+        learnedWordsCount: currentProgress?.learnedWords?.length || 0,
       })
     }
 

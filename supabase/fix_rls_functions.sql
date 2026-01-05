@@ -3,6 +3,37 @@
 -- 在 Supabase SQL Editor 中执行此脚本
 -- ================================================================
 
+-- 触发器：当新用户注册时自动创建 public.users 记录
+CREATE OR REPLACE FUNCTION public.handle_new_user()
+RETURNS trigger AS $$
+BEGIN
+  INSERT INTO public.users (id, nickname, created_at, updated_at)
+  VALUES (
+    NEW.id,
+    COALESCE(NEW.raw_user_meta_data->>'nickname', '学习者'),
+    NOW(),
+    NOW()
+  )
+  ON CONFLICT (id) DO NOTHING;
+  RETURN NEW;
+END;
+$$ LANGUAGE plpgsql SECURITY DEFINER;
+
+-- 删除旧触发器（如果存在）
+DROP TRIGGER IF EXISTS on_auth_user_created ON auth.users;
+
+-- 创建触发器
+CREATE TRIGGER on_auth_user_created
+  AFTER INSERT ON auth.users
+  FOR EACH ROW EXECUTE FUNCTION public.handle_new_user();
+
+-- 为现有的 auth.users 创建 public.users 记录（如果不存在）
+INSERT INTO public.users (id, nickname, created_at, updated_at)
+SELECT id, COALESCE(raw_user_meta_data->>'nickname', '学习者'), created_at, NOW()
+FROM auth.users
+WHERE id NOT IN (SELECT id FROM public.users)
+ON CONFLICT (id) DO NOTHING;
+
 -- 0. 创建获取当前用户信息的函数（绕过 RLS）
 CREATE OR REPLACE FUNCTION get_user_by_id(p_user_id uuid)
 RETURNS TABLE (
