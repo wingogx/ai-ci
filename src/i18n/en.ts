@@ -10,7 +10,7 @@ export const en = {
   // Home page
   home: {
     title: 'WordDuck',
-    start: 'Start Game',
+    start: 'Start Challenge',
     continue: 'Continue',
     level: 'Level {level}',
     language: 'Language',
@@ -99,7 +99,7 @@ export const en = {
     step2Desc: 'Drag letters from the pool to the puzzle',
     step3: 'Complete the puzzle',
     step3Desc: 'Spell all words correctly to pass',
-    start: 'Start Game',
+    start: 'Start Challenge',
     skip: 'Skip Tutorial',
   },
 

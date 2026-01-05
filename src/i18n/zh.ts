@@ -10,7 +10,7 @@ export const zh = {
   // 首页
   home: {
     title: '爱词鸭',
-    start: '开始游戏',
+    start: '开始挑战',
     continue: '继续游戏',
     level: '第 {level} 关',
     language: '语言',
@@ -99,7 +99,7 @@ export const zh = {
     step2Desc: '从下方字母池拖动字母到拼图中',
     step3: '完成拼图',
     step3Desc: '拼对所有单词即可过关',
-    start: '开始游戏',
+    start: '开始挑战',
     skip: '跳过教程',
   },
 
