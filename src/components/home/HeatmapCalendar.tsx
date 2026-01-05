@@ -1,7 +1,6 @@
 'use client'
 
 import { useMemo } from 'react'
-import { t } from '@/i18n'
 
 interface DayData {
   date: string
@@ -14,161 +13,112 @@ interface HeatmapCalendarProps {
 }
 
 /**
- * GitHub 风格的学习热力图
+ * 近30天学习记录日历
  */
 export function HeatmapCalendar({ data, lang }: HeatmapCalendarProps) {
-  const { weeks, months } = useMemo(() => {
+  const { days, totalWords, activeDays } = useMemo(() => {
     const today = new Date()
-    const weeksToShow = 15 // 显示约 3.5 个月
-    const totalDays = weeksToShow * 7
+    const daysToShow = 30
 
     // 创建日期到数据的映射
     const dataMap = new Map(data.map((d) => [d.date, d.count]))
 
-    // 生成日期网格
-    const days: { date: Date; count: number; dateStr: string }[] = []
-    for (let i = totalDays - 1; i >= 0; i--) {
+    // 生成最近30天的日期
+    const days: { date: Date; count: number; dateStr: string; isToday: boolean }[] = []
+    let totalWords = 0
+    let activeDays = 0
+
+    for (let i = daysToShow - 1; i >= 0; i--) {
       const date = new Date(today)
       date.setDate(date.getDate() - i)
       const dateStr = date.toISOString().split('T')[0]
+      const count = dataMap.get(dateStr) || 0
+
       days.push({
         date,
         dateStr,
-        count: dataMap.get(dateStr) || 0,
+        count,
+        isToday: i === 0,
       })
+
+      totalWords += count
+      if (count > 0) activeDays++
     }
 
-    // 按周分组
-    const weeks: typeof days[] = []
-    let currentWeek: typeof days = []
-
-    // 填充第一周开头的空白
-    const firstDayOfWeek = days[0].date.getDay()
-    for (let i = 0; i < firstDayOfWeek; i++) {
-      currentWeek.push({ date: new Date(0), count: -1, dateStr: '' })
-    }
-
-    days.forEach((day) => {
-      currentWeek.push(day)
-      if (currentWeek.length === 7) {
-        weeks.push(currentWeek)
-        currentWeek = []
-      }
-    })
-
-    if (currentWeek.length > 0) {
-      weeks.push(currentWeek)
-    }
-
-    // 提取月份标签
-    const months: { name: string; col: number }[] = []
-    let lastMonth = -1
-    weeks.forEach((week, weekIndex) => {
-      const firstValidDay = week.find((d) => d.count >= 0)
-      if (firstValidDay) {
-        const month = firstValidDay.date.getMonth()
-        if (month !== lastMonth) {
-          const monthName = firstValidDay.date.toLocaleDateString(
-            lang === 'zh' ? 'zh-CN' : 'en-US',
-            { month: 'short' }
-          )
-          months.push({ name: monthName, col: weekIndex })
-          lastMonth = month
-        }
-      }
-    })
-
-    return { weeks, months }
-  }, [data, lang])
+    return { days, totalWords, activeDays }
+  }, [data])
 
   const getColor = (count: number) => {
-    if (count < 0) return 'transparent' // 空白格子
-    if (count === 0) return '#ebedf0'
-    if (count <= 3) return '#9be9a8'
-    if (count <= 8) return '#40c463'
-    if (count <= 15) return '#30a14e'
-    return '#216e39'
+    if (count === 0) return 'bg-gray-100'
+    if (count <= 3) return 'bg-green-200'
+    if (count <= 8) return 'bg-green-400'
+    if (count <= 15) return 'bg-green-500'
+    return 'bg-green-600'
   }
 
-  const weekDays = lang === 'zh'
-    ? ['日', '一', '二', '三', '四', '五', '六']
-    : ['S', 'M', 'T', 'W', 'T', 'F', 'S']
+  const formatDate = (date: Date) => {
+    return date.toLocaleDateString(lang === 'zh' ? 'zh-CN' : 'en-US', {
+      month: 'short',
+      day: 'numeric',
+    })
+  }
+
+  // 计算起止日期
+  const startDate = days[0]?.date
+  const endDate = days[days.length - 1]?.date
 
   return (
     <div className="bg-white rounded-xl p-4 shadow-sm">
-      <h3 className="font-bold text-gray-800 mb-3 flex items-center gap-2">
-        <span>📅</span>
-        {lang === 'zh' ? '学习记录' : 'Learning History'}
-      </h3>
+      <div className="flex items-center justify-between mb-3">
+        <h3 className="font-bold text-gray-800 flex items-center gap-2">
+          <span>📅</span>
+          {lang === 'zh' ? '学习记录' : 'Learning History'}
+        </h3>
+        <span className="text-xs text-gray-400">
+          {lang === 'zh' ? '近30天' : 'Last 30 days'}
+        </span>
+      </div>
 
-      <div className="overflow-x-auto">
-        <div className="inline-block">
-          {/* 月份标签 */}
-          <div className="flex mb-1 text-xs text-gray-400" style={{ marginLeft: '20px' }}>
-            {months.map((month, i) => (
-              <div
-                key={i}
-                style={{
-                  position: 'relative',
-                  left: `${month.col * 14}px`,
-                  marginRight: i < months.length - 1
-                    ? `${(months[i + 1]?.col - month.col - 1) * 14}px`
-                    : 0,
-                }}
-              >
-                {month.name}
-              </div>
-            ))}
-          </div>
-
-          <div className="flex">
-            {/* 星期标签 */}
-            <div className="flex flex-col text-xs text-gray-400 mr-1">
-              {weekDays.map((day, i) => (
-                <div
-                  key={i}
-                  className="h-[12px] leading-[12px] text-right pr-1"
-                  style={{ fontSize: '9px' }}
-                >
-                  {i % 2 === 1 ? day : ''}
-                </div>
-              ))}
-            </div>
-
-            {/* 热力图网格 */}
-            <div className="flex gap-[2px]">
-              {weeks.map((week, weekIndex) => (
-                <div key={weekIndex} className="flex flex-col gap-[2px]">
-                  {week.map((day, dayIndex) => (
-                    <div
-                      key={dayIndex}
-                      className="w-[10px] h-[10px] rounded-sm cursor-pointer transition-transform hover:scale-125"
-                      style={{ backgroundColor: getColor(day.count) }}
-                      title={
-                        day.count >= 0
-                          ? `${day.dateStr}: ${day.count} ${lang === 'zh' ? '词' : 'words'}`
-                          : ''
-                      }
-                    />
-                  ))}
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* 图例 */}
-          <div className="flex items-center justify-end gap-1 mt-2 text-xs text-gray-400">
-            <span>{lang === 'zh' ? '少' : 'Less'}</span>
-            {[0, 3, 8, 15, 20].map((count) => (
-              <div
-                key={count}
-                className="w-[10px] h-[10px] rounded-sm"
-                style={{ backgroundColor: getColor(count) }}
-              />
-            ))}
-            <span>{lang === 'zh' ? '多' : 'More'}</span>
-          </div>
+      {/* 统计摘要 */}
+      <div className="flex gap-4 mb-3 text-sm">
+        <div className="text-gray-600">
+          <span className="font-bold text-green-600">{activeDays}</span>
+          <span className="text-gray-400 ml-1">{lang === 'zh' ? '天' : 'days'}</span>
         </div>
+        <div className="text-gray-600">
+          <span className="font-bold text-blue-600">{totalWords}</span>
+          <span className="text-gray-400 ml-1">{lang === 'zh' ? '词' : 'words'}</span>
+        </div>
+      </div>
+
+      {/* 日期范围 */}
+      <div className="text-xs text-gray-400 mb-2 flex justify-between">
+        <span>{startDate && formatDate(startDate)}</span>
+        <span>{endDate && formatDate(endDate)}</span>
+      </div>
+
+      {/* 热力图网格 - 5行6列 */}
+      <div className="grid grid-cols-10 gap-1">
+        {days.map((day, index) => (
+          <div
+            key={index}
+            className={`aspect-square rounded-sm ${getColor(day.count)} ${
+              day.isToday ? 'ring-2 ring-blue-400 ring-offset-1' : ''
+            } transition-transform hover:scale-110 cursor-pointer`}
+            title={`${day.dateStr}: ${day.count} ${lang === 'zh' ? '词' : 'words'}`}
+          />
+        ))}
+      </div>
+
+      {/* 图例 */}
+      <div className="flex items-center justify-end gap-1 mt-3 text-xs text-gray-400">
+        <span>{lang === 'zh' ? '少' : 'Less'}</span>
+        <div className="w-3 h-3 rounded-sm bg-gray-100" />
+        <div className="w-3 h-3 rounded-sm bg-green-200" />
+        <div className="w-3 h-3 rounded-sm bg-green-400" />
+        <div className="w-3 h-3 rounded-sm bg-green-500" />
+        <div className="w-3 h-3 rounded-sm bg-green-600" />
+        <span>{lang === 'zh' ? '多' : 'More'}</span>
       </div>
     </div>
   )
