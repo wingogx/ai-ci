@@ -1,6 +1,6 @@
 /**
  * IP 地理位置服务
- * 自动获取用户城市信息
+ * 优先使用浏览器定位，降级使用 IP 定位
  */
 
 interface GeoInfo {
@@ -10,14 +10,61 @@ interface GeoInfo {
 }
 
 /**
+ * 使用浏览器 Geolocation API 获取位置（最准确，需要用户授权）
+ */
+async function fetchFromBrowserGeo(): Promise<GeoInfo> {
+  if (typeof window === 'undefined' || !navigator.geolocation) {
+    throw new Error('浏览器不支持定位')
+  }
+
+  return new Promise((resolve, reject) => {
+    navigator.geolocation.getCurrentPosition(
+      async (position) => {
+        try {
+          const { latitude, longitude } = position.coords
+          // 使用 BigDataCloud 免费反向地理编码 API
+          const response = await fetch(
+            `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${latitude}&longitude=${longitude}&localityLanguage=zh`
+          )
+          if (!response.ok) throw new Error('反向地理编码失败')
+          const data = await response.json()
+          resolve({
+            city: data.city || data.locality || null,
+            region: data.principalSubdivision || null,
+            country: data.countryName || null,
+          })
+        } catch (err) {
+          reject(err)
+        }
+      },
+      (error) => {
+        reject(new Error(`定位失败: ${error.message}`))
+      },
+      { timeout: 5000, maximumAge: 300000 } // 5秒超时，缓存5分钟
+    )
+  })
+}
+
+/**
+ * 通过 Vercel Edge API 获取地理位置
+ */
+async function fetchFromVercelGeo(): Promise<GeoInfo> {
+  const response = await fetch('/api/geo')
+  if (!response.ok) {
+    throw new Error('Vercel Geo API 请求失败')
+  }
+  return response.json()
+}
+
+/**
  * 通过 IP 获取地理位置
- * 使用多个免费服务作为降级方案
+ * 优先使用浏览器定位，降级使用 Vercel/第三方服务
  */
 export async function getGeoByIP(): Promise<GeoInfo> {
-  // 尝试多个服务，按优先级（HTTPS 优先）
   const providers = [
-    fetchFromIpApiCo,  // HTTPS，优先使用
-    fetchFromIpApi,    // HTTP，仅限非 HTTPS 环境
+    fetchFromBrowserGeo, // 浏览器定位，最准确
+    fetchFromVercelGeo,  // Vercel Edge
+    fetchFromIpApiCo,    // 第三方备用
   ]
 
   for (const provider of providers) {
@@ -27,7 +74,7 @@ export async function getGeoByIP(): Promise<GeoInfo> {
         return result
       }
     } catch (err) {
-      console.log('IP 定位服务失败，尝试下一个:', err)
+      console.log('定位服务失败，尝试下一个:', err)
     }
   }
 
@@ -53,35 +100,6 @@ async function fetchFromIpApiCo(): Promise<GeoInfo> {
     region: data.region || null,
     country: data.country_name || null,
   }
-}
-
-/**
- * 使用 ip-api.com (HTTP, 免费 45次/分钟)
- * 仅在非 HTTPS 环境下可用
- */
-async function fetchFromIpApi(): Promise<GeoInfo> {
-  // 检查是否在 HTTPS 环境中
-  if (typeof window !== 'undefined' && window.location.protocol === 'https:') {
-    throw new Error('ip-api.com 不支持 HTTPS')
-  }
-
-  const response = await fetch('http://ip-api.com/json/?lang=zh-CN&fields=status,city,regionName,country')
-
-  if (!response.ok) {
-    throw new Error('ip-api.com 请求失败')
-  }
-
-  const data = await response.json()
-
-  if (data.status === 'success') {
-    return {
-      city: data.city || null,
-      region: data.regionName || null,
-      country: data.country || null,
-    }
-  }
-
-  throw new Error('ip-api.com 返回失败状态')
 }
 
 /**
