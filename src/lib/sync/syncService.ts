@@ -13,11 +13,17 @@ import { useUserStore } from '@/stores'
 export async function uploadProgress(): Promise<boolean> {
   const supabase = getSupabaseClient()
 
-  const { data: { user } } = await supabase.auth.getUser()
+  const { data: { user }, error: authError } = await supabase.auth.getUser()
+  if (authError) {
+    console.error('获取用户失败:', authError)
+    return false
+  }
   if (!user) {
     console.log('用户未登录，跳过上传')
     return false
   }
+
+  console.log('开始上传进度，用户ID:', user.id)
 
   try {
     const store = useUserStore.getState()
@@ -27,7 +33,7 @@ export async function uploadProgress(): Promise<boolean> {
     for (const [key, gradeProgress] of Object.entries(progress)) {
       const [vocabMode, grade] = key.split('-')
 
-      await supabase
+      const { error: progressError } = await supabase
         .from('user_progress')
         .upsert({
           user_id: user.id,
@@ -39,21 +45,29 @@ export async function uploadProgress(): Promise<boolean> {
         }, {
           onConflict: 'user_id,vocab_mode,grade',
         })
+
+      if (progressError) {
+        console.error('上传进度失败:', progressError)
+      }
     }
 
     // 2. 上传用户统计
-    await supabase
+    const { error: statsError } = await supabase
       .from('user_stats')
       .upsert({
         user_id: user.id,
         total_words_learned: stats.totalWordsLearned,
         total_levels_completed: stats.totalLevelsCompleted,
         streak_days: stats.streakDays,
-        longest_streak: stats.streakDays, // 使用当前连续天数作为最长记录
+        longest_streak: stats.streakDays,
         last_play_date: stats.lastPlayDate,
       }, {
         onConflict: 'user_id',
       })
+
+    if (statsError) {
+      console.error('上传统计失败:', statsError)
+    }
 
     // 3. 上传勋章
     const badgeRecords = earnedBadges.map((badgeId: string) => ({
@@ -75,7 +89,14 @@ export async function uploadProgress(): Promise<boolean> {
     const currentProgress = progress[`${settings.wordListMode}-${settings.currentGrade}`]
 
     if (currentProgress) {
-      await supabase
+      console.log('准备上传学习历史:', {
+        user_id: user.id,
+        date: today,
+        words_learned: currentProgress.learnedWords.length,
+        levels_completed: currentProgress.completedLevels,
+      })
+
+      const { error: historyError } = await supabase
         .from('learning_history')
         .upsert({
           user_id: user.id,
@@ -85,6 +106,17 @@ export async function uploadProgress(): Promise<boolean> {
         }, {
           onConflict: 'user_id,date',
         })
+
+      if (historyError) {
+        console.error('上传学习历史失败:', historyError)
+      } else {
+        console.log('学习历史上传成功')
+      }
+    } else {
+      console.log('没有当前进度数据，跳过学习历史上传。settings:', {
+        wordListMode: settings.wordListMode,
+        currentGrade: settings.currentGrade,
+      })
     }
 
     console.log('数据上传成功')

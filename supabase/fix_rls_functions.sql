@@ -124,10 +124,65 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql SECURITY DEFINER;
 
--- 4. 授权函数给已认证用户
+-- 4. 创建获取用户城市排名百分比的函数
+CREATE OR REPLACE FUNCTION get_user_city_rank_percentile(
+  p_user_id uuid,
+  p_vocab_mode text,
+  p_grade text
+)
+RETURNS numeric AS $$
+DECLARE
+  user_city text;
+  user_rank bigint;
+  total_users bigint;
+BEGIN
+  -- 获取用户所在城市
+  SELECT city INTO user_city
+  FROM public.users
+  WHERE id = p_user_id;
+
+  IF user_city IS NULL THEN
+    RETURN 0;
+  END IF;
+
+  -- 获取用户在城市内的排名
+  SELECT rank_in_city INTO user_rank
+  FROM (
+    SELECT
+      u.id,
+      rank() over (
+        order by COALESCE(array_length(up.learned_words, 1), 0) desc nulls last
+      ) as rank_in_city
+    FROM public.users u
+    LEFT JOIN public.user_progress up ON u.id = up.user_id
+    WHERE u.city = user_city
+      AND up.vocab_mode = p_vocab_mode
+      AND up.grade = p_grade
+  ) ranked
+  WHERE id = p_user_id;
+
+  -- 获取同城市总用户数
+  SELECT COUNT(*) INTO total_users
+  FROM public.users u
+  JOIN public.user_progress up ON u.id = up.user_id
+  WHERE u.city = user_city
+    AND up.vocab_mode = p_vocab_mode
+    AND up.grade = p_grade;
+
+  IF total_users = 0 OR user_rank IS NULL THEN
+    RETURN 0;
+  END IF;
+
+  -- 计算百分比（超过了多少人）
+  RETURN ROUND(((total_users - user_rank)::numeric / total_users) * 100, 1);
+END;
+$$ LANGUAGE plpgsql SECURITY DEFINER;
+
+-- 5. 授权函数给已认证用户
 GRANT EXECUTE ON FUNCTION get_leaderboard TO authenticated;
 GRANT EXECUTE ON FUNCTION get_city_leaderboard TO authenticated;
 GRANT EXECUTE ON FUNCTION get_user_rank_percentile TO authenticated;
+GRANT EXECUTE ON FUNCTION get_user_city_rank_percentile TO authenticated;
 
 -- 5. 允许匿名用户也可以查看排行榜
 GRANT EXECUTE ON FUNCTION get_leaderboard TO anon;
