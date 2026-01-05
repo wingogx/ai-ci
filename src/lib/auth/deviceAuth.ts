@@ -79,12 +79,10 @@ export async function initializeDeviceUser(): Promise<User | null> {
 
   if (authUser) {
     // 已登录，获取用户信息
-    const { data: user } = await supabase
-      .from('users')
-      .select('*')
-      .eq('id', authUser.id)
-      .single()
-    return user
+    const { data: users } = await supabase.rpc('get_user_by_id', {
+      p_user_id: authUser.id
+    })
+    return users?.[0] || null
   }
 
   // 未登录，使用匿名登录
@@ -125,13 +123,11 @@ export async function initializeDeviceUser(): Promise<User | null> {
   }
 
   // 获取创建的用户信息
-  const { data: user } = await supabase
-    .from('users')
-    .select('*')
-    .eq('id', anonData.user.id)
-    .single()
+  const { data: users } = await supabase.rpc('get_user_by_id', {
+    p_user_id: anonData.user.id
+  })
 
-  return user
+  return users?.[0] || null
 }
 
 /**
@@ -146,13 +142,11 @@ export async function getCurrentDeviceUser(): Promise<User | null> {
     return null
   }
 
-  const { data: user } = await supabase
-    .from('users')
-    .select('*')
-    .eq('id', authUser.id)
-    .single()
+  const { data: users } = await supabase.rpc('get_user_by_id', {
+    p_user_id: authUser.id
+  })
 
-  return user
+  return users?.[0] || null
 }
 
 /**
@@ -167,19 +161,17 @@ export async function updateNickname(nickname: string): Promise<User | null> {
     return null
   }
 
-  const { data: user, error } = await supabase
-    .from('users')
-    .update({ nickname })
-    .eq('id', authUser.id)
-    .select()
-    .single()
+  const { data: users, error } = await supabase.rpc('update_user_nickname', {
+    p_user_id: authUser.id,
+    p_nickname: nickname
+  })
 
   if (error) {
     console.error('更新昵称失败:', error)
     return null
   }
 
-  return user
+  return users?.[0] || null
 }
 
 /**
@@ -194,13 +186,11 @@ export async function getUserInviteCode(): Promise<string | null> {
     return null
   }
 
-  const { data } = await supabase
-    .from('users')
-    .select('invite_code')
-    .eq('id', authUser.id)
-    .single()
+  const { data } = await supabase.rpc('get_user_invite_code', {
+    p_user_id: authUser.id
+  })
 
-  return data?.invite_code || null
+  return data || null
 }
 
 /**

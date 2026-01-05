@@ -27,14 +27,12 @@ export default function InvitePage() {
       try {
         const supabase = getSupabaseClient()
 
-        // 查找邀请者信息
-        const { data: userData, error: userError } = await supabase
-          .from('users')
-          .select('id, nickname, avatar_url')
-          .eq('invite_code', code.toUpperCase())
-          .single()
+        // 查找邀请者信息（使用RPC函数绕过RLS）
+        const { data: users, error: userError } = await supabase.rpc('get_user_by_invite_code', {
+          p_invite_code: code
+        })
 
-        const user = userData as { id: string; nickname: string | null; avatar_url: string | null } | null
+        const user = users?.[0] as { id: string; nickname: string | null; avatar_url: string | null } | undefined
 
         if (userError || !user) {
           setError(true)
@@ -42,14 +40,12 @@ export default function InvitePage() {
           return
         }
 
-        // 获取邀请者统计
-        const { data: statsData } = await supabase
-          .from('user_stats')
-          .select('total_words_learned, streak_days')
-          .eq('user_id', user.id)
-          .single()
+        // 获取邀请者统计（使用RPC函数）
+        const { data: statsData } = await supabase.rpc('get_user_stats', {
+          p_user_id: user.id
+        })
 
-        const stats = statsData as { total_words_learned: number; streak_days: number } | null
+        const stats = statsData?.[0] as { total_words_learned: number; streak_days: number } | undefined
 
         setInviter({
           nickname: user.nickname || '学习者',

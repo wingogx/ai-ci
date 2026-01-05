@@ -118,18 +118,16 @@ export async function getCurrentUser(): Promise<User | null> {
     return null
   }
 
-  const { data: user, error } = await supabase
-    .from('users')
-    .select('*')
-    .eq('id', authUser.id)
-    .single()
+  const { data: users, error } = await supabase.rpc('get_user_by_id', {
+    p_user_id: authUser.id
+  })
 
   if (error) {
     console.error('获取用户信息失败:', error)
     return null
   }
 
-  return user
+  return users?.[0] || null
 }
 
 /**
@@ -147,6 +145,22 @@ export async function updateUserProfile(updates: {
     throw new Error('用户未登录')
   }
 
+  // 如果只是更新昵称，使用专门的RPC函数
+  if (updates.nickname && !updates.avatar_url) {
+    const { data: users, error } = await supabase.rpc('update_user_nickname', {
+      p_user_id: authUser.id,
+      p_nickname: updates.nickname
+    })
+
+    if (error) {
+      console.error('更新用户信息失败:', error)
+      throw error
+    }
+
+    return users?.[0] || null
+  }
+
+  // 否则直接更新（如果RLS允许的话）
   const { data, error } = await supabase
     .from('users')
     .update(updates)
@@ -199,18 +213,16 @@ export async function getInviteCode(): Promise<string | null> {
     return null
   }
 
-  const { data, error } = await supabase
-    .from('users')
-    .select('invite_code')
-    .eq('id', authUser.id)
-    .single()
+  const { data, error } = await supabase.rpc('get_user_invite_code', {
+    p_user_id: authUser.id
+  })
 
   if (error) {
     console.error('获取邀请码失败:', error)
     return null
   }
 
-  return data?.invite_code
+  return data || null
 }
 
 /**

@@ -99,14 +99,14 @@ export function DailyTasksPanel({
         .update({ reward_claimed: true })
         .eq('id', task.id)
 
-      // 增加帮助次数
+      // 增加帮助次数（使用RPC函数）
       const config = TASK_CONFIGS.find((c) => c.type === task.task_type)
       const rewardCount = config?.reward || 1
 
-      await supabase
-        .from('users')
-        .update({ help_count: supabase.rpc('increment_help_count', { amount: rewardCount }) })
-        .eq('id', userId)
+      await supabase.rpc('increment_user_help_count', {
+        p_user_id: userId,
+        p_amount: rewardCount
+      })
 
       // 更新本地状态
       setTasks((prev) =>
