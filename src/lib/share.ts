@@ -41,42 +41,48 @@ export async function generateShareImage(element: HTMLElement): Promise<Blob | n
     // 动态导入 html2canvas
     const html2canvas = (await import('html2canvas')).default
 
-    // 克隆元素以避免修改原始 DOM
-    const clone = element.cloneNode(true) as HTMLElement
-    clone.style.position = 'absolute'
-    clone.style.left = '-9999px'
-    clone.style.top = '0'
-    document.body.appendChild(clone)
+    console.log('开始生成图片，元素:', element)
 
-    try {
-      const canvas = await html2canvas(clone, {
-        scale: 2,
-        useCORS: true,
-        allowTaint: true,
-        backgroundColor: '#ffffff',
-        logging: true, // 开启日志以便调试
-        foreignObjectRendering: false,
-        removeContainer: true,
-        // 忽略某些可能导致问题的元素
-        ignoreElements: (el) => {
-          return el.tagName === 'IFRAME' || el.tagName === 'VIDEO'
-        },
-      })
+    // 直接在原元素上生成，不克隆（因为克隆 canvas 不会复制内容）
+    const canvas = await html2canvas(element, {
+      scale: 2,
+      useCORS: true,
+      allowTaint: true,
+      backgroundColor: '#ffffff',
+      logging: false,
+      foreignObjectRendering: false,
+      // 对于 canvas 元素需要特殊处理
+      onclone: (clonedDoc, clonedElement) => {
+        // 复制原始 canvas 的内容到克隆的 canvas
+        const originalCanvases = element.querySelectorAll('canvas')
+        const clonedCanvases = clonedElement.querySelectorAll('canvas')
 
-      document.body.removeChild(clone)
-
-      return new Promise((resolve) => {
-        canvas.toBlob((blob) => {
-          if (!blob) {
-            console.error('canvas.toBlob 返回 null')
+        originalCanvases.forEach((originalCanvas, index) => {
+          const clonedCanvas = clonedCanvases[index]
+          if (clonedCanvas && originalCanvas) {
+            const ctx = clonedCanvas.getContext('2d')
+            if (ctx) {
+              clonedCanvas.width = originalCanvas.width
+              clonedCanvas.height = originalCanvas.height
+              ctx.drawImage(originalCanvas, 0, 0)
+            }
           }
-          resolve(blob)
-        }, 'image/png', 1.0)
-      })
-    } catch (err) {
-      document.body.removeChild(clone)
-      throw err
-    }
+        })
+      },
+    })
+
+    console.log('Canvas 生成成功，大小:', canvas.width, 'x', canvas.height)
+
+    return new Promise((resolve) => {
+      canvas.toBlob((blob) => {
+        if (!blob) {
+          console.error('canvas.toBlob 返回 null')
+        } else {
+          console.log('Blob 生成成功，大小:', blob.size)
+        }
+        resolve(blob)
+      }, 'image/png', 1.0)
+    })
   } catch (err) {
     console.error('生成图片失败:', err)
     return null
