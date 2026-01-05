@@ -44,8 +44,12 @@ export async function generateShareImage(element: HTMLElement): Promise<Blob | n
     const canvas = await html2canvas(element, {
       scale: 2, // 高清
       useCORS: true,
+      allowTaint: true, // 允许跨域图片
       backgroundColor: '#ffffff',
       logging: false,
+      // 微信浏览器兼容性配置
+      foreignObjectRendering: false,
+      removeContainer: true,
     })
 
     return new Promise((resolve) => {

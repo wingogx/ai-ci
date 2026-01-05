@@ -1,7 +1,7 @@
 'use client'
 
 import { forwardRef, ReactNode } from 'react'
-import { QRCodeSVG } from 'qrcode.react'
+import { QRCodeCanvas } from 'qrcode.react'
 
 interface ShareCardBaseProps {
   children: ReactNode
@@ -44,7 +44,7 @@ export const ShareCardBase = forwardRef<HTMLDivElement, ShareCardBaseProps>(
 
           {showQR && (
             <div className="bg-white p-1.5 rounded-lg shadow-sm">
-              <QRCodeSVG
+              <QRCodeCanvas
                 value={inviteUrl}
                 size={56}
                 level="M"
