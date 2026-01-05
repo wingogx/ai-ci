@@ -6,6 +6,7 @@ import { useUserStore } from '@/stores'
 import { Button, Select } from '@/components/ui'
 import { t } from '@/i18n'
 import { getWordListInfo } from '@/lib/wordLoader'
+import { DEFAULT_USER_SETTINGS, DEFAULT_GRADE_PROGRESS, DEFAULT_USER_STATS } from '@/types'
 import type { WordListMode, CEFRLevel, ChinaLevel, Language, WordLevel } from '@/types'
 
 const wordListOptions = [
@@ -39,16 +40,29 @@ export default function HomePage() {
   const router = useRouter()
   const { settings, stats, updateSettings, getCurrentProgress } = useUserStore()
   const [totalWords, setTotalWords] = useState<number>(0)
+  const [isHydrated, setIsHydrated] = useState(false)
 
-  const lang = settings.language
-  const progress = getCurrentProgress()
+  // 等待客户端 hydration 完成，避免服务端/客户端不匹配
+  useEffect(() => {
+    requestAnimationFrame(() => {
+      setIsHydrated(true)
+    })
+  }, [])
+
+  // Hydration 完成前使用默认值，避免 hydration mismatch
+  const safeSettings = isHydrated ? settings : DEFAULT_USER_SETTINGS
+  const safeStats = isHydrated ? stats : DEFAULT_USER_STATS
+  const safeProgress = isHydrated ? getCurrentProgress() : DEFAULT_GRADE_PROGRESS
+
+  const lang = safeSettings.language
 
   // 加载当前等级的总词汇量
   useEffect(() => {
-    getWordListInfo(settings.currentGrade)
+    if (!isHydrated) return
+    getWordListInfo(safeSettings.currentGrade)
       .then((info) => setTotalWords(info.totalWords))
       .catch(() => setTotalWords(0))
-  }, [settings.currentGrade])
+  }, [isHydrated, safeSettings.currentGrade])
 
   // 处理词库模式切换
   const handleWordListChange = (mode: WordListMode) => {
@@ -74,7 +88,7 @@ export default function HomePage() {
 
   // 获取当前等级选项
   const currentLevelOptions =
-    settings.wordListMode === 'cefr'
+    safeSettings.wordListMode === 'cefr'
       ? cefrLevelOptions.map((o) => ({ value: o.value, label: o.label }))
       : chinaLevelOptions.map((o) => ({
           value: o.value,
@@ -82,7 +96,7 @@ export default function HomePage() {
         }))
 
   // 当前关卡数 (completedLevels + 1)
-  const currentLevelNum = progress.completedLevels + 1
+  const currentLevelNum = safeProgress.completedLevels + 1
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white flex flex-col">
@@ -90,7 +104,7 @@ export default function HomePage() {
       <header className="p-4 flex justify-between items-center">
         <h1 className="text-2xl font-bold text-blue-600">🦆 {t('app.name', lang)}</h1>
         <Select
-          value={settings.language}
+          value={safeSettings.language}
           onChange={(v) => handleLanguageChange(v as Language)}
           options={languageOptions}
           className="w-24"
@@ -121,7 +135,7 @@ export default function HomePage() {
                   key={option.value}
                   onClick={() => handleWordListChange(option.value as WordListMode)}
                   className={`flex-1 py-2 px-4 rounded-lg text-sm font-medium transition-colors ${
-                    settings.wordListMode === option.value
+                    safeSettings.wordListMode === option.value
                       ? 'bg-blue-600 text-white'
                       : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                   }`}
@@ -138,7 +152,7 @@ export default function HomePage() {
               {t('settings.level', lang)}
             </label>
             <Select
-              value={settings.currentGrade}
+              value={safeSettings.currentGrade}
               onChange={handleLevelChange}
               options={currentLevelOptions}
               className="w-full"
@@ -156,13 +170,13 @@ export default function HomePage() {
           </div>
           <div className="bg-white rounded-xl p-4 text-center shadow-sm">
             <div className="text-2xl font-bold text-green-600">
-              {progress.learnedWords.length}
+              {safeProgress.learnedWords.length}
             </div>
             <div className="text-xs text-gray-500">{t('stats.wordsLearned', lang)}</div>
           </div>
           <div className="bg-white rounded-xl p-4 text-center shadow-sm">
             <div className="text-2xl font-bold text-orange-600">
-              {stats.streakDays}
+              {safeStats.streakDays}
             </div>
             <div className="text-xs text-gray-500">{t('stats.streakDays', lang)}</div>
           </div>
@@ -173,16 +187,16 @@ export default function HomePage() {
           <div className="w-full max-w-sm">
             <div className="flex justify-between text-sm text-gray-600 mb-1">
               <span>{t('stats.progress', lang)}</span>
-              <span>{progress.learnedWords.length} / {totalWords}</span>
+              <span>{safeProgress.learnedWords.length} / {totalWords}</span>
             </div>
             <div className="h-3 bg-gray-200 rounded-full overflow-hidden">
               <div
                 className="h-full bg-gradient-to-r from-green-400 to-green-600 rounded-full transition-all duration-500"
-                style={{ width: `${Math.min((progress.learnedWords.length / totalWords) * 100, 100)}%` }}
+                style={{ width: `${Math.min((safeProgress.learnedWords.length / totalWords) * 100, 100)}%` }}
               />
             </div>
             <div className="text-xs text-gray-500 mt-1 text-center">
-              {Math.round((progress.learnedWords.length / totalWords) * 100)}% {t('stats.completed', lang)}
+              {Math.round((safeProgress.learnedWords.length / totalWords) * 100)}% {t('stats.completed', lang)}
             </div>
           </div>
         )}

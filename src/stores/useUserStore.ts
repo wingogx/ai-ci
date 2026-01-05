@@ -15,6 +15,17 @@ import {
 } from '@/types'
 import { getTodayString, isConsecutiveDay, isToday } from '@/utils'
 
+/**
+ * 检测浏览器语言，返回适合的应用语言
+ */
+function detectBrowserLanguage(): Language {
+  if (typeof window === 'undefined') return 'zh'
+
+  const browserLang = navigator.language || (navigator as { userLanguage?: string }).userLanguage || ''
+  // 中文环境返回 'zh'，其他返回 'en'
+  return browserLang.toLowerCase().startsWith('zh') ? 'zh' : 'en'
+}
+
 interface UserState {
   // 设置
   settings: UserSettings
@@ -273,6 +284,31 @@ export const useUserStore = create<UserState>()(
     {
       name: 'wordduck-user',
       storage: createJSONStorage(() => localStorage),
+      // 合并存储数据时，首次访问自动检测浏览器语言
+      merge: (persistedState, currentState) => {
+        const persisted = persistedState as Partial<UserState> | undefined
+
+        // 如果没有持久化数据（首次访问），使用检测到的浏览器语言
+        if (!persisted || Object.keys(persisted).length === 0) {
+          return {
+            ...currentState,
+            settings: {
+              ...currentState.settings,
+              language: detectBrowserLanguage(),
+            },
+          }
+        }
+
+        // 有持久化数据，正常合并
+        return {
+          ...currentState,
+          ...persisted,
+          settings: {
+            ...currentState.settings,
+            ...persisted.settings,
+          },
+        }
+      },
     }
   )
 )

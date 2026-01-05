@@ -20,6 +20,7 @@ export function useGame() {
   const {
     currentLevel,
     isChallenge,
+    isTutorialLevel,
     currentGrade: gameGrade,
     currentPuzzle,
     currentWords,
@@ -205,6 +206,7 @@ export function useGame() {
     error,
     currentLevel,
     isChallenge,
+    isTutorialLevel,
     currentPuzzle,
     currentWords,
     placedLetters,

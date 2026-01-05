@@ -30,7 +30,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 矿石，矿砂",
-        "en": "Rock or other material that contains valuable or utilitar..."
+        "en": "n. a mineral that contains metal that is valuable enough to be mined; n. a monetary subunit in Denmark and Norway and Sweden; 100 ore equal 1 krona"
       }
     },
     {
@@ -50,7 +50,7 @@
       "pos": "v",
       "meaning": {
         "zh": "n. 同盟国；盟友，支持者；辅助物，助手",
-        "en": "A person, group, or state (etc) which is associated with ..."
+        "en": "n. a friendly nation; n. an associate who provides assistance; v. become an ally or associate, as by a treaty or marriage"
       }
     },
     {
@@ -120,7 +120,7 @@
       "pos": "v",
       "meaning": {
         "zh": "vt. 蚀刻；鲜明地描述；铭记",
-        "en": "To cut into a surface with an acid or other corrosive sub..."
+        "en": "v. make an etching of"
       }
     },
     {
@@ -130,7 +130,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 祭祀；庆祝；节日；游乐会",
-        "en": "A festival open to the public, the proceeds from which ar..."
+        "en": "n. an elaborate party (often outdoors); n. an organized series of acts and performances (usually in one place); v. have a celebration"
       }
     },
     {
@@ -170,7 +170,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. [遗][外科]痛风；一滴；一团",
-        "en": "An extremely painful inflammation of joints, especially o..."
+        "en": "n. a painful inflammation of the big toe and foot caused by defects in uric acid metabolism resulting in deposits of the acid and its salts in the blood and joints"
       }
     },
     {
@@ -180,7 +180,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 舵；舵柄；领导地位；驾驶盘",
-        "en": "The steering apparatus of a ship, especially the tiller o..."
+        "en": "n. steering mechanism for a vessel; a mechanical device by which a vessel is steered; n. a position of leadership"
       }
     },
     {
@@ -199,7 +199,7 @@
       "phonetic": "/ˈaɪd(ə)l/",
       "pos": "v",
       "meaning": {
-        "zh": "adj. 无事可做的；懒惰的；闲置的；空闲的；琐碎无聊的，毫无意义的；虚张声势的，唬人的；（钱...",
+        "zh": "adj. 无事可做的；懒惰的；闲置的；空闲的；琐碎无聊的，毫无意义的；虚张声势的，唬人的；（钱）现金保存的，存于无息账户的; v. 闲混，无所事事；使……停止工作，使闲散；（发动机、车辆）空转",
         "en": "An idle animation."
       }
     },
@@ -210,7 +210,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 云雀；百灵鸟；欢乐",
-        "en": "Any of various small, singing passerine birds of the fami..."
+        "en": "n. North American songbirds having a yellow breast; n. a songbird that lives mainly on the ground in open country; has streaky brown plumage; n. any of numerous predominantly Old World birds noted for their singing; n. any carefree episode"
       }
     },
     {
@@ -230,7 +230,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 仅仅，只不过；只凭……就足以",
-        "en": "A body of standing water, such as a lake or a pond. More ..."
+        "en": "n. a small pond of standing water; adj. being nothing more than specified; adj. apart from anything else; without additions or modifications"
       }
     },
     {
@@ -239,8 +239,8 @@
       "phonetic": "/mɛʃ/",
       "pos": "v",
       "meaning": {
-        "zh": "n. 网，网状物；错综复杂的局面，陷阱，圈套；网眼，网孔；网状结构，互相交织的结构；（计算机）...",
-        "en": "A structure made of connected strands of metal, fiber, or..."
+        "zh": "n. 网，网状物；错综复杂的局面，陷阱，圈套；网眼，网孔；网状结构，互相交织的结构；（计算机）网格，格网；（计算机）网状网络（尤指 n 维点阵）; v. 啮合；吻合，匹配，适合；（使）交缠在一起；将……转化成网格，将……生成网格；以网捕捉",
+        "en": "n. the number of opening per inch of a screen; measures size of particles; n. contact by fitting together; n. the topology of a network whose components are all connected directly to every other component; n. an open fabric of string or rope or wire woven together at regular intervals"
       }
     },
     {
@@ -250,7 +250,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 态度；风采；样子；（Mien）（印尼）米恩（人名）",
-        "en": "Demeanor; facial expression or attitude, especially one w..."
+        "en": "n. dignified manner or conduct"
       }
     },
     {
@@ -259,8 +259,8 @@
       "phonetic": "/moː/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 摩尔人（8世纪到15世纪之间统治西班牙南部的穆斯林）(Moor）；沼泽，高沼；猎场，狩猎...",
-        "en": "An extensive waste covered with patches of heath, and hav..."
+        "zh": "n. 摩尔人（8世纪到15世纪之间统治西班牙南部的穆斯林）(Moor）；沼泽，高沼；猎场，狩猎区；（尤指长有欧石兰的）荒芜高原，荒野; v. 使（船）停泊，系泊; 【名】 （Moor）（德、英）穆尔（人名）",
+        "en": "n. one of the Muslim people of north Africa; of mixed Arab and Berber descent; converted to Islam in the 8th century; conqueror of Spain in the 8th century; n. open land usually with peaty soil covered with heather and bracken and moss; v. secure in or as if in a berth or dock; v. come into or dock at a wharf"
       }
     },
     {
@@ -290,7 +290,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 火葬用的柴堆",
-        "en": "A funeral pile; a combustible heap on which corpses are b..."
+        "en": "n. wood heaped for burning a dead body as a funeral rite"
       }
     },
     {
@@ -300,7 +300,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 普遍的；流行的；盛传的",
-        "en": "Widespread, common, prevalent, current (mainly of unpleas..."
+        "en": "adj. encountered generally especially at the present time; adj. excessively abundant"
       }
     },
     {
@@ -320,7 +320,7 @@
       "pos": "v",
       "meaning": {
         "zh": "vi. 玩耍；轻快地跑；轻易地取胜",
-        "en": "Someone who romps; especially, a girl or young woman who ..."
+        "en": "n. an easy victory; n. a girl who behaves in a boyish manner; n. gay or light-hearted recreational activity for diversion or amusement; v. play boisterously"
       }
     },
     {
@@ -339,7 +339,7 @@
       "phonetic": "/skɪm/",
       "pos": "v",
       "meaning": {
-        "zh": "v. （从液体表面）撇去（浮物）；掠过，擦过（表面）；用（扁石）打水漂；略读，浏览；略微讨论（...",
+        "zh": "v. （从液体表面）撇去（浮物）；掠过，擦过（表面）；用（扁石）打水漂；略读，浏览；略微讨论（或处理）（skim over）；（尤指一段时间内）挪用（小数额钱）；盗用（信用卡电子信息）; n. 液面上的表层物；浏览；脱脂品（尤指脱脂奶）; adj. 脱脂的；撇去浮沫的; 【名】 （Skim）（美）史奇姆（人名）",
         "en": "A cursory reading, skipping the details."
       }
     },
@@ -349,8 +349,8 @@
       "phonetic": "/slæb/",
       "pos": "n",
       "meaning": {
-        "zh": "n. （石、木等硬质材料的）厚板；（蛋糕、面包、巧克力等的）厚块；停尸台；（烹饪食品时所用的）...",
-        "en": "A large, flat piece of solid material; a solid object tha..."
+        "zh": "n. （石、木等硬质材料的）厚板；（蛋糕、面包、巧克力等的）厚块；停尸台；（烹饪食品时所用的）厚桌面，砧板；（登山）突起的岩石；原木膘皮，板皮；（装24瓶或24罐啤酒的）箱; v. 去掉（原木或树木的）膘皮；把……分成厚片；用石板铺",
+        "en": "n. block consisting of a thick piece of something"
       }
     },
     {
@@ -380,7 +380,7 @@
       "pos": "v",
       "meaning": {
         "zh": "v. 作呼呼声，呼呼作声地飞（等于 whirr）",
-        "en": "A sibilant buzz or vibration; the sound of something in r..."
+        "en": "n. sound of something in rapid motion; v. make a soft swishing sound"
       }
     },
     {
@@ -420,7 +420,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. （动作）敏捷的，灵活的；（思维）机敏的，机灵的；表示项目管理方法的",
-        "en": "Having the faculty of quick motion in the limbs; apt or r..."
+        "en": "adj. moving quickly and lightly; adj. mentally quick"
       }
     },
     {
@@ -480,7 +480,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. [数] 公理；格言；自明之理",
-        "en": "A seemingly self-evident or necessary truth which is base..."
+        "en": "n. a saying that is widely accepted on its own merits; n. (logic) a proposition that is not susceptible of proof or disproof; its truth is assumed to be self-evident"
       }
     },
     {
@@ -490,7 +490,7 @@
       "pos": "v",
       "meaning": {
         "zh": "n. 闪电战",
-        "en": "A sudden attack, especially an air raid; usually with ref..."
+        "en": "n. (American football) defensive players try to break through the offensive line; n. a swift and violent military offensive with intensive aerial bombardment; v. attack suddenly and without warning"
       }
     },
     {
@@ -500,7 +500,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. （书、新产品等的）简介",
-        "en": "A short description of a book, film, or other work, writt..."
+        "en": "n. a promotional statement (as found on the dust jackets of books)"
       }
     },
     {
@@ -540,7 +540,7 @@
       "pos": "v",
       "meaning": {
         "zh": "v. 孵蛋；沉思，担忧",
-        "en": "The young of certain animals, especially a group of young..."
+        "en": "n. the young of an animal cared for at one time; v. think moodily or anxiously about something; v. hang over, as of something threatening, dark, or menacing; v. be in a huff and display one's displeasure"
       }
     },
     {
@@ -570,7 +570,7 @@
       "pos": "v",
       "meaning": {
         "zh": "n. （神话中有魔法的）小矮人；侏儒，矮子；矮星",
-        "en": "Any member of a race of beings from (especially Scandinav..."
+        "en": "n. a person who is markedly small; n. a legendary creature resembling a tiny old man; lives in the depths of the earth and guards buried treasure; v. make appear small by comparison; v. check the growth of"
       }
     },
     {
@@ -600,7 +600,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 环氧树脂",
-        "en": "A thermosetting polyepoxide resin used chiefly in strong ..."
+        "en": "n. a thermosetting resin; used chiefly in strong adhesives and coatings and laminates; v. glue with epoxy"
       }
     },
     {
@@ -610,7 +610,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. （某团体的）精神特质，道德意识",
-        "en": "The character or fundamental values of a person, people, ..."
+        "en": "n. (anthropology) the distinctive spirit of a culture or an era"
       }
     },
     {
@@ -630,7 +630,7 @@
       "pos": "v",
       "meaning": {
         "zh": "vt. 散发；流出；使渗出",
-        "en": "To discharge through pores or incisions, as moisture or o..."
+        "en": "v. release (a liquid) in drops or small quantities; v. make apparent by one's mood or behaviour"
       }
     },
     {
@@ -640,7 +640,7 @@
       "pos": "v",
       "meaning": {
         "zh": "vt. 假装；装作；捏造；想象",
-        "en": "To make a false show or pretence of; to counterfeit or si..."
+        "en": "v. make believe with the intent to deceive; v. make a pretence of"
       }
     },
     {
@@ -670,7 +670,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 嫁接；移植；辛苦的工作；贪污",
-        "en": "A small shoot or scion of a tree inserted in another tree..."
+        "en": "n. (surgery) tissue or organ transplanted from a donor to a recipient; in some cases the patient can be both donor and recipient; n. the practice of offering something (usually money) in order to gain an illicit advantage; n. the act of grafting something onto something else; v. cause to grow together parts from different plants"
       }
     },
     {
@@ -689,7 +689,7 @@
       "phonetic": "/hɪtʃ/",
       "pos": "v",
       "meaning": {
-        "zh": "v. 搭便车（旅行），搭顺风车；拴住，套住，钩住；将（动物）套上车；提起，拉起（衣服）；攀上，...",
+        "zh": "v. 搭便车（旅行），搭顺风车；拴住，套住，钩住；将（动物）套上车；提起，拉起（衣服）；攀上，爬上；结婚（get hitched）; n. 临时故障，小问题；（某种）结；一段服役，一段任职期；（尤指机动车的拖杆）牵引装置；免费搭便车；蹒跚; 【名】 （Hitch）（美、英、加、澳、俄、法）希契（人名）",
         "en": "A sudden pull."
       }
     },
@@ -759,8 +759,8 @@
       "phonetic": "/pɜːtʃ/",
       "pos": "v",
       "meaning": {
-        "zh": "v. （鸟）栖息，停留；（尤指人在高处或很窄的地方）稍坐，暂歇；（建筑物）坐落于……的上方（或...",
-        "en": "Any of the three species of spiny-finned freshwater fish ..."
+        "zh": "v. （鸟）栖息，停留；（尤指人在高处或很窄的地方）稍坐，暂歇；（建筑物）坐落于……的上方（或边缘）；把……平稳置于，使坐落于; n. （鸟的）栖木，栖枝；高处，高位；河鲈，鲈鱼；杆（尤指用来测量土地长度的单位）; 【名】 （Perch）（俄）佩尔奇，（丹）佩克（人名）",
+        "en": "n. support consisting of a branch or rod that serves as a resting place (especially for a bird); n. a linear measure of 16.5 feet; n. a square rod of land; n. an elevated place serving as a seat"
       }
     },
     {
@@ -769,8 +769,8 @@
       "phonetic": "/feɪz/",
       "pos": "n",
       "meaning": {
-        "zh": "n. （发展或变化的）阶段，时期；做出某种行为的短时期；（动物生活周期或年周期的）阶段，期；（...",
-        "en": "A distinguishable part of a sequence or cycle occurring o..."
+        "zh": "n. （发展或变化的）阶段，时期；做出某种行为的短时期；（动物生活周期或年周期的）阶段，期；（月亮的）位相，盈亏；同步，协调；（化）相；（动）（由遗传或季节引起的）动物颜色变化（期）；（物理）相位，相角；（线圈的）匝，（多相电机或电路的）连接；（语言学）（系统语法用语）相（指链接动词与后续动词的关系）；相结构（含有链接动词和后续动词的结构）; v. 分阶段进行；（物理）使相位同步，使定相",
+        "en": "n. (physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary; n. any distinct time period in a sequence of events; n. a particular point in the time of a cycle; measured from some arbitrary zero and expressed as an angle; n. (astronomy) the particular appearance of a body's state of illumination (especially one of the recurring shapes of the part of Earth's moon that is illuminated by the sun)"
       }
     },
     {
@@ -789,7 +789,7 @@
       "phonetic": "/plʌk/",
       "pos": "n",
       "meaning": {
-        "zh": "v. 摘，掐；拉，扯；（用指甲或镊子）夹，拔（毛发）；拔去（鸡或鸟的毛）；弹拨（弦乐器）；解救...",
+        "zh": "v. 摘，掐；拉，扯；（用指甲或镊子）夹，拔（毛发）；拔去（鸡或鸟的毛）；弹拨（弦乐器）；解救，搭救；挖掘，使一跃成名；鼓起勇气（pluck up the courage）；挑选；（用手指）迅速拣起；（地质）（冰川冰）拔削，拔蚀; n. 胆识，勇气；（供食用的）动物内脏；猛拉",
         "en": "An instance of plucking."
       }
     },
@@ -800,7 +800,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 羽毛；羽毛装饰物；飘升之物；（尤指污染物）一团物质；地幔柱",
-        "en": "A feather of a bird, especially a large or showy one used..."
+        "en": "n. a feather or cluster of feathers worn as an ornament; n. the light horny waterproof structure forming the external covering of birds; v. rip off; ask an unreasonable price; v. be proud of"
       }
     },
     {
@@ -860,7 +860,7 @@
       "pos": "v",
       "meaning": {
         "zh": "n. 怪癖， 怪异的性格（或行为）；（偶然发生的）怪事，奇事；急转，急弯；（建筑）狭凹槽，深槽；借口",
-        "en": "An idiosyncrasy; a slight glitch, mannerism; something un..."
+        "en": "n. a strange attitude or habit; n. a narrow groove beside a beading; v. twist or curve abruptly"
       }
     },
     {
@@ -880,7 +880,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. （天然）树脂；合成树脂，人造树脂",
-        "en": "A viscous hydrocarbon secretion of many plants, particula..."
+        "en": "n. any of a class of solid or semisolid viscous substances obtained either as exudations from certain plants or prepared by polymerization of simple molecules"
       }
     },
     {
@@ -900,7 +900,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 捆；束；扎",
-        "en": "A quantity of the stalks and ears of wheat, rye, or other..."
+        "en": "n. a package of several things tied together for carrying or storing"
       }
     },
     {
@@ -939,7 +939,7 @@
       "phonetic": "/sɜːdʒ/",
       "pos": "v",
       "meaning": {
-        "zh": "n. 激增，猛增；（风、水等的）奔涌，汹涌；（情感的）涌起，翻涌；（人群的）蜂拥；电流急冲，电...",
+        "zh": "n. 激增，猛增；（风、水等的）奔涌，汹涌；（情感的）涌起，翻涌；（人群的）蜂拥；电流急冲，电涌；增兵，增援; v. 急剧上升，激增；（人群，自然力）汹涌，奔腾；（感情）涌起，涌现；（电压，电流）猛增，浪涌；（绳子，缆索，绞盘）突然松开，突然滑脱",
         "en": "A sudden transient rush, flood or increase."
       }
     },
@@ -950,7 +950,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 心照不宣的，不言而喻的，默示的",
-        "en": "Expressed in silence; implied, but not made explicit; sil..."
+        "en": "adj. indicated by necessary connotation though not expressed directly"
       }
     },
     {
@@ -970,7 +970,7 @@
       "pos": "v",
       "meaning": {
         "zh": "v. 使痛苦不堪，使受折磨（同 rack）",
-        "en": "Vengeance; revenge; persecution; punishment; consequence;..."
+        "en": "n. dried seaweed especially that cast ashore; n. the destruction or collapse of something; n. growth of marine vegetation especially of the large forms such as rockweeds and kelp; v. smash or break forcefully"
       }
     },
     {
@@ -980,7 +980,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 极其苦恼的（处于赤贫，极度恐怖等境地）；卑躬屈膝的；下贱的；可怜的；不幸的",
-        "en": "A person in the lowest and most despicable condition; a c..."
+        "en": "adj. of the most contemptible kind; adj. most unfortunate or miserable; adj. showing utter resignation or hopelessness; adj. showing humiliation or submissiveness"
       }
     },
     {
@@ -1000,7 +1000,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "即兴表演：在没有剧本或准备的情况下进行表演。",
-        "en": "To improvise all or part of a speech or other performance..."
+        "en": "n. remark made spontaneously without prior preparation; v. perform without preparation; adj. said or done without having been planned or written in advance; adj. with little or no preparation or forethought"
       }
     },
     {
@@ -1010,7 +1010,7 @@
       "pos": "v",
       "meaning": {
         "zh": "v. 即兴演说（或表演）；自发地演讲",
-        "en": "To improvise all or part of a speech or other performance..."
+        "en": "n. remark made spontaneously without prior preparation; v. perform without preparation; adj. said or done without having been planned or written in advance; adj. with little or no preparation or forethought"
       }
     },
     {
@@ -1020,7 +1020,7 @@
       "pos": "v",
       "meaning": {
         "zh": "v. 黏附，附着；遵守，遵循（规定或协议）；拥护，持有（观点或信仰）",
-        "en": "To stick fast or cleave, as a glutinous substance does; t..."
+        "en": "v. be compatible or in accordance with; v. follow through or carry out a plan without deviation; v. come or be in close contact with; stick or hold together and resist separation; v. be a devoted follower or supporter"
       }
     },
     {
@@ -1029,8 +1029,8 @@
       "phonetic": "/ˈeɪ.dʒən.si/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 代理行，经销处；政府专门机构，政府内的局，部，处；（尤指产生某效果的）作用；起作用的事物...",
-        "en": "The capacity, condition, or state of acting or of exertin..."
+        "zh": "n. 代理行，经销处；政府专门机构，政府内的局，部，处；（尤指产生某效果的）作用；起作用的事物（或人）;社会行为者独立选择的能力",
+        "en": "n. an administrative unit of government; n. a business that serves other businesses; n. the state of being in action or exerting power; n. the state of serving as an official and authorized delegate or agent"
       }
     },
     {
@@ -1040,7 +1040,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 吓呆的，惊骇的；吃惊的",
-        "en": "Terrified; struck with amazement; showing signs of terror..."
+        "en": "adj. struck with fear, dread, or consternation"
       }
     },
     {
@@ -1100,7 +1100,7 @@
       "pos": "v",
       "meaning": {
         "zh": "v. 驱逐，赶走；将……驱逐出境，流放；清除，消除；打消……的念头，驱除（想法）",
-        "en": "(heading) To send someone away and forbid that person fro..."
+        "en": "v. expel from a community or group; v. ban from a place of residence, as for punishment; v. expel, as if by official decree; v. drive away"
       }
     },
     {
@@ -1120,7 +1120,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 命令；邀请；请求",
-        "en": "A command, bidding; sometimes also, an authoritative requ..."
+        "en": "n. an authoritative command or request"
       }
     },
     {
@@ -1159,8 +1159,8 @@
       "phonetic": "/kəˈkuːn/",
       "pos": "v",
       "meaning": {
-        "zh": "n. 茧，卵袋；（尤指保护性或安慰性的）遮盖（或包裹）物；安全宁静的地方，避风港；（防止金属设...",
-        "en": "The silky protective case spun by the larvae of some inse..."
+        "zh": "n. 茧，卵袋；（尤指保护性或安慰性的）遮盖（或包裹）物；安全宁静的地方，避风港；（防止金属设备腐蚀的）防护膜; v. 庇护，将……保护起来；把……盖住，把……包住；隐退（指避开公众生活的压力享受天伦之乐）；给……喷上保护层",
+        "en": "n. silky envelope spun by the larvae of many insects to protect pupas and by spiders to protect eggs; v. retreat as if into a cocoon, as from an unfriendly environment; v. wrap in or as if in a cocoon, as for protection"
       }
     },
     {
@@ -1180,7 +1180,7 @@
       "pos": "v",
       "meaning": {
         "zh": "n. 警戒线；绶带；束带层",
-        "en": "A ribbon normally worn diagonally across the chest as a d..."
+        "en": "n. cord or ribbon worn as an insignia of honor or rank; n. adornment consisting of an ornamental ribbon or cord"
       }
     },
     {
@@ -1200,7 +1200,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 文集，全集；语料库；体，身体；胃体；本金",
-        "en": "A collection of writings, often on a specific topic, of a..."
+        "en": "n. capital as contrasted with the income derived from it; n. a collection of writings; n. the main part of an organ or other bodily structure"
       }
     },
     {
@@ -1300,7 +1300,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 传说中的，寓言中的；虚构的，假想的；（因品质高或罕见而）著名的",
-        "en": "To compose fables; hence, to write or speak fiction; to w..."
+        "en": "adj. celebrated in fable or legend"
       }
     },
     {
@@ -1320,7 +1320,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 话题；开始；以取得优势的开局棋法；开场白",
-        "en": "An opening in chess, in which a minor piece or a pawn is ..."
+        "en": "n. an opening remark intended to secure an advantage for the speaker; n. a maneuver in a game or conversation; n. a chess move early in the game in which the player sacrifices minor pieces in order to obtain an advantageous position"
       }
     },
     {
@@ -1380,7 +1380,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. （尤指宗教原因的）隐士，隐居者；蜂鸟",
-        "en": "A religious recluse; someone who lives alone for religiou..."
+        "en": "n. one retired from society for religious reasons; n. one who lives in solitude"
       }
     },
     {
@@ -1410,7 +1410,7 @@
       "pos": "v",
       "meaning": {
         "zh": "vt. 切；切割；雕刻",
-        "en": "To cut in or into with a sharp instrument; to carve; to e..."
+        "en": "v. make an incision into by carving or cutting"
       }
     },
     {
@@ -1460,7 +1460,7 @@
       "pos": "v",
       "meaning": {
         "zh": "n. 酵母；酵素；潜移默化的影响；调和剂",
-        "en": "Any agent used to make dough rise or to have a similar ef..."
+        "en": "n. a substance used to produce fermentation in dough or a liquid; n. an influence that works subtly to lighten or modify something; v. cause to puff up with a leaven"
       }
     },
     {
@@ -1470,7 +1470,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. （古罗马）军团；众多；军队",
-        "en": "The major unit or division of the Roman army, usually com..."
+        "en": "n. archaic terms for army; n. association of ex-servicemen; n. a large military unit; n. a vast multitude"
       }
     },
     {
@@ -1490,7 +1490,7 @@
       "pos": "v",
       "meaning": {
         "zh": "vi. 虚度；闲荡；徘徊",
-        "en": "To stand about without any aim or purpose; to stand about..."
+        "en": "v. be about"
       }
     },
     {
@@ -1500,7 +1500,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. [无脊椎] 蛆；空想，狂想",
-        "en": "A soft, legless larva of a fly or other dipterous insect,..."
+        "en": "n. the larva of the housefly and blowfly commonly found in decaying organic matter"
       }
     },
     {
@@ -1520,7 +1520,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 恶意，怨恨；（尤指加重某些罪行的）恶谋",
-        "en": "Intention to harm or deprive in an illegal or immoral way..."
+        "en": "n. feeling a need to see others suffer; n. the quality of threatening evil"
       }
     },
     {
@@ -1530,7 +1530,7 @@
       "pos": "v",
       "meaning": {
         "zh": "vt. 乱砍；轧布；损坏",
-        "en": "To change, mutilate or disfigure by cutting, tearing, rea..."
+        "en": "n. clothes dryer for drying and ironing laundry by passing it between two heavy heated rollers; v. press with a mangle; v. injure badly by beating; v. alter so as to make unrecognizable"
       }
     },
     {
@@ -1549,7 +1549,7 @@
       "phonetic": "/ˈmɛnɪs/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 威胁，危险的人或物；烦人的人（或事物），引起麻烦的人（或事物）；危险气氛，威胁；（以）威...",
+        "zh": "n. 威胁，危险的人或物；烦人的人（或事物），引起麻烦的人（或事物）；危险气氛，威胁；（以）威胁（或恐吓）的手段（索要钱财）; v. 威胁，威吓",
         "en": "A perceived threat or danger."
       }
     },
@@ -1660,7 +1660,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 为小事挂虑的；谨小慎微的；神经质的",
-        "en": "A person who is excessively prim, proper, particular or f..."
+        "en": "adj. exaggeratedly proper; adj. excessively fastidious and easily disgusted"
       }
     },
     {
@@ -1670,7 +1670,7 @@
       "pos": "v",
       "meaning": {
         "zh": "n. （尤指突然的强烈情感所致的）颤抖，颤音；箭囊，箭袋；一组（长度、形状各异的）冲浪板",
-        "en": "A container for arrows, crossbow bolts or darts, such as ..."
+        "en": "n. an almost pleasurable sensation of fright; n. a shaky motion; n. case for holding arrows; n. the act of vibrating"
       }
     },
     {
@@ -1720,7 +1720,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 混响（效果）；混响装置",
-        "en": "(audio effects) An electronic effect which simulates echo..."
+        "en": "abstract: Reverb is the name of four fictional characters from the Transformers series."
       }
     },
     {
@@ -1749,7 +1749,7 @@
       "phonetic": "/skɹoʊl/",
       "pos": "n",
       "meaning": {
-        "zh": "n. （供书写的）长卷纸，卷轴；一卷古书（或公文、文件）；（绘制或雕刻的）涡卷形装饰；印上格言...",
+        "zh": "n. （供书写的）长卷纸，卷轴；一卷古书（或公文、文件）；（绘制或雕刻的）涡卷形装饰；印上格言（或题字）的丝带的描绘；（视频显示器屏幕上为查看新资料而设的）显示滚动装置; v. 滚屏，滚动；使像纸卷合（或打开）那样移动",
         "en": "A roll of paper or parchment; a writing formed into a roll."
       }
     },
@@ -1759,8 +1759,8 @@
       "phonetic": "/səˈkjɔːr(ɹ)/",
       "pos": "v",
       "meaning": {
-        "zh": "adj. 稳固的，可靠的；严密把守的，牢固的；安全的，稳妥的；（对自己和自己的能力）有自信的；...",
-        "en": "To make safe; to relieve from apprehensions of, or exposu..."
+        "zh": "adj. 稳固的，可靠的；严密把守的，牢固的；安全的，稳妥的；（对自己和自己的能力）有自信的；感到有保障的，没有顾虑的；固定住的，系牢的；秘密的; v. （尤指经过努力而）获得，得到；使安全，保护；缚牢，将（某物）固定；确保，保证；为（债务或贷款）作抵押，作保；（外科）压迫（血管）止血；停止工作；船抛锚",
+        "en": "v. get by special effort; v. cause to be firmly attached; v. assure payment of; v. make certain of"
       }
     },
     {
@@ -1790,7 +1790,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 海峡，狭窄水道；（尤指财务问题导致的）窘境，困境（straits）",
-        "en": "A narrow channel of water connecting two larger bodies of..."
+        "en": "n. a narrow channel of the sea joining two larger bodies of water; n. a bad or difficult situation or state of affairs; adj. strict and severe"
       }
     },
     {
@@ -1800,7 +1800,7 @@
       "pos": "v",
       "meaning": {
         "zh": "n. 转环；转椅座架",
-        "en": "A piece, as a ring or hook, attached to another piece by ..."
+        "en": "n. a coupling (as in a chain) that has one end that turns on a headed pin; v. turn on a pivot"
       }
     },
     {
@@ -1829,8 +1829,8 @@
       "phonetic": "/ˈtɛmpə/",
       "pos": "v",
       "meaning": {
-        "zh": "n. 坏脾气，暴躁脾气；心情，情绪；怒气，火气；（时代的）气息，特征；（人或动物的）性格，性情...",
-        "en": "A tendency to be in a certain type of mood; a habitual wa..."
+        "zh": "n. 坏脾气，暴躁脾气；心情，情绪；怒气，火气；（时代的）气息，特征；（人或动物的）性格，性情；（钢等的）硬度，回火性；沉着，冷静; v. 使缓和，使温和；使（金属）回火，锻造；给（钢琴等）调音，调整（音阶）；回火，调和",
+        "en": "n. a sudden outburst of anger; n. a characteristic (habitual or relatively temporary) state of feeling; n. a disposition to exhibit uncontrolled anger; n. the elasticity and hardness of a metal object; its ability to absorb considerable energy before cracking"
       }
     },
     {
@@ -1870,7 +1870,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 琐事，无价值的东西；屈莱弗甜食，乳脂松糕；稍微，有点儿（a trifle）；少量，少许",
-        "en": "An English dessert made from a mixture of thick custard, ..."
+        "en": "n. sponge cake spread with jam and soaked in wine; served with a custard sauce; n. a detail that is considered insignificant; n. something of small importance; v. waste time; spend one's time idly or inefficiently"
       }
     },
     {
@@ -1890,7 +1890,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 炮塔；角楼；小塔；攻城用的冲车",
-        "en": "A little tower, frequently a merely ornamental structure ..."
+        "en": "n. a small tower extending above a building; n. a self-contained weapons platform housing guns and capable of rotation"
       }
     },
     {
@@ -1900,7 +1900,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 故意破坏公共财产者",
-        "en": "A person who needlessly destroys, defaces, or damages oth..."
+        "en": "n. someone who willfully destroys or defaces property; n. a member of the Germanic people who overran Gaul and Spain and North Africa and sacked Rome in 455"
       }
     },
     {
@@ -1920,7 +1920,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 害虫；寄生虫；歹徒",
-        "en": "Any one of various common types of small insects or anima..."
+        "en": "n. an irritating or obnoxious person; n. any of various small animals or insects that are pests; e.g. cockroaches or rats"
       }
     },
     {
@@ -1930,7 +1930,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. [航][流] 涡流；漩涡；（动乱，争论等的）中心；旋风",
-        "en": "A whirlwind, whirlpool, or similarly moving matter in the..."
+        "en": "n. the shape of something rotating rapidly; n. a powerful circular current of water (usually the result of conflicting tides)"
       }
     },
     {
@@ -1969,7 +1969,7 @@
       "phonetic": "/ˈwɪðə/",
       "pos": "v",
       "meaning": {
-        "zh": "v. （使）枯萎，（使）干枯；衰弱，逐渐消失；使感到愚蠢，使感到羞愧；（人的四肢、皮肤等）变枯...",
+        "zh": "v. （使）枯萎，（使）干枯；衰弱，逐渐消失；使感到愚蠢，使感到羞愧；（人的四肢、皮肤等）变枯槁，萎缩; n. 甲，马肩隆; 【名】 （Wither）（英）威瑟（人名）",
         "en": "To shrivel, droop or dry up, especially from lack of water."
       }
     },
@@ -2010,7 +2010,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. （动作）敏捷，灵活；（思维）机敏",
-        "en": "The quality of being agile; the power of moving the limbs..."
+        "en": "n. the gracefulness of a person or animal that is quick and nimble"
       }
     },
     {
@@ -2020,7 +2020,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. [生物] 有角的；生硬的，笨拙的；瘦削的",
-        "en": "A bone in the base of the lower jaw of many birds, reptil..."
+        "en": "adj. measured by an angle or by the rate of change of an angle; adj. having angles or an angular shape"
       }
     },
     {
@@ -2030,7 +2030,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 信徒，使徒；最初的传道者",
-        "en": "A missionary, or leader of a religious mission, especiall..."
+        "en": "n. an ardent early supporter of a cause or reform; n. any important early teacher of Christianity or a Christian missionary to a people; n. (New Testament) one of the original 12 disciples chosen by Christ to preach his gospel"
       }
     },
     {
@@ -2080,7 +2080,7 @@
       "pos": "v",
       "meaning": {
         "zh": "v. 包围，围困；打扰，纠缠",
-        "en": "To beset or surround with armed forces for the purpose of..."
+        "en": "v. surround so as to force to give up; v. cause to feel distressed or worried; v. harass, as with questions or requests"
       }
     },
     {
@@ -2090,7 +2090,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 鲸脂；哭泣",
-        "en": "A fatty layer of adipose tissue found immediately beneath..."
+        "en": "n. an insulating layer of fat under the skin of whales and other large marine mammals; used as a source of oil; n. excess bodily weight; v. cry or whine with snuffling; v. utter while crying"
       }
     },
     {
@@ -2110,7 +2110,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 秃鹰类；贪婪卑鄙的小人",
-        "en": "Any of several Old World birds of prey of the genus Buteo..."
+        "en": "n. a New World vulture that is common in South America and Central America and the southern United States; n. the common European short-winged hawk"
       }
     },
     {
@@ -2199,8 +2199,8 @@
       "phonetic": "/kənˈsaɪn/",
       "pos": "v",
       "meaning": {
-        "zh": "v. 交付，运送；（为摆脱而）把……置于；把……置于(令人不快的境地)；把……交付给，把……委...",
-        "en": "To transfer to the custody of, usually for sale, transpor..."
+        "zh": "v. 交付，运送；（为摆脱而）把……置于；把……置于(令人不快的境地)；把……交付给，把……委托给；托售；委托…代售，寄售",
+        "en": "v. commit forever; commit irrevocably; v. give over to another for care or safekeeping; v. send to an address"
       }
     },
     {
@@ -2210,7 +2210,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 忠告，建议；辩护律师；咨询，磋商",
-        "en": "The exchange of opinions and advice especially in legal i..."
+        "en": "n. a lawyer who pleads cases in court; n. something that provides direction or advice as to a decision or course of action; v. give advice to"
       }
     },
     {
@@ -2230,7 +2230,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. （博物馆）馆长，（动物园）园长",
-        "en": "A person who manages, administers or organizes a collecti..."
+        "en": "n. the custodian of a collection (as a museum or library)"
       }
     },
     {
@@ -2260,7 +2260,7 @@
       "pos": "n",
       "meaning": {
         "zh": "adj. 反常的，变态的；（贬）同性恋的；离经叛道的",
-        "en": "A person who deviates, especially from norms of social be..."
+        "en": "n. a person whose behavior deviates from what is acceptable especially in sexual behavior; adj. markedly different from an accepted norm"
       }
     },
     {
@@ -2270,7 +2270,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "v. 扩散，弥漫；减弱，平息（不良情绪或局面）；传播，散布",
-        "en": "To spread over or through as in air, water, or other matt..."
+        "en": "v. move outward; v. spread or diffuse through; v. cause to become widely known; adj. spread out; not concentrated in one place"
       }
     },
     {
@@ -2300,7 +2300,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 大厦；大建筑物",
-        "en": "A building; a structure; an architectural fabric, especia..."
+        "en": "n. a structure that has a roof and walls and stands more or less permanently in one place"
       }
     },
     {
@@ -2380,7 +2380,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 蚀刻术；蚀刻版画",
-        "en": "To cut into a surface with an acid or other corrosive sub..."
+        "en": "n. an impression made from an etched plate; n. an etched plate made with the use of acid; n. making engraved or etched plates and printing designs from them"
       }
     },
     {
@@ -2400,7 +2400,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 谬论，谬见；推理谬误；谬误性",
-        "en": "Deceptive or false appearance; that which misleads the ey..."
+        "en": "n. a misconception resulting from incorrect reasoning"
       }
     },
     {
@@ -2410,7 +2410,7 @@
       "pos": "adv",
       "meaning": {
         "zh": "全力以赴地",
-        "en": "a series of action demolition derby/racing video games cr..."
+        "en": "abstract: FlatOut is a series of demolition derby-style racing games (formerly) developed by Finnish Bugbear Entertainment and (formerly) published by Empire Interactive. FlatOut-series has sold almost 3 million units worldwide."
       }
     },
     {
@@ -2470,7 +2470,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 傲慢的；自大的",
-        "en": "Conveying in demeanour the assumption of superiority; dis..."
+        "en": "adj. having or showing arrogant superiority to and disdain of those one views as unworthy"
       }
     },
     {
@@ -2480,7 +2480,7 @@
       "pos": "v",
       "meaning": {
         "zh": "v. 沉湎，沉溺；纵容，迁就；满足（情感、兴趣、欲望等）；参加，参与（尤指违法活动）",
-        "en": "(often followed by \"in\"): To yield to a temptation or des..."
+        "en": "v. give free rein to; v. yield (to); give satisfaction to; v. enjoy to excess; v. treat with excessive indulgence"
       }
     },
     {
@@ -2530,7 +2530,7 @@
       "pos": "adv",
       "meaning": {
         "zh": "adv. 色彩斑斓地；骇人听闻地；大肆渲染地",
-        "en": "In a lurid manner, in a way that contains gauche details ..."
+        "en": "adv. in a lurid manner"
       }
     },
     {
@@ -2569,8 +2569,8 @@
       "phonetic": "/ˈmidi.ət/",
       "pos": "v",
       "meaning": {
-        "zh": "v. 调停，斡旋；影响……的发生，使……可能发生；促成（协议），找到……的解决办法；引起，形成...",
-        "en": "To resolve differences, or to bring about a settlement, b..."
+        "zh": "v. 调停，斡旋；影响……的发生，使……可能发生；促成（协议），找到……的解决办法；引起，形成；传递，传达；连接，沟通；处于中间地位; adj. 间接的；居间的，介于中间的",
+        "en": "v. act between parties with a view to reconciling differences; v. occupy an intermediate or middle position or form a connecting link or stage between two others; adj. acting through or dependent on an intervening agency; adj. being neither at the beginning nor at the end in a series"
       }
     },
     {
@@ -2590,7 +2590,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 斑驳的，杂色的",
-        "en": "To mark with blotches of different color, or shades of co..."
+        "en": "adj. having spots or patches of color"
       }
     },
     {
@@ -2620,7 +2620,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 不透明；不传导；暧昧",
-        "en": "The state or quality of being opaque, not allowing light ..."
+        "en": "n. the phenomenon of not permitting the passage of electromagnetic radiation; n. incomprehensibility resulting from obscurity of meaning; n. the quality of being opaque to a degree; the degree to which something reduces the passage of light"
       }
     },
     {
@@ -2640,7 +2640,7 @@
       "pos": "v",
       "meaning": {
         "zh": "v. 覆在……上面（overlie 的过去式）；覆盖，铺；（尤指以感情或品质）撒满；（声音）盖过",
-        "en": "A piece of paper pasted upon the tympan sheet to improve ..."
+        "en": "n. protective covering consisting, for example, of a layer of boards applied to the studs and joists of a building to strengthen it and serve as a foundation for a weatherproof exterior; v. put something on top of something else; v. kill by lying on"
       }
     },
     {
@@ -2650,7 +2650,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. （尤指《圣经》中耶稣所讲的的）（道德或宗教）寓言",
-        "en": "A short narrative illustrating a lesson (usually religiou..."
+        "en": "n. a short moral story (often with animal characters); n. (New Testament) any of the stories told by Jesus to convey his religious message"
       }
     },
     {
@@ -2670,7 +2670,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 鸟类羽毛；翅膀",
-        "en": "Layer or collection of feathers covering a bird’s body; f..."
+        "en": "n. the light horny waterproof structure forming the external covering of birds"
       }
     },
     {
@@ -2720,7 +2720,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 隐士；隐居者",
-        "en": "A person who lives in self-imposed isolation or seclusion..."
+        "en": "n. one who lives in solitude; adj. withdrawn from society; seeking solitude"
       }
     },
     {
@@ -2760,7 +2760,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 摇晃的；虚弱的；患佝偻病的",
-        "en": "Of an object: not strong or sturdy, as because of poor co..."
+        "en": "adj. inclined to shake as from weakness or defect; adj. affected with, suffering from, or characteristic of rickets; adj. lacking physical strength or vitality"
       }
     },
     {
@@ -2769,7 +2769,7 @@
       "phonetic": "/ˈsɛkjʊlə/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 非宗教的，世俗的；现实世界的；（教士）教区的，在俗的；政府的而非教会的，民事的；（天...",
+        "zh": "adj. 非宗教的，世俗的；现实世界的；（教士）教区的，在俗的；政府的而非教会的，民事的；（天文）缓慢的，长期的；（经济）（波动，趋势）长期性的；（尤指古罗马的庆祝活动）每世纪一次的，约百年一次的; n. 在俗牧师；平信徒，普通信徒",
         "en": "A secular ecclesiastic, or one not bound by monastic rules."
       }
     },
@@ -2780,7 +2780,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 地震的，地震引起的；影响深远的，重大的",
-        "en": "Related to, or caused by an earthquake or other vibration..."
+        "en": "adj. subject to or caused by an earthquake or earth vibration"
       }
     },
     {
@@ -2790,7 +2790,7 @@
       "pos": "v",
       "meaning": {
         "zh": "vi. 蹒跚地走；摇晃不稳；摇摇晃晃地走",
-        "en": "One of a succession of niches or platforms, one above ano..."
+        "en": "n. walking with a slow dragging motion without lifting your feet; v. walk by dragging one's feet"
       }
     },
     {
@@ -2879,8 +2879,8 @@
       "phonetic": "/səkˈsiːd/",
       "pos": "v",
       "meaning": {
-        "zh": "v. 成功，达成；（学业、事业或其他活动）表现出色，有作为；取得预期效果，表现良好；继任，接任...",
-        "en": "To follow in order; to come next after; hence, to take th..."
+        "zh": "v. 成功，达成；（学业、事业或其他活动）表现出色，有作为；取得预期效果，表现良好；继任，接任；接替，随后出现；结果却是……；若一次不成功，要再接再厉",
+        "en": "v. attain success or reach a desired goal; v. be the successor (of)"
       }
     },
     {
@@ -2900,7 +2900,7 @@
       "pos": "v",
       "meaning": {
         "zh": "vt. 充满；弥漫",
-        "en": "To spread through or over something, especially as a liqu..."
+        "en": "v. cause to spread or flush or flood through, over, or across; v. to become overspread as with a fluid, a colour, a gleam of light"
       }
     },
     {
@@ -2940,7 +2940,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. [林] 灌木丛；丛林；错综复杂",
-        "en": "A dense, but generally small, growth of shrubs, bushes or..."
+        "en": "n. a dense growth of bushes"
       }
     },
     {
@@ -2960,7 +2960,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 神秘的；离奇的；可怕的",
-        "en": "(Freud) Something that is simultaneously familiar and str..."
+        "en": "adj. suggesting the operation of supernatural influences; adj. surpassing the ordinary or normal"
       }
     },
     {
@@ -2970,7 +2970,7 @@
       "pos": "v",
       "meaning": {
         "zh": "vt. 使失去勇气；使身心交疲；使焦躁；使失常",
-        "en": "To deprive of nerve, force, or strength; to weaken; to en..."
+        "en": "v. disturb the composure of"
       }
     },
     {
@@ -2989,7 +2989,7 @@
       "phonetic": "/juːˈtɪl.ɪ.ti/",
       "pos": "n",
       "meaning": {
-        "zh": "n. （煤气、水、电等的）公共服务，公用事业；（供电、供水等的）公用事业单位；应用程序，实用程...",
+        "zh": "n. （煤气、水、电等的）公共服务，公用事业；（供电、供水等的）公用事业单位；应用程序，实用程序；实用，有用；小卡车，轻型货车；（博弈论，经济学）效用; adj. 有用的，多功能的；（体育运动）多面手的；实用的",
         "en": "The state or condition of being useful; usefulness."
       }
     },
@@ -3020,7 +3020,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 任性的；不规则的；刚愎的",
-        "en": "Given to wilful, perverse deviation from the expected nor..."
+        "en": "adj. resistant to guidance or discipline"
       }
     },
     {
@@ -3050,7 +3050,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 动物学；动物生活特性；动物区系",
-        "en": "The part of biology relating to the animal kingdom, inclu..."
+        "en": "n. all the animal life in a particular region or period; n. the branch of biology that studies animals"
       }
     },
     {
@@ -3060,7 +3060,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 大量的，丰富的，充足的",
-        "en": "Fully sufficient; found in copious supply; in great quant..."
+        "en": "adj. present in great quantity"
       }
     },
     {
@@ -3070,7 +3070,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 添加剂，添加物",
-        "en": "A substance added to another substance or product to prod..."
+        "en": "n. something added to enhance food or gasoline or paint or medicine; adj. characterized or produced by addition; adj. designating or involving an equation whose terms are of the first degree"
       }
     },
     {
@@ -3090,7 +3090,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 寓言",
-        "en": "The representation of abstract principles by characters o..."
+        "en": "n. a short moral story (often with animal characters); n. a visible symbol representing an abstract idea; n. an expressive style that uses fictional characters and events to describe some subject by suggestive resemblances; an extended metaphor"
       }
     },
     {
@@ -3100,7 +3100,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 暗指，影射，典故",
-        "en": "An indirect reference; a hint; a reference to something s..."
+        "en": "n. passing reference or indirect mention"
       }
     },
     {
@@ -3120,7 +3120,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 解毒药，解毒剂；矫正方法，对策",
-        "en": "A remedy to counteract the effects of poison (often follo..."
+        "en": "n. a remedy that stops or controls the effects of a poison"
       }
     },
     {
@@ -3240,7 +3240,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 回廊；修道院；修道院生活；隐居地",
-        "en": "A covered walk with an open colonnade on one side, runnin..."
+        "en": "n. residence that is a place of religious seclusion (such as a monastery); n. a courtyard with covered walks (as in religious institutions); v. surround with a cloister, as of a garden; v. seclude from the world in or as if in a cloister"
       }
     },
     {
@@ -3260,7 +3260,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 对撞机；碰撞机",
-        "en": "Any of several forms of particle accelerator in which two..."
+        "en": "n. an accelerator in which two beams of particles are forced to collide head on"
       }
     },
     {
@@ -3280,7 +3280,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "v. 谈话，交谈",
-        "en": "Free verbal interchange of thoughts or views; conversatio..."
+        "en": "n. a proposition obtained by conversion; v. carry on a conversation; adj. of words so related that one reverses the relation denoted by the other; adj. turned about in order or relation"
       }
     },
     {
@@ -3419,7 +3419,7 @@
       "phonetic": "/ˈɛmɪnəns/",
       "pos": "n",
       "meaning": {
-        "zh": "n. （尤指在某领域或职业中）著名，卓越；名人，权威人士；阁下，大人（对天主教红衣主教的尊称）...",
+        "zh": "n. （尤指在某领域或职业中）著名，卓越；名人，权威人士；阁下，大人（对天主教红衣主教的尊称）；高地，山丘；隆凸，隆起",
         "en": "Someone of high rank, reputation or social status."
       }
     },
@@ -3460,7 +3460,7 @@
       "pos": "v",
       "meaning": {
         "zh": "v. 设想，展望；正视，面对",
-        "en": "To conceive or see something within one's mind; to imagin..."
+        "en": "v. form a mental image of something that is not present or that is not the case"
       }
     },
     {
@@ -3500,7 +3500,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 驱魔；驱邪；用魔法召鬼魂",
-        "en": "The ritual act of driving out evil spirits from persons, ..."
+        "en": "n. freeing from evil spirits"
       }
     },
     {
@@ -3520,7 +3520,7 @@
       "pos": "v",
       "meaning": {
         "zh": "v. 把……当故事叙述",
-        "en": "To tell invented stories, often those that involve fantas..."
+        "en": "verb. To tell invented stories, often those that involve fantasy, such as fables.; verb. To relate as or in the manner of a fable."
       }
     },
     {
@@ -3610,7 +3610,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 歇斯底里；（众人的）狂热情绪的爆发；癔症",
-        "en": "A condition where the patient has neurological symptoms s..."
+        "en": "n. state of violent mental agitation; n. excessive or uncontrollable fear; n. neurotic disorder characterized by violent emotional outbreaks and disturbances of sensory and motor functions"
       }
     },
     {
@@ -3650,7 +3650,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 暗讽，讽刺；影射",
-        "en": "A derogatory hint or reference to a person or thing. An i..."
+        "en": "n. an indirect (and usually malicious) implication"
       }
     },
     {
@@ -3740,7 +3740,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 奥秘，秘诀；神秘性",
-        "en": "An aura of heightened interest, meaning or mystery surrou..."
+        "en": "n. an aura of heightened value or interest or meaning surrounding a person or thing"
       }
     },
     {
@@ -3750,7 +3750,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 新信徒，新入教者；初学者，新手；新受圣职的司铎",
-        "en": "A beginner; a person who is new to a subject, skill, or b..."
+        "en": "n. a plant that is found in an area where it had not been recorded previously; n. any new participant in some activity; n. a new convert being taught the principles of Christianity by a catechist"
       }
     },
     {
@@ -3799,8 +3799,8 @@
       "phonetic": "/pəˈvɜːs/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 任性的，故意作对的；有悖常理的，反常的，不合人意的；（裁决）不合法的，不正当的；性欲...",
-        "en": "Turned aside; hence, specifically, turned away from the (..."
+        "zh": "adj. 任性的，故意作对的；有悖常理的，反常的，不合人意的；（裁决）不合法的，不正当的；性欲反常的，性变态的",
+        "en": "adj. marked by a disposition to oppose and contradict; adj. resistant to guidance or discipline; adj. marked by immorality; deviating from what is considered right or proper or good"
       }
     },
     {
@@ -3830,7 +3830,7 @@
       "pos": "v",
       "meaning": {
         "zh": "v. 伸出，突出；（动物）使（身体部位）突出",
-        "en": "To extend from, above or beyond a surface or boundary; to..."
+        "en": "v. extend out or project in space; v. bulge outward; v. swell or protrude outwards"
       }
     },
     {
@@ -3850,7 +3850,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 好色的；淫乱的；渴望的",
-        "en": "Uneasy with desire; itching; especially, having a lascivi..."
+        "en": "adj. characterized by lust"
       }
     },
     {
@@ -3899,7 +3899,7 @@
       "phonetic": "/ɹɪˈpɹoʊtʃ/",
       "pos": "v",
       "meaning": {
-        "zh": "n. 责备，批评；责备的话语，批评的言辞；丢脸，耻辱；（给……）带来羞辱的人（或事）；使缺陷或...",
+        "zh": "n. 责备，批评；责备的话语，批评的言辞；丢脸，耻辱；（给……）带来羞辱的人（或事）；使缺陷或弱点更显突出的事物（a reproach to）；谴责曲（Reproaches）; v. 谴责，批评",
         "en": "A mild rebuke, or an implied criticism."
       }
     },
@@ -3920,7 +3920,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 花言巧语，浮夸之词；修辞，修辞学",
-        "en": "The art of using language, especially public speaking, as..."
+        "en": "n. using language effectively to please or persuade; n. high-flown style; excessive use of verbal ornamentation; n. loud and confused and empty talk; n. study of the technique and rules for using language effectively (especially in public speaking)"
       }
     },
     {
@@ -3930,7 +3930,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "n. 反刍动物；沉思默想的人",
-        "en": "An artiodactyl ungulate mammal which chews cud, such as a..."
+        "en": "n. any of various cud-chewing hoofed mammals having a stomach divided into four (occasionally three) compartments; adj. related to or characteristic of animals of the suborder Ruminantia or any other animal that chews a cud"
       }
     },
     {
@@ -3940,7 +3940,7 @@
       "pos": "v",
       "meaning": {
         "zh": "vt. 反刍；沉思；反复思考",
-        "en": "To chew cud. (Said of ruminants.) Involves regurgitating ..."
+        "en": "v. chew the cuds; v. reflect deeply on a subject"
       }
     },
     {
@@ -3960,7 +3960,7 @@
       "pos": "adv",
       "meaning": {
         "zh": "adv. 安详地；镇静地",
-        "en": "Calmly, without excessive emotion or force; in a composed..."
+        "en": "adv. in a sedate manner"
       }
     },
     {
@@ -3979,8 +3979,8 @@
       "phonetic": "/ˈsɑlɪtɹi/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 独自的，单独的；偏僻的，孤立的；独自完成的；（人或动物）独处的，独居的；（花或其他部...",
-        "en": "One who lives alone, or in solitude; an anchoret, hermit ..."
+        "zh": "adj. 独自的，单独的；偏僻的，孤立的；独自完成的；（人或动物）独处的，独居的；（花或其他部分）单生的；唯一的，仅有的; n. 单独监禁；独居者，隐士",
+        "en": "n. confinement of a prisoner in isolation from other prisoners; n. one who lives in solitude; adj. characterized by or preferring solitude; adj. of plants and animals; not growing or living in groups or colonies"
       }
     },
     {
@@ -4019,7 +4019,7 @@
       "phonetic": "/ˈstændɪŋ/",
       "pos": "n",
       "meaning": {
-        "zh": "adj. 永久的，长期的，常设的；站着进行的，站立的；（水等）不流动的，静止的；维持不变的；（...",
+        "zh": "adj. 永久的，长期的，常设的；站着进行的，站立的；（水等）不流动的，静止的；维持不变的；（印刷）（金属字）排好后保留的；尚未收割的；（由法律或习俗）建立的；不能移动的; n. 地位，身份，声望；（党派或个人的）受欢迎程度，支持率；（球队或球员的）名次表（standings）；持续时间；马厩，牛棚；站立处; v. 站立，直立；起立，站起来；使直立，竖放（stand 的现在分词）; 【名】 （Standing）（美）施坦丁（人名）",
         "en": "(heading) To position or be positioned physically."
       }
     },
@@ -4030,7 +4030,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 斯多葛哲学，斯多葛学派；恬淡寡欲",
-        "en": "A school of philosophy popularized during the Roman Empir..."
+        "en": "n. an indifference to pleasure or pain; n. (philosophy) the philosophical system of the Stoics following the teachings of the ancient Greek philosopher Zeno"
       }
     },
     {
@@ -4040,7 +4040,7 @@
       "pos": "v",
       "meaning": {
         "zh": "vt. 使变无效；使显得愚笨；使无价值",
-        "en": "To prove to be of unsound mind or demonstrate someone's i..."
+        "en": "v. prove to be of unsound mind or demonstrate someone's incompetence; v. cause to appear foolish; v. deprive of strength or efficiency; make useless or worthless"
       }
     },
     {
@@ -4080,7 +4080,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 顽强，执着，坚持；黏性",
-        "en": "The quality or state of being tenacious, or persistence o..."
+        "en": "n. persistent determination"
       }
     },
     {
@@ -4140,7 +4140,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. （尤指演奏乐器的）能手，大家",
-        "en": "An expert in virtù or art objects and antiquities; a conn..."
+        "en": "n. someone who is dazzlingly skilled in any field; n. a musician who is a consummate master of technique and artistry; adj. having or revealing supreme mastery or skill"
       }
     },
     {
@@ -4170,7 +4170,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 可恶的；厌恶的；格格不入的",
-        "en": "Inconsistent with, or far removed from, something; strong..."
+        "en": "adj. offensive to the mind"
       }
     },
     {
@@ -4250,7 +4250,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. （诗、文、曲、画等的）选集",
-        "en": "A collection of literary works, such as poems or short st..."
+        "en": "n. a collection of selected literary passages"
       }
     },
     {
@@ -4270,7 +4270,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 原型；典型",
-        "en": "An original model of which all other similar concepts, ob..."
+        "en": "n. an original model on which something is patterned"
       }
     },
     {
@@ -4310,7 +4310,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. （经济的）紧缩，严格节制消费；艰苦，朴素；苦行，禁欲；（物品的）简朴，无华；严格，严厉",
-        "en": "Severity of manners or life; extreme rigor or strictness;..."
+        "en": "n. the trait of great self-denial (especially refraining from worldly pleasures)"
       }
     },
     {
@@ -4320,7 +4320,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. [航]自动驾驶仪（等于 automatic pilot）",
-        "en": "A mechanical, electrical, or hydraulic system used to gui..."
+        "en": "n. a cognitive state in which you act without self-awareness; n. a navigational device that automatically keeps ships or planes or spacecraft on a steady course"
       }
     },
     {
@@ -4370,7 +4370,7 @@
       "pos": "v",
       "meaning": {
         "zh": "n. 海盗",
-        "en": "Any of a group of seamen who cruised on their own account..."
+        "en": "n. someone who robs at sea or plunders the land from the sea without having a commission from any sovereign nation; v. live like a buccaneer"
       }
     },
     {
@@ -4380,7 +4380,7 @@
       "pos": "adv",
       "meaning": {
         "zh": "adv. 冷酷无情地；麻木不仁地",
-        "en": "In a callous manner; done without regard to others' sensi..."
+        "en": "adv. in a callous way"
       }
     },
     {
@@ -4410,7 +4410,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. [昆] 蝶蛹；虫茧；准备期",
-        "en": "The pupa of a butterfly or moth, enclosed inside a cocoon..."
+        "en": "n. pupa of a moth or butterfly enclosed in a cocoon"
       }
     },
     {
@@ -4460,7 +4460,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 造成严重后果的",
-        "en": "To make someone a cripple; to cause someone to become phy..."
+        "en": "adj. that cripples or disables or incapacitates"
       }
     },
     {
@@ -4530,7 +4530,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 勤奋，用功；公共马车",
-        "en": "Steady application; industry; careful work involving long..."
+        "en": "n. conscientiousness in paying proper attention to a task; giving the degree of care required in a given situation; n. persevering determination to perform a task; n. a diligent effort"
       }
     },
     {
@@ -4580,7 +4580,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. [电] 电极；电焊条",
-        "en": "The terminal through which electric current passes betwee..."
+        "en": "n. a conductor used to make electrical contact with some part of a circuit"
       }
     },
     {
@@ -4590,7 +4590,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 薪水，报酬",
-        "en": "Payment for an office or employment; compensation for a j..."
+        "en": "n. compensation received by virtue of holding an office or having employment (usually in the form of wages or fees)"
       }
     },
     {
@@ -4600,7 +4600,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 仿效，模仿；仿真；竞争",
-        "en": "The endeavor or desire to equal or excel someone else in ..."
+        "en": "n. ambition to equal or excel; n. (computer science) technique of one machine obtaining the same results as another; n. effort to equal or surpass another"
       }
     },
     {
@@ -4730,7 +4730,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 无计划的，没有条理的",
-        "en": "Random; chaotic; incomplete; not thorough, constant, or c..."
+        "en": "adj. dependent upon or characterized by chance; adj. marked by great carelessness; adv. without care; in a slapdash manner"
       }
     },
     {
@@ -4750,7 +4750,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 造成妨碍的人（或事物）；阻碍，妨碍",
-        "en": "Something which hinders: something that holds back or cau..."
+        "en": "n. something immaterial that interferes with or delays action or progress; n. any obstruction that impedes or is burdensome; n. the act of hindering or obstructing or impeding"
       }
     },
     {
@@ -4760,7 +4760,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 后见之明；枪的照门",
-        "en": "Realisation or understanding of the significance and natu..."
+        "en": "n. understanding the nature of an event after it has happened"
       }
     },
     {
@@ -4770,7 +4770,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 宅地；家园；田产",
-        "en": "A house together with surrounding land and buildings, esp..."
+        "en": "n. the home and adjacent grounds occupied by a family; n. land acquired from the United States public lands by filing a record and living on and cultivating it under the homestead law; n. dwelling that is usually a farmhouse and adjoining land; v. settle land given by the government and occupy it as a homestead"
       }
     },
     {
@@ -4780,7 +4780,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. （语言）自然地道的；与（某时期、人或团体的艺术或音乐风格）相合的，特点一致的",
-        "en": "A manner of speaking, a mode of expression peculiar to a ..."
+        "en": "adj. of or relating to or conforming to idiom"
       }
     },
     {
@@ -4800,7 +4800,7 @@
       "pos": "n",
       "meaning": {
         "zh": "adj. 在职的，现任的；职责所在的，义不容辞的；（公司）占市场份额大的",
-        "en": "The current holder of an office, such as ecclesiastical b..."
+        "en": "n. the official who holds an office; adj. lying or leaning on something else; adj. necessary (for someone) as a duty or responsibility; morally binding; adj. currently holding an office"
       }
     },
     {
@@ -4810,7 +4810,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 愤愤不平的，愤慨的",
-        "en": "Showing anger or indignation, especially at something unj..."
+        "en": "adj. angered at something unjust or wrong"
       }
     },
     {
@@ -4830,7 +4830,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 信息提供者，告密者；资料提供人，合作者",
-        "en": "One who relays confidential information to someone, espec..."
+        "en": "n. a person who supplies information; n. someone who sees an event and reports what happened"
       }
     },
     {
@@ -4849,7 +4849,7 @@
       "phonetic": "/ɪntɜːluːd/",
       "pos": "n",
       "meaning": {
-        "zh": "n. （两件事情、两种形势之间的）间歇；（戏剧、电影等的）幕间休息；幕间乐曲（或节目、表演），...",
+        "zh": "n. （两件事情、两种形势之间的）间歇；（戏剧、电影等的）幕间休息；幕间乐曲（或节目、表演），插曲；短暂的幽会，风流韵事",
         "en": "An intervening episode, etc."
       }
     },
@@ -4860,7 +4860,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 内在的，固有的",
-        "en": "A built-in function that is implemented directly by the c..."
+        "en": "adj. belonging to a thing by its very nature; adj. situated within or belonging solely to the organ or body part on which it acts"
       }
     },
     {
@@ -4900,7 +4900,7 @@
       "pos": "adv",
       "meaning": {
         "zh": "adv. 抒情地；诗意地；狂热地",
-        "en": "In a manner that is pleasing to hear, as singing or speak..."
+        "en": "adv. in a lyrical manner"
       }
     },
     {
@@ -4940,7 +4940,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 调解，仲裁",
-        "en": "Negotiation to resolve differences conducted by some impa..."
+        "en": "n. negotiation to resolve differences conducted by some impartial party; n. the act of intervening for the purpose of bringing about a settlement"
       }
     },
     {
@@ -5080,7 +5080,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 瘫痪（症），麻痹（症）；（行动、决策、运行等的）瘫痪，停顿",
-        "en": "The complete loss of voluntary control of part of a perso..."
+        "en": "n. loss of the ability to move a body part"
       }
     },
     {
@@ -5090,7 +5090,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 界限，范围；参数，变量；（统计）人口参数",
-        "en": "A value kept constant during an experiment, equation, cal..."
+        "en": "n. a constant in the equation of a curve that can be varied to yield a family of similar curves; n. any factor that defines a system and determines (or limits) its performance; n. a quantity (such as the mean or variance) that characterizes a statistical population and that can be estimated by calculations from sample data"
       }
     },
     {
@@ -5110,7 +5110,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 寄生的（等于 parasitical）",
-        "en": "A component of a circuit that does not show up in a circu..."
+        "en": "adj. relating to or caused by parasites; adj. of or pertaining to epenthesis; adj. of plants or persons; having the nature or habits of a parasite or leech; living off another"
       }
     },
     {
@@ -5130,7 +5130,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 弥漫的，遍布的",
-        "en": "Manifested throughout; pervading, permeating, penetrating..."
+        "en": "adj. spreading or spread throughout"
       }
     },
     {
@@ -5160,7 +5160,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 子孙，后裔；后代",
-        "en": "All the future generations, especially the descendants of..."
+        "en": "n. all of the offspring of a given progenitor; n. all future generations"
       }
     },
     {
@@ -5170,7 +5170,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 故作姿态；摆姿势；并非由衷的言行",
-        "en": "To put one's body into a posture or series of postures, e..."
+        "en": "n. adopting a vain conceited posture"
       }
     },
     {
@@ -5240,7 +5240,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 隐居的；隐遁的",
-        "en": "Of, characterized by, or preferring privacy and isolation..."
+        "en": "adj. withdrawn from society; seeking solitude; adj. providing privacy or seclusion"
       }
     },
     {
@@ -5249,8 +5249,8 @@
       "phonetic": "/ˈɹɛkənsaɪl/",
       "pos": "v",
       "meaning": {
-        "zh": "v. 调和，使协调一致；（使）和解，（使）恢复友好关系；调停，调解（争吵）；使顺从于，使接受；...",
-        "en": "To restore a friendly relationship; to bring back to harm..."
+        "zh": "v. 调和，使协调一致；（使）和解，（使）恢复友好关系；调停，调解（争吵）；使顺从于，使接受；核对，查核（账目）",
+        "en": "v. make compatible with; v. bring into consonance or accord; v. come to terms; v. accept as inevitable"
       }
     },
     {
@@ -5260,7 +5260,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 斜倚的；休息的",
-        "en": "A bicycle or tricycle that places the rider in a reclined..."
+        "en": "adj. lying down; in a position of comfort or rest"
       }
     },
     {
@@ -5269,7 +5269,7 @@
       "phonetic": "/ɹɪˈdʌn.dənt/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj.  被解雇的，被裁员的；多余的，累赘的；（为预防机器或系统中主要组件故障而设的）复置装...",
+        "zh": "adj.  被解雇的，被裁员的；多余的，累赘的；（为预防机器或系统中主要组件故障而设的）复置装置的，备用的",
         "en": "Superfluous; exceeding what is necessary."
       }
     },
@@ -5290,7 +5290,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 剧变；厌恶；强烈反感；抽回",
-        "en": "Abhorrence, a sense of loathing, intense aversion, repugn..."
+        "en": "n. intense aversion"
       }
     },
     {
@@ -5300,7 +5300,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 食腐动物；清道夫；[助剂] 清除剂；拾荒者",
-        "en": "Someone who scavenges, especially one who searches throug..."
+        "en": "n. a chemical agent that is added to a chemical mixture to counteract the effects of impurities; n. someone who collects things that have been discarded by others; n. any animal that feeds on refuse and other decaying organic matter"
       }
     },
     {
@@ -5340,7 +5340,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 独白；自言自语",
-        "en": "The act of a character speaking to themselves so as to re..."
+        "en": "n. speech you make to yourself; n. a (usually long) dramatic speech intended to give the illusion of unspoken reflections"
       }
     },
     {
@@ -5350,7 +5350,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 唯我论",
-        "en": "The theory that the self is all that exists or that can b..."
+        "en": "n. (philosophy) the philosophical theory that the self is all that you know to exist"
       }
     },
     {
@@ -5380,7 +5380,7 @@
       "pos": "v",
       "meaning": {
         "zh": "v. 规定，明确要求",
-        "en": "To require (something) as a condition of a contract or ag..."
+        "en": "v. specify as a condition or requirement in a contract or agreement; make an express demand or provision in an agreement; v. give a guarantee or promise of; v. make an oral contract or agreement in the verbal form of question and answer that is necessary to give it legal force"
       }
     },
     {
@@ -5390,7 +5390,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. （规定或条件）严格的；紧缩的，银根紧的",
-        "en": "Strict; binding strongly; making strict requirements; res..."
+        "en": "adj. demanding strict attention to rules and procedures"
       }
     },
     {
@@ -5410,7 +5410,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 含硫磺的，含硫的，含硫酸的",
-        "en": "Of, or relating to sulfur, especially in its higher oxida..."
+        "en": "adj. of or relating to or containing sulfur"
       }
     },
     {
@@ -5429,8 +5429,8 @@
       "phonetic": "/ˈsɪnθəsɪs/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 综合，综合体；（化学物质的）合成；音响合成；（黑格尔哲学中的）合题；（语法）合成；（语言...",
-        "en": "The formation of something complex or coherent by combini..."
+        "zh": "n. 综合，综合体；（化学物质的）合成；音响合成；（黑格尔哲学中的）合题；（语法）合成；（语言学）综合",
+        "en": "n. the process of producing a chemical compound (usually by the union of simpler chemical compounds); n. the combination of ideas into a complex whole; n. reasoning from the general to the particular (or from cause to effect)"
       }
     },
     {
@@ -5439,7 +5439,7 @@
       "phonetic": "/təˈneɪʃəs/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 顽强的，坚韧不拔的；稳固的，牢固的；（观点、信念）根深蒂固的，深入人心的；顽强的，坚...",
+        "zh": "adj. 顽强的，坚韧不拔的；稳固的，牢固的；（观点、信念）根深蒂固的，深入人心的；顽强的，坚忍不拔的",
         "en": "Clinging to an object or surface; adhesive."
       }
     },
@@ -5480,7 +5480,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 使人紧张不安的",
-        "en": "To deprive of nerve, force, or strength; to weaken; to en..."
+        "en": "adj. inspiring fear"
       }
     },
     {
@@ -5490,7 +5490,7 @@
       "pos": "v",
       "meaning": {
         "zh": "vt. 肆意毁坏；摧残（等于 vandalise）",
-        "en": "To needlessly destroy or deface other people’s property o..."
+        "en": "v. destroy wantonly, as through acts of vandalism"
       }
     },
     {
@@ -5510,7 +5510,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 退化的；残余的；发育不全的",
-        "en": "A small, degenerate, or imperfectly developed part or org..."
+        "en": "adj. not fully developed in mature animals"
       }
     },
     {
@@ -5530,7 +5530,7 @@
       "pos": "prep",
       "meaning": {
         "zh": "n. 面对面的人；相对着；两人对座的长椅",
-        "en": "A small horse-drawn carriage for two people sitting facin..."
+        "en": "n. a person or thing having the same function or characteristics as another; n. small sofa that seats two people; adv. face-to-face; face-to-face with"
       }
     },
     {
@@ -5540,7 +5540,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 旋风，旋流；旋风般的突发事件，匆忙的事情；旋风式的人",
-        "en": "A violent windstorm of limited extent, as the tornado, ch..."
+        "en": "n. a more or less vertical column of air whirling around itself as it moves over the surface of the Earth"
       }
     },
     {
@@ -5590,7 +5590,7 @@
       "pos": "adv",
       "meaning": {
         "zh": "adv. 丰富地；大量地",
-        "en": "In an abundant manner; in a sufficient degree; in large m..."
+        "en": "adv. in an abundant manner"
       }
     },
     {
@@ -5620,7 +5620,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 有角；成角状；生硬",
-        "en": "(uncountable) The property or characteristic of possessin..."
+        "en": "n. a shape having one or more sharp angles; n. the property possessed by a shape that has angles"
       }
     },
     {
@@ -5680,7 +5680,7 @@
       "pos": "n",
       "meaning": {
         "zh": "adj. 涩的；收敛性的；止血的；严厉的",
-        "en": "A substance which draws tissue together, thus restricting..."
+        "en": "n. a drug that causes contraction of body tissues and canals; adj. sour or bitter in taste; adj. tending to draw together or constrict soft organic tissue"
       }
     },
     {
@@ -5690,7 +5690,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 达到，获得；成就，造诣",
-        "en": "The act of attaining; the act of arriving at or reaching;..."
+        "en": "n. the act of achieving an aim; n. arrival at a new stage; n. an ability that has been acquired by training"
       }
     },
     {
@@ -5760,7 +5760,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 年表；年代学",
-        "en": "The science of determining the order in which events occu..."
+        "en": "n. an arrangement of events in time; n. a record of events in the order of their occurrence; n. the determination of the actual temporal sequence of past events"
       }
     },
     {
@@ -5809,7 +5809,7 @@
       "phonetic": "/kəˈmɪʃən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 考察团，委员会；佣金，回扣；犯罪；委托，命令；（军队中的）官职，军衔；（尤指艺术品）委托...",
+        "zh": "n. 考察团，委员会；佣金，回扣；犯罪；委托，命令；（军队中的）官职，军衔；（尤指艺术品）委托制作；所授之权，代办权; v. 委托撰写，委托制作；委任，任命……为军官；（使军舰）正式使用，服现役",
         "en": "A sending or mission (to do or accomplish something)."
       }
     },
@@ -5820,7 +5820,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 糖果，蜜饯；调制；糖膏（剂）；精制工艺品",
-        "en": "A food item prepared very sweet, frequently decorated in ..."
+        "en": "n. a food rich in sugar; n. the act of creating something (a medicine or drink or soup etc.) by compounding or mixing a variety of components; v. make into a confection"
       }
     },
     {
@@ -5840,7 +5840,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 上下文的，与语境相关的",
-        "en": "Of, pertaining to, or depending on the context of informa..."
+        "en": "adj. relating to or determined by or in context"
       }
     },
     {
@@ -5870,7 +5870,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 指称意义，本义",
-        "en": "The act of denoting, or something (such as a symbol) that..."
+        "en": "n. the act of indicating or pointing out by name; n. the most direct or specific meaning of a word or expression; the class of objects that an expression refers to"
       }
     },
     {
@@ -5910,7 +5910,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 轻蔑的；倨傲的；鄙视的",
-        "en": "Showing contempt or scorn; having a pronounced lack of co..."
+        "en": "adj. expressing extreme contempt; adj. having or showing arrogant superiority to and disdain of those one views as unworthy"
       }
     },
     {
@@ -5930,7 +5930,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 预测，占卜",
-        "en": "The act of divining; a foreseeing or foretelling of futur..."
+        "en": "n. successful conjecture by unusual insight or good luck; n. a prediction uttered under divine inspiration; n. the art or gift of prophecy (or the pretense of prophecy) by supernatural means"
       }
     },
     {
@@ -5950,7 +5950,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 生态旅游，生态旅行（前往生态资源未被破坏的地方旅行）",
-        "en": "Responsible travel to natural areas supporting the fauna,..."
+        "en": "n. tourism to exotic or threatened ecosystems to observe wildlife or to help preserve nature"
       }
     },
     {
@@ -5960,7 +5960,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 弹性，弹力；灵活性",
-        "en": "The property by virtue of which a material deformed under..."
+        "en": "n. the tendency of a body to return to its original shape after it has been stretched or compressed"
       }
     },
     {
@@ -5980,7 +5980,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 乳化剂，黏合剂",
-        "en": "A substance that helps an emulsion form, or helps keep an..."
+        "en": "n. a surface-active agent that promotes the formation of an emulsion"
       }
     },
     {
@@ -6010,7 +6010,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 比喻的；形象的；有文采的，用修辞手段的",
-        "en": "Of use as a metaphor, simile, or metonym, as opposed to l..."
+        "en": "adj. (used of the meanings of words or text) not literal; using figures of speech; adj. consisting of or forming human or animal figures"
       }
     },
     {
@@ -6020,7 +6020,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 水闸，水门；制约（怒气）（floodgate 的复数）",
-        "en": "An adjustable gate or valve used to control the flow of w..."
+        "en": "n. something that restrains a flood or outpouring; n. regulator consisting of a valve or gate that controls the rate of water flow through a sluice"
       }
     },
     {
@@ -6030,7 +6030,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. （财产等的）没收；（权利、名誉等的）丧失",
-        "en": "A legal action whereby a person loses all interest in the..."
+        "en": "n. something that is lost or surrendered as a penalty; n. a penalty for a fault or mistake that involves losing or giving up something; n. the act of losing or surrendering something as a penalty for a mistake or fault or failure to perform etc."
       }
     },
     {
@@ -6060,7 +6060,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 居住；住所",
-        "en": "The act of inhabiting; state of inhabiting or dwelling, o..."
+        "en": "n. the native habitat or home of an animal or plant; n. housing that someone is living in; n. the act of dwelling in or living permanently in a place (said of both animals and men)"
       }
     },
     {
@@ -6130,7 +6130,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. （规章 、惩罚、税种等的）实施；无理要求；（活字页）拼版",
-        "en": "The act of imposing, laying on, affixing, enjoining, infl..."
+        "en": "n. the act of imposing something (as a tax or an embargo); n. an uncalled-for burden"
       }
     },
     {
@@ -6140,7 +6140,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. （意）（歌剧、乐团等的）演出者；经理人；乐队指挥，导演",
-        "en": "A manager or producer in the entertainment industry, espe..."
+        "en": "n. a sponsor who books and stages public entertainments"
       }
     },
     {
@@ -6190,7 +6190,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 诱因，刺激",
-        "en": "An incentive that helps bring about a desired state. In s..."
+        "en": "n. a positive motivational influence; n. act of bringing about a desired result"
       }
     },
     {
@@ -6199,7 +6199,7 @@
       "phonetic": "/ɪnˈdʌld͡ʒəns/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 沉溺，沉迷；纵容，放纵；嗜好，享受；宽容，包涵；（中世纪时罗马天主教会授予的）特赦，赦免...",
+        "zh": "n. 沉溺，沉迷；纵容，放纵；嗜好，享受；宽容，包涵；（中世纪时罗马天主教会授予的）特赦，赦免；付款延期，偿债延期",
         "en": "The act of indulging"
       }
     },
@@ -6220,7 +6220,7 @@
       "pos": "adv",
       "meaning": {
         "zh": "adv. 不可逆转地，不可阻挡地",
-        "en": "In an inexorable manner; without the possibility of stopp..."
+        "en": "adv. in an inexorable manner"
       }
     },
     {
@@ -6260,7 +6260,7 @@
       "pos": "v",
       "meaning": {
         "zh": "vt. 使迎合；使讨好；使逢迎",
-        "en": "To bring oneself into favour with someone by flattering o..."
+        "en": "v. gain favor with somebody by deliberate efforts"
       }
     },
     {
@@ -6280,7 +6280,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. [耳鼻喉] 喉炎",
-        "en": "An inflammation of the larynx, typically resulting in hoa..."
+        "en": "n. inflammation of the mucous membrane of the larynx; characterized by hoarseness or loss of voice and coughing"
       }
     },
     {
@@ -6290,7 +6290,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 运动；移动；旅行",
-        "en": "The ability to move from place to place, or the act of do..."
+        "en": "n. the power or ability to move; n. self-propelled movement"
       }
     },
     {
@@ -6310,7 +6310,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 平庸，平常；庸人，无足轻重的人",
-        "en": "The quality of being intermediate between two extremes; a..."
+        "en": "n. ordinariness as a consequence of being average and not outstanding; n. a person of second-rate ability or value"
       }
     },
     {
@@ -6320,7 +6320,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 抑郁，忧郁；精神病（=melancholia）；黑胆汁（=black bile）",
-        "en": "Black bile, formerly thought to be one of the four \"cardi..."
+        "en": "n. a feeling of thoughtful sadness; n. a constitutional tendency to be gloomy and depressed; n. a humor that was once believed to be secreted by the kidneys or spleen and to cause sadness and melancholy; adj. characterized by or causing or expressing sadness"
       }
     },
     {
@@ -6410,7 +6410,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 门诊病人",
-        "en": "A patient who receives treatment at a hospital or clinic ..."
+        "en": "n. a patient who does not reside in the hospital where he is being treated"
       }
     },
     {
@@ -6420,7 +6420,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "n. 步行者，行人",
-        "en": "A walker; one who walks or goes on foot, especially as op..."
+        "en": "n. a person who travels by foot; adj. lacking wit or imagination"
       }
     },
     {
@@ -6440,7 +6440,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 非利士人；不喜欢文化艺术的人；没有文化教养的人；平庸之辈",
-        "en": "A person who is ignorant or uneducated; specifically, a p..."
+        "en": "n. a person who is uninterested in intellectual pursuits; adj. of or relating to ancient Philistia or the culture of the Philistines; adj. smug and ignorant and indifferent or hostile to artistic and cultural values"
       }
     },
     {
@@ -6450,7 +6450,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 早熟的；过早发育的",
-        "en": "Characterized by exceptionally early development or matur..."
+        "en": "adj. characterized by or characteristic of exceptionally early development or maturity (especially in mental aptitude); adj. appearing or developing early"
       }
     },
     {
@@ -6460,7 +6460,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 卓越的；超群的",
-        "en": "Exceeding others in quality or rank; of outstanding excel..."
+        "en": "adj. greatest in importance or degree or significance or achievement"
       }
     },
     {
@@ -6480,7 +6480,7 @@
       "pos": "v",
       "meaning": {
         "zh": "vt. 假定；预料；以……为先决条件",
-        "en": "To assume some truth without proof, usually for the purpo..."
+        "en": "v. take for granted or as a given; suppose beforehand; v. require as a necessary antecedent or precondition"
       }
     },
     {
@@ -6490,7 +6490,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 程序上的",
-        "en": "A type of literature, film, or television program involvi..."
+        "en": "adj. of or relating to procedure; adj. relating to court practice and procedure as opposed to the principles of law"
       }
     },
     {
@@ -6520,7 +6520,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 谚语的，俗话所说的；众所周知的",
-        "en": "Used to replace a word that might be considered unaccepta..."
+        "en": "adj. of or relating to or resembling or expressed in a proverb; adj. widely known and spoken of"
       }
     },
     {
@@ -6560,7 +6560,7 @@
       "pos": "v",
       "meaning": {
         "zh": "vi. 恢复，复原；挽回损失",
-        "en": "To recover, especially from an illness; to get better fro..."
+        "en": "v. regain or make up for; v. regain a former condition after a financial loss; v. restore to good health or strength; v. get over an illness or shock"
       }
     },
     {
@@ -6569,7 +6569,7 @@
       "phonetic": "/ɹɪˈdʌnd(ə)nsi/",
       "pos": "n",
       "meaning": {
-        "zh": "n.  （因劳动力过剩而造成的）裁员，解雇；多余，累赘；复置装置，冗余（机器、系统等某部件发生...",
+        "zh": "n.  （因劳动力过剩而造成的）裁员，解雇；多余，累赘；复置装置，冗余（机器、系统等某部件发生故障后的替代装置）",
         "en": "The state of being redundant"
       }
     },
@@ -6600,7 +6600,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 汇款额；汇款，汇寄",
-        "en": "The act of transmitting money, bills, etc. to a distant p..."
+        "en": "n. a payment of money sent to a person in another place"
       }
     },
     {
@@ -6650,7 +6650,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. （与）修辞（有关）的；反问的，反诘的；巧辩的，说话虚夸的",
-        "en": "Part of or similar to rhetoric, the use of language as a ..."
+        "en": "adj. of or relating to rhetoric; adj. concerned with effect or style of writing and speaking"
       }
     },
     {
@@ -6710,7 +6710,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 超现实主义",
-        "en": "An artistic movement and an aesthetic philosophy that aim..."
+        "en": "n. a 20th century movement of artists and writers (developing out of dadaism) who used fantastic images and incongruous juxtapositions in order to represent unconscious thoughts and dreams"
       }
     },
     {
@@ -6730,7 +6730,7 @@
       "pos": "adv",
       "meaning": {
         "zh": "adv. 战术性地；策略高明地",
-        "en": "In a tactical manner; in a manner calculated to achieve s..."
+        "en": "adv. with regard to tactics"
       }
     },
     {
@@ -6740,7 +6740,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 同等的；相当于……的",
-        "en": "Something which has the same value or amount (as somethin..."
+        "en": "adj. being essentially equal to something"
       }
     },
     {
@@ -6770,7 +6770,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. （水）奔流的；（雨）倾泻的，如注的；猛烈的",
-        "en": "Coming or characterized by torrents; flowing heavily or i..."
+        "en": "adj. relating to or resulting from the action of a torrent; adj. resembling a torrent in force and abundance; adj. pouring in abundance"
       }
     },
     {
@@ -6850,7 +6850,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 做作；矫揉造作；假装",
-        "en": "An attempt to assume or exhibit what is not natural or re..."
+        "en": "n. a deliberate pretense or exaggerated display"
       }
     },
     {
@@ -6880,7 +6880,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 崇尚运动，积极参与运动；运动能力，运动才能",
-        "en": "The state of being an athlete, or of taking part in athle..."
+        "en": "n. intense energy"
       }
     },
     {
@@ -6890,7 +6890,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 定语的，起修饰作用的；归属的，属性的",
-        "en": "(grammar) An attributive word or phrase (see above), cont..."
+        "en": "adj. of adjectives; placed before the nouns they modify"
       }
     },
     {
@@ -6950,7 +6950,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 内涵意义，隐含意义，联想意义",
-        "en": "A meaning of a word or phrase that is suggested or implie..."
+        "en": "n. what you must know in order to determine the reference of an expression; n. an idea that is implied or suggested"
       }
     },
     {
@@ -6960,7 +6960,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 发送的货物，运送物；发送，投递；寄售，寄卖；委托，托付",
-        "en": "A collection of goods to be sent, in transit or having be..."
+        "en": "n. goods carried by a large vehicle; n. the official act of consigning a person to confinement (as in a prison or mental hospital); n. the delivery of goods for sale or disposal"
       }
     },
     {
@@ -6970,7 +6970,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 不自然的；强迫的；过于受约束的，拘泥的",
-        "en": "To force physically, by strong persuasion or pressuring; ..."
+        "en": "adj. lacking spontaneity; not natural"
       }
     },
     {
@@ -7000,7 +7000,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 相互关系，关联；相关量",
-        "en": "A reciprocal, parallel or complementary relationship betw..."
+        "en": "n. a reciprocal relation between two or more things; n. a statistic representing how closely two variables co-vary; it can vary from -1 (perfect negative correlation) through 0 (no correlation) to +1 (perfect positive correlation); n. a statistical relation between two or more variables such that systematic changes in the value of one variable are accompanied by systematic changes in the other"
       }
     },
     {
@@ -7010,7 +7010,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 倾斜；偏差；衰微；下倾；赤纬；磁偏角",
-        "en": "At a given point, the angle between magnetic north and tr..."
+        "en": "n. a condition inferior to an earlier condition; a gradual falling off from a better state; n. a downward slope or bend; n. (astronomy) the angular distance of a celestial body north or south of the celestial equator; expressed in degrees; used with right ascension to specify positions on the celestial sphere; n. a polite refusal of an invitation"
       }
     },
     {
@@ -7030,7 +7030,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 贫困，匮乏，剥夺；免职（尤指圣职）",
-        "en": "The act of depriving, dispossessing, or bereaving; the ac..."
+        "en": "n. a state of extreme poverty; n. the disadvantage that results from losing something; n. act of depriving someone of food or money or rights"
       }
     },
     {
@@ -7070,7 +7070,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 启迪；教诲；精神修养",
-        "en": "The act of edifying, or the state of being edified or imp..."
+        "en": "n. uplifting enlightenment"
       }
     },
     {
@@ -7110,7 +7110,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 平衡，均衡；（心情的）平静，心理平衡；（经济）（供求的）平衡；（化）平衡；能量均分",
-        "en": "The condition of a system in which competing influences a..."
+        "en": "n. a chemical reaction and its reverse proceed at equal rates; n. a stable situation in which forces cancel one another; n. equality of distribution; n. a sensory system located in structures of the inner ear that registers the orientation of the head"
       }
     },
     {
@@ -7130,7 +7130,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 捏造的故事，虚构的信息；制造，生产；组装，装配",
-        "en": "The act of fabricating, framing, or constructing; constru..."
+        "en": "n. a deliberately false or improbable account; n. writing in a fictional form; n. the act of making something (a product) from raw materials; n. the act of constructing something (as a piece of machinery)"
       }
     },
     {
@@ -7150,7 +7150,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 波动，起伏",
-        "en": "A motion like that of waves; a moving in this and that di..."
+        "en": "n. a wave motion; n. an instance of change; the rate or magnitude of change; n. the quality of being unsteady and subject to changes"
       }
     },
     {
@@ -7170,7 +7170,7 @@
       "pos": "adv",
       "meaning": {
         "zh": "adv. 偶然地，随意地；杂乱地",
-        "en": "In a haphazard manner; in a random, chaotic, and incomple..."
+        "en": "adv. in a random manner; adv. without care; in a slapdash manner"
       }
     },
     {
@@ -7270,7 +7270,7 @@
       "pos": "v",
       "meaning": {
         "zh": "v. 审问，讯问，质问；（在计算机或其他机器上）查询",
-        "en": "To question or quiz, especially in a thorough and/or aggr..."
+        "en": "v. transmit (a signal) for setting off an appropriate response, as in telecommunication; v. pose a series of questions to"
       }
     },
     {
@@ -7280,7 +7280,7 @@
       "pos": "v",
       "meaning": {
         "zh": "v. 散布，散置；点缀；在……中夹杂某物",
-        "en": "To mix two things irregularly, placing things of one kind..."
+        "en": "v. place at intervals in or among; v. introduce one's writing or speech with certain expressions"
       }
     },
     {
@@ -7290,7 +7290,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 离题；无关之事物；不合时宜",
-        "en": "(uncountable) The quality of being irrelevant or inapplic..."
+        "en": "n. the lack of a relation of something to the matter at hand"
       }
     },
     {
@@ -7310,7 +7310,7 @@
       "pos": "adv",
       "meaning": {
         "zh": "adv. 不能取消地；不能撤回地",
-        "en": "In an irrevocable manner; beyond recall; in a manner prec..."
+        "en": "adv. in an irrevocable manner"
       }
     },
     {
@@ -7340,7 +7340,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 宽宏大量；慷慨",
-        "en": "The quality of being magnanimous; greatness of mind; elev..."
+        "en": "n. liberality in bestowing gifts; extremely liberal and generous of spirit"
       }
     },
     {
@@ -7370,7 +7370,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 唯物主义，唯物论；物质主义",
-        "en": "Constant concern over material possessions and wealth; a ..."
+        "en": "n. a desire for wealth and material possessions with little interest in ethical or spiritual matters; n. (philosophy) the philosophical theory that matter is the only reality"
       }
     },
     {
@@ -7390,7 +7390,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 气象状态，气象学",
-        "en": "The science that deals with the study of the atmosphere a..."
+        "en": "n. predicting what the weather will be; n. the earth science dealing with phenomena of the atmosphere (especially weather)"
       }
     },
     {
@@ -7460,7 +7460,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 肖像画；肖像绘制；人像摄影",
-        "en": "A portrait; a likeness; a painted resemblance; hence, tha..."
+        "en": "n. a word picture of a person's appearance and character; n. the activity of making portraits"
       }
     },
     {
@@ -7470,7 +7470,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 前任，前辈；（被取代的）原有事物，前身",
-        "en": "One who precedes; one who has preceded another in any sta..."
+        "en": "n. one who precedes you in time (as in holding a position or office)"
       }
     },
     {
@@ -7489,7 +7489,7 @@
       "phonetic": "/ˌpɹɑpəˈzɪʃən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 主张，观点；（尤指商业或政治上的）提议，建议；（美国的）法律修正案；欲做的事，待处理的问...",
+        "zh": "n. 主张，观点；（尤指商业或政治上的）提议，建议；（美国的）法律修正案；欲做的事，待处理的问题；（数学或逻辑）命题；（尤指被视作有冒犯性的）性交提议，求欢; v. 向（某人）提议；（尤指冒犯地）提出与……性交，向……求欢",
         "en": "The act of offering (an idea) for consideration."
       }
     },
@@ -7509,8 +7509,8 @@
       "phonetic": "/ˌpɹɑvəˈkeɪʃən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 激怒，挑衅，挑衅性事件； 挑衅（行为或语言）；（尤指蓄意的）性挑逗；（诱发反应或反射作用...",
-        "en": "The act of provoking, inciting or annoying someone into d..."
+        "zh": "n. 激怒，挑衅，挑衅性事件； 挑衅（行为或语言）；（尤指蓄意的）性挑逗；（诱发反应或反射作用的）激发试验",
+        "en": "n. unfriendly behavior that causes anger or resentment; n. something that incites or provokes; a means of arousing or stirring to action; n. needed encouragement"
       }
     },
     {
@@ -7610,7 +7610,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 选择性；分离性；选择度",
-        "en": "The quality of being selective; usually the extent to whi..."
+        "en": "n. the property of being selective"
       }
     },
     {
@@ -7640,7 +7640,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 条款，约定（规定）的条件",
-        "en": "The act of stipulating; a contracting or bargaining; an a..."
+        "en": "n. (law) an agreement or concession made by parties in a judicial proceeding (or by their attorneys) relating to the business before the court; must be in writing unless they are part of the court record; n. an assumption on which rests the validity or effect of something else; n. a restriction that is insisted upon as a condition for an agreement"
       }
     },
     {
@@ -7740,7 +7740,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 明确的；不含糊的",
-        "en": "Unambiguous; without equivocation or ambiguity; singularl..."
+        "en": "adj. admitting of no doubt or misunderstanding; having only one meaning or interpretation and leading to only one conclusion; adj. clearly defined or formulated"
       }
     },
     {
@@ -7850,7 +7850,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 对立的，正相反的",
-        "en": "Pertaining to antithesis, or opposition of words and sent..."
+        "en": "adj. sharply contrasted in character or purpose"
       }
     },
     {
@@ -7870,7 +7870,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. （想法、思想等的）语言表达；清楚的咬字（或发音），说话；关节连接，铰接式接头",
-        "en": "A joint or the collection of joints at which something is..."
+        "en": "n. the aspect of pronunciation that involves bringing articulatory organs together so as to shape the sounds of speech; n. the shape or manner in which things come together and a connection is made; n. expressing in coherent verbal form; n. (anatomy) the point of connection between two bones or elements of a skeleton (especially if it allows motion)"
       }
     },
     {
@@ -7890,7 +7890,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 真实性，可靠性",
-        "en": "The quality of being genuine or not corrupted from the or..."
+        "en": "n. undisputed credibility"
       }
     },
     {
@@ -7910,7 +7910,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 斗争性；好战性；交战",
-        "en": "The state of being belligerent; aggressive inclination to..."
+        "en": "n. hostile or warlike attitude or nature; n. a natural disposition to be hostile"
       }
     },
     {
@@ -7920,7 +7920,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 奉承；谄媚；哄诱",
-        "en": "Flattering speech or actions designed to persuade or infl..."
+        "en": "n. flattery intended to persuade; n. the act of urging by means of teasing or flattery"
       }
     },
     {
@@ -7950,7 +7950,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 编舞；舞蹈艺术；舞艺",
-        "en": "The art of creating, arranging and recording the dance mo..."
+        "en": "n. a show involving artistic dancing; n. the representation of dancing by symbols as music is represented by notes; n. a notation used by choreographers"
       }
     },
     {
@@ -7990,7 +7990,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 调解；安抚；说服",
-        "en": "The process of bringing peace and harmony; the ending of ..."
+        "en": "n. the state of manifesting goodwill and cooperation after being reconciled; n. any of various forms of mediation whereby disputes may be settled short of arbitration; n. the act of placating and overcoming distrust and animosity"
       }
     },
     {
@@ -8030,7 +8030,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 轻蔑的，鄙视的",
-        "en": "Showing contempt; expressing disdain; showing a lack of r..."
+        "en": "adj. expressing extreme contempt"
       }
     },
     {
@@ -8070,7 +8070,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 精馏，蒸馏，净化；蒸馏法；精华，蒸馏物",
-        "en": "The act of falling in drops, or the act of pouring out in..."
+        "en": "n. the process of purifying a liquid by boiling it and condensing its vapors; n. a purified liquid produced by condensation from a vapor during distilling; the product of distilling"
       }
     },
     {
@@ -8080,7 +8080,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 古怪；怪癖；[数] 离心率",
-        "en": "The quality of being eccentric or odd; any eccentric beha..."
+        "en": "n. strange and unconventional behavior; n. (geometry) a ratio describing the shape of a conic section; the ratio of the distance between the foci to the length of the major axis; n. a circularity that has a different center or deviates from a circular path"
       }
     },
     {
@@ -8090,7 +8090,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 回波定位；回声测距；回声定位能力（鲸和蝙蝠等所具备得一种机能）",
-        "en": "The use of echoes to detect objects as observed in bats a..."
+        "en": "n. determining the location of something by measuring the time it takes for an echo to return from it"
       }
     },
     {
@@ -8100,7 +8100,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 朝生暮死，短命的事物；无常的事物",
-        "en": "(uncountable) The state or condition of being ephemeral; ..."
+        "en": "n. the property of lasting for a very short time"
       }
     },
     {
@@ -8200,7 +8200,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 逢迎的，讨好的；迷人的，吸引人的",
-        "en": "To bring oneself into favour with someone by flattering o..."
+        "en": "adj. capable of winning favor; adj. calculated to please or gain favor"
       }
     },
     {
@@ -8220,7 +8220,7 @@
       "pos": "n",
       "meaning": {
         "zh": "adj. 中间的，过渡的",
-        "en": "An agent acting as a mediator between sides that may disa..."
+        "en": "n. a negotiator who acts as a link between parties"
       }
     },
     {
@@ -8250,7 +8250,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 失去弹性的；肌肉僵硬的（由于运动或劳累过度造成的）",
-        "en": "Having pronounced muscle development through weightliftin..."
+        "en": "adj. having stiff muscles as the result of excessive exercise"
       }
     },
     {
@@ -8270,7 +8270,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 八十岁到八十九岁的人",
-        "en": "One who is between the age of eighty and eighty-nine, inc..."
+        "en": "n. someone whose age is in the eighties; adj. being from 80 to 89 years old"
       }
     },
     {
@@ -8280,7 +8280,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 慈善，仁慈；慈善机构，慈善团体；慈善事业",
-        "en": "Benevolent altruism with the intention of increasing the ..."
+        "en": "n. voluntary promotion of human welfare"
       }
     },
     {
@@ -8300,7 +8300,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. （医学界或法律界的）从业人员，执业者；从事者，实践者",
-        "en": "A person who practices a profession or art, especially la..."
+        "en": "n. someone who practices a learned profession"
       }
     },
     {
@@ -8320,7 +8320,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 偏爱，嗜好",
-        "en": "Condition of favoring or liking; tendency towards; procli..."
+        "en": "n. a predisposition in favor of something; n. a strong liking"
       }
     },
     {
@@ -8329,8 +8329,8 @@
       "phonetic": "/pɹɪˈskɹɪptɪv/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 规定的，指定的；（语言）规范的；（权利、头衔或制度因长期使用或随时间推移变得）合法的...",
-        "en": "Of or pertaining to prescribing or enjoining, especially ..."
+        "zh": "adj. 规定的，指定的；（语言）规范的；（权利、头衔或制度因长期使用或随时间推移变得）合法的，约定俗成的",
+        "en": "adj. pertaining to giving directives or rules"
       }
     },
     {
@@ -8380,7 +8380,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 抗议；规劝；谏书",
-        "en": "A remonstration; disapproval; a formal, usually written, ..."
+        "en": "n. the act of expressing earnest opposition or protest"
       }
     },
     {
@@ -8420,7 +8420,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 平流层，同温层；最上层；最高阶段",
-        "en": "Collectively, those layers of the Earth’s crust which pri..."
+        "en": "n. the atmospheric layer between the troposphere and the mesosphere"
       }
     },
     {
@@ -8430,7 +8430,7 @@
       "pos": "v",
       "meaning": {
         "zh": "vt. 证实；使实体化",
-        "en": "To verify something by supplying evidence; to authenticat..."
+        "en": "v. establish or strengthen as with new evidence or facts; v. represent in bodily form; v. make real or concrete; give reality or substance to; v. solidify, firm, or strengthen"
       }
     },
     {
@@ -8450,7 +8450,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. （地方）易于进入性，（物品）易于接近性；易使用性，可及性；易懂性",
-        "en": "The quality of being accessible, or of admitting approach..."
+        "en": "n. the quality of being at hand when needed; n. the attribute of being easy to meet or deal with"
       }
     },
     {
@@ -8540,7 +8540,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n.  宣传，散播；宣传，散播",
-        "en": "The act of disseminating, or the state of being dissemina..."
+        "en": "n. the opening of a subject to widespread discussion and debate; n. the property of being diffused or dispersed; n. the act of dispersing or diffusing something"
       }
     },
     {
@@ -8550,7 +8550,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 裸露症患者；倾向自我宣传的人；喜欢出风头的人",
-        "en": "A student at secondary school or university who has been ..."
+        "en": "n. someone with a compulsive desire to expose the genitals; n. someone who deliberately behaves in such a way as to attract attention"
       }
     },
     {
@@ -8600,7 +8600,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 感觉不到的；极细微的",
-        "en": "Not perceptible, not detectable, too small in magnitude t..."
+        "en": "adj. impossible or difficult to perceive by the mind or senses"
       }
     },
     {
@@ -8610,7 +8610,7 @@
       "pos": "adv",
       "meaning": {
         "zh": "adv. 极微地；微细地；察觉不到地",
-        "en": "Not noticeably; too small to be detected; too little to b..."
+        "en": "adv. in an imperceptible manner or to an imperceptible degree"
       }
     },
     {
@@ -8630,7 +8630,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 利己主义，个人主义；个性，独特气质；（国家对经济、政治的）不干涉主义，自由放任主义",
-        "en": "The tendency for a person to act without reference to oth..."
+        "en": "n. the quality of being individual; n. a belief in the importance of the individual and the virtue of self-reliance and personal independence; n. the doctrine that government should not interfere in commercial affairs"
       }
     },
     {
@@ -8650,7 +8650,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 无误；教皇永无谬误论",
-        "en": "The property of being infallible; the ability to never ma..."
+        "en": "n. the quality of never making an error"
       }
     },
     {
@@ -8660,7 +8660,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 瞬间发生的，瞬间完成的",
-        "en": "Occurring, arising, or functioning without any delay; hap..."
+        "en": "adj. occurring with no delay"
       }
     },
     {
@@ -8670,7 +8670,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 审问，盘问；查询；疑问句",
-        "en": "The act of interrogating or questioning; examination by q..."
+        "en": "n. a sentence of inquiry that asks for a reply; n. a transmission that will trigger an answering transmission from a transponder; n. formal systematic questioning; n. an instance of questioning"
       }
     },
     {
@@ -8680,7 +8680,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. （姿势、语调）询问的，疑问的",
-        "en": "(grammar) A word (pronoun, pronominal adjective, or adver..."
+        "en": "n. a sentence of inquiry that asks for a reply; n. some linguists consider interrogative sentences to constitute a mood; adj. relating to verbs in the so-called interrogative mood; adj. relating to the use of or having the nature of an interrogation"
       }
     },
     {
@@ -8770,7 +8770,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 无处不在；广泛性；普遍性",
-        "en": "The state or quality of being present in all parts of a p..."
+        "en": "n. the quality of filling or spreading throughout"
       }
     },
     {
@@ -8780,7 +8780,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 慈善的，捐助的",
-        "en": "Of or pertaining to philanthropy; characterized by philan..."
+        "en": "adj. generous in assistance to the poor; adj. of or relating to or characterized by philanthropy"
       }
     },
     {
@@ -8800,7 +8800,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 偏见；先入之见；预想",
-        "en": "An opinion formed before obtaining adequate evidence, esp..."
+        "en": "n. an opinion formed beforehand without adequate evidence; n. a partiality that prevents objective consideration of an issue or situation"
       }
     },
     {
@@ -8810,7 +8810,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 使人全神贯注的事物，使人入神的事物；全神贯注，入神",
-        "en": "The state of being preoccupied or an idea that preoccupie..."
+        "en": "n. an idea that preoccupies the mind and holds the attention; n. the mental state of being preoccupied by something; n. the act of taking occupancy before someone else does"
       }
     },
     {
@@ -8820,7 +8820,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 盈利能力；收益性；利益率",
-        "en": "The quality or state of being profitable; capacity to mak..."
+        "en": "n. the quality of affording gain or benefit or profit"
       }
     },
     {
@@ -8830,7 +8830,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. （数量的）激增，剧增；（细胞、组织、有机体的）繁殖，增生；大量",
-        "en": "The process by which an organism produces others of its k..."
+        "en": "n. growth by the rapid multiplication of parts; n. a rapid increase in number (especially a rapid increase in the number of deadly weapons)"
       }
     },
     {
@@ -8870,7 +8870,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj.  回顾的，回想的；有追溯效力的，溯及既往的",
-        "en": "An exhibition of works from an extended period of an arti..."
+        "en": "n. an exhibition of a representative selection of an artist's life work; adj. concerned with or related to the past"
       }
     },
     {
@@ -8910,7 +8910,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 秘密的；鬼鬼祟祟的；暗中的",
-        "en": "Stealthy, furtive, well hidden, covert (especially moveme..."
+        "en": "adj. marked by quiet and caution and secrecy; taking pains to avoid being observed; adj. conducted with or marked by hidden aims or methods"
       }
     },
     {
@@ -8960,7 +8960,7 @@
       "pos": "adv",
       "meaning": {
         "zh": "明确地",
-        "en": "In a way that leaves no doubt; in an unequivocal or unamb..."
+        "en": "adv. in an unambiguous manner"
       }
     },
     {
@@ -8980,7 +8980,7 @@
       "pos": "adv",
       "meaning": {
         "zh": "adv. 不显眼地；不容易看到地；客气地",
-        "en": "In an unobtrusive manner; in a manner that is not noticea..."
+        "en": "adv. in an unobtrusive manner"
       }
     },
     {
@@ -8990,7 +8990,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 责任，责任心，可说明性",
-        "en": "The state of being accountable; liability to be called on..."
+        "en": "n. responsibility to someone or for some activity"
       }
     },
     {
@@ -9020,7 +9020,7 @@
       "pos": "v",
       "meaning": {
         "zh": "vt. 环航",
-        "en": "To travel completely around somewhere or something, espec..."
+        "en": "v. travel around, either by plane or ship"
       }
     },
     {
@@ -9110,7 +9110,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 表象的；演出的；上演的；直觉的",
-        "en": "(grammar) A clause using existential \"there\" with a verb ..."
+        "en": "adj. of or relating to a presentation (especially in psychology or philosophy)"
       }
     },
     {
@@ -9120,7 +9120,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 增压；气密；压力输送",
-        "en": "The act or process of increasing pressure within a volume..."
+        "en": "abstract: Pressurization is the application of pressure in a given situation or environment; and more specifically refers to the process by which atmospheric pressure is maintained in an isolated or semi-isolated atmospheric environment (for instance, in an aircraft, or whilst scuba diving)."
       }
     },
     {
@@ -9130,7 +9130,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 假定；预想；臆测",
-        "en": "An assumption made beforehand; a preliminary conjecture o..."
+        "en": "n. the act of presupposing; a supposition made prior to having knowledge (as for the purpose of argument)"
       }
     },
     {
@@ -9150,7 +9150,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 和解，复交；协调，和谐一致；对账",
-        "en": "The reestablishment of friendly relations; conciliation o..."
+        "en": "n. the reestablishing of cordial relations; n. getting two things to correspond"
       }
     },
     {
@@ -9170,7 +9170,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 逼真，貌似真实；逼真的事物",
-        "en": "The property of seeming true, of resembling reality; rese..."
+        "en": "n. the appearance of truth; the quality of seeming to be true"
       }
     },
     {
@@ -9210,7 +9210,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. 放映技师；电影摄影技师",
-        "en": "A photographer who operates a movie camera, or who overse..."
+        "en": "n. a photographer who operates a movie camera"
       }
     },
     {
@@ -9220,7 +9220,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 对抗的；对抗性的",
-        "en": "Pertaining to a confrontation; characterized by, or given..."
+        "en": "adj. of or relating to confrontation"
       }
     },
     {
@@ -9320,7 +9320,7 @@
       "pos": "n",
       "meaning": {
         "zh": "n. （对自然环境、古迹文物等的）保护主义者",
-        "en": "A person who advocates for the preservation of natural or..."
+        "en": "n. someone who advocates the preservation of historical sites or endangered species or natural areas"
       }
     },
     {
@@ -9350,7 +9350,7 @@
       "pos": "adj",
       "meaning": {
         "zh": "adj. 含蓄的；不露感情的",
-        "en": "Not given to showing emotion or feelings; reserved or dis..."
+        "en": "adj. not given to open expression of emotion"
       }
     },
     {
@@ -9390,7 +9390,7 @@
       "pos": "adv",
       "meaning": {
         "zh": "灾难性地",
-        "en": "In a catastrophic manner, or to a catastrophic extent; di..."
+        "en": "adv. with unfortunate consequences"
       }
     },
     {

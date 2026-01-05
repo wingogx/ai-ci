@@ -8,10 +8,14 @@ import {
 import { selectWordsForLevel } from '@/lib/wordSelector'
 import { getWordCountForLevel, getPreFillRatio, isChallengeLevel } from '@/utils'
 
+// 教学关卡数量（前N关自动显示答案）
+const TUTORIAL_LEVELS = 3
+
 interface GameState {
   // 当前关卡
   currentLevel: number
   isChallenge: boolean
+  isTutorialLevel: boolean // 是否为教学关卡（前3关）
 
   // 当前使用的词库等级（用于检测等级切换）
   currentGrade: string | null
@@ -33,7 +37,7 @@ interface GameState {
   helpCount: number
   isHelpUsed: boolean
 
-  // 显示的单词（使用帮助后显示）
+  // 显示的单词（使用帮助后显示，或教学关卡自动显示）
   revealedWords: string[]
 
   // Actions
@@ -56,6 +60,7 @@ interface GameState {
 export const useGameStore = create<GameState>((set, get) => ({
   currentLevel: 1,
   isChallenge: false,
+  isTutorialLevel: true,
   currentGrade: null,
   currentPuzzle: null,
   currentWords: [],
@@ -70,6 +75,7 @@ export const useGameStore = create<GameState>((set, get) => ({
 
   initLevel: (level, allWords, learnedWords, helpedWords, grade, helpCount) => {
     const isChallenge = isChallengeLevel(level)
+    const isTutorialLevel = level <= TUTORIAL_LEVELS
     const wordCount = getWordCountForLevel(level)
     const preFillRatio = getPreFillRatio(grade)
 
@@ -141,6 +147,7 @@ export const useGameStore = create<GameState>((set, get) => ({
     set({
       currentLevel: level,
       isChallenge,
+      isTutorialLevel,
       currentGrade: grade,
       currentPuzzle: puzzle,
       currentWords: words,
@@ -151,7 +158,8 @@ export const useGameStore = create<GameState>((set, get) => ({
       wrongCells: new Set(),
       helpCount,
       isHelpUsed: false,
-      revealedWords: [],
+      // 教学关卡自动显示答案，帮助新手快速入门
+      revealedWords: isTutorialLevel ? words.map((w) => w.word) : [],
     })
   },
 
@@ -299,6 +307,7 @@ export const useGameStore = create<GameState>((set, get) => ({
     set({
       currentLevel: 1,
       isChallenge: false,
+      isTutorialLevel: true,
       currentGrade: null,
       currentPuzzle: null,
       currentWords: [],

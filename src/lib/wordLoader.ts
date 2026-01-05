@@ -61,7 +61,8 @@ async function loadWithRetry(
  * @returns 单词数组（按词长排序）
  */
 // 缓存版本号 - 更改此值可强制刷新缓存
-const CACHE_VERSION = 4
+// v6: 2026-01-04 修复了中文含义被截断的问题
+const CACHE_VERSION = 6
 
 export async function loadWordList(level: WordLevel): Promise<Word[]> {
   const cacheKey = `words_${level}_v${CACHE_VERSION}`

@@ -41,6 +41,7 @@ export default function GamePage() {
     error,
     currentLevel,
     isChallenge,
+    isTutorialLevel,
     currentPuzzle,
     currentWords,
     placedLetters,
@@ -288,13 +289,17 @@ export default function GamePage() {
           onReplay={handleReplay}
           onRestart={handleRestart}
           isChallenge={isChallenge}
+          isTutorialLevel={isTutorialLevel}
         />
 
         {/* 帮助提示（显示单词） */}
         {revealedWords.length > 0 && (
-          <div className="bg-yellow-100 px-4 py-2 text-center">
-            <p className="text-sm text-yellow-800">
-              {t('game.helpUsed', lang)}:{' '}
+          <div className={`px-4 py-2 text-center ${isTutorialLevel ? 'bg-green-100' : 'bg-yellow-100'}`}>
+            <p className={`text-sm ${isTutorialLevel ? 'text-green-800' : 'text-yellow-800'}`}>
+              {isTutorialLevel
+                ? (lang === 'zh' ? '教学模式 - 答案已显示，跟着拼写练习吧！' : 'Tutorial Mode - Answers shown, practice spelling!')
+                : t('game.helpUsed', lang)}
+              :{' '}
               <span className="font-bold">{revealedWords.join(', ')}</span>
             </p>
           </div>

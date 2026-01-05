@@ -78,7 +78,7 @@ export function WordCard({
         </div>
         {/* 释义 */}
         {meaning && (
-          <p className="text-sm text-gray-600 mt-0.5 truncate">{meaning}</p>
+          <p className="text-sm text-gray-600 mt-0.5">{meaning}</p>
         )}
       </div>
     </div>
