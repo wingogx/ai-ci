@@ -11,32 +11,77 @@ interface GeoInfo {
 
 /**
  * 通过 IP 获取地理位置
- * 使用免费的 ip-api.com 服务
+ * 使用多个免费服务作为降级方案
  */
 export async function getGeoByIP(): Promise<GeoInfo> {
-  try {
-    // ip-api.com 免费服务，每分钟 45 次请求限制
-    const response = await fetch('http://ip-api.com/json/?lang=zh-CN&fields=status,city,regionName,country')
+  // 尝试多个服务，按优先级（HTTPS 优先）
+  const providers = [
+    fetchFromIpApiCo,  // HTTPS，优先使用
+    fetchFromIpApi,    // HTTP，仅限非 HTTPS 环境
+  ]
 
-    if (!response.ok) {
-      throw new Error('获取位置失败')
-    }
-
-    const data = await response.json()
-
-    if (data.status === 'success') {
-      return {
-        city: data.city || null,
-        region: data.regionName || null,
-        country: data.country || null,
+  for (const provider of providers) {
+    try {
+      const result = await provider()
+      if (result.city) {
+        return result
       }
+    } catch (err) {
+      console.log('IP 定位服务失败，尝试下一个:', err)
     }
-
-    return { city: null, region: null, country: null }
-  } catch (err) {
-    console.error('IP 定位失败:', err)
-    return { city: null, region: null, country: null }
   }
+
+  return { city: null, region: null, country: null }
+}
+
+/**
+ * 使用 ipapi.co (HTTPS, 免费 1000次/天)
+ */
+async function fetchFromIpApiCo(): Promise<GeoInfo> {
+  const response = await fetch('https://ipapi.co/json/', {
+    headers: { 'Accept': 'application/json' }
+  })
+
+  if (!response.ok) {
+    throw new Error('ipapi.co 请求失败')
+  }
+
+  const data = await response.json()
+
+  return {
+    city: data.city || null,
+    region: data.region || null,
+    country: data.country_name || null,
+  }
+}
+
+/**
+ * 使用 ip-api.com (HTTP, 免费 45次/分钟)
+ * 仅在非 HTTPS 环境下可用
+ */
+async function fetchFromIpApi(): Promise<GeoInfo> {
+  // 检查是否在 HTTPS 环境中
+  if (typeof window !== 'undefined' && window.location.protocol === 'https:') {
+    throw new Error('ip-api.com 不支持 HTTPS')
+  }
+
+  const response = await fetch('http://ip-api.com/json/?lang=zh-CN&fields=status,city,regionName,country')
+
+  if (!response.ok) {
+    throw new Error('ip-api.com 请求失败')
+  }
+
+  const data = await response.json()
+
+  if (data.status === 'success') {
+    return {
+      city: data.city || null,
+      region: data.regionName || null,
+      country: data.country || null,
+    }
+  }
+
+  throw new Error('ip-api.com 返回失败状态')
 }
 
 /**

@@ -61,24 +61,60 @@ export async function generateShareImage(element: HTMLElement): Promise<Blob | n
 
 /**
  * 分享到微信
- * 由于微信限制，实际实现是下载图片供用户手动分享
+ * 移动端使用 Web Share API，微信浏览器内返回特殊标记让用户长按保存
  */
 export async function shareToWeChat(
   imageBlob: Blob,
   _text: string,
   _url: string
-): Promise<void> {
-  // 微信内置浏览器可能支持 JSSDK
-  // 但通用方案是让用户保存图片后手动分享
+): Promise<{ needLongPress: boolean }> {
+  // 微信内置浏览器：无法自动下载，需要用户长按图片保存
+  if (isWeChatBrowser()) {
+    return { needLongPress: true }
+  }
+
+  // 其他环境使用通用下载方式
   await downloadImage(imageBlob, 'wordduck-share.png')
+  return { needLongPress: false }
 }
 
 /**
  * 下载图片
+ * 移动端优先使用 Web Share API，降级为打开新窗口
  */
 export async function downloadImage(blob: Blob, filename: string): Promise<void> {
-  const url = URL.createObjectURL(blob)
+  // 移动端优先使用 Web Share API
+  if (isMobile() && navigator.share && navigator.canShare) {
+    try {
+      const file = new File([blob], filename, { type: 'image/png' })
+      if (navigator.canShare({ files: [file] })) {
+        await navigator.share({
+          files: [file],
+          title: 'WordDuck',
+        })
+        return
+      }
+    } catch (err) {
+      // 用户取消或不支持，继续尝试其他方式
+      if ((err as Error).name === 'AbortError') {
+        return // 用户取消，不继续
+      }
+      console.log('Web Share API 失败，尝试其他方式')
+    }
+  }
 
+  // iOS Safari 特殊处理：在新标签页打开图片，提示长按保存
+  if (isIOS()) {
+    const url = URL.createObjectURL(blob)
+    // 直接打开图片 URL，用户可以长按保存
+    window.open(url, '_blank')
+    // 延迟释放 URL，给用户足够时间保存
+    setTimeout(() => URL.revokeObjectURL(url), 60000)
+    return
+  }
+
+  // 桌面端或 Android：使用传统下载方式
+  const url = URL.createObjectURL(blob)
   const link = document.createElement('a')
   link.href = url
   link.download = filename
@@ -90,6 +126,30 @@ export async function downloadImage(blob: Blob, filename: string): Promise<void>
 
   // 释放 URL
   setTimeout(() => URL.revokeObjectURL(url), 100)
+}
+
+/**
+ * 检测是否为移动端
+ */
+function isMobile(): boolean {
+  if (typeof window === 'undefined') return false
+  return /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
+}
+
+/**
+ * 检测是否为 iOS
+ */
+function isIOS(): boolean {
+  if (typeof window === 'undefined') return false
+  return /iPhone|iPad|iPod/i.test(navigator.userAgent)
+}
+
+/**
+ * 检测是否为微信内置浏览器
+ */
+export function isWeChatBrowser(): boolean {
+  if (typeof window === 'undefined') return false
+  return /MicroMessenger/i.test(navigator.userAgent)
 }
 
 /**

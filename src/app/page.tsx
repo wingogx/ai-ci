@@ -10,6 +10,8 @@ import { t } from '@/i18n'
 import { getWordListInfo } from '@/lib/wordLoader'
 import { getLearningHistory } from '@/lib/sync'
 import { initializeDeviceUser, getCurrentDeviceUser } from '@/lib/auth/deviceAuth'
+import { getCityWithCache } from '@/lib/geo'
+import { getSupabaseClient } from '@/lib/supabase'
 import { DEFAULT_USER_SETTINGS, DEFAULT_GRADE_PROGRESS, DEFAULT_USER_STATS } from '@/types'
 import type { WordListMode, CEFRLevel, ChinaLevel, Language, WordLevel } from '@/types'
 import type { User } from '@/types/database'
@@ -68,6 +70,25 @@ export default function HomePage() {
           // 自动创建匿名用户
           user = await initializeDeviceUser()
         }
+
+        // 如果用户存在但没有城市信息，尝试获取
+        if (user && !user.city) {
+          const city = await getCityWithCache()
+          if (city) {
+            try {
+              const supabase = getSupabaseClient()
+              await supabase.rpc('update_user_city', {
+                p_user_id: user.id,
+                p_city: city,
+              })
+              // 更新本地用户对象
+              user = { ...user, city }
+            } catch (err) {
+              console.error('更新城市信息失败:', err)
+            }
+          }
+        }
+
         setCurrentUser(user)
 
         // 加载热力图数据

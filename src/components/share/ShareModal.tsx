@@ -1,9 +1,9 @@
 'use client'
 
-import { useState, useRef, useCallback, ReactNode } from 'react'
+import { useState, useRef, useCallback, ReactNode, useEffect } from 'react'
 import { Modal, Button } from '@/components/ui'
 import { t } from '@/i18n'
-import { generateShareImage, shareToWeChat, copyToClipboard, downloadImage } from '@/lib/share'
+import { generateShareImage, shareToWeChat, copyToClipboard, downloadImage, isWeChatBrowser } from '@/lib/share'
 
 interface ShareModalProps {
   isOpen: boolean
@@ -26,10 +26,17 @@ export function ShareModal({
   const [loading, setLoading] = useState<ShareAction>(null)
   const [copied, setCopied] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const [showLongPressHint, setShowLongPressHint] = useState(false)
+  const [isInWeChat, setIsInWeChat] = useState(false)
 
   const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://wordduck.app'
   const shareUrl = inviteCode ? `${baseUrl}/invite/${inviteCode}` : baseUrl
   const shareText = t('share.inviteText', lang)
+
+  // 检测是否在微信浏览器中
+  useEffect(() => {
+    setIsInWeChat(isWeChatBrowser())
+  }, [])
 
   const handleGenerateImage = useCallback(async () => {
     if (!cardRef.current) return null
@@ -45,10 +52,15 @@ export function ShareModal({
   const handleWeChatShare = async () => {
     setLoading('wechat')
     setError(null)
+    setShowLongPressHint(false)
     try {
       const imageBlob = await handleGenerateImage()
       if (imageBlob) {
-        await shareToWeChat(imageBlob, shareText, shareUrl)
+        const result = await shareToWeChat(imageBlob, shareText, shareUrl)
+        if (result.needLongPress) {
+          // 微信浏览器内，提示用户长按图片保存
+          setShowLongPressHint(true)
+        }
       }
     } catch (err) {
       setError(lang === 'zh' ? '分享失败' : 'Share failed')
@@ -97,6 +109,15 @@ export function ShareModal({
         <div className="flex justify-center mb-6">
           <div ref={cardRef}>{children}</div>
         </div>
+
+        {/* 微信浏览器长按提示 */}
+        {(showLongPressHint || isInWeChat) && (
+          <div className="text-center text-sm text-gray-500 mb-4 bg-yellow-50 p-2 rounded-lg">
+            {lang === 'zh'
+              ? '👆 长按上方图片保存到相册，然后分享到微信'
+              : '👆 Long press the image above to save, then share to WeChat'}
+          </div>
+        )}
 
         {/* 分享按钮 */}
         <div className="space-y-3">
