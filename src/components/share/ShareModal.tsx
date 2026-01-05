@@ -3,7 +3,7 @@
 import { useState, useRef, useCallback, ReactNode, useEffect } from 'react'
 import { Modal, Button } from '@/components/ui'
 import { t } from '@/i18n'
-import { generateShareImage, copyToClipboard, isWeChatBrowser } from '@/lib/share'
+import { generateShareImage, copyToClipboard, isWeChatBrowser, downloadImage } from '@/lib/share'
 
 interface ShareModalProps {
   isOpen: boolean
@@ -13,7 +13,7 @@ interface ShareModalProps {
   children: ReactNode // 分享卡片组件
 }
 
-type ShareAction = 'wechat' | 'copy' | null
+type ShareAction = 'wechat' | 'copy' | 'save' | null
 
 export function ShareModal({
   isOpen,
@@ -28,6 +28,7 @@ export function ShareModal({
   const [error, setError] = useState<string | null>(null)
   const [isInWeChat, setIsInWeChat] = useState(false)
   const [generatedImageUrl, setGeneratedImageUrl] = useState<string | null>(null)
+  const [generatedBlob, setGeneratedBlob] = useState<Blob | null>(null)
 
   const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://wordduck.app'
   const shareUrl = inviteCode ? `${baseUrl}/invite/${inviteCode}` : baseUrl
@@ -45,6 +46,7 @@ export function ShareModal({
         URL.revokeObjectURL(generatedImageUrl)
       }
       setGeneratedImageUrl(null)
+      setGeneratedBlob(null)
       setError(null)
       setCopied(false)
     }
@@ -66,12 +68,16 @@ export function ShareModal({
     setError(null)
     try {
       const imageBlob = await handleGenerateImage()
+      console.log('handleWeChatShare - imageBlob:', imageBlob)
       if (!imageBlob) {
         setError(lang === 'zh' ? '生成图片失败，请重试' : 'Failed to generate image')
         return
       }
+      // 保存 blob 以便后续下载
+      setGeneratedBlob(imageBlob)
       // 生成图片 URL 显示出来，让用户长按保存
       const imageUrl = URL.createObjectURL(imageBlob)
+      console.log('handleWeChatShare - imageUrl:', imageUrl)
       setGeneratedImageUrl(imageUrl)
     } catch (err) {
       console.error('分享失败:', err)
@@ -90,6 +96,19 @@ export function ShareModal({
       setTimeout(() => setCopied(false), 2000)
     } catch (err) {
       setError(lang === 'zh' ? '复制失败' : 'Copy failed')
+    } finally {
+      setLoading(null)
+    }
+  }
+
+  const handleSaveImage = async () => {
+    if (!generatedBlob) return
+    setLoading('save')
+    try {
+      await downloadImage(generatedBlob, 'wordduck-share.png')
+    } catch (err) {
+      console.error('保存失败:', err)
+      setError(lang === 'zh' ? '保存失败' : 'Save failed')
     } finally {
       setLoading(null)
     }
@@ -116,20 +135,24 @@ export function ShareModal({
           )}
         </div>
 
-        {/* 微信浏览器长按提示 */}
-        {generatedImageUrl && isInWeChat && (
-          <div className="text-center text-sm text-amber-700 mb-4 bg-amber-50 p-3 rounded-lg border border-amber-200">
-            {lang === 'zh'
-              ? '👆 长按上方图片保存到相册'
-              : '👆 Long press the image to save'}
+        {/* 图片生成成功提示 */}
+        {generatedImageUrl && (
+          <div className="text-center text-sm mb-4 bg-green-50 p-3 rounded-lg border border-green-200">
+            <p className="text-green-700 font-medium mb-1">
+              {lang === 'zh' ? '✅ 图片生成成功！' : '✅ Image generated!'}
+            </p>
+            <p className="text-green-600">
+              {isInWeChat
+                ? (lang === 'zh' ? '👆 长按上方图片保存到相册' : '👆 Long press the image to save')
+                : (lang === 'zh' ? '👆 长按或右键保存图片' : '👆 Long press or right-click to save')}
+            </p>
           </div>
         )}
 
         {/* 分享按钮 */}
         <div className="space-y-3">
-          {/* 微信内已生成图片时只显示复制链接 */}
-          {!(isInWeChat && generatedImageUrl) && (
-            /* 生成分享图片 */
+          {/* 未生成图片时显示生成按钮 */}
+          {!generatedImageUrl && (
             <Button
               onClick={handleWeChatShare}
               disabled={loading !== null}
@@ -139,6 +162,35 @@ export function ShareModal({
               {loading === 'wechat'
                 ? (lang === 'zh' ? '生成中...' : 'Generating...')
                 : (lang === 'zh' ? '生成分享图片' : 'Generate Share Image')}
+            </Button>
+          )}
+
+          {/* 已生成图片后显示保存按钮（非微信浏览器） */}
+          {generatedImageUrl && !isInWeChat && (
+            <Button
+              onClick={handleSaveImage}
+              disabled={loading !== null}
+              className="w-full bg-blue-500 hover:bg-blue-600 text-white flex items-center justify-center gap-2"
+            >
+              <SaveIcon />
+              {loading === 'save'
+                ? (lang === 'zh' ? '保存中...' : 'Saving...')
+                : (lang === 'zh' ? '保存图片' : 'Save Image')}
+            </Button>
+          )}
+
+          {/* 重新生成按钮 */}
+          {generatedImageUrl && (
+            <Button
+              onClick={handleWeChatShare}
+              disabled={loading !== null}
+              variant="secondary"
+              className="w-full flex items-center justify-center gap-2"
+            >
+              <RefreshIcon />
+              {loading === 'wechat'
+                ? (lang === 'zh' ? '生成中...' : 'Generating...')
+                : (lang === 'zh' ? '重新生成' : 'Regenerate')}
             </Button>
           )}
 
@@ -180,6 +232,32 @@ function CopyIcon() {
         strokeLinejoin="round"
         strokeWidth={2}
         d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
+      />
+    </svg>
+  )
+}
+
+function SaveIcon() {
+  return (
+    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+      />
+    </svg>
+  )
+}
+
+function RefreshIcon() {
+  return (
+    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
       />
     </svg>
   )
