@@ -1,0 +1,77 @@
+'use client'
+
+import { forwardRef } from 'react'
+import { ShareCardBase } from './ShareCardBase'
+import type { Word } from '@/types/word'
+
+interface LevelShareCardProps {
+  level: number
+  words: Word[]
+  timeSpent?: number // 秒
+  nickname?: string
+  lang: 'zh' | 'en'
+  inviteCode?: string
+}
+
+/**
+ * 通关分享卡片
+ */
+export const LevelShareCard = forwardRef<HTMLDivElement, LevelShareCardProps>(
+  ({ level, words, timeSpent, nickname = '学习者', lang, inviteCode }, ref) => {
+    const formatTime = (seconds: number) => {
+      const mins = Math.floor(seconds / 60)
+      const secs = seconds % 60
+      return `${mins}:${secs.toString().padStart(2, '0')}`
+    }
+
+    const isChallenge = level % 5 === 0
+
+    return (
+      <ShareCardBase ref={ref} inviteCode={inviteCode}>
+        {/* 标题 */}
+        <div className="text-center mb-4">
+          {isChallenge && (
+            <div className="inline-block bg-gradient-to-r from-yellow-400 to-orange-400 text-white text-xs px-3 py-1 rounded-full mb-2">
+              {lang === 'zh' ? '挑战关' : 'Challenge'}
+            </div>
+          )}
+          <div className="text-2xl font-bold text-gray-800">
+            {lang === 'zh' ? `第 ${level} 关通过！` : `Level ${level} Complete!`}
+          </div>
+          <div className="text-sm text-gray-500 mt-1">{nickname}</div>
+        </div>
+
+        {/* 本关单词 */}
+        <div className="bg-white/60 rounded-xl p-4 mb-4">
+          <div className="text-xs text-gray-500 mb-2 text-center">
+            {lang === 'zh' ? '本关单词' : 'Words in this level'}
+          </div>
+          <div className="flex flex-wrap gap-2 justify-center">
+            {words.slice(0, 6).map((word, index) => (
+              <div
+                key={index}
+                className="bg-white px-3 py-1.5 rounded-lg shadow-sm text-sm font-medium text-gray-700"
+              >
+                {word.word}
+              </div>
+            ))}
+            {words.length > 6 && (
+              <div className="bg-gray-100 px-3 py-1.5 rounded-lg text-sm text-gray-500">
+                +{words.length - 6}
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* 用时（如果有） */}
+        {timeSpent && (
+          <div className="text-center text-gray-500 text-sm">
+            {lang === 'zh' ? '用时' : 'Time'}: {formatTime(timeSpent)}
+          </div>
+        )}
+      </ShareCardBase>
+    )
+  }
+)
+
+LevelShareCard.displayName = 'LevelShareCard'

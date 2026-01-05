@@ -27,11 +27,11 @@ export function PuzzleBoard({
 }: PuzzleBoardProps) {
   return (
     <div
-      className={cn('flex flex-col items-center gap-1', className)}
+      className={cn('flex flex-col items-center gap-0.5 sm:gap-1', className)}
       data-testid="puzzle-board"
     >
       {puzzle.grid.map((row, rowIndex) => (
-        <div key={rowIndex} className="flex gap-1">
+        <div key={rowIndex} className="flex gap-0.5 sm:gap-1">
           {row.map((cell) => (
             <PuzzleCell
               key={cell.id}

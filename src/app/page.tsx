@@ -4,10 +4,15 @@ import { useRouter } from 'next/navigation'
 import { useState, useEffect } from 'react'
 import { useUserStore } from '@/stores'
 import { Button, Select } from '@/components/ui'
+import { LoginModal } from '@/components/auth'
+import { HeatmapCalendar, RankingCard, DailyTasksPanel, InvitePanel } from '@/components/home'
 import { t } from '@/i18n'
 import { getWordListInfo } from '@/lib/wordLoader'
+import { getLearningHistory } from '@/lib/sync'
+import { initializeDeviceUser, getCurrentDeviceUser } from '@/lib/auth/deviceAuth'
 import { DEFAULT_USER_SETTINGS, DEFAULT_GRADE_PROGRESS, DEFAULT_USER_STATS } from '@/types'
 import type { WordListMode, CEFRLevel, ChinaLevel, Language, WordLevel } from '@/types'
+import type { User } from '@/types/database'
 
 const wordListOptions = [
   { value: 'cefr', label: { zh: 'CEFR 欧标', en: 'CEFR Standard' } },
@@ -41,6 +46,9 @@ export default function HomePage() {
   const { settings, stats, updateSettings, getCurrentProgress } = useUserStore()
   const [totalWords, setTotalWords] = useState<number>(0)
   const [isHydrated, setIsHydrated] = useState(false)
+  const [showLoginModal, setShowLoginModal] = useState(false)
+  const [currentUser, setCurrentUser] = useState<User | null>(null)
+  const [heatmapData, setHeatmapData] = useState<{ date: string; count: number }[]>([])
 
   // 等待客户端 hydration 完成，避免服务端/客户端不匹配
   useEffect(() => {
@@ -48,6 +56,31 @@ export default function HomePage() {
       setIsHydrated(true)
     })
   }, [])
+
+  // 初始化用户
+  useEffect(() => {
+    if (!isHydrated) return
+    async function initUser() {
+      try {
+        // 先检查是否已有用户
+        let user = await getCurrentDeviceUser()
+        if (!user) {
+          // 自动创建匿名用户
+          user = await initializeDeviceUser()
+        }
+        setCurrentUser(user)
+
+        // 加载热力图数据
+        if (user) {
+          const history = await getLearningHistory(120)
+          setHeatmapData(history)
+        }
+      } catch (err) {
+        console.error('初始化用户失败:', err)
+      }
+    }
+    initUser()
+  }, [isHydrated])
 
   // Hydration 完成前使用默认值，避免 hydration mismatch
   const safeSettings = isHydrated ? settings : DEFAULT_USER_SETTINGS
@@ -99,34 +132,51 @@ export default function HomePage() {
   const currentLevelNum = safeProgress.completedLevels + 1
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white flex flex-col">
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white flex flex-col safe-area-inset">
       {/* 顶栏 */}
-      <header className="p-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-blue-600">🦆 {t('app.name', lang)}</h1>
-        <Select
-          value={safeSettings.language}
-          onChange={(v) => handleLanguageChange(v as Language)}
-          options={languageOptions}
-          className="w-24"
-        />
+      <header className="p-3 sm:p-4 flex justify-between items-center">
+        <h1 className="text-xl sm:text-2xl font-bold text-blue-600">🦆 {t('app.name', lang)}</h1>
+        <div className="flex items-center gap-1.5 sm:gap-2">
+          <Select
+            value={safeSettings.language}
+            onChange={(v) => handleLanguageChange(v as Language)}
+            options={languageOptions}
+            className="w-20 sm:w-24 text-sm"
+          />
+          {currentUser ? (
+            <div className="flex items-center gap-1 sm:gap-2 px-2 sm:px-3 py-1 sm:py-1.5 bg-blue-50 rounded-lg">
+              <span className="text-xs sm:text-sm text-blue-600 max-w-[60px] sm:max-w-none truncate">
+                {currentUser.nickname || (lang === 'zh' ? '学习者' : 'Learner')}
+              </span>
+            </div>
+          ) : (
+            <Button
+              onClick={() => setShowLoginModal(true)}
+              variant="secondary"
+              className="text-xs sm:text-sm px-2 sm:px-3"
+            >
+              {t('auth.login', lang)}
+            </Button>
+          )}
+        </div>
       </header>
 
       {/* 主要内容 */}
-      <main className="flex-1 flex flex-col items-center justify-center p-6 gap-8">
+      <main className="flex-1 flex flex-col items-center p-4 sm:p-6 gap-4 sm:gap-6 overflow-y-auto">
         {/* Logo 和标语 */}
-        <div className="text-center">
-          <div className="text-8xl mb-4">🦆</div>
-          <h2 className="text-3xl font-bold text-gray-800 mb-2">
+        <div className="text-center pt-2 sm:pt-4">
+          <div className="text-6xl sm:text-8xl mb-2 sm:mb-4">🦆</div>
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-1 sm:mb-2">
             {t('app.name', lang)}
           </h2>
-          <p className="text-gray-600">{t('app.tagline', lang)}</p>
+          <p className="text-sm sm:text-base text-gray-600">{t('app.tagline', lang)}</p>
         </div>
 
         {/* 设置区域 */}
-        <div className="w-full max-w-sm space-y-4">
+        <div className="w-full max-w-sm space-y-3 sm:space-y-4">
           {/* 词库选择 */}
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-xs sm:text-sm font-medium text-gray-700 mb-1">
               {t('settings.wordList', lang)}
             </label>
             <div className="flex gap-2">
@@ -134,7 +184,7 @@ export default function HomePage() {
                 <button
                   key={option.value}
                   onClick={() => handleWordListChange(option.value as WordListMode)}
-                  className={`flex-1 py-2 px-4 rounded-lg text-sm font-medium transition-colors ${
+                  className={`flex-1 py-2 px-3 sm:px-4 rounded-lg text-xs sm:text-sm font-medium transition-colors ${
                     safeSettings.wordListMode === option.value
                       ? 'bg-blue-600 text-white'
                       : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
@@ -148,7 +198,7 @@ export default function HomePage() {
 
           {/* 等级选择 */}
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-xs sm:text-sm font-medium text-gray-700 mb-1">
               {t('settings.level', lang)}
             </label>
             <Select
@@ -161,58 +211,98 @@ export default function HomePage() {
         </div>
 
         {/* 统计信息 */}
-        <div className="grid grid-cols-3 gap-4 w-full max-w-sm">
-          <div className="bg-white rounded-xl p-4 text-center shadow-sm">
-            <div className="text-2xl font-bold text-blue-600">
+        <div className="grid grid-cols-3 gap-2 sm:gap-4 w-full max-w-sm">
+          <div className="bg-white rounded-lg sm:rounded-xl p-2 sm:p-4 text-center shadow-sm">
+            <div className="text-xl sm:text-2xl font-bold text-blue-600">
               {currentLevelNum}
             </div>
-            <div className="text-xs text-gray-500">{t('stats.currentLevel', lang)}</div>
+            <div className="text-[10px] sm:text-xs text-gray-500">{t('stats.currentLevel', lang)}</div>
           </div>
-          <div className="bg-white rounded-xl p-4 text-center shadow-sm">
-            <div className="text-2xl font-bold text-green-600">
+          <div className="bg-white rounded-lg sm:rounded-xl p-2 sm:p-4 text-center shadow-sm">
+            <div className="text-xl sm:text-2xl font-bold text-green-600">
               {safeProgress.learnedWords.length}
             </div>
-            <div className="text-xs text-gray-500">{t('stats.wordsLearned', lang)}</div>
+            <div className="text-[10px] sm:text-xs text-gray-500">{t('stats.wordsLearned', lang)}</div>
           </div>
-          <div className="bg-white rounded-xl p-4 text-center shadow-sm">
-            <div className="text-2xl font-bold text-orange-600">
+          <div className="bg-white rounded-lg sm:rounded-xl p-2 sm:p-4 text-center shadow-sm">
+            <div className="text-xl sm:text-2xl font-bold text-orange-600">
               {safeStats.streakDays}
             </div>
-            <div className="text-xs text-gray-500">{t('stats.streakDays', lang)}</div>
+            <div className="text-[10px] sm:text-xs text-gray-500">{t('stats.streakDays', lang)}</div>
           </div>
         </div>
 
         {/* 学习进度条 */}
         {totalWords > 0 && (
           <div className="w-full max-w-sm">
-            <div className="flex justify-between text-sm text-gray-600 mb-1">
+            <div className="flex justify-between text-xs sm:text-sm text-gray-600 mb-1">
               <span>{t('stats.progress', lang)}</span>
               <span>{safeProgress.learnedWords.length} / {totalWords}</span>
             </div>
-            <div className="h-3 bg-gray-200 rounded-full overflow-hidden">
+            <div className="h-2 sm:h-3 bg-gray-200 rounded-full overflow-hidden">
               <div
                 className="h-full bg-gradient-to-r from-green-400 to-green-600 rounded-full transition-all duration-500"
                 style={{ width: `${Math.min((safeProgress.learnedWords.length / totalWords) * 100, 100)}%` }}
               />
             </div>
-            <div className="text-xs text-gray-500 mt-1 text-center">
+            <div className="text-[10px] sm:text-xs text-gray-500 mt-1 text-center">
               {Math.round((safeProgress.learnedWords.length / totalWords) * 100)}% {t('stats.completed', lang)}
             </div>
           </div>
         )}
 
         {/* 开始按钮 */}
-        <Button onClick={handleStartGame} size="lg" className="w-full max-w-sm">
+        <Button onClick={handleStartGame} size="lg" className="w-full max-w-sm text-base sm:text-lg py-3 sm:py-4">
           {currentLevelNum > 1
             ? t('home.continue', lang)
             : t('home.start', lang)}
         </Button>
+
+        {/* 用户功能区块 */}
+        {isHydrated && (
+          <div className="w-full max-w-sm space-y-3 sm:space-y-4 pb-4">
+            {/* 每日任务 */}
+            <DailyTasksPanel
+              userId={currentUser?.id}
+              lang={lang}
+              onRewardClaimed={(count) => {
+                // 可在此处更新本地帮助次数
+                console.log(`获得 ${count} 次帮助机会`)
+              }}
+            />
+
+            {/* 学习热力图 */}
+            <HeatmapCalendar data={heatmapData} lang={lang} />
+
+            {/* 排行榜 */}
+            <RankingCard
+              userId={currentUser?.id}
+              userCity={currentUser?.city}
+              vocabMode={safeSettings.wordListMode}
+              grade={safeSettings.currentGrade}
+              lang={lang}
+            />
+
+            {/* 邀请好友 */}
+            <InvitePanel lang={lang} />
+          </div>
+        )}
       </main>
 
       {/* 底部 */}
-      <footer className="p-4 text-center text-sm text-gray-400">
+      <footer className="p-3 sm:p-4 text-center text-xs sm:text-sm text-gray-400 safe-area-inset-bottom">
         {t('app.copyright', lang)}
       </footer>
+
+      {/* 登录弹窗 */}
+      <LoginModal
+        isOpen={showLoginModal}
+        onClose={() => setShowLoginModal(false)}
+        onSuccess={async () => {
+          const user = await getCurrentDeviceUser()
+          setCurrentUser(user)
+        }}
+      />
     </div>
   )
 }

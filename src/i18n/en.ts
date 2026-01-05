@@ -143,6 +143,83 @@ export const en = {
     share: 'Share',
     save: 'Save',
   },
+
+  // Authentication
+  auth: {
+    login: 'Sign In',
+    loginTitle: 'Save Your Progress',
+    loginSubtitle: 'Sign in to sync across devices',
+    loginWithWechat: 'Sign in with WeChat',
+    loginWithGoogle: 'Sign in with Google',
+    continueAsGuest: 'Continue as Guest',
+    loggingIn: 'Signing in...',
+    loginFailed: 'Sign in failed, please try again',
+    termsHint: 'By signing in, you agree to our Terms and Privacy Policy',
+    or: 'or',
+    saveProgress: 'Save Progress',
+    saveProgressHint: 'Your data will be safe after signing in',
+    inviteReward: 'Invite friends to get help credits',
+  },
+
+  // Share
+  share: {
+    title: 'Share Achievement',
+    badge: 'Share Badge',
+    stats: 'Share Stats',
+    level: 'Share Level',
+    word: 'Share Word',
+    copyLink: 'Copy Link',
+    copied: 'Copied',
+    download: 'Save Image',
+    downloading: 'Generating...',
+    scanToJoin: 'Scan to learn together',
+    learnedWords: '{count} words learned',
+    streakDays: '{count} day streak',
+    beatPercent: 'Beat {percent}% of learners',
+    inviteText: 'I\'m learning English with WordDuck, join me!',
+    levelComplete: 'Level {level} Complete',
+    gotBadge: 'Got "{badge}" Badge',
+  },
+
+  // Ranking
+  ranking: {
+    title: 'Leaderboard',
+    myRank: 'My Rank',
+    beatPercent: 'You beat {percent}% of learners',
+    topLearners: 'Top Learners',
+    noData: 'No ranking data yet',
+    you: 'You',
+  },
+
+  // Invite
+  invite: {
+    title: 'Invite Friends',
+    myCode: 'My Invite Code',
+    copyCode: 'Copy Code',
+    shareLink: 'Share Invite Link',
+    reward: 'Invite Rewards',
+    rewardDesc: 'Friend signs up: +1 help credit\nFriend reaches level 5: +2 help credits',
+    invited: '{count} friends invited',
+    enterCode: 'Enter Invite Code',
+    enterCodeHint: 'If you were invited by a friend',
+    bind: 'Apply',
+    bindSuccess: 'Code applied! +2 help credits received',
+    bindFailed: 'Invalid invite code',
+    alreadyBound: 'You have already used an invite code',
+  },
+
+  // Daily Tasks
+  dailyTask: {
+    title: 'Daily Tasks',
+    completeLevel: 'Complete {count} levels',
+    learnWords: 'Learn {count} new words',
+    streak: 'Keep streak going',
+    reward: 'Reward',
+    helpCount: '+{count} help credits',
+    claim: 'Claim',
+    claimed: 'Claimed',
+    progress: '{current}/{target}',
+  },
 }
 
 export default en

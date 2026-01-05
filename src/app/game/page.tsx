@@ -21,8 +21,11 @@ import { useUserStore } from '@/stores'
 import { GameHeader, PuzzleBoard, LetterPool, Letter, WordCard } from '@/components/game'
 import { Confetti, BadgeModal } from '@/components/feedback'
 import { Modal, Button } from '@/components/ui'
+import { ShareModal, LevelShareCard, BadgeShareCard } from '@/components/share'
 import { checkNewBadges, getBadgeById } from '@/data/badges'
 import { getWordListInfo } from '@/lib/wordLoader'
+import { getUserInviteCode } from '@/lib/auth/deviceAuth'
+import { uploadProgress } from '@/lib/sync'
 import { t } from '@/i18n'
 
 export default function GamePage() {
@@ -35,6 +38,10 @@ export default function GamePage() {
   const [showBadgeModal, setShowBadgeModal] = useState(false)
   const [totalWordsInGrade, setTotalWordsInGrade] = useState(0)
   const [highlightedCells, setHighlightedCells] = useState<Set<string>>(new Set())
+  const [showShareLevelModal, setShowShareLevelModal] = useState(false)
+  const [showShareBadgeModal, setShowShareBadgeModal] = useState(false)
+  const [inviteCode, setInviteCode] = useState<string>()
+  const [userNickname, setUserNickname] = useState<string>('学习者')
 
   const {
     isLoading,
@@ -83,6 +90,15 @@ export default function GamePage() {
       .then((info) => setTotalWordsInGrade(info.totalWords))
       .catch(() => setTotalWordsInGrade(0))
   }, [settings.currentGrade])
+
+  // 加载邀请码
+  useEffect(() => {
+    getUserInviteCode()
+      .then((code) => {
+        if (code) setInviteCode(code)
+      })
+      .catch(() => {})
+  }, [])
 
   // 拖拽传感器配置
   const sensors = useSensors(
@@ -237,6 +253,11 @@ export default function GamePage() {
           setShowCompletedModal(true)
         }, 1000)
       }
+
+      // 后台同步进度到云端
+      uploadProgress().catch((err) => {
+        console.error('同步进度失败:', err)
+      })
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isCompleted])
@@ -342,6 +363,10 @@ export default function GamePage() {
           onClose={handleCloseBadge}
           badge={newBadge || null}
           language={lang}
+          onShare={() => {
+            setShowBadgeModal(false)
+            setShowShareBadgeModal(true)
+          }}
         />
 
         {/* 通关弹窗 */}
@@ -381,11 +406,53 @@ export default function GamePage() {
               </div>
             </div>
 
-            <Button onClick={handleNextLevel} size="lg" className="w-full">
-              {lang === 'zh' ? '继续下一关' : 'Next Level'}
-            </Button>
+            <div className="flex gap-2">
+              <Button
+                onClick={() => setShowShareLevelModal(true)}
+                variant="secondary"
+                className="flex-1"
+              >
+                {lang === 'zh' ? '分享' : 'Share'}
+              </Button>
+              <Button onClick={handleNextLevel} size="lg" className="flex-1">
+                {lang === 'zh' ? '下一关' : 'Next'}
+              </Button>
+            </div>
           </div>
         </Modal>
+
+        {/* 通关分享弹窗 */}
+        <ShareModal
+          isOpen={showShareLevelModal}
+          onClose={() => setShowShareLevelModal(false)}
+          lang={lang}
+          inviteCode={inviteCode}
+        >
+          <LevelShareCard
+            level={currentLevel}
+            words={currentWords}
+            nickname={userNickname}
+            lang={lang}
+            inviteCode={inviteCode}
+          />
+        </ShareModal>
+
+        {/* 勋章分享弹窗 */}
+        {newBadge && (
+          <ShareModal
+            isOpen={showShareBadgeModal}
+            onClose={() => setShowShareBadgeModal(false)}
+            lang={lang}
+            inviteCode={inviteCode}
+          >
+            <BadgeShareCard
+              badge={newBadge}
+              nickname={userNickname}
+              lang={lang}
+              inviteCode={inviteCode}
+            />
+          </ShareModal>
+        )}
       </div>
     </DndContext>
   )

@@ -40,8 +40,8 @@ export function Letter({
       {...listeners}
       {...attributes}
       className={cn(
-        'w-12 h-12 flex items-center justify-center',
-        'text-xl font-bold lowercase rounded-lg',
+        'w-10 h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 flex items-center justify-center',
+        'text-lg sm:text-xl font-bold lowercase rounded-md sm:rounded-lg',
         'select-none touch-none transition-colors duration-150',
         // 默认状态
         !isPreFilled && !isUsed && !isCorrect && !isWrong && 'bg-yellow-400 text-gray-900 shadow-md cursor-grab active:cursor-grabbing hover:scale-105 hover:shadow-lg',

@@ -57,14 +57,14 @@ export function Modal({
             transition={{ type: 'spring', damping: 25, stiffness: 300 }}
             className={cn(
               'fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2',
-              'bg-white rounded-2xl shadow-xl z-50',
-              'w-[90vw] max-w-md max-h-[85vh] overflow-auto',
-              'p-6',
+              'bg-white rounded-xl sm:rounded-2xl shadow-xl z-50',
+              'w-[92vw] sm:w-[90vw] max-w-md max-h-[80vh] sm:max-h-[85vh] overflow-auto',
+              'p-4 sm:p-6',
               className
             )}
           >
             {title && (
-              <h2 className="text-xl font-bold text-gray-900 mb-4">{title}</h2>
+              <h2 className="text-lg sm:text-xl font-bold text-gray-900 mb-3 sm:mb-4">{title}</h2>
             )}
             {children}
           </motion.div>

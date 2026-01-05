@@ -50,7 +50,7 @@ export function PuzzleCell({
 
   // 空格子（没有字母的位置）
   if (!cell.letter) {
-    return <div className="w-12 h-12" />
+    return <div className="w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12" />
   }
 
   const displayLetter = cell.isPreFilled ? cell.letter : placedLetter
@@ -65,9 +65,9 @@ export function PuzzleCell({
       ref={setNodeRef}
       onClick={handleClick}
       className={cn(
-        'w-12 h-12 flex items-center justify-center relative',
-        'text-xl font-bold lowercase rounded-lg',
-        'border-2 transition-all duration-150 touch-none',
+        'w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 flex items-center justify-center relative',
+        'text-base sm:text-lg md:text-xl font-bold lowercase rounded-md sm:rounded-lg',
+        'border-2 transition-all duration-150 touch-none select-none',
         // 默认空槽位 - 可接收拖放
         canDrop && 'border-dashed border-gray-400 bg-gray-50 z-10',
         canDrop && isOver && 'border-blue-500 bg-blue-50 scale-105 z-20',

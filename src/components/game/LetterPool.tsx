@@ -31,8 +31,8 @@ export function LetterPool({
   return (
     <div
       className={cn(
-        'flex flex-wrap justify-center gap-2 p-4',
-        'bg-gray-100 rounded-xl',
+        'flex flex-wrap justify-center gap-1.5 sm:gap-2 p-3 sm:p-4',
+        'bg-gray-100 rounded-lg sm:rounded-xl',
         className
       )}
       data-testid="letter-pool"

@@ -13,6 +13,7 @@ interface BadgeModalProps {
     icon: string
   } | null
   language: Language
+  onShare?: () => void
 }
 
 export function BadgeModal({
@@ -20,6 +21,7 @@ export function BadgeModal({
   onClose,
   badge,
   language,
+  onShare,
 }: BadgeModalProps) {
   if (!badge) return null
 
@@ -66,12 +68,18 @@ export function BadgeModal({
           {badge.description[language]}
         </motion.p>
 
-        {/* 关闭按钮 */}
+        {/* 按钮区 */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
+          className="flex gap-2"
         >
+          {onShare && (
+            <Button onClick={onShare} variant="secondary">
+              {language === 'zh' ? '分享' : 'Share'}
+            </Button>
+          )}
           <Button onClick={onClose}>
             {language === 'zh' ? '太棒了！' : 'Awesome!'}
           </Button>
