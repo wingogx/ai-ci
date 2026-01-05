@@ -25,25 +25,34 @@ export const ShareCardBase = forwardRef<HTMLDivElement, ShareCardBaseProps>(
     return (
       <div
         ref={ref}
-        className={`bg-gradient-to-br from-blue-50 to-indigo-100 rounded-2xl p-6 w-[320px] shadow-lg ${className}`}
+        className={`rounded-2xl p-6 w-[320px] shadow-lg ${className}`}
+        style={{
+          background: 'linear-gradient(to bottom right, #eff6ff, #e0e7ff)',
+        }}
       >
         {/* 卡片内容 */}
         <div className="mb-4">{children}</div>
 
         {/* 底部：二维码 + 品牌 */}
-        <div className="flex items-center justify-between pt-4 border-t border-blue-200/50">
+        <div
+          className="flex items-center justify-between pt-4"
+          style={{ borderTop: '1px solid rgba(191, 219, 254, 0.5)' }}
+        >
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-yellow-400 rounded-lg flex items-center justify-center text-lg">
+            <div
+              className="w-8 h-8 rounded-lg flex items-center justify-center text-lg"
+              style={{ backgroundColor: '#facc15' }}
+            >
               🦆
             </div>
             <div>
-              <div className="font-bold text-gray-800 text-sm">爱词鸭</div>
-              <div className="text-gray-500 text-xs">WordDuck</div>
+              <div className="font-bold text-sm" style={{ color: '#1f2937' }}>爱词鸭</div>
+              <div className="text-xs" style={{ color: '#6b7280' }}>WordDuck</div>
             </div>
           </div>
 
           {showQR && (
-            <div className="bg-white p-1.5 rounded-lg shadow-sm">
+            <div className="p-1.5 rounded-lg shadow-sm" style={{ backgroundColor: '#ffffff' }}>
               <QRCodeCanvas
                 value={inviteUrl}
                 size={56}

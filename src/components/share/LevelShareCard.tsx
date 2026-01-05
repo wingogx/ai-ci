@@ -31,32 +31,39 @@ export const LevelShareCard = forwardRef<HTMLDivElement, LevelShareCardProps>(
         {/* 标题 */}
         <div className="text-center mb-4">
           {isChallenge && (
-            <div className="inline-block bg-gradient-to-r from-yellow-400 to-orange-400 text-white text-xs px-3 py-1 rounded-full mb-2">
+            <div
+              className="inline-block text-white text-xs px-3 py-1 rounded-full mb-2"
+              style={{ background: 'linear-gradient(to right, #facc15, #fb923c)' }}
+            >
               {lang === 'zh' ? '挑战关' : 'Challenge'}
             </div>
           )}
-          <div className="text-2xl font-bold text-gray-800">
+          <div className="text-2xl font-bold" style={{ color: '#1f2937' }}>
             {lang === 'zh' ? `第 ${level} 关通过！` : `Level ${level} Complete!`}
           </div>
-          <div className="text-sm text-gray-500 mt-1">{nickname}</div>
+          <div className="text-sm mt-1" style={{ color: '#6b7280' }}>{nickname}</div>
         </div>
 
         {/* 本关单词 */}
-        <div className="bg-white/60 rounded-xl p-4 mb-4">
-          <div className="text-xs text-gray-500 mb-2 text-center">
+        <div className="rounded-xl p-4 mb-4" style={{ backgroundColor: 'rgba(255, 255, 255, 0.6)' }}>
+          <div className="text-xs mb-2 text-center" style={{ color: '#6b7280' }}>
             {lang === 'zh' ? '本关单词' : 'Words in this level'}
           </div>
           <div className="flex flex-wrap gap-2 justify-center">
             {words.slice(0, 6).map((word, index) => (
               <div
                 key={index}
-                className="bg-white px-3 py-1.5 rounded-lg shadow-sm text-sm font-medium text-gray-700"
+                className="px-3 py-1.5 rounded-lg shadow-sm text-sm font-medium"
+                style={{ backgroundColor: '#ffffff', color: '#374151' }}
               >
                 {word.word}
               </div>
             ))}
             {words.length > 6 && (
-              <div className="bg-gray-100 px-3 py-1.5 rounded-lg text-sm text-gray-500">
+              <div
+                className="px-3 py-1.5 rounded-lg text-sm"
+                style={{ backgroundColor: '#f3f4f6', color: '#6b7280' }}
+              >
                 +{words.length - 6}
               </div>
             )}
@@ -65,7 +72,7 @@ export const LevelShareCard = forwardRef<HTMLDivElement, LevelShareCardProps>(
 
         {/* 用时（如果有） */}
         {timeSpent && (
-          <div className="text-center text-gray-500 text-sm">
+          <div className="text-center text-sm" style={{ color: '#6b7280' }}>
             {lang === 'zh' ? '用时' : 'Time'}: {formatTime(timeSpent)}
           </div>
         )}

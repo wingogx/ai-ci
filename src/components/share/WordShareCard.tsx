@@ -19,34 +19,37 @@ export const WordShareCard = forwardRef<HTMLDivElement, WordShareCardProps>(
     return (
       <ShareCardBase ref={ref} inviteCode={inviteCode}>
         {/* 单词 */}
-        <div className="text-center py-6 bg-white/60 rounded-xl">
+        <div
+          className="text-center py-6 rounded-xl"
+          style={{ backgroundColor: 'rgba(255, 255, 255, 0.6)' }}
+        >
           {/* 单词本身 */}
-          <div className="text-3xl font-bold text-gray-800 mb-2">
+          <div className="text-3xl font-bold mb-2" style={{ color: '#1f2937' }}>
             {word.word}
           </div>
 
           {/* 音标 */}
           {word.phonetic && (
-            <div className="text-gray-500 text-sm mb-3">
+            <div className="text-sm mb-3" style={{ color: '#6b7280' }}>
               {word.phonetic}
             </div>
           )}
 
           {/* 词性和释义 */}
           {word.pos && (
-            <span className="text-blue-500 text-sm mr-2">
+            <span className="text-sm mr-2" style={{ color: '#3b82f6' }}>
               {word.pos}
             </span>
           )}
           {word.meaning && (
-            <span className="text-gray-600">
+            <span style={{ color: '#4b5563' }}>
               {lang === 'zh' ? word.meaning.zh : word.meaning.en}
             </span>
           )}
         </div>
 
         {/* 底部提示 */}
-        <div className="text-center text-gray-400 text-xs mt-3">
+        <div className="text-center text-xs mt-3" style={{ color: '#9ca3af' }}>
           {lang === 'zh'
             ? '来自「爱词鸭」- 玩中学单词'
             : 'From WordDuck - Learn words through play'}

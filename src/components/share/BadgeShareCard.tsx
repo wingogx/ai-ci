@@ -26,24 +26,27 @@ export const BadgeShareCard = forwardRef<HTMLDivElement, BadgeShareCardProps>(
       <ShareCardBase ref={ref} inviteCode={inviteCode}>
         {/* 标题 */}
         <div className="text-center mb-4">
-          <span className="text-gray-500 text-sm">
+          <span className="text-sm" style={{ color: '#6b7280' }}>
             {nickname} {lang === 'zh' ? '获得了新勋章' : 'earned a badge'}
           </span>
         </div>
 
         {/* 勋章展示 */}
-        <div className="text-center py-6 bg-white/60 rounded-xl mb-4">
+        <div
+          className="text-center py-6 rounded-xl mb-4"
+          style={{ backgroundColor: 'rgba(255, 255, 255, 0.6)' }}
+        >
           <div className="text-6xl mb-3">{badge.icon}</div>
-          <div className="font-bold text-xl text-gray-800 mb-1">
+          <div className="font-bold text-xl mb-1" style={{ color: '#1f2937' }}>
             {badge.name[lang]}
           </div>
-          <div className="text-gray-500 text-sm">
+          <div className="text-sm" style={{ color: '#6b7280' }}>
             {badge.description[lang]}
           </div>
         </div>
 
         {/* 获得时间 */}
-        <div className="text-center text-gray-400 text-xs">
+        <div className="text-center text-xs" style={{ color: '#9ca3af' }}>
           {new Date().toLocaleDateString(lang === 'zh' ? 'zh-CN' : 'en-US', {
             year: 'numeric',
             month: 'long',
