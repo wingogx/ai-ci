@@ -57,19 +57,14 @@ export async function uploadProgress(): Promise<boolean> {
     const { settings, progress, stats, earnedBadges } = store
 
     // 1. 上传用户进度（每个等级）
-    for (const [key, gradeProgress] of Object.entries(progress)) {
-      const parts = key.split('-')
-      if (parts.length < 2) {
-        console.warn('跳过无效的进度 key:', key)
+    for (const [grade, gradeProgress] of Object.entries(progress)) {
+      if (!grade) {
+        console.warn('跳过无效的进度 key:', grade)
         continue
       }
-      const [vocabMode, ...gradeParts] = parts
-      const grade = gradeParts.join('-') // 处理可能包含连字符的 grade
 
-      if (!vocabMode || !grade) {
-        console.warn('跳过无效的进度数据:', { key, vocabMode, grade })
-        continue
-      }
+      // 使用当前的 wordListMode 作为 vocab_mode
+      const vocabMode = settings.wordListMode
 
       const { error: progressError } = await supabase
         .from('user_progress')
@@ -128,10 +123,9 @@ export async function uploadProgress(): Promise<boolean> {
 
     // 4. 更新今日学习历史
     const today = new Date().toISOString().split('T')[0]
-    const progressKey = `${settings.wordListMode}-${settings.currentGrade}`
-    const currentProgress = progress[progressKey]
+    const currentProgress = progress[settings.currentGrade]
 
-    console.log('查找进度 key:', progressKey, '所有 keys:', Object.keys(progress))
+    console.log('查找进度 grade:', settings.currentGrade, '所有 keys:', Object.keys(progress))
 
     if (currentProgress && currentProgress.learnedWords.length > 0) {
       console.log('准备上传学习历史:', {
@@ -161,7 +155,6 @@ export async function uploadProgress(): Promise<boolean> {
       console.log('没有当前进度数据或无学习单词，跳过学习历史上传。settings:', {
         wordListMode: settings.wordListMode,
         currentGrade: settings.currentGrade,
-        progressKey,
         hasProgress: !!currentProgress,
         learnedWordsCount: currentProgress?.learnedWords?.length || 0,
       })
