@@ -11,7 +11,7 @@ export const zh = {
   home: {
     title: '爱词鸭',
     start: '开始挑战',
-    continue: '继续游戏',
+    continue: '继续挑战',
     level: '第 {level} 关',
     language: '语言',
     wordList: '词库',
