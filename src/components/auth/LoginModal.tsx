@@ -41,7 +41,12 @@ export function LoginModal({
     setIsLoading('wechat')
     setError(null)
     try {
-      initiateWechatLogin(inviteCode)
+      const success = initiateWechatLogin(inviteCode)
+      if (!success) {
+        setError(t('auth.wechatUnavailable', lang))
+        setIsLoading(null)
+      }
+      // 如果成功，页面会跳转，不需要处理
     } catch (err) {
       setError(t('auth.loginFailed', lang))
       setIsLoading(null)

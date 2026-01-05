@@ -154,11 +154,18 @@ export const zh = {
     continueAsGuest: '暂不登录，继续游戏',
     loggingIn: '登录中...',
     loginFailed: '登录失败，请重试',
+    wechatUnavailable: '微信登录暂不可用，请选择其他方式',
     termsHint: '登录即表示同意服务条款和隐私政策',
     or: '或',
     saveProgress: '保存进度',
     saveProgressHint: '登录后数据不会丢失',
     inviteReward: '邀请好友可获得帮助次数',
+    setNickname: '设置昵称',
+    nicknamePlaceholder: '输入你的昵称',
+    nicknameHint: '最多20个字符，将显示在排行榜',
+    nicknameEmpty: '昵称不能为空',
+    nicknameTooLong: '昵称最多20个字符',
+    nicknameFailed: '保存失败，请重试',
   },
 
   // 分享

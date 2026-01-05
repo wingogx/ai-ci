@@ -154,11 +154,18 @@ export const en = {
     continueAsGuest: 'Continue as Guest',
     loggingIn: 'Signing in...',
     loginFailed: 'Sign in failed, please try again',
+    wechatUnavailable: 'WeChat sign in is not available, please try another method',
     termsHint: 'By signing in, you agree to our Terms and Privacy Policy',
     or: 'or',
     saveProgress: 'Save Progress',
     saveProgressHint: 'Your data will be safe after signing in',
     inviteReward: 'Invite friends to get help credits',
+    setNickname: 'Set Nickname',
+    nicknamePlaceholder: 'Enter your nickname',
+    nicknameHint: 'Max 20 characters, shown on leaderboard',
+    nicknameEmpty: 'Nickname cannot be empty',
+    nicknameTooLong: 'Nickname cannot exceed 20 characters',
+    nicknameFailed: 'Failed to save, please try again',
   },
 
   // Share

@@ -58,11 +58,12 @@ export function verifyState(state: string): boolean {
 /**
  * PC 端微信扫码登录
  * 跳转到微信开放平台授权页面
+ * @returns 是否成功发起跳转
  */
-export function redirectToWechatQRLogin(inviteCode?: string) {
+export function redirectToWechatQRLogin(inviteCode?: string): boolean {
   if (!WECHAT_OPEN_APP_ID) {
     console.error('未配置微信开放平台 AppID')
-    return
+    return false
   }
 
   const state = generateState()
@@ -75,16 +76,18 @@ export function redirectToWechatQRLogin(inviteCode?: string) {
   const url = `https://open.weixin.qq.com/connect/qrconnect?appid=${WECHAT_OPEN_APP_ID}&redirect_uri=${redirectUri}&response_type=code&scope=snsapi_login&state=${state}#wechat_redirect`
 
   window.location.href = url
+  return true
 }
 
 /**
  * 微信内 H5 网页授权登录
  * 跳转到微信公众号授权页面
+ * @returns 是否成功发起跳转
  */
-export function redirectToWechatMPLogin(inviteCode?: string) {
+export function redirectToWechatMPLogin(inviteCode?: string): boolean {
   if (!WECHAT_MP_APP_ID) {
     console.error('未配置微信公众号 AppID')
-    return
+    return false
   }
 
   const state = generateState()
@@ -98,18 +101,20 @@ export function redirectToWechatMPLogin(inviteCode?: string) {
   const url = `https://open.weixin.qq.com/connect/oauth2/authorize?appid=${WECHAT_MP_APP_ID}&redirect_uri=${redirectUri}&response_type=code&scope=snsapi_userinfo&state=${state}#wechat_redirect`
 
   window.location.href = url
+  return true
 }
 
 /**
  * 智能选择微信登录方式
+ * @returns 是否成功发起登录
  */
-export function initiateWechatLogin(inviteCode?: string) {
+export function initiateWechatLogin(inviteCode?: string): boolean {
   if (isWechatBrowser()) {
     // 微信内浏览器使用公众号授权
-    redirectToWechatMPLogin(inviteCode)
+    return redirectToWechatMPLogin(inviteCode)
   } else {
     // PC/其他浏览器使用扫码登录
-    redirectToWechatQRLogin(inviteCode)
+    return redirectToWechatQRLogin(inviteCode)
   }
 }
 

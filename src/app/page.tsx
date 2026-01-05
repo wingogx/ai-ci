@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation'
 import { useState, useEffect } from 'react'
 import { useUserStore } from '@/stores'
 import { Button, Select } from '@/components/ui'
-import { LoginModal } from '@/components/auth'
+import { LoginModal, NicknameModal } from '@/components/auth'
 import { HeatmapCalendar, RankingCard, DailyTasksPanel, InvitePanel } from '@/components/home'
 import { t } from '@/i18n'
 import { getWordListInfo } from '@/lib/wordLoader'
@@ -49,6 +49,7 @@ export default function HomePage() {
   const [totalWords, setTotalWords] = useState<number>(0)
   const [isHydrated, setIsHydrated] = useState(false)
   const [showLoginModal, setShowLoginModal] = useState(false)
+  const [showNicknameModal, setShowNicknameModal] = useState(false)
   const [currentUser, setCurrentUser] = useState<User | null>(null)
   const [heatmapData, setHeatmapData] = useState<{ date: string; count: number }[]>([])
 
@@ -165,11 +166,17 @@ export default function HomePage() {
             className="w-20 sm:w-24 text-sm"
           />
           {currentUser ? (
-            <div className="flex items-center gap-1 sm:gap-2 px-2 sm:px-3 py-1 sm:py-1.5 bg-blue-50 rounded-lg">
+            <button
+              onClick={() => setShowNicknameModal(true)}
+              className="flex items-center gap-1 sm:gap-2 px-2 sm:px-3 py-1 sm:py-1.5 bg-blue-50 hover:bg-blue-100 rounded-lg transition-colors"
+            >
               <span className="text-xs sm:text-sm text-blue-600 max-w-[60px] sm:max-w-none truncate">
                 {currentUser.nickname || (lang === 'zh' ? '学习者' : 'Learner')}
               </span>
-            </div>
+              <svg className="w-3 h-3 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+              </svg>
+            </button>
           ) : (
             <Button
               onClick={() => setShowLoginModal(true)}
@@ -322,6 +329,19 @@ export default function HomePage() {
         onSuccess={async () => {
           const user = await getCurrentDeviceUser()
           setCurrentUser(user)
+        }}
+      />
+
+      {/* 昵称设置弹窗 */}
+      <NicknameModal
+        isOpen={showNicknameModal}
+        onClose={() => setShowNicknameModal(false)}
+        currentNickname={currentUser?.nickname || ''}
+        lang={lang}
+        onSuccess={(newNickname) => {
+          if (currentUser) {
+            setCurrentUser({ ...currentUser, nickname: newNickname })
+          }
         }}
       />
     </div>
