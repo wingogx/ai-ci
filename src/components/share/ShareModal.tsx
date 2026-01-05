@@ -3,7 +3,7 @@
 import { useState, useRef, useCallback, ReactNode, useEffect } from 'react'
 import { Modal, Button } from '@/components/ui'
 import { t } from '@/i18n'
-import { generateShareImage, shareToWeChat, copyToClipboard, downloadImage, isWeChatBrowser } from '@/lib/share'
+import { generateShareImage, copyToClipboard, downloadImage, isWeChatBrowser } from '@/lib/share'
 
 interface ShareModalProps {
   isOpen: boolean
@@ -26,8 +26,8 @@ export function ShareModal({
   const [loading, setLoading] = useState<ShareAction>(null)
   const [copied, setCopied] = useState(false)
   const [error, setError] = useState<string | null>(null)
-  const [showLongPressHint, setShowLongPressHint] = useState(false)
   const [isInWeChat, setIsInWeChat] = useState(false)
+  const [generatedImageUrl, setGeneratedImageUrl] = useState<string | null>(null)
 
   const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://wordduck.app'
   const shareUrl = inviteCode ? `${baseUrl}/invite/${inviteCode}` : baseUrl
@@ -37,6 +37,18 @@ export function ShareModal({
   useEffect(() => {
     setIsInWeChat(isWeChatBrowser())
   }, [])
+
+  // 弹窗关闭时重置状态
+  useEffect(() => {
+    if (!isOpen) {
+      if (generatedImageUrl) {
+        URL.revokeObjectURL(generatedImageUrl)
+      }
+      setGeneratedImageUrl(null)
+      setError(null)
+      setCopied(false)
+    }
+  }, [isOpen, generatedImageUrl])
 
   const handleGenerateImage = useCallback(async () => {
     if (!cardRef.current) return null
@@ -52,14 +64,16 @@ export function ShareModal({
   const handleWeChatShare = async () => {
     setLoading('wechat')
     setError(null)
-    setShowLongPressHint(false)
     try {
       const imageBlob = await handleGenerateImage()
       if (imageBlob) {
-        const result = await shareToWeChat(imageBlob, shareText, shareUrl)
-        if (result.needLongPress) {
-          // 微信浏览器内，提示用户长按图片保存
-          setShowLongPressHint(true)
+        if (isInWeChat) {
+          // 微信内：生成图片 URL 显示出来，让用户长按保存
+          const imageUrl = URL.createObjectURL(imageBlob)
+          setGeneratedImageUrl(imageUrl)
+        } else {
+          // 非微信：直接下载
+          await downloadImage(imageBlob, 'wordduck-share.png')
         }
       }
     } catch (err) {
@@ -89,7 +103,13 @@ export function ShareModal({
     try {
       const imageBlob = await handleGenerateImage()
       if (imageBlob) {
-        await downloadImage(imageBlob, 'wordduck-share.png')
+        if (isInWeChat) {
+          // 微信内：生成图片 URL 显示出来，让用户长按保存
+          const imageUrl = URL.createObjectURL(imageBlob)
+          setGeneratedImageUrl(imageUrl)
+        } else {
+          await downloadImage(imageBlob, 'wordduck-share.png')
+        }
       }
     } catch (err) {
       setError(lang === 'zh' ? '下载失败' : 'Download failed')
@@ -105,35 +125,62 @@ export function ShareModal({
           {t('share.title', lang)}
         </h2>
 
-        {/* 分享卡片预览 */}
-        <div className="flex justify-center mb-6">
-          <div ref={cardRef}>{children}</div>
+        {/* 分享卡片预览 / 生成的图片 */}
+        <div className="flex justify-center mb-4">
+          {generatedImageUrl ? (
+            <img
+              src={generatedImageUrl}
+              alt="分享图片"
+              className="max-w-full rounded-lg shadow-lg"
+              style={{ maxHeight: '60vh' }}
+            />
+          ) : (
+            <div ref={cardRef}>{children}</div>
+          )}
         </div>
 
         {/* 微信浏览器长按提示 */}
-        {(showLongPressHint || isInWeChat) && (
-          <div className="text-center text-sm text-gray-500 mb-4 bg-yellow-50 p-2 rounded-lg">
+        {generatedImageUrl && isInWeChat && (
+          <div className="text-center text-sm text-amber-700 mb-4 bg-amber-50 p-3 rounded-lg border border-amber-200">
             {lang === 'zh'
-              ? '👆 长按上方图片保存到相册，然后分享到微信'
-              : '👆 Long press the image above to save, then share to WeChat'}
+              ? '👆 长按上方图片保存到相册'
+              : '👆 Long press the image to save'}
           </div>
         )}
 
         {/* 分享按钮 */}
         <div className="space-y-3">
-          {/* 微信分享 */}
-          <Button
-            onClick={handleWeChatShare}
-            disabled={loading !== null}
-            className="w-full bg-[#07C160] hover:bg-[#06AD56] text-white flex items-center justify-center gap-2"
-          >
-            <WeChatIcon />
-            {loading === 'wechat'
-              ? t('share.downloading', lang)
-              : lang === 'zh'
-              ? '分享到微信'
-              : 'Share to WeChat'}
-          </Button>
+          {/* 微信内已生成图片时只显示复制链接 */}
+          {!(isInWeChat && generatedImageUrl) && (
+            <>
+              {/* 微信分享/生成图片 */}
+              <Button
+                onClick={handleWeChatShare}
+                disabled={loading !== null}
+                className="w-full bg-[#07C160] hover:bg-[#06AD56] text-white flex items-center justify-center gap-2"
+              >
+                <WeChatIcon />
+                {loading === 'wechat'
+                  ? t('share.downloading', lang)
+                  : isInWeChat
+                  ? (lang === 'zh' ? '生成分享图片' : 'Generate Image')
+                  : (lang === 'zh' ? '分享到微信' : 'Share to WeChat')}
+              </Button>
+
+              {/* 保存图片 */}
+              <Button
+                onClick={handleDownload}
+                disabled={loading !== null}
+                variant="secondary"
+                className="w-full flex items-center justify-center gap-2"
+              >
+                <DownloadIcon />
+                {loading === 'download'
+                  ? t('share.downloading', lang)
+                  : t('share.download', lang)}
+              </Button>
+            </>
+          )}
 
           {/* 复制链接 */}
           <Button
@@ -146,19 +193,6 @@ export function ShareModal({
             {copied
               ? t('share.copied', lang)
               : t('share.copyLink', lang)}
-          </Button>
-
-          {/* 保存图片 */}
-          <Button
-            onClick={handleDownload}
-            disabled={loading !== null}
-            variant="secondary"
-            className="w-full flex items-center justify-center gap-2"
-          >
-            <DownloadIcon />
-            {loading === 'download'
-              ? t('share.downloading', lang)
-              : t('share.download', lang)}
           </Button>
         </div>
 
