@@ -41,22 +41,42 @@ export async function generateShareImage(element: HTMLElement): Promise<Blob | n
     // 动态导入 html2canvas
     const html2canvas = (await import('html2canvas')).default
 
-    const canvas = await html2canvas(element, {
-      scale: 2, // 高清
-      useCORS: true,
-      allowTaint: true, // 允许跨域图片
-      backgroundColor: '#ffffff',
-      logging: false,
-      // 微信浏览器兼容性配置
-      foreignObjectRendering: false,
-      removeContainer: true,
-    })
+    // 克隆元素以避免修改原始 DOM
+    const clone = element.cloneNode(true) as HTMLElement
+    clone.style.position = 'absolute'
+    clone.style.left = '-9999px'
+    clone.style.top = '0'
+    document.body.appendChild(clone)
 
-    return new Promise((resolve) => {
-      canvas.toBlob((blob) => {
-        resolve(blob)
-      }, 'image/png', 1.0)
-    })
+    try {
+      const canvas = await html2canvas(clone, {
+        scale: 2,
+        useCORS: true,
+        allowTaint: true,
+        backgroundColor: '#ffffff',
+        logging: true, // 开启日志以便调试
+        foreignObjectRendering: false,
+        removeContainer: true,
+        // 忽略某些可能导致问题的元素
+        ignoreElements: (el) => {
+          return el.tagName === 'IFRAME' || el.tagName === 'VIDEO'
+        },
+      })
+
+      document.body.removeChild(clone)
+
+      return new Promise((resolve) => {
+        canvas.toBlob((blob) => {
+          if (!blob) {
+            console.error('canvas.toBlob 返回 null')
+          }
+          resolve(blob)
+        }, 'image/png', 1.0)
+      })
+    } catch (err) {
+      document.body.removeChild(clone)
+      throw err
+    }
   } catch (err) {
     console.error('生成图片失败:', err)
     return null

@@ -50,23 +50,27 @@ export function RankingCard({ userId, userCity, vocabMode, grade, lang }: Rankin
 
         // 根据榜单类型获取排行数据
         if (rankingType === 'total') {
-          const { data: leaderboard } = await supabase
-            .from('leaderboard')
-            .select('*')
-            .eq('vocab_mode', vocabMode)
-            .eq('grade', grade)
-            .order('rank_in_grade', { ascending: true })
-            .limit(5)
+          // 使用 RPC 函数绕过 RLS
+          const { data: leaderboard, error } = await supabase.rpc('get_leaderboard', {
+            p_vocab_mode: vocabMode,
+            p_grade: grade,
+            p_limit: 5,
+          })
+          if (error) {
+            console.error('获取排行榜失败:', error)
+          }
           setTopUsers(leaderboard || [])
         } else if (userCity) {
-          const { data: cityLeaderboard } = await supabase
-            .from('city_leaderboard')
-            .select('*')
-            .eq('vocab_mode', vocabMode)
-            .eq('grade', grade)
-            .eq('city', userCity)
-            .order('rank_in_city', { ascending: true })
-            .limit(5)
+          // 使用 RPC 函数获取城市排行榜
+          const { data: cityLeaderboard, error } = await supabase.rpc('get_city_leaderboard', {
+            p_city: userCity,
+            p_vocab_mode: vocabMode,
+            p_grade: grade,
+            p_limit: 5,
+          })
+          if (error) {
+            console.error('获取城市排行榜失败:', error)
+          }
           setTopUsers(cityLeaderboard || [])
         }
       } catch (err) {
