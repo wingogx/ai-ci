@@ -114,6 +114,22 @@ export function ShareModal({
     }
   }
 
+  const handleRegenerate = async () => {
+    // 先清除已生成的图片，让卡片重新渲染
+    if (generatedImageUrl) {
+      URL.revokeObjectURL(generatedImageUrl)
+    }
+    setGeneratedImageUrl(null)
+    setGeneratedBlob(null)
+    setError(null)
+
+    // 等待下一帧让 DOM 更新，cardRef 重新绑定到卡片元素
+    await new Promise(resolve => setTimeout(resolve, 100))
+
+    // 然后生成新图片
+    await handleWeChatShare()
+  }
+
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
       <div className="p-4 max-w-sm mx-auto">
@@ -182,7 +198,7 @@ export function ShareModal({
           {/* 重新生成按钮 */}
           {generatedImageUrl && (
             <Button
-              onClick={handleWeChatShare}
+              onClick={handleRegenerate}
               disabled={loading !== null}
               variant="secondary"
               className="w-full flex items-center justify-center gap-2"
