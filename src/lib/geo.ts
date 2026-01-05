@@ -10,113 +10,6 @@ interface GeoInfo {
 }
 
 /**
- * 常见城市拼音转中文映射
- */
-const CITY_PINYIN_MAP: Record<string, string> = {
-  // 直辖市
-  'beijing': '北京',
-  'shanghai': '上海',
-  'tianjin': '天津',
-  'chongqing': '重庆',
-  // 省会城市
-  'guangzhou': '广州',
-  'shenzhen': '深圳',
-  'hangzhou': '杭州',
-  'nanjing': '南京',
-  'wuhan': '武汉',
-  'chengdu': '成都',
-  'xian': '西安',
-  "xi'an": '西安',
-  'changsha': '长沙',
-  'zhengzhou': '郑州',
-  'jinan': '济南',
-  'qingdao': '青岛',
-  'dalian': '大连',
-  'shenyang': '沈阳',
-  'harbin': '哈尔滨',
-  'changchun': '长春',
-  'fuzhou': '福州',
-  'xiamen': '厦门',
-  'kunming': '昆明',
-  'guiyang': '贵阳',
-  'nanning': '南宁',
-  'haikou': '海口',
-  'hefei': '合肥',
-  'nanchang': '南昌',
-  'taiyuan': '太原',
-  'shijiazhuang': '石家庄',
-  'lanzhou': '兰州',
-  'xining': '西宁',
-  'yinchuan': '银川',
-  'hohhot': '呼和浩特',
-  'huhehaote': '呼和浩特',
-  'urumqi': '乌鲁木齐',
-  'wulumuqi': '乌鲁木齐',
-  'lhasa': '拉萨',
-  'lasa': '拉萨',
-  // 其他常见城市
-  'suzhou': '苏州',
-  'wuxi': '无锡',
-  'ningbo': '宁波',
-  'dongguan': '东莞',
-  'foshan': '佛山',
-  'zhuhai': '珠海',
-  'zhongshan': '中山',
-  'huizhou': '惠州',
-  'jiangmen': '江门',
-  'shantou': '汕头',
-  'wenzhou': '温州',
-  'shaoxing': '绍兴',
-  'jinhua': '金华',
-  'taizhou': '台州',
-  'jiaxing': '嘉兴',
-  'yangzhou': '扬州',
-  'nantong': '南通',
-  'changzhou': '常州',
-  'xuzhou': '徐州',
-  'yancheng': '盐城',
-  'weifang': '潍坊',
-  'yantai': '烟台',
-  'linyi': '临沂',
-  'tangshan': '唐山',
-  'baoding': '保定',
-  'handan': '邯郸',
-  'luoyang': '洛阳',
-  'nanyang': '南阳',
-  'zhuzhou': '株洲',
-  'yueyang': '岳阳',
-  'quanzhou': '泉州',
-  'putian': '莆田',
-  'ganzhou': '赣州',
-  'mianyang': '绵阳',
-  'nanchong': '南充',
-  'yibin': '宜宾',
-  'daqing': '大庆',
-  'baotou': '包头',
-}
-
-/**
- * 将城市名转换为中文（如果是拼音的话）
- */
-function convertCityToChinese(city: string | null): string | null {
-  if (!city) return null
-
-  // 如果已经是中文，直接返回
-  if (/[\u4e00-\u9fa5]/.test(city)) {
-    return city
-  }
-
-  // 尝试从映射表中查找
-  const lowerCity = city.toLowerCase().trim()
-  if (CITY_PINYIN_MAP[lowerCity]) {
-    return CITY_PINYIN_MAP[lowerCity]
-  }
-
-  // 没找到就返回原值
-  return city
-}
-
-/**
  * 使用浏览器 Geolocation API 获取位置（最准确，需要用户授权）
  */
 async function fetchFromBrowserGeo(): Promise<GeoInfo> {
@@ -178,11 +71,7 @@ export async function getGeoByIP(): Promise<GeoInfo> {
     try {
       const result = await provider()
       if (result.city) {
-        // 转换城市名为中文
-        return {
-          ...result,
-          city: convertCityToChinese(result.city),
-        }
+        return result
       }
     } catch (err) {
       console.log('定位服务失败，尝试下一个:', err)
@@ -254,9 +143,7 @@ const CITY_CACHE_KEY = 'wordduck_user_city'
 
 export function getCachedCity(): string | null {
   if (typeof window === 'undefined') return null
-  const cached = localStorage.getItem(CITY_CACHE_KEY)
-  // 转换可能的拼音为中文
-  return convertCityToChinese(cached)
+  return localStorage.getItem(CITY_CACHE_KEY)
 }
 
 export function setCachedCity(city: string): void {
