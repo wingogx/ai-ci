@@ -91,6 +91,9 @@ RETURNS UUID AS $$
 $$ LANGUAGE SQL SECURITY DEFINER;
 
 -- 7. 修改 get_user_by_id 函数，使用映射表
+-- 先删除旧函数
+DROP FUNCTION IF EXISTS get_user_by_id(UUID);
+
 CREATE OR REPLACE FUNCTION get_user_by_id(p_user_id UUID)
 RETURNS SETOF public.users AS $$
 DECLARE
