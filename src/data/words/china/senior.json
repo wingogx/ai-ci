@@ -139,8 +139,8 @@
       "phonetic": "/ɡoʊ/",
       "pos": "v",
       "meaning": {
-        "zh": "v. 去，走；（尤指与某人）去（某处或出席某项活动）；可能要，打算做；移动，行走；在移动中做；做某个动作；离开；（为某目的）去（某处）；去做（某事）；被发送，被传递；参加（电视或电台节目）；通向，延伸到；上升；放在（通常的位置上）；放得进，适合；相配，协调；除尽，除；进行，进展；被接受，被允许；开始做（某事），进入（某种状态）；变为，变得（尤指朝坏的方面）；处于（尤指令人不快的状况）；（故事、歌词等）内容是；发出（某种声音）；发出信号（或警告）；说；开始（活动）；走开，滚开；参与（表示对所提到行为不赞成）；运转，工作；停止正常运转；消失，不见；得辞掉，被扔掉；（官能）衰退，下降；死亡；用掉，花掉；卖掉，归于；出价购买；促成，显示；流逝，消逝；继续，持续；上厕所；（某人的话）算数；（决定、判决等）对…...不利；取得（某成绩、比分等）; n. （游戏或活动中）轮到的机会；尝试；精力，活力；某事顺利进行；围棋; adj. 运行正常的",
-        "en": "The act of going."
+        "zh": "v. 去，走；变得；运转；消失",
+        "en": "move; become; function; disappear"
       }
     },
     {
@@ -209,8 +209,8 @@
       "phonetic": "/ɪt/",
       "pos": "pron",
       "meaning": {
-        "zh": "pron. 它，这，那（指无生命的东西、动物、植物）；指已提到或将提及的事物、活动、经验、抽象观念等；在不分性别或情况不详时指代；作无人称动词的主语，表示天气、时日、距离、状态、温度等；用于替代通常出现在其后面的名词、短语或从句；用于强调其后的句子成分；用于指某人；用作直接宾语，几乎不具有或完全不具有任何含义；能力，素质; n. （捉迷藏等儿童游戏中的）捉人者，找人者；意大利苦艾酒，味美思酒; abbr. （IT）信息技术（information technology）",
-        "en": "n. the branch of engineering that deals with the use of computers and telecommunications to retrieve and store and transmit information"
+        "zh": "pron. 它；这；那",
+        "en": "referring to thing, animal, or situation"
       }
     },
     {
@@ -359,8 +359,8 @@
       "phonetic": "/ap/",
       "pos": "prep",
       "meaning": {
-        "zh": "adv. 向上，由低向高；到楼上；（太阳）升起；在高处；面朝上，面朝天；从地下到表面，向水面；向北方，朝北方；往（较高或较远的）某处；去，在（更重要的地方，如大城市或大学）；到……的近处，靠近；到前面，朝前面；处于（或进入）直立状态；起床；用劲地，以较大气力；（吐）出来；（强度，音量，活动）由弱到强，由低到高，由轻到响；（列表中）处于更高位置，（议程中）处于更重要的位置；（水平、数量或比率）由低到高；高出，多；向较高地位，向更好的状态；出现，出席；（在品质、知识或成就方面）相等，比得上；一起，聚拢地；紧紧地，牢固地；计划要，被建议，正被考虑；愿意做（或参与）；出庭受审的；处于工作（或可用）状态，进入（可用）状态；（在讨论或思考时）引起某人的注意；靠近（某人）；靠近顶端；做完地，完成地；封闭，关闭；成碎片，分成部分；处于活跃期，进入兴奋状态；公开展示地；停下来；每名队员，每个队；（航行）逆风地，逆水地；（舵柄）迎风转舵；（棒球）在场上击球；（长发）向头上（或脑后）梳理的；彻底地，完全地；（时间）到；（道路）正在整修的；（尤指异常或不愉快的事情）发生，出现; prep. 往较高处，向较高处；沿着……，顺着……；近顶端；往（河，溪）上游; adj. 在高处；（向上）开；升于地平线之上；冒出地面，冒出水面；在前方，在前面；起床；上涨； (时间) 到点的；（正在）发生，进行，出现；得分领先于（对手），超前于（对手）；正常运行，正常工作，起作用；（在活动中）轮到某人；高兴，兴奋；对……了如指掌的，熟悉的；（道路）正在修整的；（骑师）骑着马的；（物理）（夸克的味）带有+2/3电荷的，上夸克的（质子和中子被认为是由上夸克和下夸克组成）；向上移动的，上行的； （时间）到点的；（时间）终止，结束; v. 使…更高，提高；举起，抬起；突然行动; n. （某一阶段的）成功，繁荣；走运；在增长，在改善中；（人或企业）诚实守法；蒸蒸日上，越来越成功; int. （用于命令士兵或动物）起来！起立！",
-        "en": "The direction opposed to the pull of gravity."
+        "zh": "prep. 向...上；沿着",
+        "en": "to higher position on; along"
       }
     },
     {
@@ -489,8 +489,8 @@
       "phonetic": "/ænt/",
       "pos": "n",
       "meaning": {
-        "zh": "n. ant；某物",
-        "en": "small insect"
+        "zh": "n. 蚂蚁, 一种群居性昆虫 [复数ants]",
+        "en": "n. small social insect that lives in organized groups"
       }
     },
     {
@@ -599,8 +599,8 @@
       "phonetic": "/bæt/",
       "pos": "n",
       "meaning": {
-        "zh": "n. bat；某物 n. bat；某物 n. bat；某物",
-        "en": "hitting tool flying mammal animal or stick"
+        "zh": "n. 球拍, 球棒, 蝙蝠 vt. 用球棒击球",
+        "en": "n. sports equipment; flying mammal v. hit with bat"
       }
     },
     {
@@ -889,8 +889,8 @@
       "phonetic": "/dæd/",
       "pos": "n",
       "meaning": {
-        "zh": "n. dad；某物",
-        "en": "father"
+        "zh": "n. 爸爸, 父亲, 爹爹 [口语]",
+        "en": "n. father (informal, used by children)"
       }
     },
     {
@@ -1629,8 +1629,8 @@
       "phonetic": "/leɪ/",
       "pos": "v",
       "meaning": {
-        "zh": "v. 安放，放置；铺放，铺设；下（蛋），产（卵）；摆放（餐具）；提出，提交；使处于特定状态；制定计划或设圈套；下赌注；安排，决定（戏剧、小说情节）的场景；阻止（某物）从地面扬起；安葬（某人）；使倒伏，击倒；（摆好木、柴或煤）生火；沿（特定航线）航行；修整，编整（树篱）；与（某人）性交; n. 诗，民歌；（某物的）位置，方向；地势，地貌；（捻绳索时每股的）捻向；产卵，产卵期；性伙伴; adj. 外行的，非专业的；平信徒的，在俗的; v. 躺；平放；存在，在于（lie 的过去式）",
-        "en": "Arrangement or relationship; layout."
+        "zh": "v. 放置；铺设；产卵；提出；安排",
+        "en": "put down; install; produce eggs; present; prepare"
       }
     },
     {
@@ -1769,8 +1769,8 @@
       "phonetic": "/mɑːm/",
       "pos": "n",
       "meaning": {
-        "zh": "n. mom；某物",
-        "en": "mother"
+        "zh": "n. 妈妈, 母亲 [儿语, 口语]",
+        "en": "n. mother (informal, used by children)"
       }
     },
     {
@@ -2309,7 +2309,7 @@
       "phonetic": "/ʃiː/",
       "pos": "pron",
       "meaning": {
-        "zh": "pron. 人；某人",
+        "zh": "pron. 她",
         "en": "female person or animal"
       }
     },
@@ -2679,8 +2679,8 @@
       "phonetic": "/wɪn/",
       "pos": "v",
       "meaning": {
-        "zh": "v. （在战斗、比赛、游戏等中）赢，获胜；赢得（奖品等）；通过努力得到（某物）；为……赢得，使……获得；采（矿）；晾（干草）; n. （在比赛、竞赛等中的）胜利; 【名】 （Win）（德、荷、缅）温，（英）温（女子教名 Winifred 的昵称）（人名）",
-        "en": "To conquer, defeat."
+        "zh": "v. 赢；获胜；赢得；争取到",
+        "en": "be victorious; succeed; gain; obtain by effort"
       }
     },
     {
@@ -2719,8 +2719,8 @@
       "phonetic": "/zuː/",
       "pos": "n",
       "meaning": {
-        "zh": "n. zoo；某物",
-        "en": "animal park"
+        "zh": "n. 动物园, 拥挤杂乱的地方",
+        "en": "n. place where animals are kept for public viewing"
       }
     },
     {
@@ -2819,8 +2819,8 @@
       "phonetic": "/ænt/",
       "pos": "n",
       "meaning": {
-        "zh": "n. aunt；某物 n. aunt；某物",
-        "en": "parent's sister parent's sister"
+        "zh": "n. 姑母, 伯母, 婶母, 姨母, 舅母, 阿姨",
+        "en": "n. sister of one's parent; uncle's wife"
       }
     },
     {
@@ -4049,8 +4049,8 @@
       "phonetic": "/dɔːr/",
       "pos": "n",
       "meaning": {
-        "zh": "n. door；某物",
-        "en": "entrance"
+        "zh": "n. 门, 门口, 户, 家, 通道 vt. 装门于",
+        "en": "n. entrance; doorway; household v. fit with door"
       }
     },
     {
@@ -5789,8 +5789,8 @@
       "phonetic": "/mæθ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. math；某物",
-        "en": "mathematics"
+        "zh": "n. 数学, 算术 [mathematics的缩写]",
+        "en": "n. study of numbers and shapes [short for mathematics]"
       }
     },
     {
@@ -7929,8 +7929,8 @@
       "phonetic": "/wiːk/",
       "pos": "n",
       "meaning": {
-        "zh": "n. week；某物",
-        "en": "seven days"
+        "zh": "n. 星期, 周, 一周, 工作周",
+        "en": "n. period of seven days; working days excluding weekend"
       }
     },
     {
@@ -7989,8 +7989,8 @@
       "phonetic": "/wɪl/",
       "pos": "mod",
       "meaning": {
-        "zh": "mod. （详见词典） n. will；某物 v. 做某事；进行",
-        "en": "expressing future; expressing willingness determination; testament; desire want; make happen by will"
+        "zh": "aux. 将；会；愿意",
+        "en": "expressing future; expressing willingness"
       }
     },
     {
@@ -7999,8 +7999,8 @@
       "phonetic": "/wɪnd/",
       "pos": "n",
       "meaning": {
-        "zh": "n. wind；某物 v. 做某事；进行",
-        "en": "moving air; breath wrap; move in curves; turn mechanism"
+        "zh": "n. 风, 气流, 呼吸 vt. 缠绕, 上发条 vi. 蜿蜒",
+        "en": "n. moving air; breath v. wrap around; turn mechanism"
       }
     },
     {
@@ -8049,8 +8049,8 @@
       "phonetic": "/wɜːd/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 字，词，单词；（某人说的）话，言语（words）；简短的交谈，谈话；命令，指示；消息，信息；诺言，承诺；口角，吵架（words）；（警告、建议、赞扬的）话，话语；歌词（words）；一个字（所说或所写的最小量）（a word）；（不同于行动的）言，言语；字（尤指16或32个字节的计算机数据基本单位）；《圣经》，福音（the Word）; v. 措辞，用词; int.  （表示接受或同意别人刚说的话）就是，说得对; 【名】 （Word）（英）沃德（人名）",
-        "en": "n. a unit of language that native speakers can identify; n. a brief statement; n. new information about specific and timely events; n. the divine word of God; the second person in the Trinity (incarnate in Jesus)"
+        "zh": "n. 单词；话；消息；诺言；命令",
+        "en": "unit of language; speech; news; promise; command"
       }
     },
     {
@@ -9209,8 +9209,8 @@
       "phonetic": "/ˈtʃaɪnə/",
       "pos": "n",
       "meaning": {
-        "zh": "n. china；某物 n. china；某物",
-        "en": "country name ceramic"
+        "zh": "n. 中国, 瓷器, 瓷料 a. 瓷器的, 中国的",
+        "en": "n. country in East Asia; porcelain a. of china/China"
       }
     },
     {
@@ -9639,8 +9639,8 @@
       "phonetic": "/dæns/",
       "pos": "v",
       "meaning": {
-        "zh": "v. 做某事；进行 n. dance；某物",
-        "en": "move rhythmically; move lightly artistic movement; act of dancing; social gathering"
+        "zh": "n. 跳舞, 舞蹈, 舞会 vi. 跳舞 vt. 使跳舞",
+        "en": "n. dancing; social event v. move rhythmically to music"
       }
     },
     {
@@ -10969,8 +10969,8 @@
       "phonetic": "/lʌntʃ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. lunch；某物",
-        "en": "midday meal"
+        "zh": "n. 午餐, 午饭, 便餐 vi. 吃午餐 vt. 供给...午餐",
+        "en": "n. midday meal v. eat/serve lunch"
       }
     },
     {
@@ -11199,8 +11199,8 @@
       "phonetic": "/ˈmuːvi/",
       "pos": "n",
       "meaning": {
-        "zh": "n. movie；某物",
-        "en": "film"
+        "zh": "n. 电影, 影片, 电影院 [常用复数movies]",
+        "en": "n. motion picture; cinema [often plural: movies]"
       }
     },
     {
@@ -11209,7 +11209,7 @@
       "phonetic": "/ˈmjuːzɪk/",
       "pos": "n",
       "meaning": {
-        "zh": "n. music；某物",
+        "zh": "n. 音乐；乐曲",
         "en": "organized sound; musical composition"
       }
     },
@@ -11529,8 +11529,8 @@
       "phonetic": "/ˈpiːtsə/",
       "pos": "n",
       "meaning": {
-        "zh": "n. pizza；某物",
-        "en": "Italian dish"
+        "zh": "n. 比萨饼, 意大利薄饼",
+        "en": "n. Italian dish of flat bread with toppings"
       }
     },
     {
@@ -11579,8 +11579,8 @@
       "phonetic": "/pɔɪnt/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 点；要点 v. 指；指向",
-        "en": "n. dot; main idea v. direct finger; aim"
+        "zh": "n. 点；要点；分数；地点；时刻",
+        "en": "dot; main idea; score; place; moment"
       }
     },
     {
@@ -12029,8 +12029,8 @@
       "phonetic": "/ʃiːp/",
       "pos": "n",
       "meaning": {
-        "zh": "n. sheep；某物",
-        "en": "farm animal"
+        "zh": "n. 羊, 绵羊, 胆小鬼 [复数同形]",
+        "en": "n. farm animal with thick wool coat [plural: sheep]"
       }
     },
     {
@@ -13319,8 +13319,8 @@
       "phonetic": "/ˈwʊmən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. woman；某物",
-        "en": "adult female"
+        "zh": "n. 妇女, 女人, 成年女子 [复数women]",
+        "en": "n. adult female person [plural: women]"
       }
     },
     {
@@ -13369,8 +13369,8 @@
       "phonetic": "/wʊd/",
       "pos": "mod",
       "meaning": {
-        "zh": "v. 将，将会（will 的过去式，用于转述）；会......（用于提出意见或征求建议时）；会，就（表示预期或设想）；会（表示不曾发生或不可能存在的事）；才会，就会（说明动机）；想（表示某人想要某物或想做某事）；就（不），偏（不）；请…...好吗？（表示客气地请求别人做某事）；要不要…...？；过去老是，过去常常；总是，爱（带出一贯的行为）；但愿…...（表示强烈的愿望）；也许，大概（表示推测或希望）；肯定，应该（表示有充分理由猜测是某种情况）",
-        "en": "n. the capability of conscious choice and decision and intention; n. a fixed and persistent intent or purpose; n. a legal document declaring a person's wishes regarding the disposal of their property when they die; v. decree or ordain"
+        "zh": "aux. 将会；愿意；过去常常",
+        "en": "expressing future in past; willingness; past habit"
       }
     },
     {
@@ -13699,8 +13699,8 @@
       "phonetic": "/ˈænɪml/",
       "pos": "n",
       "meaning": {
-        "zh": "n. animal；某物",
-        "en": "living creature"
+        "zh": "n. 动物, 兽类, 畜生 a. 动物的, 野兽般的",
+        "en": "n. living creature that can move a. of animals; brutal"
       }
     },
     {
@@ -13939,8 +13939,8 @@
       "phonetic": "/ˈɔːtəm/",
       "pos": "n",
       "meaning": {
-        "zh": "n. autumn；某物",
-        "en": "fall season"
+        "zh": "n. 秋天, 秋季, 成熟期 a. 秋天的, 秋季的",
+        "en": "n. season between summer and winter a. of autumn"
       }
     },
     {
@@ -13969,8 +13969,8 @@
       "phonetic": "/bəˈnænə/",
       "pos": "n",
       "meaning": {
-        "zh": "n. banana；某物",
-        "en": "yellow fruit"
+        "zh": "n. 香蕉, 香蕉树, 芭蕉属植物",
+        "en": "n. long curved yellow fruit; tropical plant"
       }
     },
     {
@@ -15739,8 +15739,8 @@
       "phonetic": "/ˈfraɪdeɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. friday；某物",
-        "en": "5th day of week"
+        "zh": "n. 星期五, 礼拜五, 周五",
+        "en": "n. fifth day of the work week; Fri."
       }
     },
     {
@@ -16379,8 +16379,8 @@
       "phonetic": "/ˈlesən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. lesson；某物 n. lesson；某物",
-        "en": "period of teaching teaching period"
+        "zh": "n. 课, 课程, 一节课, 教训, 经验",
+        "en": "n. period of teaching; thing learned; warning"
       }
     },
     {
@@ -16629,8 +16629,8 @@
       "phonetic": "/ˈmʌndeɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. monday；某物",
-        "en": "1st day of week"
+        "zh": "n. 星期一, 礼拜一, 周一",
+        "en": "n. first day of the work week; Mon."
       }
     },
     {
@@ -18879,7 +18879,7 @@
       "phonetic": "/ˈwɪndoʊ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. window；某物",
+        "zh": "n. 窗户；窗口；时机",
         "en": "opening for light; opening; opportunity"
       }
     },
@@ -18889,8 +18889,8 @@
       "phonetic": "/ˈwɪntər/",
       "pos": "n",
       "meaning": {
-        "zh": "n. winter；某物",
-        "en": "cold season"
+        "zh": "n. 冬天, 冬季, 严寒期 vi. 过冬 a. 冬天的",
+        "en": "n. coldest season v. spend winter a. of winter"
       }
     },
     {
@@ -19669,8 +19669,8 @@
       "phonetic": "/ˈbrʌðər/",
       "pos": "n",
       "meaning": {
-        "zh": "n. brother；某物",
-        "en": "male sibling"
+        "zh": "n. 兄弟, 哥哥, 弟弟, 教友, 同事",
+        "en": "n. male sibling; fellow member; close friend"
       }
     },
     {
@@ -19919,8 +19919,8 @@
       "phonetic": "/ˈtʃɪkɪn/",
       "pos": "n",
       "meaning": {
-        "zh": "n. chicken；某物 n. chicken；某物 n. chicken；某物",
-        "en": "bird poultry meat bird or meat"
+        "zh": "n. 鸡, 小鸡, 鸡肉 a. 胆小的, 懦弱的",
+        "en": "n. common farm bird; meat from this bird a. cowardly"
       }
     },
     {
@@ -19999,8 +19999,8 @@
       "phonetic": "/kloʊðz/",
       "pos": "n",
       "meaning": {
-        "zh": "n. clothes；某物",
-        "en": "items to wear"
+        "zh": "n. 衣服, 服装, 被褥 [复数]",
+        "en": "n. items worn to cover body; garments [plural]"
       }
     },
     {
@@ -21689,8 +21689,8 @@
       "phonetic": "/ˈdʒænjueri/",
       "pos": "n",
       "meaning": {
-        "zh": "n. january；某物",
-        "en": "1st month"
+        "zh": "n. 一月, 元月 [缩写Jan.]",
+        "en": "n. first month of the year [abbr. Jan.]"
       }
     },
     {
@@ -22079,8 +22079,8 @@
       "phonetic": "/ˈmɔːnɪŋ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. morning；某物",
-        "en": "early day"
+        "zh": "n. 早晨, 上午, 黎明 a. 早晨的, 上午的",
+        "en": "n. early part of day; dawn a. of morning"
       }
     },
     {
@@ -23489,8 +23489,8 @@
       "phonetic": "/ˈtiːtʃər/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 人；某人 n. teacher；某物",
-        "en": "person who teaches educator"
+        "zh": "n. 教师, 老师, 先生, 导师",
+        "en": "n. person who teaches; instructor"
       }
     },
     {
@@ -23669,8 +23669,8 @@
       "phonetic": "/ˈtuːzdeɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. tuesday；某物",
-        "en": "day of week"
+        "zh": "n. 星期二, 礼拜二, 周二",
+        "en": "n. second day of the work week; Tue."
       }
     },
     {
@@ -23909,8 +23909,8 @@
       "phonetic": "/ˌwiːkˈend/",
       "pos": "n",
       "meaning": {
-        "zh": "n. weekend；某物",
-        "en": "Saturday and Sunday"
+        "zh": "n. 周末, 周末假期 vi. 度周末",
+        "en": "n. Saturday and Sunday v. spend weekend"
       }
     },
     {
@@ -24439,8 +24439,8 @@
       "phonetic": "/ˈbɜːrθdeɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. birthday；某物",
-        "en": "day of birth"
+        "zh": "n. 生日, 诞生日, 诞辰, 生辰",
+        "en": "n. anniversary of the day of one's birth"
       }
     },
     {
@@ -24679,8 +24679,8 @@
       "phonetic": "/ˈtʃɪldrən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. children；某物",
-        "en": "plural of child"
+        "zh": "n. 儿童；孩子们（child的复数）",
+        "en": "young people; plural of child"
       }
     },
     {
@@ -24999,8 +24999,8 @@
       "phonetic": "/ˈdɔːtər/",
       "pos": "n",
       "meaning": {
-        "zh": "n. daughter；某物",
-        "en": "female child"
+        "zh": "n. 女儿, 闺女, 养女, 女弟子",
+        "en": "n. female child in relation to parents"
       }
     },
     {
@@ -25669,8 +25669,8 @@
       "phonetic": "/ˈfʊtbɔːl/",
       "pos": "n",
       "meaning": {
-        "zh": "n. football；某物",
-        "en": "soccer"
+        "zh": "n. 足球, 橄榄球, 足球运动",
+        "en": "n. soccer; American football; the ball used"
       }
     },
     {
@@ -26069,8 +26069,8 @@
       "phonetic": "/ˈhɑspɪtəl/",
       "pos": "n",
       "meaning": {
-        "zh": "n. hospital；某物",
-        "en": "medical facility"
+        "zh": "n. 医院, 医务室, 兽医院",
+        "en": "n. place for medical treatment and care"
       }
     },
     {
@@ -26599,8 +26599,8 @@
       "phonetic": "/ˈmaʊntən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. mountain；某物",
-        "en": "high land"
+        "zh": "n. 山, 山脉, 高山, 大量 a. 山的, 山地的",
+        "en": "n. very high hill; large amount a. of mountains"
       }
     },
     {
@@ -27479,8 +27479,8 @@
       "phonetic": "/ˈsætərdeɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. saturday；某物",
-        "en": "6th day of week"
+        "zh": "n. 星期六, 礼拜六, 周六",
+        "en": "n. sixth day of the week, first weekend day; Sat."
       }
     },
     {
@@ -28059,8 +28059,8 @@
       "phonetic": "/ˈθɜːrzdeɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. thursday；某物",
-        "en": "day of week"
+        "zh": "n. 星期四, 礼拜四, 周四",
+        "en": "n. fourth day of the work week; Thu."
       }
     },
     {
@@ -28799,8 +28799,8 @@
       "phonetic": "/ˈbrekfəst/",
       "pos": "n",
       "meaning": {
-        "zh": "n. breakfast；某物",
-        "en": "morning meal"
+        "zh": "n. 早餐, 早饭 vi. 吃早餐 vt. 供给...早餐",
+        "en": "n. first meal of day v. eat/serve breakfast"
       }
     },
     {
@@ -29039,8 +29039,8 @@
       "phonetic": "/ˈklæsruːm/",
       "pos": "n",
       "meaning": {
-        "zh": "n. classroom；某物",
-        "en": "room for lessons"
+        "zh": "n. 教室, 课堂, 班级, 全班学生",
+        "en": "n. room where lessons are taught; class; students"
       }
     },
     {
@@ -31429,8 +31429,8 @@
       "phonetic": "/ˈwenzdeɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. wednesday；某物",
-        "en": "day of week"
+        "zh": "n. 星期三, 礼拜三, 周三",
+        "en": "n. third day of the work week; Wed."
       }
     },
     {
@@ -33459,8 +33459,8 @@
       "phonetic": "/ˈtelɪvɪʒən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. television；某物",
-        "en": "viewing device"
+        "zh": "n. 电视, 电视机, 电视节目, 电视业 [缩写TV]",
+        "en": "n. TV; TV set; TV programs; TV industry [abbr. TV]"
       }
     },
     {
@@ -34249,8 +34249,8 @@
       "phonetic": "/ˈɡrændfɑːðər/",
       "pos": "n",
       "meaning": {
-        "zh": "n. grandfather；某物 n. grandfather；某物",
-        "en": "father's father father's father"
+        "zh": "n. 祖父, 外祖父, 老爷爷",
+        "en": "n. father of one's father or mother"
       }
     },
     {
@@ -34259,8 +34259,8 @@
       "phonetic": "/ˈɡrænmʌðər/",
       "pos": "n",
       "meaning": {
-        "zh": "n. grandmother；某物 n. grandmother；某物",
-        "en": "mother's mother mother's mother"
+        "zh": "n. 祖母, 外祖母, 老奶奶",
+        "en": "n. mother of one's father or mother"
       }
     },
     {

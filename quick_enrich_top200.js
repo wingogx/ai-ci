@@ -1077,7 +1077,15 @@ function updateWordFiles() {
             def => def.pos === wordEntry.pos
           ) || definitions[0];
 
-          if (matchingDef && matchingDef.zh.length > wordEntry.meaning.zh.length) {
+          // 更新条件：新定义更长 OR 旧定义包含"某物"占位符
+          const shouldUpdate = matchingDef && (
+            matchingDef.zh.length > wordEntry.meaning.zh.length ||
+            wordEntry.meaning.zh.includes('某物') ||
+            wordEntry.meaning.zh.includes('某人') ||
+            wordEntry.meaning.zh.includes('做某事')
+          );
+
+          if (shouldUpdate) {
             updatedInFile++;
             return {
               ...wordEntry,

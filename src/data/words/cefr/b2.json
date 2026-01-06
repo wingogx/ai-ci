@@ -699,8 +699,8 @@
       "phonetic": "/wɪn/",
       "pos": "n",
       "meaning": {
-        "zh": "v. （在战斗、比赛、游戏等中）赢，获胜；赢得（奖品等）；通过努力得到（某物）；为……赢得，使……获得；采（矿）；晾（干草）; n. （在比赛、竞赛等中的）胜利; 【名】 （Win）（德、荷、缅）温，（英）温（女子教名 Winifred 的昵称）（人名）",
-        "en": "To conquer, defeat."
+        "zh": "n. 胜利；赢",
+        "en": "victory; act of winning"
       }
     },
     {
@@ -2319,8 +2319,8 @@
       "phonetic": "/pɐːt/",
       "pos": "v",
       "meaning": {
-        "zh": "n. 部分；某物的部分（局部）；（书、戏剧、电视剧等的）部，篇，集；（动植物的）器官，部位；部件，零件；成员，参与人员；（世界、国家或城镇等的）区域，地区；（头发的）分缝；（角色的）台词和动作，角色；（在活动或事件中的）作用；（乐器或声音的）声部，音部；（等）份；能力; v. （使）分开，（使）分离；分别；分手；放弃，移交；给（头发）分缝; adv. 既有……又有……（part sth., part sth.）；不完全地，部分地; adj. 部分的，不完全的; 【名】 （Part）(英、瑞典）帕特，（泰）巴，（法）帕尔（人名）",
-        "en": "A portion; a component."
+        "zh": "v. 分开；分离；分配",
+        "en": "separate; divide; distribute"
       }
     },
     {
@@ -3149,8 +3149,8 @@
       "phonetic": "/wɪl/",
       "pos": "n",
       "meaning": {
-        "zh": "mod. （详见词典） n. will；某物 v. 做某事；进行",
-        "en": "expressing future; expressing willingness determination; testament; desire want; make happen by will"
+        "zh": "n. 意志；遗嘱；意愿",
+        "en": "determination; testament; desire"
       }
     },
     {
@@ -3159,8 +3159,8 @@
       "phonetic": "/wɪnd/",
       "pos": "v",
       "meaning": {
-        "zh": "n. wind；某物 v. 做某事；进行",
-        "en": "moving air; breath wrap; move in curves; turn mechanism"
+        "zh": "v. 缠绕；蜿蜒；上发条",
+        "en": "wrap; move in curves; turn mechanism"
       }
     },
     {
