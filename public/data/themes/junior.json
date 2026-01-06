@@ -1,0 +1,312 @@
+{
+  "level": "junior",
+  "totalThemes": 15,
+  "themes": [
+    {
+      "id": "weekdays",
+      "name": "星期",
+      "level": "junior",
+      "words": [
+        "jun_1060",
+        "jun_1299",
+        "jun_1519",
+        "jun_1427",
+        "jun_1034",
+        "jun_1417",
+        "jun_1107"
+      ],
+      "wordCount": 7
+    },
+    {
+      "id": "colors",
+      "name": "颜色",
+      "level": "junior",
+      "words": [
+        "jun_0177",
+        "jun_0256",
+        "jun_0739",
+        "jun_1125",
+        "jun_1066",
+        "jun_1082",
+        "jun_0479",
+        "jun_0619",
+        "jun_0880",
+        "jun_0635",
+        "jun_0387"
+      ],
+      "wordCount": 11
+    },
+    {
+      "id": "numbers",
+      "name": "数字",
+      "level": "junior",
+      "words": [
+        "jun_0159",
+        "jun_0210",
+        "jun_0857",
+        "jun_0374",
+        "jun_0369",
+        "jun_0192",
+        "jun_0809",
+        "jun_0714",
+        "jun_0466",
+        "jun_0201",
+        "jun_1025",
+        "jun_1118",
+        "jun_1426",
+        "jun_1391",
+        "jun_1247",
+        "jun_1286",
+        "jun_1514",
+        "jun_1381",
+        "jun_1404",
+        "jun_1119",
+        "jun_1112",
+        "jun_0729",
+        "jun_0723",
+        "jun_0817",
+        "jun_1285",
+        "jun_1023",
+        "jun_1063"
+      ],
+      "wordCount": 27
+    },
+    {
+      "id": "fruits",
+      "name": "水果",
+      "level": "junior",
+      "words": [
+        "jun_0602",
+        "jun_0922",
+        "jun_1066",
+        "jun_0736"
+      ],
+      "wordCount": 4
+    },
+    {
+      "id": "animals",
+      "name": "动物",
+      "level": "junior",
+      "words": [
+        "jun_0074",
+        "jun_0086",
+        "jun_0253",
+        "jun_0368",
+        "jun_1083",
+        "jun_0774",
+        "jun_0859",
+        "jun_0435",
+        "jun_1061",
+        "jun_0242",
+        "jun_0169",
+        "jun_0076",
+        "jun_0750",
+        "jun_0812",
+        "jun_0340",
+        "jun_1176",
+        "jun_0827",
+        "jun_0376"
+      ],
+      "wordCount": 18
+    },
+    {
+      "id": "family",
+      "name": "家庭",
+      "level": "junior",
+      "words": [
+        "jun_1030",
+        "jun_1062",
+        "jun_1069",
+        "jun_1162",
+        "jun_1097",
+        "jun_0195",
+        "jun_1352",
+        "jun_1577",
+        "jun_1578",
+        "jun_0870",
+        "jun_0231",
+        "jun_0986",
+        "jun_1027"
+      ],
+      "wordCount": 13
+    },
+    {
+      "id": "body",
+      "name": "身体部位",
+      "level": "junior",
+      "words": [
+        "jun_0395",
+        "jun_0095",
+        "jun_0091",
+        "jun_0467",
+        "jun_0775",
+        "jun_0392",
+        "jun_0048",
+        "jun_0135",
+        "jun_0205",
+        "jun_0389",
+        "jun_0355",
+        "jun_0462",
+        "jun_1420",
+        "jun_0424"
+      ],
+      "wordCount": 14
+    },
+    {
+      "id": "food",
+      "name": "食物",
+      "level": "junior",
+      "words": [
+        "jun_0630",
+        "jun_0491",
+        "jun_0093",
+        "jun_0450",
+        "jun_0876",
+        "jun_0200",
+        "jun_0977",
+        "jun_0757",
+        "jun_0275",
+        "jun_1176",
+        "jun_0368",
+        "jun_0448",
+        "jun_1518",
+        "jun_1079",
+        "jun_1115"
+      ],
+      "wordCount": 15
+    },
+    {
+      "id": "weather",
+      "name": "天气",
+      "level": "junior",
+      "words": [
+        "jun_0844",
+        "jun_0803",
+        "jun_0976",
+        "jun_0828",
+        "jun_0121",
+        "jun_0301",
+        "jun_0563",
+        "jun_0305",
+        "jun_1301"
+      ],
+      "wordCount": 9
+    },
+    {
+      "id": "school",
+      "name": "学校",
+      "level": "junior",
+      "words": [
+        "jun_1092",
+        "jun_1295",
+        "jun_1292",
+        "jun_1470",
+        "jun_0262",
+        "jun_0167",
+        "jun_1070",
+        "jun_0325",
+        "jun_0645",
+        "jun_1395",
+        "jun_1047",
+        "jun_0842",
+        "jun_0762",
+        "jun_0489",
+        "jun_0886"
+      ],
+      "wordCount": 15
+    },
+    {
+      "id": "sports",
+      "name": "运动",
+      "level": "junior",
+      "words": [
+        "jun_1390",
+        "jun_1526",
+        "jun_1110",
+        "jun_1424",
+        "jun_0414",
+        "jun_0481",
+        "jun_0379",
+        "jun_0834"
+      ],
+      "wordCount": 8
+    },
+    {
+      "id": "transport",
+      "name": "交通",
+      "level": "junior",
+      "words": [
+        "jun_0073",
+        "jun_0066",
+        "jun_0251",
+        "jun_1157",
+        "jun_0868",
+        "jun_0798",
+        "jun_0506",
+        "jun_0534",
+        "jun_1105"
+      ],
+      "wordCount": 9
+    },
+    {
+      "id": "clothes",
+      "name": "衣服",
+      "level": "junior",
+      "words": [
+        "jun_0814",
+        "jun_0788",
+        "jun_0705",
+        "jun_0819",
+        "jun_0295",
+        "jun_1045",
+        "jun_0115",
+        "jun_0072"
+      ],
+      "wordCount": 8
+    },
+    {
+      "id": "places",
+      "name": "地点",
+      "level": "junior",
+      "words": [
+        "jun_0405",
+        "jun_0752",
+        "jun_0496",
+        "jun_1264",
+        "jun_1152",
+        "jun_1318",
+        "jun_1037",
+        "jun_0476",
+        "jun_0508",
+        "jun_0840",
+        "jun_1396",
+        "jun_1265",
+        "jun_1554",
+        "jun_0751"
+      ],
+      "wordCount": 14
+    },
+    {
+      "id": "time",
+      "name": "时间",
+      "level": "junior",
+      "words": [
+        "jun_0407",
+        "jun_1057",
+        "jun_1093",
+        "jun_0862",
+        "jun_1521",
+        "jun_1429",
+        "jun_1269",
+        "jun_1439",
+        "jun_1242",
+        "jun_0779",
+        "jun_0082",
+        "jun_0566",
+        "jun_0773",
+        "jun_0579"
+      ],
+      "wordCount": 14
+    }
+  ]
+}

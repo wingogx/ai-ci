@@ -1,0 +1,297 @@
+{
+  "level": "primary",
+  "totalThemes": 15,
+  "themes": [
+    {
+      "id": "weekdays",
+      "name": "星期",
+      "level": "primary",
+      "words": [
+        "pri_466",
+        "pri_503",
+        "pri_357",
+        "pri_501",
+        "pri_435",
+        "pri_484",
+        "pri_301"
+      ],
+      "wordCount": 7
+    },
+    {
+      "id": "colors",
+      "name": "颜色",
+      "level": "primary",
+      "words": [
+        "pri_253",
+        "pri_025",
+        "pri_131",
+        "pri_380",
+        "pri_222",
+        "pri_248",
+        "pri_239",
+        "pri_024",
+        "pri_367",
+        "pri_033"
+      ],
+      "wordCount": 10
+    },
+    {
+      "id": "numbers",
+      "name": "数字",
+      "level": "primary",
+      "words": [
+        "pri_219",
+        "pri_342",
+        "pri_328",
+        "pri_107",
+        "pri_099",
+        "pri_278",
+        "pri_265",
+        "pri_081",
+        "pri_207",
+        "pri_310",
+        "pri_082",
+        "pri_340",
+        "pri_324",
+        "pri_108",
+        "pri_093",
+        "pri_279",
+        "pri_266",
+        "pri_208",
+        "pri_341",
+        "pri_325",
+        "pri_106",
+        "pri_094",
+        "pri_280",
+        "pri_267",
+        "pri_209",
+        "pri_152"
+      ],
+      "wordCount": 26
+    },
+    {
+      "id": "fruits",
+      "name": "水果",
+      "level": "primary",
+      "words": [
+        "pri_393",
+        "pri_016",
+        "pri_222",
+        "pri_128",
+        "pri_230",
+        "pri_229",
+        "pri_171",
+        "pri_185"
+      ],
+      "wordCount": 8
+    },
+    {
+      "id": "animals",
+      "name": "动物",
+      "level": "primary",
+      "words": [
+        "pri_044",
+        "pri_071",
+        "pri_023",
+        "pri_098",
+        "pri_250",
+        "pri_195",
+        "pri_329",
+        "pri_175",
+        "pri_190",
+        "pri_225",
+        "pri_018",
+        "pri_238",
+        "pri_061",
+        "pri_148",
+        "pri_269",
+        "pri_077",
+        "pri_046"
+      ],
+      "wordCount": 17
+    },
+    {
+      "id": "family",
+      "name": "家庭",
+      "level": "primary",
+      "words": [
+        "pri_092",
+        "pri_194",
+        "pri_226",
+        "pri_032",
+        "pri_276",
+        "pri_286",
+        "pri_415",
+        "pri_126",
+        "pri_127",
+        "pri_343",
+        "pri_395",
+        "pri_414",
+        "pri_088"
+      ],
+      "wordCount": 13
+    },
+    {
+      "id": "body",
+      "name": "身体部位",
+      "level": "primary",
+      "words": [
+        "pri_139",
+        "pri_086",
+        "pri_078",
+        "pri_212",
+        "pri_196",
+        "pri_134",
+        "pri_104",
+        "pri_008",
+        "pri_170",
+        "pri_097",
+        "pri_133",
+        "pri_087",
+        "pri_162"
+      ],
+      "wordCount": 13
+    },
+    {
+      "id": "food",
+      "name": "食物",
+      "level": "primary",
+      "words": [
+        "pri_031",
+        "pri_254",
+        "pri_210",
+        "pri_080",
+        "pri_188",
+        "pri_354",
+        "pri_306",
+        "pri_055",
+        "pri_157",
+        "pri_038",
+        "pri_046",
+        "pri_098"
+      ],
+      "wordCount": 12
+    },
+    {
+      "id": "weather",
+      "name": "天气",
+      "level": "primary",
+      "words": [
+        "pri_494",
+        "pri_479",
+        "pri_412",
+        "pri_489",
+        "pri_149",
+        "pri_056",
+        "pri_351",
+        "pri_060",
+        "pri_356"
+      ],
+      "wordCount": 9
+    },
+    {
+      "id": "school",
+      "name": "学校",
+      "level": "primary",
+      "words": [
+        "pri_263",
+        "pri_308",
+        "pri_297",
+        "pri_050",
+        "pri_028",
+        "pri_231",
+        "pri_232",
+        "pri_067",
+        "pri_045",
+        "pri_455",
+        "pri_298",
+        "pri_454",
+        "pri_252",
+        "pri_378"
+      ],
+      "wordCount": 14
+    },
+    {
+      "id": "sports",
+      "name": "运动",
+      "level": "primary",
+      "words": [
+        "pri_434",
+        "pri_158",
+        "pri_243",
+        "pri_114",
+        "pri_290"
+      ],
+      "wordCount": 5
+    },
+    {
+      "id": "transport",
+      "name": "交通",
+      "level": "primary",
+      "words": [
+        "pri_042",
+        "pri_034",
+        "pri_022",
+        "pri_336",
+        "pri_242",
+        "pri_270",
+        "pri_305"
+      ],
+      "wordCount": 7
+    },
+    {
+      "id": "clothes",
+      "name": "衣服",
+      "level": "primary",
+      "words": [
+        "pri_271",
+        "pri_075",
+        "pri_281",
+        "pri_054",
+        "pri_137",
+        "pri_041"
+      ],
+      "wordCount": 6
+    },
+    {
+      "id": "places",
+      "name": "地点",
+      "level": "primary",
+      "words": [
+        "pri_147",
+        "pri_150",
+        "pri_258",
+        "pri_451",
+        "pri_115",
+        "pri_227",
+        "pri_273",
+        "pri_445",
+        "pri_173",
+        "pri_483"
+      ],
+      "wordCount": 10
+    },
+    {
+      "id": "time",
+      "name": "时间",
+      "level": "primary",
+      "words": [
+        "pri_446",
+        "pri_465",
+        "pri_486",
+        "pri_331",
+        "pri_382",
+        "pri_333",
+        "pri_193",
+        "pri_388",
+        "pri_085",
+        "pri_206",
+        "pri_066",
+        "pri_358",
+        "pri_191",
+        "pri_379"
+      ],
+      "wordCount": 14
+    }
+  ]
+}
