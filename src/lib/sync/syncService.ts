@@ -209,6 +209,7 @@ export async function downloadProgress(): Promise<boolean> {
         learnedWords: string[]
         helpedWords: string[]
         helpCount: number
+        levelWords: { [level: number]: string[] }
       }> = {}
 
       for (const p of progressData) {
@@ -219,6 +220,7 @@ export async function downloadProgress(): Promise<boolean> {
           learnedWords: p.learned_words || [],
           helpedWords: p.helped_words || [],
           helpCount: existingProgress?.helpCount || 3, // 保留本地的帮助次数
+          levelWords: existingProgress?.levelWords || {}, // 保留本地的关卡记录
         }
       }
 

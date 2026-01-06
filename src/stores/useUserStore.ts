@@ -51,7 +51,7 @@ interface UserState {
   getCurrentProgress: () => GradeProgress
   addLearnedWord: (wordId: string) => void
   addHelpedWord: (wordId: string) => void
-  completeLevel: (usedHelp: boolean, wordsLearned: number) => void
+  completeLevel: (usedHelp: boolean, wordsLearned: number, currentWords: { id: string }[]) => void
   addHelpCount: (count: number) => void
   useHelp: () => boolean
 
@@ -150,11 +150,15 @@ export const useUserStore = create<UserState>()(
         }
       },
 
-      completeLevel: (usedHelp, wordsLearned) => {
+      completeLevel: (usedHelp, wordsLearned, currentWords) => {
         const { settings, progress, stats } = get()
         const grade = settings.currentGrade
         const mode = settings.wordListMode
         const current = progress[grade] || { ...DEFAULT_GRADE_PROGRESS }
+
+        // 记录当前关卡使用的单词ID
+        const currentLevel = current.completedLevels + 1
+        const wordIds = currentWords.map((w) => w.id)
 
         // 根据词库模式更新对应的累计统计
         const isCefr = mode === 'cefr'
@@ -165,7 +169,11 @@ export const useUserStore = create<UserState>()(
             ...progress,
             [grade]: {
               ...current,
-              completedLevels: current.completedLevels + 1,
+              completedLevels: currentLevel,
+              levelWords: {
+                ...(current.levelWords || {}),
+                [currentLevel]: wordIds,
+              },
             },
           },
           stats: {

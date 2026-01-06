@@ -52,7 +52,8 @@ interface GameState {
     helpedWords: Set<string>,
     grade: string,
     helpCount: number,
-    themeData?: ThemeData | null
+    themeData?: ThemeData | null,
+    levelWords?: { [level: number]: string[] }
   ) => void
   placeLetter: (cellId: string, poolLetterId: string, letter: string) => void
   removeLetter: (cellId: string) => void
@@ -79,7 +80,7 @@ export const useGameStore = create<GameState>((set, get) => ({
   isHelpUsed: false,
   revealedWords: [],
 
-  initLevel: (level, allWords, learnedWords, helpedWords, grade, helpCount, themeData = null) => {
+  initLevel: (level, allWords, learnedWords, helpedWords, grade, helpCount, themeData = null, levelWords = {}) => {
     const isChallenge = isChallengeLevel(level)
     const isTutorialLevel = level <= TUTORIAL_LEVELS
     const wordCount = getWordCountForLevel(level)
@@ -104,7 +105,8 @@ export const useGameStore = create<GameState>((set, get) => ({
         wordCount,
         level,
         grade,
-        themeData
+        themeData,
+        levelWords
       )
       words = result.words
       theme = result.theme || null
@@ -144,7 +146,8 @@ export const useGameStore = create<GameState>((set, get) => ({
         reducedCount,
         level,
         grade,
-        themeData
+        themeData,
+        levelWords
       )
       words = result.words
       theme = result.theme || null

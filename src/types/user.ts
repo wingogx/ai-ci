@@ -24,6 +24,7 @@ export interface GradeProgress {
   learnedWords: string[]
   helpedWords: string[] // 使用帮助的词，需要重学
   helpCount: number
+  levelWords: { [level: number]: string[] } // 每关学过的词汇（用于复习关卡）
 }
 
 /**
@@ -89,6 +90,7 @@ export const DEFAULT_GRADE_PROGRESS: GradeProgress = {
   learnedWords: [],
   helpedWords: [],
   helpCount: 3, // 新用户初始 3 次帮助
+  levelWords: {}, // 记录每关学过的词汇
 }
 
 /**

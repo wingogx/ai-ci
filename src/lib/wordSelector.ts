@@ -248,6 +248,7 @@ export function updateProgressAfterLevel(
  * @param level 当前关卡
  * @param grade 等级（用于判断是否启用主题模式）
  * @param themeData 主题数据（如果启用主题模式）
+ * @param levelWords 每关学过的词汇（用于复习关卡）
  */
 export function selectWordsForLevelWithTheme(
   allWords: Word[],
@@ -256,7 +257,8 @@ export function selectWordsForLevelWithTheme(
   wordCount: number = 4,
   level: number = 1,
   grade: string = '',
-  themeData: ThemeData | null = null
+  themeData: ThemeData | null = null,
+  levelWords: { [level: number]: string[] } = {}
 ): LevelWords {
   // 判断是否启用主题模式（仅小学和初中）
   const useThemeMode = (grade === 'primary' || grade === 'junior') && themeData !== null
@@ -270,10 +272,33 @@ export function selectWordsForLevelWithTheme(
   const levelType = getLevelType(level)
 
   if (levelType === 'challenge') {
-    // 难度关卡：使用普通选词逻辑（查漏补缺）
-    return {
-      ...selectWordsForLevel(allWords, learnedWords, helpedWords, wordCount, level),
-      theme: null,
+    // 挑战关卡：根据是小复习还是大复习选择词汇范围
+    const isLargeReview = level % 10 === 0 // 第10、20、30关是大复习
+
+    if (isLargeReview) {
+      // 大复习：从第1关到前一关的所有词汇中选择
+      const reviewRange = { start: 1, end: level - 1 }
+      return selectWordsFromLevelRange(
+        allWords,
+        levelWords,
+        reviewRange,
+        learnedWords,
+        helpedWords,
+        wordCount,
+        level
+      )
+    } else {
+      // 小复习：从前4关的词汇中选择
+      const reviewRange = { start: Math.max(1, level - 4), end: level - 1 }
+      return selectWordsFromLevelRange(
+        allWords,
+        levelWords,
+        reviewRange,
+        learnedWords,
+        helpedWords,
+        wordCount,
+        level
+      )
     }
   }
 
@@ -306,6 +331,60 @@ export function selectWordsForLevelWithTheme(
       id: theme.id,
       name: theme.name,
     },
+  }
+}
+
+/**
+ * 从指定关卡范围的词汇中选择
+ *
+ * @param allWords 完整词库
+ * @param levelWords 每关学过的词汇
+ * @param range 关卡范围 { start, end }
+ * @param learnedWords 已学单词 ID 集合
+ * @param helpedWords 需要重学的单词 ID 集合
+ * @param wordCount 需要的单词数量
+ * @param currentLevel 当前关卡
+ */
+function selectWordsFromLevelRange(
+  allWords: Word[],
+  levelWords: { [level: number]: string[] },
+  range: { start: number; end: number },
+  learnedWords: Set<string>,
+  helpedWords: Set<string>,
+  wordCount: number,
+  currentLevel: number
+): LevelWords {
+  // 收集指定范围内所有关卡的词汇ID
+  const reviewWordIds = new Set<string>()
+
+  for (let lv = range.start; lv <= range.end; lv++) {
+    const words = levelWords[lv] || []
+    words.forEach(id => reviewWordIds.add(id))
+  }
+
+  // 如果没有历史词汇（比如用户刚开始玩），回退到普通选词
+  if (reviewWordIds.size === 0) {
+    return {
+      ...selectWordsForLevel(allWords, learnedWords, helpedWords, wordCount, currentLevel),
+      theme: null,
+    }
+  }
+
+  // 从词库中筛选出这些词
+  const reviewWords = allWords.filter(w => reviewWordIds.has(w.id))
+
+  // 使用普通选词逻辑选择词汇
+  const result = selectWordsForLevel(
+    reviewWords,
+    learnedWords,
+    helpedWords,
+    wordCount,
+    currentLevel
+  )
+
+  return {
+    ...result,
+    theme: null, // 挑战关卡没有主题
   }
 }
 

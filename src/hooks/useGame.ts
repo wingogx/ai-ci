@@ -87,6 +87,7 @@ export function useGame() {
       const progress = getCurrentProgress()
       const learnedWords = new Set(progress.learnedWords)
       const helpedWords = new Set(progress.helpedWords)
+      const levelWords = progress.levelWords || {}
 
       initLevel(
         level,
@@ -95,7 +96,8 @@ export function useGame() {
         helpedWords,
         settings.currentGrade,
         progress.helpCount,
-        themeData
+        themeData,
+        levelWords
       )
     },
     [allWords, themeData, getCurrentProgress, initLevel, settings.currentGrade]
@@ -146,7 +148,7 @@ export function useGame() {
       currentWords.forEach((w) => addLearnedWord(w.id))
     }
 
-    completeLevel(isHelpUsed, currentWords.length)
+    completeLevel(isHelpUsed, currentWords.length, currentWords)
 
     // 每5关获得1次帮助
     if (currentLevel % 5 === 0) {
