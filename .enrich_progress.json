@@ -1,0 +1,1727 @@
+{
+  "processed": {
+    "'m_src/data/words/cefr/a1.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:34:08.219Z"
+    },
+    "an_src/data/words/cefr/a1.json": {
+      "zh": "det. 一个（用于元音前）; art. 一（在元音音素前）",
+      "en": "n. an associate degree in nursing",
+      "timestamp": "2026-01-06T08:34:08.830Z"
+    },
+    "me_src/data/words/cefr/a1.json": {
+      "zh": "pron. 我（宾格）; n. 自我；极端自私的人；自我的一部分; n. （Me）人名；（日）马（姓）；（朝）袂；（阿拉伯、柬、老）梅",
+      "en": "n. a state in New England",
+      "timestamp": "2026-01-06T08:34:09.424Z"
+    },
+    "my_src/data/words/cefr/a1.json": {
+      "zh": "pron. 我的; int. 哎呀（表示惊奇等）；喔唷; n. （My）人名；（越）美；（老、柬）米",
+      "en": "abstract: My commonly refers to the first-person, possessive adjective in the English language, see I (pronoun).",
+      "timestamp": "2026-01-06T08:34:10.006Z"
+    },
+    "us_src/data/words/cefr/a1.json": {
+      "zh": "pron. 我们",
+      "en": "n. North American republic containing 50 states - 48 conterminous states in North America plus Alaska in northwest North America and the Hawaiian Islands in the Pacific Ocean; achieved independence in 1776",
+      "timestamp": "2026-01-06T08:34:10.589Z"
+    },
+    "ago_src/data/words/cefr/a1.json": {
+      "zh": "adv. 以前，从前; adj. 以前的; 【名】 （Ago）（美）阿戈（人名）",
+      "en": "adj. gone by; or in the past; adv. in the past",
+      "timestamp": "2026-01-06T08:34:11.179Z"
+    },
+    "are_src/data/words/cefr/a1.json": {
+      "zh": "v. 是（be 的第二人称单复数现在式）; n. 公亩; n. （Are）人名；（意、西、芬）阿雷",
+      "en": "n. a unit of surface area equal to 100 square meters",
+      "timestamp": "2026-01-06T08:34:11.765Z"
+    },
+    "did_src/data/words/cefr/a1.json": {
+      "zh": "v. 做（do 的过去式）",
+      "en": "n. an uproarious party; n. the syllable naming the first (tonic) note of any major scale in solmization; n. doctor's degree in osteopathy; v. engage in; v. carry out or perform an action; v. get (something) done; v. proceed or get along; v. give rise to; cause to happen or occur, not always intentionally; v. carry out or practice; as of jobs and professions; v. be sufficient; be adequate, either in quality or quantity; v. create or design, often in a certain way; v. behave in a certain manner; show a certain behavior; conduct or comport oneself; v. spend time in prison or in a labor camp; v. carry on or manage; v. arrange attractively; v. travel or traverse (a distance)",
+      "timestamp": "2026-01-06T08:34:12.353Z"
+    },
+    "had_src/data/words/cefr/a1.json": {
+      "zh": "aux. 已经（用于过去完成时态）; v. 拥有；有（想法、主意、观点等）；吃，喝（have 的过去式和过去分词）",
+      "en": "n. a person who possesses great material wealth; v. have or possess, either in a concrete or an abstract sense; v. have as a feature; v. go through (mental or physical states or experiences); v. have ownership or possession of; v. cause to move; cause to be in a certain position or condition; v. serve oneself to, or consume regularly; v. have a personal or business relationship with someone; v. organize or be responsible for; v. have left; v. be confronted with; v. undergo; v. suffer from; be ill with; v. cause to do; cause to act in a specified manner; v. receive willingly something given or offered; v. get something; come into possession of; v. undergo (as of injuries and illnesses); v. achieve a point or goal; v. cause to be born; v. have sex with; archaic use",
+      "timestamp": "2026-01-06T08:34:12.940Z"
+    },
+    "has_src/data/words/cefr/a1.json": {
+      "zh": "v. 有，吃，得到，从事，允许，雇用，享有（have的第三人称单数）；（亲属关系中）接受；拿；买到",
+      "en": "n. (astronomy) the angular distance of a celestial point measured westward along the celestial equator from the zenith crossing; the right ascension for an observer at a particular location and time of day",
+      "timestamp": "2026-01-06T08:34:13.522Z"
+    },
+    "her_src/data/words/cefr/a1.json": {
+      "zh": "pron. 她（she的宾格）；她的（she的所有格）；她（指某个国家；一艘船）; n. （法）埃尔（人名）",
+      "en": "abstract: her (healthy.energy.",
+      "timestamp": "2026-01-06T08:34:14.114Z"
+    },
+    "him_src/data/words/cefr/a1.json": {
+      "zh": "pron. 他（宾格）; n. （Him）人名；（东南亚国家华语）欣；（柬）亨；（中）谦（广东话·威妥玛）",
+      "en": "abstract: Him is a 1995 play that debuted in the New York Shakespeare Festival. Revolving around the afterlife of Elvis Presley, it was written by Christopher Walken, who also took the lead role.",
+      "timestamp": "2026-01-06T08:34:14.699Z"
+    },
+    "its_src/data/words/cefr/a1.json": {
+      "zh": "pron. 它的; n. （Its）人名；（俄）伊茨",
+      "en": "n. the branch of engineering that deals with the use of computers and telecommunications to retrieve and store and transmit information",
+      "timestamp": "2026-01-06T08:34:15.284Z"
+    },
+    "our_src/data/words/cefr/a1.json": {
+      "zh": "det. 我们的",
+      "en": null,
+      "timestamp": "2026-01-06T08:34:15.866Z"
+    },
+    "six_src/data/words/cefr/a1.json": {
+      "zh": "num. 数字6；六个；六个人（或物）一组；六岁；六点钟; n. （Six）（美、德）西克斯（人名）",
+      "en": "n. the cardinal number that is the sum of five and one; adj. denoting a quantity consisting of six items or units",
+      "timestamp": "2026-01-06T08:34:16.454Z"
+    },
+    "ten_src/data/words/cefr/a1.json": {
+      "zh": "num. 十个，十; adj. 十的; det. 十个；十个（东西）; n. （Ten）（美、俄、加、德、荷、西、英）登（人名）",
+      "en": "n. the cardinal number that is the sum of nine and one; the base of the decimal system; adj. being one more than nine",
+      "timestamp": "2026-01-06T08:34:17.032Z"
+    },
+    "two_src/data/words/cefr/a1.json": {
+      "zh": "n. 两个; adj. 两个的; num. 二",
+      "en": "n. the cardinal number that is the sum of one and one or a numeral representing this number; adj. being one more than one",
+      "timestamp": "2026-01-06T08:34:17.622Z"
+    },
+    "yes_src/data/words/cefr/a1.json": {
+      "zh": "adv. 是，是的; n. 是（表示肯定）",
+      "en": "n. an affirmative",
+      "timestamp": "2026-01-06T08:34:18.221Z"
+    },
+    "away_src/data/words/cefr/a1.json": {
+      "zh": "adv. 距离……有多远，距离……有多久；朝另一个方向；不在，离开；（放）在安全的地方；逐渐消失；一直，继续不断地；移走；（比赛）在客场; adj. （球队比赛）客场的; n. 客场比赛，客场获胜",
+      "en": "adj. not present; having left; adj. used of an opponent's ground; adj. (of a baseball pitch) on the far side of home plate from the batter; adv. from a particular thing or place or position (`forth' is obsolete); adv. from one's possession; adv. out of the way (especially away from one's thoughts); adv. out of existence; adv. at a distance in space or time; adv. indicating continuing action; continuously or steadily; adv. so as to be removed or gotten rid of; adv. freely or at will; adv. in or into a proper place (especially for storage or safekeeping); adv. in a different direction; adv. in reserve; not for immediate use",
+      "timestamp": "2026-01-06T08:34:18.814Z"
+    },
+    "five_src/data/words/cefr/a1.json": {
+      "zh": "n. 五，五个；五美元钞票; num. 五，五个; adj. 五的；五个的; n. （Five）人名；（挪）菲弗",
+      "en": "n. the cardinal number that is the sum of four and one; n. a team that plays basketball; adj. being one more than four",
+      "timestamp": "2026-01-06T08:34:19.410Z"
+    },
+    "nine_src/data/words/cefr/a1.json": {
+      "zh": "n. 九，九个; num. 九；九个; adj. 九的，九个的; n. （Nine）人名；（塞）尼内",
+      "en": "n. the cardinal number that is the sum of eight and one; n. a team of professional baseball players who play and travel together; adj. denoting a quantity consisting of one more than eight and one less than ten",
+      "timestamp": "2026-01-06T08:34:20.286Z"
+    },
+    "they_src/data/words/cefr/a1.json": {
+      "zh": "pron. 他们；它们；她们",
+      "en": "abstract: They is a third-person, personal pronoun",
+      "timestamp": "2026-01-06T08:34:20.879Z"
+    },
+    "your_src/data/words/cefr/a1.json": {
+      "zh": "det. 你的，你们的",
+      "en": null,
+      "timestamp": "2026-01-06T08:34:21.666Z"
+    },
+    "eight_src/data/words/cefr/a1.json": {
+      "zh": "num. 八；八个；第八；八岁；八点; adj. 八的; n. 八人划船队",
+      "en": "n. the cardinal number that is the sum of seven and one; n. a group of United States painters founded in 1907 and noted for their realistic depictions of sordid aspects of city life; adj. being one more than seven",
+      "timestamp": "2026-01-06T08:34:22.252Z"
+    },
+    "every_src/data/words/cefr/a1.json": {
+      "zh": "det. 每个，每一；每……之中的；每隔，每逢（表频率）；所有可能的，完全可能的; 【名】 （Every）（美、荷、瑞典）埃夫里（人名）",
+      "en": "adj. each and all of a series of entities or intervals as specified; adj. (used of count nouns) each and all of the members of a group considered singly and without exception",
+      "timestamp": "2026-01-06T08:34:22.837Z"
+    },
+    "later_src/data/words/cefr/a1.json": {
+      "zh": "adv. 后来，随后；再见，回头见; adj. 较晚的，以后的；较新式的，较现代的；晚期的，末期的; 【名】 （Later）（德）拉特（人名）",
+      "en": "adj. coming at a subsequent time or stage; adj. at or toward an end or late period or stage of development; adv. happening at a time subsequent to a reference time; adv. at some eventual time in the future; adv. comparative of the adverb `late'",
+      "timestamp": "2026-01-06T08:34:23.420Z"
+    },
+    "often_src/data/words/cefr/a1.json": {
+      "zh": "adv. 常常，时常；在许多情况下",
+      "en": "adv. many times at short intervals; adv. frequently or in great quantities",
+      "timestamp": "2026-01-06T08:34:24.007Z"
+    },
+    "seven_src/data/words/cefr/a1.json": {
+      "zh": "num. 七个，七; n. 七个人；七点钟；七岁; adj. 七的；七个的; n. （Seven）（土、法、俄）谢文（人名）",
+      "en": "n. the cardinal number that is the sum of six and one; adj. being one more than six",
+      "timestamp": "2026-01-06T08:34:24.579Z"
+    },
+    "sorry_src/data/words/cefr/a1.json": {
+      "zh": "adj. 抱歉的，惭愧的，歉疚的；表示同情的，难过的；后悔的，懊悔的；可怜的，糟糕的; int. （用于表示歉意）对不起，抱歉；没听清，请再讲一遍；（纠正自己说错的话）不对，应该是",
+      "en": "adj. feeling or expressing sorrow or pity; adj. feeling or expressing regret or sorrow or a sense of loss over something done or undone; adj. bad; unfortunate; adj. causing dejection; adj. without merit",
+      "timestamp": "2026-01-06T08:34:25.176Z"
+    },
+    "these_src/data/words/cefr/a1.json": {
+      "zh": "det. 这些（this 的复数）; pron. 这些（this 的复数）; adj. 这些的（this 的复数）",
+      "en": "abstract: *In English, these is the plural proximal demonstrative.",
+      "timestamp": "2026-01-06T08:34:25.743Z"
+    },
+    "those_src/data/words/cefr/a1.json": {
+      "zh": "det. 那些（that 的复数）; pron. 那些（that 的复数）",
+      "en": "abstract: A thāt (; ; ; ; also transliterated as thaat) is a mode in northern Indian or Hindustani music.Benward and Saker (2003).",
+      "timestamp": "2026-01-06T08:34:26.330Z"
+    },
+    "three_src/data/words/cefr/a1.json": {
+      "zh": "n. 三，三个; num. 三; adj. 三的，三个的",
+      "en": "n. the cardinal number that is the sum of one and one and one; adj. being one more than two",
+      "timestamp": "2026-01-06T08:34:26.898Z"
+    },
+    "beside_src/data/words/cefr/a1.json": {
+      "zh": "prep. 在……旁边，在……附近；与……相比；除……以外（还），除……以外（不再）; adv. 在附近；况且，此外",
+      "en": null,
+      "timestamp": "2026-01-06T08:34:27.472Z"
+    },
+    "really_src/data/words/cefr/a1.json": {
+      "zh": "adv. 真正地，事实上；确实的，的确（用于加强语气）；很，十分；（用于带有隐含的否定回答的疑问句和感叹句）真的，是吗；用于缓和否定语气; int. 真的（用来表示兴趣、惊奇或疑惑）；真是的！（用于表示生气或不赞成）；是啊！（用于表示同意某人的意见）",
+      "en": "adv. in accordance with truth or fact or reality; adv. in actual fact; adv. in fact (used as intensifiers or sentence modifiers); adv. used as intensifiers; `real' is sometimes used informally for `really'; `rattling' is informal",
+      "timestamp": "2026-01-06T08:34:28.064Z"
+    },
+    "already_src/data/words/cefr/a1.json": {
+      "zh": "adv. 已经，早已；马上，够了（用于表达不耐烦或气恼）",
+      "en": "adv. prior to a specified or implied time",
+      "timestamp": "2026-01-06T08:34:28.644Z"
+    },
+    "because_src/data/words/cefr/a1.json": {
+      "zh": "conj. （说明原因）因为，由于；（作出解释）因为",
+      "en": "abstract: \"Because\" is a song by The Dave Clark Five, recorded in 1964. Originally the B-side to \"Can't You See That She's Mine\" in the United Kingdom, \"Because\" was released as a single in the United States and reached number three on the Billboard Hot 100 chart.",
+      "timestamp": "2026-01-06T08:34:29.217Z"
+    },
+    "usually_src/data/words/cefr/a1.json": {
+      "zh": "adv. 通常地，经常地",
+      "en": "adv. under normal conditions",
+      "timestamp": "2026-01-06T08:34:29.787Z"
+    },
+    "yourself_src/data/words/cefr/a1.json": {
+      "zh": "pron. 你自己",
+      "en": null,
+      "timestamp": "2026-01-06T08:34:30.375Z"
+    },
+    "yesterday_src/data/words/cefr/a1.json": {
+      "zh": "adv.  在昨天；日前，不久前; n.  昨天；最近，往昔",
+      "en": "n. the day immediately before today; n. the recent past; adv. on the day preceding today; adv. in the recent past; only a short time ago",
+      "timestamp": "2026-01-06T08:34:30.955Z"
+    },
+    "good night_src/data/words/cefr/a1.json": {
+      "zh": "晚安：用于晚上向别人道别或祝愿他人晚安。",
+      "en": "n. a conventional expression of farewell",
+      "timestamp": "2026-01-06T08:34:31.519Z"
+    },
+    "been_src/data/words/cefr/a2.json": {
+      "zh": "v. 是，有（be的过去分词）; n. (Been) （美）贝恩（人名）",
+      "en": "abstract: Been is a surname. Notable people with the surname include:",
+      "timestamp": "2026-01-06T08:34:32.099Z"
+    },
+    "yeah_src/data/words/cefr/a2.json": {
+      "zh": "int. 是，对; n. 是，对; adv. 是，对；表示惊讶或反对；表示不相信",
+      "en": "adv. not only so, but",
+      "timestamp": "2026-01-06T08:34:32.673Z"
+    },
+    "angrily_src/data/words/cefr/a2.json": {
+      "zh": "adv. 愤怒地",
+      "en": "adv. with anger",
+      "timestamp": "2026-01-06T08:34:33.239Z"
+    },
+    "clearly_src/data/words/cefr/a2.json": {
+      "zh": "adv. 清楚地，清晰地；毫无疑问，显然；明智地，清醒地",
+      "en": "adv. without doubt or question; adv. in an intelligible manner; adv. clear to the mind; with distinct mental discernment; adv. in an easily perceptible manner",
+      "timestamp": "2026-01-06T08:34:33.826Z"
+    },
+    "although_src/data/words/cefr/a2.json": {
+      "zh": "conj. 虽然，尽管；但是，然而",
+      "en": null,
+      "timestamp": "2026-01-06T08:34:34.431Z"
+    },
+    "probably_src/data/words/cefr/a2.json": {
+      "zh": "adv. 大概，或许",
+      "en": "adv. with considerable certainty; without much doubt; adv. easy to believe on the basis of available evidence",
+      "timestamp": "2026-01-06T08:34:35.006Z"
+    },
+    "certainly_src/data/words/cefr/a2.json": {
+      "zh": "adv. 无疑，确定；当然，行（用于回答）",
+      "en": "adv. definitely or positively (`sure' is sometimes used informally for `surely')",
+      "timestamp": "2026-01-06T08:34:35.578Z"
+    },
+    "therefore_src/data/words/cefr/a2.json": {
+      "zh": "adv. 因此，所以",
+      "en": "adv. (used to introduce a logical conclusion) from that fact or reason or as a result; adv. as a consequence",
+      "timestamp": "2026-01-06T08:34:36.157Z"
+    },
+    "moreover_src/data/words/cefr/b1.json": {
+      "zh": "adv. 此外，而且",
+      "en": "adv. in addition",
+      "timestamp": "2026-01-06T08:34:36.725Z"
+    },
+    "curiously_src/data/words/cefr/b1.json": {
+      "zh": "adv. 好奇地",
+      "en": "adv. in a manner differing from the usual or expected; adv. with curiosity",
+      "timestamp": "2026-01-06T08:34:37.296Z"
+    },
+    "illegally_src/data/words/cefr/b1.json": {
+      "zh": "adv. 非法地",
+      "en": "adv. in an illegal manner",
+      "timestamp": "2026-01-06T08:35:56.292Z"
+    },
+    "initially_src/data/words/cefr/b1.json": {
+      "zh": "adv. 开始，最初",
+      "en": "adv. at the beginning",
+      "timestamp": "2026-01-06T08:35:56.960Z"
+    },
+    "regarding_src/data/words/cefr/b1.json": {
+      "zh": "prep. 关于，至于; v. 看待，认为；（尤指以某种方式）注视，凝视；注意，听从（regard 的现在分词形式）",
+      "en": "n. (usually preceded by `in') a detail or point; n. paying particular notice (as to children or helpless people); n. (usually plural) a polite expression of desire for someone's welfare; n. a long fixed look; n. the condition of being honored (esteemed or respected or well regarded); n. a feeling of friendship and esteem; n. an attitude of admiration or esteem; v. deem to be; v. look at attentively; v. connect closely and often incriminatingly",
+      "timestamp": "2026-01-06T08:35:57.557Z"
+    },
+    "eventually_src/data/words/cefr/b1.json": {
+      "zh": "adv. 最终，结果",
+      "en": "adv. within an indefinite time or at an unspecified future time; adv. after a long period of time or an especially long delay",
+      "timestamp": "2026-01-06T08:35:58.154Z"
+    },
+    "furthermore_src/data/words/cefr/b1.json": {
+      "zh": "adv. 此外，而且",
+      "en": "adv. in addition",
+      "timestamp": "2026-01-06T08:35:58.736Z"
+    },
+    "face to face_src/data/words/cefr/b1.json": {
+      "zh": "面对面",
+      "en": "adj. in each other's presence; adv. involving close contact; confronting each other",
+      "timestamp": "2026-01-06T08:35:59.308Z"
+    },
+    "later_src/data/words/cefr/b2.json": {
+      "zh": "adv. 后来，随后；再见，回头见; adj. 较晚的，以后的；较新式的，较现代的；晚期的，末期的; 【名】 （Later）（德）拉特（人名）",
+      "en": "adj. coming at a subsequent time or stage; adj. at or toward an end or late period or stage of development; adv. happening at a time subsequent to a reference time; adv. at some eventual time in the future; adv. comparative of the adverb `late'",
+      "timestamp": "2026-01-06T08:35:59.912Z"
+    },
+    "thickly_src/data/words/cefr/b2.json": {
+      "zh": "adv. 厚地；浓地",
+      "en": "adv. spoken with poor articulation as if with a thick tongue; adv. in a concentrated manner; adv. with a thick consistency; adv. with thickness; in a thick manner; adv. in quick succession",
+      "timestamp": "2026-01-06T08:36:00.483Z"
+    },
+    "elegantly_src/data/words/cefr/b2.json": {
+      "zh": "adv. 优美地",
+      "en": "adv. with elegance; in a tastefully elegant manner; adv. in a gracefully elegant manner",
+      "timestamp": "2026-01-06T08:36:01.051Z"
+    },
+    "unclearly_src/data/words/cefr/b2.json": {
+      "zh": "不清楚地; 含糊地",
+      "en": null,
+      "timestamp": "2026-01-06T08:36:01.642Z"
+    },
+    "cheerfully_src/data/words/cefr/b2.json": {
+      "zh": "adv. 高高兴兴地",
+      "en": "adv. in a cheerful manner",
+      "timestamp": "2026-01-06T08:36:02.206Z"
+    },
+    "wordlessly_src/data/words/cefr/b2.json": {
+      "zh": "默默无言地; 沉默地; 不用言语表达的",
+      "en": "adv. without speaking",
+      "timestamp": "2026-01-06T08:36:02.779Z"
+    },
+    "politically_src/data/words/cefr/b2.json": {
+      "zh": "adv. 政治上",
+      "en": "adv. with regard to social relationships involving authority; adv. with regard to government",
+      "timestamp": "2026-01-06T08:36:03.390Z"
+    },
+    "unmistakably_src/data/words/cefr/b2.json": {
+      "zh": "adv. 明白地",
+      "en": "adv. without possibility of mistake; adv. in a signal manner",
+      "timestamp": "2026-01-06T08:36:04.093Z"
+    },
+    "hence_src/data/words/cefr/c1.json": {
+      "zh": "adv. 因此；之后",
+      "en": "adv. (used to introduce a logical conclusion) from that fact or reason or as a result; adv. from this place; adv. from this time",
+      "timestamp": "2026-01-06T08:36:04.671Z"
+    },
+    "thereby_src/data/words/cefr/c1.json": {
+      "zh": "adv. 因此，从而",
+      "en": "adv. by that means or because of that",
+      "timestamp": "2026-01-06T08:36:05.246Z"
+    },
+    "turn to_src/data/words/cefr/c1.json": {
+      "zh": "求助于，转向，致力于; 开始做某事，投入某项工作",
+      "en": "v. speak to; v. direct one's interest or attention towards; go into",
+      "timestamp": "2026-01-06T08:36:18.963Z"
+    },
+    "stuffily_src/data/words/cefr/c1.json": {
+      "zh": "不通气地",
+      "en": "adv. in a stuffy manner",
+      "timestamp": "2026-01-06T08:36:06.417Z"
+    },
+    "plausibly_src/data/words/cefr/c1.json": {
+      "zh": "adv. 似真地",
+      "en": "adv. easy to believe on the basis of available evidence",
+      "timestamp": "2026-01-06T08:36:07.003Z"
+    },
+    "dominantly_src/data/words/cefr/c1.json": {
+      "zh": "有统治权地; 支配地",
+      "en": "adv. in a dominant fashion",
+      "timestamp": "2026-01-06T08:36:07.574Z"
+    },
+    "exotically_src/data/words/cefr/c1.json": {
+      "zh": "外来地; 奇异地; 异乎寻常地; 极不稳定地",
+      "en": null,
+      "timestamp": "2026-01-06T08:36:08.144Z"
+    },
+    "gruesomely_src/data/words/cefr/c1.json": {
+      "zh": "adv. 可怖地",
+      "en": "adv. in a gruesome manner",
+      "timestamp": "2026-01-06T08:36:08.714Z"
+    },
+    "chaotically_src/data/words/cefr/c1.json": {
+      "zh": "adv. 混乱地",
+      "en": "adv. in a wild and confused manner; adv. in a manner suggestive of chaos",
+      "timestamp": "2026-01-06T08:36:09.285Z"
+    },
+    "intuitively_src/data/words/cefr/c1.json": {
+      "zh": "adv. 凭直觉地",
+      "en": "adv. in an intuitive manner",
+      "timestamp": "2026-01-06T08:36:09.854Z"
+    },
+    "stressfully_src/data/words/cefr/c1.json": {
+      "zh": "紧张地; 有压力地",
+      "en": null,
+      "timestamp": "2026-01-06T08:36:10.418Z"
+    },
+    "eclectically_src/data/words/cefr/c1.json": {
+      "zh": "adv. 折衷地",
+      "en": null,
+      "timestamp": "2026-01-06T08:36:10.985Z"
+    },
+    "insightfully_src/data/words/cefr/c1.json": {
+      "zh": "富于洞察力地; 有见识地; 有眼光地",
+      "en": null,
+      "timestamp": "2026-01-06T08:36:11.556Z"
+    },
+    "remorsefully_src/data/words/cefr/c1.json": {
+      "zh": "adv. 极为懊悔地",
+      "en": "adv. in a rueful manner",
+      "timestamp": "2026-01-06T08:36:12.116Z"
+    },
+    "structurally_src/data/words/cefr/c1.json": {
+      "zh": "adv. 在结构上",
+      "en": "adv. with respect to structure",
+      "timestamp": "2026-01-06T08:36:12.702Z"
+    },
+    "unwaveringly_src/data/words/cefr/c1.json": {
+      "zh": "毫不动摇地",
+      "en": "adv. with resolute determination",
+      "timestamp": "2026-01-06T08:36:13.266Z"
+    },
+    "conditionally_src/data/words/cefr/c1.json": {
+      "zh": "adv. 附有条件地",
+      "en": "adv. subject to a condition",
+      "timestamp": "2026-01-06T08:36:13.836Z"
+    },
+    "stylistically_src/data/words/cefr/c1.json": {
+      "zh": "adv. 在文体上",
+      "en": "adv. in a rhetorically stylistic manner",
+      "timestamp": "2026-01-06T08:36:14.414Z"
+    },
+    "hypocritically_src/data/words/cefr/c1.json": {
+      "zh": "adv. 伪善地",
+      "en": "adv. in a hypocritical manner",
+      "timestamp": "2026-01-06T08:36:14.975Z"
+    },
+    "unconvincingly_src/data/words/cefr/c1.json": {
+      "zh": "缺乏说服力地; 无法令人信服地",
+      "en": "adv. in an unconvincing manner",
+      "timestamp": "2026-01-06T08:36:15.574Z"
+    },
+    "temperamentally_src/data/words/cefr/c1.json": {
+      "zh": "adv. 气质地",
+      "en": "adv. by temperament",
+      "timestamp": "2026-01-06T08:36:16.137Z"
+    },
+    "bureaucratically_src/data/words/cefr/c1.json": {
+      "zh": "adv. 官僚主义地",
+      "en": "adv. in a bureaucratic manner; adv. with respect to bureaucracy",
+      "timestamp": "2026-01-06T08:36:16.705Z"
+    },
+    "somberly/sombrely_src/data/words/cefr/c1.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:36:17.266Z"
+    },
+    "favorably/favourably_src/data/words/cefr/c1.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:36:17.832Z"
+    },
+    "recognizably/recognisably_src/data/words/cefr/c1.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:36:18.399Z"
+    },
+    "laud_src/data/words/cefr/c2.json": {
+      "zh": "vt. 赞美，称赞; n. 赞美，称赞；颂歌；（lauds）（主要指罗马天主教教堂的）晨祷; n. （Laud）劳德（英国坎特伯雷大主教威廉·劳德 William Laud）",
+      "en": "v. praise, glorify, or honor",
+      "timestamp": "2026-01-06T08:36:34.401Z"
+    },
+    "deviantly_src/data/words/cefr/c2.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:36:20.099Z"
+    },
+    "evokingly_src/data/words/cefr/c2.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:36:20.661Z"
+    },
+    "secularly_src/data/words/cefr/c2.json": {
+      "zh": "世俗地; 现世地; 不朽地; 非宗教地",
+      "en": null,
+      "timestamp": "2026-01-06T08:36:21.231Z"
+    },
+    "impeccably_src/data/words/cefr/c2.json": {
+      "zh": "无可挑剔地; 毋庸置疑地; 无瑕疵地; 完美地",
+      "en": "adv. flawlessly",
+      "timestamp": "2026-01-06T08:36:21.792Z"
+    },
+    "inchoately_src/data/words/cefr/c2.json": {
+      "zh": "刚开始的",
+      "en": null,
+      "timestamp": "2026-01-06T08:36:22.392Z"
+    },
+    "infallibly_src/data/words/cefr/c2.json": {
+      "zh": "adv. 绝无错误的",
+      "en": null,
+      "timestamp": "2026-01-06T08:36:22.958Z"
+    },
+    "unfeasibly_src/data/words/cefr/c2.json": {
+      "zh": "不能实行地",
+      "en": null,
+      "timestamp": "2026-01-06T08:36:23.541Z"
+    },
+    "deficiently_src/data/words/cefr/c2.json": {
+      "zh": "adv. 不充分地",
+      "en": null,
+      "timestamp": "2026-01-06T08:36:24.130Z"
+    },
+    "kinetically_src/data/words/cefr/c2.json": {
+      "zh": "运动地; 动力地; 运动引起地（形容词 kinetic 的副词形式）",
+      "en": null,
+      "timestamp": "2026-01-06T08:36:24.696Z"
+    },
+    "tenaciously_src/data/words/cefr/c2.json": {
+      "zh": "adv. 坚持地",
+      "en": "adv. with obstinate determination",
+      "timestamp": "2026-01-06T08:36:25.265Z"
+    },
+    "compellingly_src/data/words/cefr/c2.json": {
+      "zh": "adv. 咄咄逼人地",
+      "en": null,
+      "timestamp": "2026-01-06T08:36:25.841Z"
+    },
+    "euphorically_src/data/words/cefr/c2.json": {
+      "zh": "情绪高涨地; 心情愉快地; 心满意足地",
+      "en": null,
+      "timestamp": "2026-01-06T08:36:26.421Z"
+    },
+    "hysterically_src/data/words/cefr/c2.json": {
+      "zh": "adv. 歇斯底里地",
+      "en": "adv. in a hysterical manner",
+      "timestamp": "2026-01-06T08:36:26.989Z"
+    },
+    "incongruously_src/data/words/cefr/c2.json": {
+      "zh": "adv. 不调和地",
+      "en": "adv. in an incongruous manner",
+      "timestamp": "2026-01-06T08:36:27.586Z"
+    },
+    "contemptuously_src/data/words/cefr/c2.json": {
+      "zh": "adv. 轻蔑地",
+      "en": "adv. without respect; in a disdainful manner",
+      "timestamp": "2026-01-06T08:36:28.157Z"
+    },
+    "histrionically_src/data/words/cefr/c2.json": {
+      "zh": "戏剧上地; 装腔作势地",
+      "en": null,
+      "timestamp": "2026-01-06T08:36:28.715Z"
+    },
+    "interrogatively_src/data/words/cefr/c2.json": {
+      "zh": "疑问地",
+      "en": "adv. in a questioning format; adv. with curiosity",
+      "timestamp": "2026-01-06T08:36:29.284Z"
+    },
+    "physiologically_src/data/words/cefr/c2.json": {
+      "zh": "adv. 生理学方面",
+      "en": "adv. of or relating to physiological processes; with respect to physiology",
+      "timestamp": "2026-01-06T08:36:29.849Z"
+    },
+    "catastrophically_src/data/words/cefr/c2.json": {
+      "zh": "灾难性地",
+      "en": "adv. with unfortunate consequences",
+      "timestamp": "2026-01-06T08:36:30.420Z"
+    },
+    "anthropologically_src/data/words/cefr/c2.json": {
+      "zh": "adv. 人类学上",
+      "en": null,
+      "timestamp": "2026-01-06T08:36:30.982Z"
+    },
+    "philanthropically_src/data/words/cefr/c2.json": {
+      "zh": "慈善地",
+      "en": "adv. in a philanthropic manner",
+      "timestamp": "2026-01-06T08:36:31.558Z"
+    },
+    "impressionistically_src/data/words/cefr/c2.json": {
+      "zh": "仅凭印象地，主观地",
+      "en": null,
+      "timestamp": "2026-01-06T08:36:32.130Z"
+    },
+    "paralyzingly/paralysingly_src/data/words/cefr/c2.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:36:32.698Z"
+    },
+    "patronizingly/patronisingly_src/data/words/cefr/c2.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:36:33.259Z"
+    },
+    "tantalizingly/tantalisingly_src/data/words/cefr/c2.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:36:33.822Z"
+    },
+    "eight_src/data/words/china/primary.json": {
+      "zh": "num. 八；八个；第八；八岁；八点; adj. 八的; n. 八人划船队",
+      "en": "n. the cardinal number that is the sum of seven and one; n. a group of United States painters founded in 1907 and noted for their realistic depictions of sordid aspects of city life; adj. being one more than seven",
+      "timestamp": "2026-01-06T08:36:34.975Z"
+    },
+    "five_src/data/words/china/primary.json": {
+      "zh": "n. 五，五个；五美元钞票; num. 五，五个; adj. 五的；五个的; n. （Five）人名；（挪）菲弗",
+      "en": "n. the cardinal number that is the sum of four and one; n. a team that plays basketball; adj. being one more than four",
+      "timestamp": "2026-01-06T08:36:35.565Z"
+    },
+    "nine_src/data/words/china/primary.json": {
+      "zh": "n. 九，九个; num. 九；九个; adj. 九的，九个的; n. （Nine）人名；（塞）尼内",
+      "en": "n. the cardinal number that is the sum of eight and one; n. a team of professional baseball players who play and travel together; adj. denoting a quantity consisting of one more than eight and one less than ten",
+      "timestamp": "2026-01-06T08:36:36.226Z"
+    },
+    "seven_src/data/words/china/primary.json": {
+      "zh": "num. 七个，七; n. 七个人；七点钟；七岁; adj. 七的；七个的; n. （Seven）（土、法、俄）谢文（人名）",
+      "en": "n. the cardinal number that is the sum of six and one; adj. being one more than six",
+      "timestamp": "2026-01-06T08:36:36.815Z"
+    },
+    "six_src/data/words/china/primary.json": {
+      "zh": "num. 数字6；六个；六个人（或物）一组；六岁；六点钟; n. （Six）（美、德）西克斯（人名）",
+      "en": "n. the cardinal number that is the sum of five and one; adj. denoting a quantity consisting of six items or units",
+      "timestamp": "2026-01-06T08:36:37.395Z"
+    },
+    "ten_src/data/words/china/primary.json": {
+      "zh": "num. 十个，十; adj. 十的; det. 十个；十个（东西）; n. （Ten）（美、俄、加、德、荷、西、英）登（人名）",
+      "en": "n. the cardinal number that is the sum of nine and one; the base of the decimal system; adj. being one more than nine",
+      "timestamp": "2026-01-06T08:36:37.975Z"
+    },
+    "three_src/data/words/china/primary.json": {
+      "zh": "n. 三，三个; num. 三; adj. 三的，三个的",
+      "en": "n. the cardinal number that is the sum of one and one and one; adj. being one more than two",
+      "timestamp": "2026-01-06T08:36:38.563Z"
+    },
+    "two_src/data/words/china/primary.json": {
+      "zh": "n. 两个; adj. 两个的; num. 二",
+      "en": "n. the cardinal number that is the sum of one and one or a numeral representing this number; adj. being one more than one",
+      "timestamp": "2026-01-06T08:36:39.158Z"
+    },
+    "yesterday_src/data/words/china/primary.json": {
+      "zh": "adv.  在昨天；日前，不久前; n.  昨天；最近，往昔",
+      "en": "n. the day immediately before today; n. the recent past; adv. on the day preceding today; adv. in the recent past; only a short time ago",
+      "timestamp": "2026-01-06T08:36:39.737Z"
+    },
+    "because_src/data/words/china/primary.json": {
+      "zh": "conj. （说明原因）因为，由于；（作出解释）因为",
+      "en": "abstract: \"Because\" is a song by The Dave Clark Five, recorded in 1964. Originally the B-side to \"Can't You See That She's Mine\" in the United Kingdom, \"Because\" was released as a single in the United States and reached number three on the Billboard Hot 100 chart.",
+      "timestamp": "2026-01-06T08:36:40.320Z"
+    },
+    "beside_src/data/words/china/primary.json": {
+      "zh": "prep. 在……旁边，在……附近；与……相比；除……以外（还），除……以外（不再）; adv. 在附近；况且，此外",
+      "en": null,
+      "timestamp": "2026-01-06T08:36:40.908Z"
+    },
+    "every_src/data/words/china/primary.json": {
+      "zh": "det. 每个，每一；每……之中的；每隔，每逢（表频率）；所有可能的，完全可能的; 【名】 （Every）（美、荷、瑞典）埃夫里（人名）",
+      "en": "adj. each and all of a series of entities or intervals as specified; adj. (used of count nouns) each and all of the members of a group considered singly and without exception",
+      "timestamp": "2026-01-06T08:36:41.504Z"
+    },
+    "often_src/data/words/china/primary.json": {
+      "zh": "adv. 常常，时常；在许多情况下",
+      "en": "adv. many times at short intervals; adv. frequently or in great quantities",
+      "timestamp": "2026-01-06T08:36:42.087Z"
+    },
+    "really_src/data/words/china/primary.json": {
+      "zh": "adv. 真正地，事实上；确实的，的确（用于加强语气）；很，十分；（用于带有隐含的否定回答的疑问句和感叹句）真的，是吗；用于缓和否定语气; int. 真的（用来表示兴趣、惊奇或疑惑）；真是的！（用于表示生气或不赞成）；是啊！（用于表示同意某人的意见）",
+      "en": "adv. in accordance with truth or fact or reality; adv. in actual fact; adv. in fact (used as intensifiers or sentence modifiers); adv. used as intensifiers; `real' is sometimes used informally for `really'; `rattling' is informal",
+      "timestamp": "2026-01-06T08:36:42.685Z"
+    },
+    "usually_src/data/words/china/primary.json": {
+      "zh": "adv. 通常地，经常地",
+      "en": "adv. under normal conditions",
+      "timestamp": "2026-01-06T08:36:43.399Z"
+    },
+    "'m_src/data/words/china/junior.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:36:43.957Z"
+    },
+    "ago_src/data/words/china/junior.json": {
+      "zh": "adv. 以前，从前; adj. 以前的; 【名】 （Ago）（美）阿戈（人名）",
+      "en": "adj. gone by; or in the past; adv. in the past",
+      "timestamp": "2026-01-06T08:36:44.539Z"
+    },
+    "six_src/data/words/china/junior.json": {
+      "zh": "num. 数字6；六个；六个人（或物）一组；六岁；六点钟; n. （Six）（美、德）西克斯（人名）",
+      "en": "n. the cardinal number that is the sum of five and one; adj. denoting a quantity consisting of six items or units",
+      "timestamp": "2026-01-06T08:36:45.111Z"
+    },
+    "ten_src/data/words/china/junior.json": {
+      "zh": "num. 十个，十; adj. 十的; det. 十个；十个（东西）; n. （Ten）（美、俄、加、德、荷、西、英）登（人名）",
+      "en": "n. the cardinal number that is the sum of nine and one; the base of the decimal system; adj. being one more than nine",
+      "timestamp": "2026-01-06T08:36:45.696Z"
+    },
+    "two_src/data/words/china/junior.json": {
+      "zh": "n. 两个; adj. 两个的; num. 二",
+      "en": "n. the cardinal number that is the sum of one and one or a numeral representing this number; adj. being one more than one",
+      "timestamp": "2026-01-06T08:36:46.275Z"
+    },
+    "away_src/data/words/china/junior.json": {
+      "zh": "adv. 距离……有多远，距离……有多久；朝另一个方向；不在，离开；（放）在安全的地方；逐渐消失；一直，继续不断地；移走；（比赛）在客场; adj. （球队比赛）客场的; n. 客场比赛，客场获胜",
+      "en": "adj. not present; having left; adj. used of an opponent's ground; adj. (of a baseball pitch) on the far side of home plate from the batter; adv. from a particular thing or place or position (`forth' is obsolete); adv. from one's possession; adv. out of the way (especially away from one's thoughts); adv. out of existence; adv. at a distance in space or time; adv. indicating continuing action; continuously or steadily; adv. so as to be removed or gotten rid of; adv. freely or at will; adv. in or into a proper place (especially for storage or safekeeping); adv. in a different direction; adv. in reserve; not for immediate use",
+      "timestamp": "2026-01-06T08:36:46.866Z"
+    },
+    "five_src/data/words/china/junior.json": {
+      "zh": "n. 五，五个；五美元钞票; num. 五，五个; adj. 五的；五个的; n. （Five）人名；（挪）菲弗",
+      "en": "n. the cardinal number that is the sum of four and one; n. a team that plays basketball; adj. being one more than four",
+      "timestamp": "2026-01-06T08:36:47.455Z"
+    },
+    "nine_src/data/words/china/junior.json": {
+      "zh": "n. 九，九个; num. 九；九个; adj. 九的，九个的; n. （Nine）人名；（塞）尼内",
+      "en": "n. the cardinal number that is the sum of eight and one; n. a team of professional baseball players who play and travel together; adj. denoting a quantity consisting of one more than eight and one less than ten",
+      "timestamp": "2026-01-06T08:36:48.034Z"
+    },
+    "eight_src/data/words/china/junior.json": {
+      "zh": "num. 八；八个；第八；八岁；八点; adj. 八的; n. 八人划船队",
+      "en": "n. the cardinal number that is the sum of seven and one; n. a group of United States painters founded in 1907 and noted for their realistic depictions of sordid aspects of city life; adj. being one more than seven",
+      "timestamp": "2026-01-06T08:36:48.603Z"
+    },
+    "every_src/data/words/china/junior.json": {
+      "zh": "det. 每个，每一；每……之中的；每隔，每逢（表频率）；所有可能的，完全可能的; 【名】 （Every）（美、荷、瑞典）埃夫里（人名）",
+      "en": "adj. each and all of a series of entities or intervals as specified; adj. (used of count nouns) each and all of the members of a group considered singly and without exception",
+      "timestamp": "2026-01-06T08:36:49.189Z"
+    },
+    "later_src/data/words/china/junior.json": {
+      "zh": "adv. 后来，随后；再见，回头见; adj. 较晚的，以后的；较新式的，较现代的；晚期的，末期的; 【名】 （Later）（德）拉特（人名）",
+      "en": "adj. coming at a subsequent time or stage; adj. at or toward an end or late period or stage of development; adv. happening at a time subsequent to a reference time; adv. at some eventual time in the future; adv. comparative of the adverb `late'",
+      "timestamp": "2026-01-06T08:36:49.768Z"
+    },
+    "often_src/data/words/china/junior.json": {
+      "zh": "adv. 常常，时常；在许多情况下",
+      "en": "adv. many times at short intervals; adv. frequently or in great quantities",
+      "timestamp": "2026-01-06T08:36:50.351Z"
+    },
+    "seven_src/data/words/china/junior.json": {
+      "zh": "num. 七个，七; n. 七个人；七点钟；七岁; adj. 七的；七个的; n. （Seven）（土、法、俄）谢文（人名）",
+      "en": "n. the cardinal number that is the sum of six and one; adj. being one more than six",
+      "timestamp": "2026-01-06T08:36:51.069Z"
+    },
+    "three_src/data/words/china/junior.json": {
+      "zh": "n. 三，三个; num. 三; adj. 三的，三个的",
+      "en": "n. the cardinal number that is the sum of one and one and one; adj. being one more than two",
+      "timestamp": "2026-01-06T08:36:51.647Z"
+    },
+    "beside_src/data/words/china/junior.json": {
+      "zh": "prep. 在……旁边，在……附近；与……相比；除……以外（还），除……以外（不再）; adv. 在附近；况且，此外",
+      "en": null,
+      "timestamp": "2026-01-06T08:36:52.231Z"
+    },
+    "really_src/data/words/china/junior.json": {
+      "zh": "adv. 真正地，事实上；确实的，的确（用于加强语气）；很，十分；（用于带有隐含的否定回答的疑问句和感叹句）真的，是吗；用于缓和否定语气; int. 真的（用来表示兴趣、惊奇或疑惑）；真是的！（用于表示生气或不赞成）；是啊！（用于表示同意某人的意见）",
+      "en": "adv. in accordance with truth or fact or reality; adv. in actual fact; adv. in fact (used as intensifiers or sentence modifiers); adv. used as intensifiers; `real' is sometimes used informally for `really'; `rattling' is informal",
+      "timestamp": "2026-01-06T08:36:52.830Z"
+    },
+    "already_src/data/words/china/junior.json": {
+      "zh": "adv. 已经，早已；马上，够了（用于表达不耐烦或气恼）",
+      "en": "adv. prior to a specified or implied time",
+      "timestamp": "2026-01-06T08:36:53.421Z"
+    },
+    "because_src/data/words/china/junior.json": {
+      "zh": "conj. （说明原因）因为，由于；（作出解释）因为",
+      "en": "abstract: \"Because\" is a song by The Dave Clark Five, recorded in 1964. Originally the B-side to \"Can't You See That She's Mine\" in the United Kingdom, \"Because\" was released as a single in the United States and reached number three on the Billboard Hot 100 chart.",
+      "timestamp": "2026-01-06T08:36:54.011Z"
+    },
+    "clearly_src/data/words/china/junior.json": {
+      "zh": "adv. 清楚地，清晰地；毫无疑问，显然；明智地，清醒地",
+      "en": "adv. without doubt or question; adv. in an intelligible manner; adv. clear to the mind; with distinct mental discernment; adv. in an easily perceptible manner",
+      "timestamp": "2026-01-06T08:41:39.976Z"
+    },
+    "usually_src/data/words/china/junior.json": {
+      "zh": "adv. 通常地，经常地",
+      "en": "adv. under normal conditions",
+      "timestamp": "2026-01-06T08:41:40.689Z"
+    },
+    "although_src/data/words/china/junior.json": {
+      "zh": "conj. 虽然，尽管；但是，然而",
+      "en": null,
+      "timestamp": "2026-01-06T08:41:41.290Z"
+    },
+    "yourself_src/data/words/china/junior.json": {
+      "zh": "pron. 你自己",
+      "en": null,
+      "timestamp": "2026-01-06T08:41:41.887Z"
+    },
+    "certainly_src/data/words/china/junior.json": {
+      "zh": "adv. 无疑，确定；当然，行（用于回答）",
+      "en": "adv. definitely or positively (`sure' is sometimes used informally for `surely')",
+      "timestamp": "2026-01-06T08:41:42.471Z"
+    },
+    "good night_src/data/words/china/junior.json": {
+      "zh": "晚安：用于晚上向别人道别或祝愿他人晚安。",
+      "en": "n. a conventional expression of farewell",
+      "timestamp": "2026-01-06T08:41:43.032Z"
+    },
+    "'m_src/data/words/china/senior.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:41:43.601Z"
+    },
+    "ago_src/data/words/china/senior.json": {
+      "zh": "adv. 以前，从前; adj. 以前的; 【名】 （Ago）（美）阿戈（人名）",
+      "en": "adj. gone by; or in the past; adv. in the past",
+      "timestamp": "2026-01-06T08:41:44.195Z"
+    },
+    "six_src/data/words/china/senior.json": {
+      "zh": "num. 数字6；六个；六个人（或物）一组；六岁；六点钟; n. （Six）（美、德）西克斯（人名）",
+      "en": "n. the cardinal number that is the sum of five and one; adj. denoting a quantity consisting of six items or units",
+      "timestamp": "2026-01-06T08:41:44.784Z"
+    },
+    "ten_src/data/words/china/senior.json": {
+      "zh": "num. 十个，十; adj. 十的; det. 十个；十个（东西）; n. （Ten）（美、俄、加、德、荷、西、英）登（人名）",
+      "en": "n. the cardinal number that is the sum of nine and one; the base of the decimal system; adj. being one more than nine",
+      "timestamp": "2026-01-06T08:41:45.479Z"
+    },
+    "two_src/data/words/china/senior.json": {
+      "zh": "n. 两个; adj. 两个的; num. 二",
+      "en": "n. the cardinal number that is the sum of one and one or a numeral representing this number; adj. being one more than one",
+      "timestamp": "2026-01-06T08:41:46.068Z"
+    },
+    "away_src/data/words/china/senior.json": {
+      "zh": "adv. 距离……有多远，距离……有多久；朝另一个方向；不在，离开；（放）在安全的地方；逐渐消失；一直，继续不断地；移走；（比赛）在客场; adj. （球队比赛）客场的; n. 客场比赛，客场获胜",
+      "en": "adj. not present; having left; adj. used of an opponent's ground; adj. (of a baseball pitch) on the far side of home plate from the batter; adv. from a particular thing or place or position (`forth' is obsolete); adv. from one's possession; adv. out of the way (especially away from one's thoughts); adv. out of existence; adv. at a distance in space or time; adv. indicating continuing action; continuously or steadily; adv. so as to be removed or gotten rid of; adv. freely or at will; adv. in or into a proper place (especially for storage or safekeeping); adv. in a different direction; adv. in reserve; not for immediate use",
+      "timestamp": "2026-01-06T08:41:46.676Z"
+    },
+    "five_src/data/words/china/senior.json": {
+      "zh": "n. 五，五个；五美元钞票; num. 五，五个; adj. 五的；五个的; n. （Five）人名；（挪）菲弗",
+      "en": "n. the cardinal number that is the sum of four and one; n. a team that plays basketball; adj. being one more than four",
+      "timestamp": "2026-01-06T08:41:47.263Z"
+    },
+    "nine_src/data/words/china/senior.json": {
+      "zh": "n. 九，九个; num. 九；九个; adj. 九的，九个的; n. （Nine）人名；（塞）尼内",
+      "en": "n. the cardinal number that is the sum of eight and one; n. a team of professional baseball players who play and travel together; adj. denoting a quantity consisting of one more than eight and one less than ten",
+      "timestamp": "2026-01-06T08:41:47.852Z"
+    },
+    "eight_src/data/words/china/senior.json": {
+      "zh": "num. 八；八个；第八；八岁；八点; adj. 八的; n. 八人划船队",
+      "en": "n. the cardinal number that is the sum of seven and one; n. a group of United States painters founded in 1907 and noted for their realistic depictions of sordid aspects of city life; adj. being one more than seven",
+      "timestamp": "2026-01-06T08:41:48.825Z"
+    },
+    "every_src/data/words/china/senior.json": {
+      "zh": "det. 每个，每一；每……之中的；每隔，每逢（表频率）；所有可能的，完全可能的; 【名】 （Every）（美、荷、瑞典）埃夫里（人名）",
+      "en": "adj. each and all of a series of entities or intervals as specified; adj. (used of count nouns) each and all of the members of a group considered singly and without exception",
+      "timestamp": "2026-01-06T08:41:49.687Z"
+    },
+    "later_src/data/words/china/senior.json": {
+      "zh": "adv. 后来，随后；再见，回头见; adj. 较晚的，以后的；较新式的，较现代的；晚期的，末期的; 【名】 （Later）（德）拉特（人名）",
+      "en": "adj. coming at a subsequent time or stage; adj. at or toward an end or late period or stage of development; adv. happening at a time subsequent to a reference time; adv. at some eventual time in the future; adv. comparative of the adverb `late'",
+      "timestamp": "2026-01-06T08:41:50.281Z"
+    },
+    "often_src/data/words/china/senior.json": {
+      "zh": "adv. 常常，时常；在许多情况下",
+      "en": "adv. many times at short intervals; adv. frequently or in great quantities",
+      "timestamp": "2026-01-06T08:41:50.869Z"
+    },
+    "seven_src/data/words/china/senior.json": {
+      "zh": "num. 七个，七; n. 七个人；七点钟；七岁; adj. 七的；七个的; n. （Seven）（土、法、俄）谢文（人名）",
+      "en": "n. the cardinal number that is the sum of six and one; adj. being one more than six",
+      "timestamp": "2026-01-06T08:41:51.445Z"
+    },
+    "three_src/data/words/china/senior.json": {
+      "zh": "n. 三，三个; num. 三; adj. 三的，三个的",
+      "en": "n. the cardinal number that is the sum of one and one and one; adj. being one more than two",
+      "timestamp": "2026-01-06T08:41:52.031Z"
+    },
+    "beside_src/data/words/china/senior.json": {
+      "zh": "prep. 在……旁边，在……附近；与……相比；除……以外（还），除……以外（不再）; adv. 在附近；况且，此外",
+      "en": null,
+      "timestamp": "2026-01-06T08:41:52.611Z"
+    },
+    "really_src/data/words/china/senior.json": {
+      "zh": "adv. 真正地，事实上；确实的，的确（用于加强语气）；很，十分；（用于带有隐含的否定回答的疑问句和感叹句）真的，是吗；用于缓和否定语气; int. 真的（用来表示兴趣、惊奇或疑惑）；真是的！（用于表示生气或不赞成）；是啊！（用于表示同意某人的意见）",
+      "en": "adv. in accordance with truth or fact or reality; adv. in actual fact; adv. in fact (used as intensifiers or sentence modifiers); adv. used as intensifiers; `real' is sometimes used informally for `really'; `rattling' is informal",
+      "timestamp": "2026-01-06T08:41:53.213Z"
+    },
+    "already_src/data/words/china/senior.json": {
+      "zh": "adv. 已经，早已；马上，够了（用于表达不耐烦或气恼）",
+      "en": "adv. prior to a specified or implied time",
+      "timestamp": "2026-01-06T08:41:53.816Z"
+    },
+    "because_src/data/words/china/senior.json": {
+      "zh": "conj. （说明原因）因为，由于；（作出解释）因为",
+      "en": "abstract: \"Because\" is a song by The Dave Clark Five, recorded in 1964. Originally the B-side to \"Can't You See That She's Mine\" in the United Kingdom, \"Because\" was released as a single in the United States and reached number three on the Billboard Hot 100 chart.",
+      "timestamp": "2026-01-06T08:41:54.461Z"
+    },
+    "clearly_src/data/words/china/senior.json": {
+      "zh": "adv. 清楚地，清晰地；毫无疑问，显然；明智地，清醒地",
+      "en": "adv. without doubt or question; adv. in an intelligible manner; adv. clear to the mind; with distinct mental discernment; adv. in an easily perceptible manner",
+      "timestamp": "2026-01-06T08:41:55.049Z"
+    },
+    "usually_src/data/words/china/senior.json": {
+      "zh": "adv. 通常地，经常地",
+      "en": "adv. under normal conditions",
+      "timestamp": "2026-01-06T08:41:55.639Z"
+    },
+    "although_src/data/words/china/senior.json": {
+      "zh": "conj. 虽然，尽管；但是，然而",
+      "en": null,
+      "timestamp": "2026-01-06T08:41:56.229Z"
+    },
+    "moreover_src/data/words/china/senior.json": {
+      "zh": "adv. 此外，而且",
+      "en": "adv. in addition",
+      "timestamp": "2026-01-06T08:41:56.814Z"
+    },
+    "yourself_src/data/words/china/senior.json": {
+      "zh": "pron. 你自己",
+      "en": null,
+      "timestamp": "2026-01-06T08:41:57.398Z"
+    },
+    "certainly_src/data/words/china/senior.json": {
+      "zh": "adv. 无疑，确定；当然，行（用于回答）",
+      "en": "adv. definitely or positively (`sure' is sometimes used informally for `surely')",
+      "timestamp": "2026-01-06T08:41:57.988Z"
+    },
+    "curiously_src/data/words/china/senior.json": {
+      "zh": "adv. 好奇地",
+      "en": "adv. in a manner differing from the usual or expected; adv. with curiosity",
+      "timestamp": "2026-01-06T08:41:58.587Z"
+    },
+    "initially_src/data/words/china/senior.json": {
+      "zh": "adv. 开始，最初",
+      "en": "adv. at the beginning",
+      "timestamp": "2026-01-06T08:41:59.158Z"
+    },
+    "regarding_src/data/words/china/senior.json": {
+      "zh": "prep. 关于，至于; v. 看待，认为；（尤指以某种方式）注视，凝视；注意，听从（regard 的现在分词形式）",
+      "en": "n. (usually preceded by `in') a detail or point; n. paying particular notice (as to children or helpless people); n. (usually plural) a polite expression of desire for someone's welfare; n. a long fixed look; n. the condition of being honored (esteemed or respected or well regarded); n. a feeling of friendship and esteem; n. an attitude of admiration or esteem; v. deem to be; v. look at attentively; v. connect closely and often incriminatingly",
+      "timestamp": "2026-01-06T08:41:59.733Z"
+    },
+    "eventually_src/data/words/china/senior.json": {
+      "zh": "adv. 最终，结果",
+      "en": "adv. within an indefinite time or at an unspecified future time; adv. after a long period of time or an especially long delay",
+      "timestamp": "2026-01-06T08:42:00.322Z"
+    },
+    "good night_src/data/words/china/senior.json": {
+      "zh": "晚安：用于晚上向别人道别或祝愿他人晚安。",
+      "en": "n. a conventional expression of farewell",
+      "timestamp": "2026-01-06T08:42:00.888Z"
+    },
+    "furthermore_src/data/words/china/senior.json": {
+      "zh": "adv. 此外，而且",
+      "en": "adv. in addition",
+      "timestamp": "2026-01-06T08:42:01.463Z"
+    },
+    "'m_src/data/words/china/cet4.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:42:02.022Z"
+    },
+    "'s_src/data/words/china/cet4.json": {
+      "zh": "abbr. us（us 的缩略形式）; abbr. has（has 的缩略形式）; abbr. is（is 的缩略形式）; abbr. dose（dose 的缩略形式）",
+      "en": "abstract: 's may be:",
+      "timestamp": "2026-01-06T08:42:02.601Z"
+    },
+    "'re_src/data/words/china/cet4.json": {
+      "zh": "abbr. are 的缩略形式",
+      "en": null,
+      "timestamp": "2026-01-06T08:42:03.172Z"
+    },
+    "ago_src/data/words/china/cet4.json": {
+      "zh": "adv. 以前，从前; adj. 以前的; 【名】 （Ago）（美）阿戈（人名）",
+      "en": "adj. gone by; or in the past; adv. in the past",
+      "timestamp": "2026-01-06T08:42:03.767Z"
+    },
+    "hey_src/data/words/china/cet4.json": {
+      "zh": "int. （非正式）（引起注意等）喂；（表示不在意）嘿；（用于陈述句末尾，表示已说完）就这样，你说呢；（表示问候）你好; n. （Hey）（美、德、英）埃（人名）",
+      "en": "abstract: Hey is a surname. Notable people with the surname include:",
+      "timestamp": "2026-01-06T08:42:04.346Z"
+    },
+    "six_src/data/words/china/cet4.json": {
+      "zh": "num. 数字6；六个；六个人（或物）一组；六岁；六点钟; n. （Six）（美、德）西克斯（人名）",
+      "en": "n. the cardinal number that is the sum of five and one; adj. denoting a quantity consisting of six items or units",
+      "timestamp": "2026-01-06T08:42:04.933Z"
+    },
+    "ten_src/data/words/china/cet4.json": {
+      "zh": "num. 十个，十; adj. 十的; det. 十个；十个（东西）; n. （Ten）（美、俄、加、德、荷、西、英）登（人名）",
+      "en": "n. the cardinal number that is the sum of nine and one; the base of the decimal system; adj. being one more than nine",
+      "timestamp": "2026-01-06T08:42:05.591Z"
+    },
+    "two_src/data/words/china/cet4.json": {
+      "zh": "n. 两个; adj. 两个的; num. 二",
+      "en": "n. the cardinal number that is the sum of one and one or a numeral representing this number; adj. being one more than one",
+      "timestamp": "2026-01-06T08:42:06.187Z"
+    },
+    "away_src/data/words/china/cet4.json": {
+      "zh": "adv. 距离……有多远，距离……有多久；朝另一个方向；不在，离开；（放）在安全的地方；逐渐消失；一直，继续不断地；移走；（比赛）在客场; adj. （球队比赛）客场的; n. 客场比赛，客场获胜",
+      "en": "adj. not present; having left; adj. used of an opponent's ground; adj. (of a baseball pitch) on the far side of home plate from the batter; adv. from a particular thing or place or position (`forth' is obsolete); adv. from one's possession; adv. out of the way (especially away from one's thoughts); adv. out of existence; adv. at a distance in space or time; adv. indicating continuing action; continuously or steadily; adv. so as to be removed or gotten rid of; adv. freely or at will; adv. in or into a proper place (especially for storage or safekeeping); adv. in a different direction; adv. in reserve; not for immediate use",
+      "timestamp": "2026-01-06T08:42:06.792Z"
+    },
+    "five_src/data/words/china/cet4.json": {
+      "zh": "n. 五，五个；五美元钞票; num. 五，五个; adj. 五的；五个的; n. （Five）人名；（挪）菲弗",
+      "en": "n. the cardinal number that is the sum of four and one; n. a team that plays basketball; adj. being one more than four",
+      "timestamp": "2026-01-06T08:42:07.386Z"
+    },
+    "nine_src/data/words/china/cet4.json": {
+      "zh": "n. 九，九个; num. 九；九个; adj. 九的，九个的; n. （Nine）人名；（塞）尼内",
+      "en": "n. the cardinal number that is the sum of eight and one; n. a team of professional baseball players who play and travel together; adj. denoting a quantity consisting of one more than eight and one less than ten",
+      "timestamp": "2026-01-06T08:42:07.966Z"
+    },
+    "eight_src/data/words/china/cet4.json": {
+      "zh": "num. 八；八个；第八；八岁；八点; adj. 八的; n. 八人划船队",
+      "en": "n. the cardinal number that is the sum of seven and one; n. a group of United States painters founded in 1907 and noted for their realistic depictions of sordid aspects of city life; adj. being one more than seven",
+      "timestamp": "2026-01-06T08:42:08.547Z"
+    },
+    "every_src/data/words/china/cet4.json": {
+      "zh": "det. 每个，每一；每……之中的；每隔，每逢（表频率）；所有可能的，完全可能的; 【名】 （Every）（美、荷、瑞典）埃夫里（人名）",
+      "en": "adj. each and all of a series of entities or intervals as specified; adj. (used of count nouns) each and all of the members of a group considered singly and without exception",
+      "timestamp": "2026-01-06T08:42:09.134Z"
+    },
+    "later_src/data/words/china/cet4.json": {
+      "zh": "adv. 后来，随后；再见，回头见; adj. 较晚的，以后的；较新式的，较现代的；晚期的，末期的; 【名】 （Later）（德）拉特（人名）",
+      "en": "adj. coming at a subsequent time or stage; adj. at or toward an end or late period or stage of development; adv. happening at a time subsequent to a reference time; adv. at some eventual time in the future; adv. comparative of the adverb `late'",
+      "timestamp": "2026-01-06T08:42:09.808Z"
+    },
+    "often_src/data/words/china/cet4.json": {
+      "zh": "adv. 常常，时常；在许多情况下",
+      "en": "adv. many times at short intervals; adv. frequently or in great quantities",
+      "timestamp": "2026-01-06T08:42:10.392Z"
+    },
+    "seven_src/data/words/china/cet4.json": {
+      "zh": "num. 七个，七; n. 七个人；七点钟；七岁; adj. 七的；七个的; n. （Seven）（土、法、俄）谢文（人名）",
+      "en": "n. the cardinal number that is the sum of six and one; adj. being one more than six",
+      "timestamp": "2026-01-06T08:42:10.965Z"
+    },
+    "three_src/data/words/china/cet4.json": {
+      "zh": "n. 三，三个; num. 三; adj. 三的，三个的",
+      "en": "n. the cardinal number that is the sum of one and one and one; adj. being one more than two",
+      "timestamp": "2026-01-06T08:42:11.540Z"
+    },
+    "beside_src/data/words/china/cet4.json": {
+      "zh": "prep. 在……旁边，在……附近；与……相比；除……以外（还），除……以外（不再）; adv. 在附近；况且，此外",
+      "en": null,
+      "timestamp": "2026-01-06T08:42:12.123Z"
+    },
+    "really_src/data/words/china/cet4.json": {
+      "zh": "adv. 真正地，事实上；确实的，的确（用于加强语气）；很，十分；（用于带有隐含的否定回答的疑问句和感叹句）真的，是吗；用于缓和否定语气; int. 真的（用来表示兴趣、惊奇或疑惑）；真是的！（用于表示生气或不赞成）；是啊！（用于表示同意某人的意见）",
+      "en": "adv. in accordance with truth or fact or reality; adv. in actual fact; adv. in fact (used as intensifiers or sentence modifiers); adv. used as intensifiers; `real' is sometimes used informally for `really'; `rattling' is informal",
+      "timestamp": "2026-01-06T08:42:12.716Z"
+    },
+    "already_src/data/words/china/cet4.json": {
+      "zh": "adv. 已经，早已；马上，够了（用于表达不耐烦或气恼）",
+      "en": "adv. prior to a specified or implied time",
+      "timestamp": "2026-01-06T08:42:13.301Z"
+    },
+    "because_src/data/words/china/cet4.json": {
+      "zh": "conj. （说明原因）因为，由于；（作出解释）因为",
+      "en": "abstract: \"Because\" is a song by The Dave Clark Five, recorded in 1964. Originally the B-side to \"Can't You See That She's Mine\" in the United Kingdom, \"Because\" was released as a single in the United States and reached number three on the Billboard Hot 100 chart.",
+      "timestamp": "2026-01-06T08:42:13.952Z"
+    },
+    "clearly_src/data/words/china/cet4.json": {
+      "zh": "adv. 清楚地，清晰地；毫无疑问，显然；明智地，清醒地",
+      "en": "adv. without doubt or question; adv. in an intelligible manner; adv. clear to the mind; with distinct mental discernment; adv. in an easily perceptible manner",
+      "timestamp": "2026-01-06T08:42:14.526Z"
+    },
+    "usually_src/data/words/china/cet4.json": {
+      "zh": "adv. 通常地，经常地",
+      "en": "adv. under normal conditions",
+      "timestamp": "2026-01-06T08:42:15.111Z"
+    },
+    "although_src/data/words/china/cet4.json": {
+      "zh": "conj. 虽然，尽管；但是，然而",
+      "en": null,
+      "timestamp": "2026-01-06T08:42:15.694Z"
+    },
+    "moreover_src/data/words/china/cet4.json": {
+      "zh": "adv. 此外，而且",
+      "en": "adv. in addition",
+      "timestamp": "2026-01-06T08:42:16.269Z"
+    },
+    "yourself_src/data/words/china/cet4.json": {
+      "zh": "pron. 你自己",
+      "en": null,
+      "timestamp": "2026-01-06T08:42:16.920Z"
+    },
+    "certainly_src/data/words/china/cet4.json": {
+      "zh": "adv. 无疑，确定；当然，行（用于回答）",
+      "en": "adv. definitely or positively (`sure' is sometimes used informally for `surely')",
+      "timestamp": "2026-01-06T08:42:17.506Z"
+    },
+    "curiously_src/data/words/china/cet4.json": {
+      "zh": "adv. 好奇地",
+      "en": "adv. in a manner differing from the usual or expected; adv. with curiosity",
+      "timestamp": "2026-01-06T08:42:18.078Z"
+    },
+    "initially_src/data/words/china/cet4.json": {
+      "zh": "adv. 开始，最初",
+      "en": "adv. at the beginning",
+      "timestamp": "2026-01-06T08:42:18.653Z"
+    },
+    "regarding_src/data/words/china/cet4.json": {
+      "zh": "prep. 关于，至于; v. 看待，认为；（尤指以某种方式）注视，凝视；注意，听从（regard 的现在分词形式）",
+      "en": "n. (usually preceded by `in') a detail or point; n. paying particular notice (as to children or helpless people); n. (usually plural) a polite expression of desire for someone's welfare; n. a long fixed look; n. the condition of being honored (esteemed or respected or well regarded); n. a feeling of friendship and esteem; n. an attitude of admiration or esteem; v. deem to be; v. look at attentively; v. connect closely and often incriminatingly",
+      "timestamp": "2026-01-06T08:42:19.243Z"
+    },
+    "eventually_src/data/words/china/cet4.json": {
+      "zh": "adv. 最终，结果",
+      "en": "adv. within an indefinite time or at an unspecified future time; adv. after a long period of time or an especially long delay",
+      "timestamp": "2026-01-06T08:42:19.829Z"
+    },
+    "furthermore_src/data/words/china/cet4.json": {
+      "zh": "adv. 此外，而且",
+      "en": "adv. in addition",
+      "timestamp": "2026-01-06T08:42:20.413Z"
+    },
+    "face to face_src/data/words/china/cet4.json": {
+      "zh": "面对面",
+      "en": "adj. in each other's presence; adv. involving close contact; confronting each other",
+      "timestamp": "2026-01-06T08:42:21.227Z"
+    },
+    "'m_src/data/words/china/cet6.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:42:22.162Z"
+    },
+    "'s_src/data/words/china/cet6.json": {
+      "zh": "abbr. us（us 的缩略形式）; abbr. has（has 的缩略形式）; abbr. is（is 的缩略形式）; abbr. dose（dose 的缩略形式）",
+      "en": "abstract: 's may be:",
+      "timestamp": "2026-01-06T08:42:22.966Z"
+    },
+    "'re_src/data/words/china/cet6.json": {
+      "zh": "abbr. are 的缩略形式",
+      "en": null,
+      "timestamp": "2026-01-06T08:42:23.639Z"
+    },
+    "ago_src/data/words/china/cet6.json": {
+      "zh": "adv. 以前，从前; adj. 以前的; 【名】 （Ago）（美）阿戈（人名）",
+      "en": "adj. gone by; or in the past; adv. in the past",
+      "timestamp": "2026-01-06T08:42:24.713Z"
+    },
+    "hey_src/data/words/china/cet6.json": {
+      "zh": "int. （非正式）（引起注意等）喂；（表示不在意）嘿；（用于陈述句末尾，表示已说完）就这样，你说呢；（表示问候）你好; n. （Hey）（美、德、英）埃（人名）",
+      "en": "abstract: Hey is a surname. Notable people with the surname include:",
+      "timestamp": "2026-01-06T08:42:25.533Z"
+    },
+    "six_src/data/words/china/cet6.json": {
+      "zh": "num. 数字6；六个；六个人（或物）一组；六岁；六点钟; n. （Six）（美、德）西克斯（人名）",
+      "en": "n. the cardinal number that is the sum of five and one; adj. denoting a quantity consisting of six items or units",
+      "timestamp": "2026-01-06T08:42:26.277Z"
+    },
+    "ten_src/data/words/china/cet6.json": {
+      "zh": "num. 十个，十; adj. 十的; det. 十个；十个（东西）; n. （Ten）（美、俄、加、德、荷、西、英）登（人名）",
+      "en": "n. the cardinal number that is the sum of nine and one; the base of the decimal system; adj. being one more than nine",
+      "timestamp": "2026-01-06T08:42:26.981Z"
+    },
+    "two_src/data/words/china/cet6.json": {
+      "zh": "n. 两个; adj. 两个的; num. 二",
+      "en": "n. the cardinal number that is the sum of one and one or a numeral representing this number; adj. being one more than one",
+      "timestamp": "2026-01-06T08:42:27.718Z"
+    },
+    "away_src/data/words/china/cet6.json": {
+      "zh": "adv. 距离……有多远，距离……有多久；朝另一个方向；不在，离开；（放）在安全的地方；逐渐消失；一直，继续不断地；移走；（比赛）在客场; adj. （球队比赛）客场的; n. 客场比赛，客场获胜",
+      "en": "adj. not present; having left; adj. used of an opponent's ground; adj. (of a baseball pitch) on the far side of home plate from the batter; adv. from a particular thing or place or position (`forth' is obsolete); adv. from one's possession; adv. out of the way (especially away from one's thoughts); adv. out of existence; adv. at a distance in space or time; adv. indicating continuing action; continuously or steadily; adv. so as to be removed or gotten rid of; adv. freely or at will; adv. in or into a proper place (especially for storage or safekeeping); adv. in a different direction; adv. in reserve; not for immediate use",
+      "timestamp": "2026-01-06T08:42:28.519Z"
+    },
+    "five_src/data/words/china/cet6.json": {
+      "zh": "n. 五，五个；五美元钞票; num. 五，五个; adj. 五的；五个的; n. （Five）人名；（挪）菲弗",
+      "en": "n. the cardinal number that is the sum of four and one; n. a team that plays basketball; adj. being one more than four",
+      "timestamp": "2026-01-06T08:42:29.203Z"
+    },
+    "nine_src/data/words/china/cet6.json": {
+      "zh": "n. 九，九个; num. 九；九个; adj. 九的，九个的; n. （Nine）人名；（塞）尼内",
+      "en": "n. the cardinal number that is the sum of eight and one; n. a team of professional baseball players who play and travel together; adj. denoting a quantity consisting of one more than eight and one less than ten",
+      "timestamp": "2026-01-06T08:42:29.860Z"
+    },
+    "eight_src/data/words/china/cet6.json": {
+      "zh": "num. 八；八个；第八；八岁；八点; adj. 八的; n. 八人划船队",
+      "en": "n. the cardinal number that is the sum of seven and one; n. a group of United States painters founded in 1907 and noted for their realistic depictions of sordid aspects of city life; adj. being one more than seven",
+      "timestamp": "2026-01-06T08:42:30.499Z"
+    },
+    "every_src/data/words/china/cet6.json": {
+      "zh": "det. 每个，每一；每……之中的；每隔，每逢（表频率）；所有可能的，完全可能的; 【名】 （Every）（美、荷、瑞典）埃夫里（人名）",
+      "en": "adj. each and all of a series of entities or intervals as specified; adj. (used of count nouns) each and all of the members of a group considered singly and without exception",
+      "timestamp": "2026-01-06T08:42:31.196Z"
+    },
+    "later_src/data/words/china/cet6.json": {
+      "zh": "adv. 后来，随后；再见，回头见; adj. 较晚的，以后的；较新式的，较现代的；晚期的，末期的; 【名】 （Later）（德）拉特（人名）",
+      "en": "adj. coming at a subsequent time or stage; adj. at or toward an end or late period or stage of development; adv. happening at a time subsequent to a reference time; adv. at some eventual time in the future; adv. comparative of the adverb `late'",
+      "timestamp": "2026-01-06T08:42:31.849Z"
+    },
+    "often_src/data/words/china/cet6.json": {
+      "zh": "adv. 常常，时常；在许多情况下",
+      "en": "adv. many times at short intervals; adv. frequently or in great quantities",
+      "timestamp": "2026-01-06T08:42:32.502Z"
+    },
+    "seven_src/data/words/china/cet6.json": {
+      "zh": "num. 七个，七; n. 七个人；七点钟；七岁; adj. 七的；七个的; n. （Seven）（土、法、俄）谢文（人名）",
+      "en": "n. the cardinal number that is the sum of six and one; adj. being one more than six",
+      "timestamp": "2026-01-06T08:42:33.110Z"
+    },
+    "three_src/data/words/china/cet6.json": {
+      "zh": "n. 三，三个; num. 三; adj. 三的，三个的",
+      "en": "n. the cardinal number that is the sum of one and one and one; adj. being one more than two",
+      "timestamp": "2026-01-06T08:42:33.723Z"
+    },
+    "beside_src/data/words/china/cet6.json": {
+      "zh": "prep. 在……旁边，在……附近；与……相比；除……以外（还），除……以外（不再）; adv. 在附近；况且，此外",
+      "en": null,
+      "timestamp": "2026-01-06T08:42:34.355Z"
+    },
+    "really_src/data/words/china/cet6.json": {
+      "zh": "adv. 真正地，事实上；确实的，的确（用于加强语气）；很，十分；（用于带有隐含的否定回答的疑问句和感叹句）真的，是吗；用于缓和否定语气; int. 真的（用来表示兴趣、惊奇或疑惑）；真是的！（用于表示生气或不赞成）；是啊！（用于表示同意某人的意见）",
+      "en": "adv. in accordance with truth or fact or reality; adv. in actual fact; adv. in fact (used as intensifiers or sentence modifiers); adv. used as intensifiers; `real' is sometimes used informally for `really'; `rattling' is informal",
+      "timestamp": "2026-01-06T08:42:35.025Z"
+    },
+    "already_src/data/words/china/cet6.json": {
+      "zh": "adv. 已经，早已；马上，够了（用于表达不耐烦或气恼）",
+      "en": "adv. prior to a specified or implied time",
+      "timestamp": "2026-01-06T08:42:35.660Z"
+    },
+    "because_src/data/words/china/cet6.json": {
+      "zh": "conj. （说明原因）因为，由于；（作出解释）因为",
+      "en": "abstract: \"Because\" is a song by The Dave Clark Five, recorded in 1964. Originally the B-side to \"Can't You See That She's Mine\" in the United Kingdom, \"Because\" was released as a single in the United States and reached number three on the Billboard Hot 100 chart.",
+      "timestamp": "2026-01-06T08:42:36.300Z"
+    },
+    "clearly_src/data/words/china/cet6.json": {
+      "zh": "adv. 清楚地，清晰地；毫无疑问，显然；明智地，清醒地",
+      "en": "adv. without doubt or question; adv. in an intelligible manner; adv. clear to the mind; with distinct mental discernment; adv. in an easily perceptible manner",
+      "timestamp": "2026-01-06T08:42:36.915Z"
+    },
+    "usually_src/data/words/china/cet6.json": {
+      "zh": "adv. 通常地，经常地",
+      "en": "adv. under normal conditions",
+      "timestamp": "2026-01-06T08:42:37.530Z"
+    },
+    "although_src/data/words/china/cet6.json": {
+      "zh": "conj. 虽然，尽管；但是，然而",
+      "en": null,
+      "timestamp": "2026-01-06T08:42:38.162Z"
+    },
+    "moreover_src/data/words/china/cet6.json": {
+      "zh": "adv. 此外，而且",
+      "en": "adv. in addition",
+      "timestamp": "2026-01-06T08:42:38.770Z"
+    },
+    "yourself_src/data/words/china/cet6.json": {
+      "zh": "pron. 你自己",
+      "en": null,
+      "timestamp": "2026-01-06T08:42:39.415Z"
+    },
+    "certainly_src/data/words/china/cet6.json": {
+      "zh": "adv. 无疑，确定；当然，行（用于回答）",
+      "en": "adv. definitely or positively (`sure' is sometimes used informally for `surely')",
+      "timestamp": "2026-01-06T08:42:40.050Z"
+    },
+    "curiously_src/data/words/china/cet6.json": {
+      "zh": "adv. 好奇地",
+      "en": "adv. in a manner differing from the usual or expected; adv. with curiosity",
+      "timestamp": "2026-01-06T08:42:40.632Z"
+    },
+    "initially_src/data/words/china/cet6.json": {
+      "zh": "adv. 开始，最初",
+      "en": "adv. at the beginning",
+      "timestamp": "2026-01-06T08:42:41.239Z"
+    },
+    "regarding_src/data/words/china/cet6.json": {
+      "zh": "prep. 关于，至于; v. 看待，认为；（尤指以某种方式）注视，凝视；注意，听从（regard 的现在分词形式）",
+      "en": "n. (usually preceded by `in') a detail or point; n. paying particular notice (as to children or helpless people); n. (usually plural) a polite expression of desire for someone's welfare; n. a long fixed look; n. the condition of being honored (esteemed or respected or well regarded); n. a feeling of friendship and esteem; n. an attitude of admiration or esteem; v. deem to be; v. look at attentively; v. connect closely and often incriminatingly",
+      "timestamp": "2026-01-06T08:42:41.855Z"
+    },
+    "eventually_src/data/words/china/cet6.json": {
+      "zh": "adv. 最终，结果",
+      "en": "adv. within an indefinite time or at an unspecified future time; adv. after a long period of time or an especially long delay",
+      "timestamp": "2026-01-06T08:42:42.469Z"
+    },
+    "furthermore_src/data/words/china/cet6.json": {
+      "zh": "adv. 此外，而且",
+      "en": "adv. in addition",
+      "timestamp": "2026-01-06T08:42:43.078Z"
+    },
+    "face to face_src/data/words/china/cet6.json": {
+      "zh": "面对面",
+      "en": "adj. in each other's presence; adv. involving close contact; confronting each other",
+      "timestamp": "2026-01-06T08:42:43.656Z"
+    },
+    "hence_src/data/words/china/cet6.json": {
+      "zh": "adv. 因此；之后",
+      "en": "adv. (used to introduce a logical conclusion) from that fact or reason or as a result; adv. from this place; adv. from this time",
+      "timestamp": "2026-01-06T08:42:44.263Z"
+    },
+    "thereby_src/data/words/china/cet6.json": {
+      "zh": "adv. 因此，从而",
+      "en": "adv. by that means or because of that",
+      "timestamp": "2026-01-06T08:42:44.860Z"
+    },
+    "turn to_src/data/words/china/cet6.json": {
+      "zh": "求助于，转向，致力于; 开始做某事，投入某项工作",
+      "en": "v. speak to; v. direct one's interest or attention towards; go into",
+      "timestamp": "2026-01-06T08:42:45.440Z"
+    },
+    "stuffily_src/data/words/china/cet6.json": {
+      "zh": "不通气地",
+      "en": "adv. in a stuffy manner",
+      "timestamp": "2026-01-06T08:42:46.004Z"
+    },
+    "plausibly_src/data/words/china/cet6.json": {
+      "zh": "adv. 似真地",
+      "en": "adv. easy to believe on the basis of available evidence",
+      "timestamp": "2026-01-06T08:42:46.584Z"
+    },
+    "dominantly_src/data/words/china/cet6.json": {
+      "zh": "有统治权地; 支配地",
+      "en": "adv. in a dominant fashion",
+      "timestamp": "2026-01-06T08:42:47.171Z"
+    },
+    "chaotically_src/data/words/china/cet6.json": {
+      "zh": "adv. 混乱地",
+      "en": "adv. in a wild and confused manner; adv. in a manner suggestive of chaos",
+      "timestamp": "2026-01-06T08:42:47.751Z"
+    },
+    "intuitively_src/data/words/china/cet6.json": {
+      "zh": "adv. 凭直觉地",
+      "en": "adv. in an intuitive manner",
+      "timestamp": "2026-01-06T08:42:48.349Z"
+    },
+    "stressfully_src/data/words/china/cet6.json": {
+      "zh": "紧张地; 有压力地",
+      "en": null,
+      "timestamp": "2026-01-06T08:42:48.926Z"
+    },
+    "eclectically_src/data/words/china/cet6.json": {
+      "zh": "adv. 折衷地",
+      "en": null,
+      "timestamp": "2026-01-06T08:42:49.493Z"
+    },
+    "remorsefully_src/data/words/china/cet6.json": {
+      "zh": "adv. 极为懊悔地",
+      "en": "adv. in a rueful manner",
+      "timestamp": "2026-01-06T08:42:50.068Z"
+    },
+    "structurally_src/data/words/china/cet6.json": {
+      "zh": "adv. 在结构上",
+      "en": "adv. with respect to structure",
+      "timestamp": "2026-01-06T08:42:50.641Z"
+    },
+    "unwaveringly_src/data/words/china/cet6.json": {
+      "zh": "毫不动摇地",
+      "en": "adv. with resolute determination",
+      "timestamp": "2026-01-06T08:42:51.354Z"
+    },
+    "conditionally_src/data/words/china/cet6.json": {
+      "zh": "adv. 附有条件地",
+      "en": "adv. subject to a condition",
+      "timestamp": "2026-01-06T08:42:51.935Z"
+    },
+    "stylistically_src/data/words/china/cet6.json": {
+      "zh": "adv. 在文体上",
+      "en": "adv. in a rhetorically stylistic manner",
+      "timestamp": "2026-01-06T08:42:52.515Z"
+    },
+    "hypocritically_src/data/words/china/cet6.json": {
+      "zh": "adv. 伪善地",
+      "en": "adv. in a hypocritical manner",
+      "timestamp": "2026-01-06T08:42:53.093Z"
+    },
+    "bureaucratically_src/data/words/china/cet6.json": {
+      "zh": "adv. 官僚主义地",
+      "en": "adv. in a bureaucratic manner; adv. with respect to bureaucracy",
+      "timestamp": "2026-01-06T08:42:53.673Z"
+    },
+    "somberly/sombrely_src/data/words/china/cet6.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:42:54.279Z"
+    },
+    "favorably/favourably_src/data/words/china/cet6.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:42:54.847Z"
+    },
+    "recognizably/recognisably_src/data/words/china/cet6.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:42:55.417Z"
+    },
+    "laud_src/data/words/china/cet6.json": {
+      "zh": "vt. 赞美，称赞; n. 赞美，称赞；颂歌；（lauds）（主要指罗马天主教教堂的）晨祷; n. （Laud）劳德（英国坎特伯雷大主教威廉·劳德 William Laud）",
+      "en": "v. praise, glorify, or honor",
+      "timestamp": "2026-01-06T08:42:56.012Z"
+    },
+    "deviantly_src/data/words/china/cet6.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:42:56.567Z"
+    },
+    "evokingly_src/data/words/china/cet6.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:42:57.119Z"
+    },
+    "inchoately_src/data/words/china/cet6.json": {
+      "zh": "刚开始的",
+      "en": null,
+      "timestamp": "2026-01-06T08:42:57.684Z"
+    },
+    "infallibly_src/data/words/china/cet6.json": {
+      "zh": "adv. 绝无错误的",
+      "en": null,
+      "timestamp": "2026-01-06T08:42:58.268Z"
+    },
+    "unfeasibly_src/data/words/china/cet6.json": {
+      "zh": "不能实行地",
+      "en": null,
+      "timestamp": "2026-01-06T08:42:58.852Z"
+    },
+    "deficiently_src/data/words/china/cet6.json": {
+      "zh": "adv. 不充分地",
+      "en": null,
+      "timestamp": "2026-01-06T08:42:59.428Z"
+    },
+    "kinetically_src/data/words/china/cet6.json": {
+      "zh": "运动地; 动力地; 运动引起地（形容词 kinetic 的副词形式）",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:00.011Z"
+    },
+    "tenaciously_src/data/words/china/cet6.json": {
+      "zh": "adv. 坚持地",
+      "en": "adv. with obstinate determination",
+      "timestamp": "2026-01-06T08:43:00.596Z"
+    },
+    "compellingly_src/data/words/china/cet6.json": {
+      "zh": "adv. 咄咄逼人地",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:01.168Z"
+    },
+    "hysterically_src/data/words/china/cet6.json": {
+      "zh": "adv. 歇斯底里地",
+      "en": "adv. in a hysterical manner",
+      "timestamp": "2026-01-06T08:43:01.754Z"
+    },
+    "incongruously_src/data/words/china/cet6.json": {
+      "zh": "adv. 不调和地",
+      "en": "adv. in an incongruous manner",
+      "timestamp": "2026-01-06T08:43:02.339Z"
+    },
+    "contemptuously_src/data/words/china/cet6.json": {
+      "zh": "adv. 轻蔑地",
+      "en": "adv. without respect; in a disdainful manner",
+      "timestamp": "2026-01-06T08:43:02.938Z"
+    },
+    "interrogatively_src/data/words/china/cet6.json": {
+      "zh": "疑问地",
+      "en": "adv. in a questioning format; adv. with curiosity",
+      "timestamp": "2026-01-06T08:43:03.506Z"
+    },
+    "physiologically_src/data/words/china/cet6.json": {
+      "zh": "adv. 生理学方面",
+      "en": "adv. of or relating to physiological processes; with respect to physiology",
+      "timestamp": "2026-01-06T08:43:04.090Z"
+    },
+    "catastrophically_src/data/words/china/cet6.json": {
+      "zh": "灾难性地",
+      "en": "adv. with unfortunate consequences",
+      "timestamp": "2026-01-06T08:43:04.665Z"
+    },
+    "anthropologically_src/data/words/china/cet6.json": {
+      "zh": "adv. 人类学上",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:05.240Z"
+    },
+    "philanthropically_src/data/words/china/cet6.json": {
+      "zh": "慈善地",
+      "en": "adv. in a philanthropic manner",
+      "timestamp": "2026-01-06T08:43:05.814Z"
+    },
+    "impressionistically_src/data/words/china/cet6.json": {
+      "zh": "仅凭印象地，主观地",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:06.382Z"
+    },
+    "paralyzingly/paralysingly_src/data/words/china/cet6.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:43:06.945Z"
+    },
+    "patronizingly/patronisingly_src/data/words/china/cet6.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:43:07.567Z"
+    },
+    "tantalizingly/tantalisingly_src/data/words/china/cet6.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:43:08.131Z"
+    },
+    "id card_src/data/words/cefr/a2.json": {
+      "zh": "身份证（等于 identity card）",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:08.703Z"
+    },
+    "sports center_src/data/words/cefr/a2.json": {
+      "zh": "运动中心：一个建筑或建筑群，其中可以进行各种运动的场所。",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:09.276Z"
+    },
+    "curious_src/data/words/cefr/b1.json": {
+      "zh": "adj. 好奇的，求知欲强的；稀奇的，不寻常的；爱挑剔的",
+      "en": "adj. beyond or deviating from the usual or expected; adj. eager to investigate and learn or learn more (sometimes about others' concerns); adj. having curiosity aroused; eagerly interested in learning more",
+      "timestamp": "2026-01-06T08:43:09.906Z"
+    },
+    "hairdryer_src/data/words/cefr/b1.json": {
+      "zh": "n. 吹风机",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:10.492Z"
+    },
+    "instead of_src/data/words/cefr/b1.json": {
+      "zh": "代替，而不是：表示用某人或某物替代另一个人或另一件事。",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:11.079Z"
+    },
+    "according to_src/data/words/cefr/b1.json": {
+      "zh": "根据：表示根据某人或某事的陈述、说法或信念。; 按照：表示按照某个标准、规则或方法。; 据……所述：表示根据某人的陈述或说法。",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:11.693Z"
+    },
+    "throat_src/data/words/cefr/b2.json": {
+      "zh": "n. 喉咙，咽喉；喉部，颈前部；咽喉状部分（尤指狭窄通道、进出管路）；嗓音，嗓门，歌喉；（肋材、锚臂或前后帆等的）弯曲处，凹口; v. 用喉音说",
+      "en": "n. the passage to the stomach and lungs; in the front part of the neck below the chin and above the collarbone; n. an opening in the vamp of a shoe at the instep; n. a passage resembling a throat in shape or function",
+      "timestamp": "2026-01-06T08:43:12.318Z"
+    },
+    "pertain to_src/data/words/cefr/c1.json": {
+      "zh": "关于；从属于；适合",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:13.231Z"
+    },
+    "digitalization/digitalisation_src/data/words/cefr/c1.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:43:13.801Z"
+    },
+    "echolocate_src/data/words/cefr/c2.json": {
+      "zh": "vt. 凭回声测定……的方向或位置; vi. 用回音测定方向或距离",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:14.365Z"
+    },
+    "demystification_src/data/words/cefr/c2.json": {
+      "zh": "n. 非神秘化启发，启蒙",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:14.951Z"
+    },
+    "curious_src/data/words/china/junior.json": {
+      "zh": "adj. 好奇的，求知欲强的；稀奇的，不寻常的；爱挑剔的",
+      "en": "adj. beyond or deviating from the usual or expected; adj. eager to investigate and learn or learn more (sometimes about others' concerns); adj. having curiosity aroused; eagerly interested in learning more",
+      "timestamp": "2026-01-06T08:43:15.638Z"
+    },
+    "to_src/data/words/china/senior.json": {
+      "zh": "prep. 朝；位于……；到某处；到某状态；差；给；对于；比；连着；对着；等于；向……表示敬意；伴随；为了给……；适合；按……的看法；（结算账目时）记入; adv. （门等）关上; n. （To）（汤霍特、丹）多（人名）",
+      "en": "abstract: TO is a 2009 anime OVA series composed of two vignettes.",
+      "timestamp": "2026-01-06T08:43:16.410Z"
+    },
+    "curious_src/data/words/china/senior.json": {
+      "zh": "adj. 好奇的，求知欲强的；稀奇的，不寻常的；爱挑剔的",
+      "en": "adj. beyond or deviating from the usual or expected; adj. eager to investigate and learn or learn more (sometimes about others' concerns); adj. having curiosity aroused; eagerly interested in learning more",
+      "timestamp": "2026-01-06T08:43:17.030Z"
+    },
+    "hairdryer_src/data/words/china/senior.json": {
+      "zh": "n. 吹风机",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:17.604Z"
+    },
+    "instead of_src/data/words/china/senior.json": {
+      "zh": "代替，而不是：表示用某人或某物替代另一个人或另一件事。",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:18.199Z"
+    },
+    "curious_src/data/words/china/cet4.json": {
+      "zh": "adj. 好奇的，求知欲强的；稀奇的，不寻常的；爱挑剔的",
+      "en": "adj. beyond or deviating from the usual or expected; adj. eager to investigate and learn or learn more (sometimes about others' concerns); adj. having curiosity aroused; eagerly interested in learning more",
+      "timestamp": "2026-01-06T08:43:18.831Z"
+    },
+    "hairdryer_src/data/words/china/cet4.json": {
+      "zh": "n. 吹风机",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:19.416Z"
+    },
+    "instead of_src/data/words/china/cet4.json": {
+      "zh": "代替，而不是：表示用某人或某物替代另一个人或另一件事。",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:20.006Z"
+    },
+    "according to_src/data/words/china/cet4.json": {
+      "zh": "根据：表示根据某人或某事的陈述、说法或信念。; 按照：表示按照某个标准、规则或方法。; 据……所述：表示根据某人的陈述或说法。",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:20.617Z"
+    },
+    "curious_src/data/words/china/cet6.json": {
+      "zh": "adj. 好奇的，求知欲强的；稀奇的，不寻常的；爱挑剔的",
+      "en": "adj. beyond or deviating from the usual or expected; adj. eager to investigate and learn or learn more (sometimes about others' concerns); adj. having curiosity aroused; eagerly interested in learning more",
+      "timestamp": "2026-01-06T08:43:21.248Z"
+    },
+    "hairdryer_src/data/words/china/cet6.json": {
+      "zh": "n. 吹风机",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:21.827Z"
+    },
+    "instead of_src/data/words/china/cet6.json": {
+      "zh": "代替，而不是：表示用某人或某物替代另一个人或另一件事。",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:22.424Z"
+    },
+    "according to_src/data/words/china/cet6.json": {
+      "zh": "根据：表示根据某人或某事的陈述、说法或信念。; 按照：表示按照某个标准、规则或方法。; 据……所述：表示根据某人的陈述或说法。",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:23.051Z"
+    },
+    "pertain to_src/data/words/china/cet6.json": {
+      "zh": "关于；从属于；适合",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:23.666Z"
+    },
+    "digitalization/digitalisation_src/data/words/china/cet6.json": {
+      "failed": true,
+      "timestamp": "2026-01-06T08:43:24.236Z"
+    },
+    "echolocate_src/data/words/china/cet6.json": {
+      "zh": "vt. 凭回声测定……的方向或位置; vi. 用回音测定方向或距离",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:24.812Z"
+    },
+    "demystification_src/data/words/china/cet6.json": {
+      "zh": "n. 非神秘化启发，启蒙",
+      "en": null,
+      "timestamp": "2026-01-06T08:43:25.394Z"
+    },
+    "do_src/data/words/cefr/a1.json": {
+      "zh": "v. 做，干，办（某事）；行动，表现；顺利进行，进展；从事（工作）；执行（任务）；学习，研究；解答，解决，算出；制作，做出；演出，编排（戏剧等）；仿效，模仿；完成，做好；供给，提供；走过，行过；以……速度行进；达到（一定销售额）；参观，游览，旅行；处理；适合，足够；煮制；欺骗；惩罚；（从某地方）盗窃；护理；（非正式）吸（毒）；（非正式）性交；度过（一段时间）；导致，引起；（非正式）痛打，杀死；生长；整理; aux. 与动词连用构成否定句和疑问句；用于构成疑问尾句；用于避免重复某一动词；用于强调主要动词；用于祈使句中表示礼貌；用于肯定或否定回答；用在倒装句中; n. 聚会，社交活动；要求，规定; C 大调音阶中的第一音；（口语）事件；（主英国口语）诈骗；（主英国、新西兰口语）宴会；（口语）必须做到的事情；（女子）发型; n. （Do）多（人名Dorothea和Dorothy的昵称）",
+      "en": "n. an uproarious party; n. the syllable naming the first (tonic) note of any major scale in solmization; n. doctor's degree in osteopathy; v. engage in; v. carry out or perform an action; v. get (something) done; v. proceed or get along; v. give rise to; cause to happen or occur, not always intentionally; v. carry out or practice; as of jobs and professions; v. be sufficient; be adequate, either in quality or quantity; v. create or design, often in a certain way; v. behave in a certain manner; show a certain behavior; conduct or comport oneself; v. spend time in prison or in a labor camp; v. carry on or manage; v. arrange attractively; v. travel or traverse (a distance)",
+      "timestamp": "2026-01-06T08:43:26.271Z"
+    },
+    "bee_src/data/words/cefr/a1.json": {
+      "zh": "n. 蜜蜂；聚会，联谊赛；工作忙碌的人（busy bee）; 【名】 （Bee）（英）比，（赤几）贝埃（人名）",
+      "en": "n. any of numerous hairy-bodied insects including social and solitary species; n. a social gathering to carry out some communal task or to hold competitions",
+      "timestamp": "2026-01-06T08:43:26.875Z"
+    },
+    "eat_src/data/words/cefr/a1.json": {
+      "zh": "v. 吃，吃饭；侵蚀，损耗；烦扰（be eating）; n. 少量食物，点心",
+      "en": "v. take in solid food; v. eat a meal; take a meal; v. take in food; used of animals only; v. use up (resources or materials); v. worry or cause anxiety in a persistent way; v. cause to deteriorate due to the action of water, air, or an acid",
+      "timestamp": "2026-01-06T08:43:27.536Z"
+    },
+    "sad_src/data/words/cefr/a1.json": {
+      "zh": "adj. 伤心的，难过的；令人伤心的，让人难过的；糟糕的，不能令人接受的；不幸的，可怜的；（歌曲或音乐）显露悲伤的，伤感的；状况不佳的；（人）可悲的，不受人尊敬的； 老土的，过时的；（面团）发得不好的; n. 季节性情感障碍（SAD）",
+      "en": "adj. experiencing or showing sorrow or unhappiness; adj. of things that make you feel sad; adj. bad; unfortunate",
+      "timestamp": "2026-01-06T08:43:28.168Z"
+    },
+    "too_src/data/words/cefr/a1.json": {
+      "zh": "adv. 太，过于，过度；也，亦，还；而且，再者（用于补充进一步的观点）；很，十分，非常（用于否定句）；确实地，无可否认地；（表示感谢，较为正式）极其，非常",
+      "en": "adv. to an excessive degree; adv. in addition",
+      "timestamp": "2026-01-06T08:43:28.784Z"
+    },
+    "baby_src/data/words/cefr/a1.json": {
+      "zh": "n. 婴儿，婴孩；动物幼崽；（家庭或团体中）最小的成员；幼稚的人，软弱的人；差事，责任；宝贝，亲爱的；喜欢的东西，宝贝东西; v. 把……当婴儿般对待，对……娇生惯养；小心翼翼地操作，小心对待; adj. （蔬菜）幼嫩的；（幼）小的，小型的",
+      "en": "n. a very young child (birth to 1 year) who has not yet begun to walk or talk; n. (slang) sometimes used as a term of address for attractive young women; n. a very young mammal; n. the youngest member of a group (not necessarily young); n. an immature childish person; n. a project of personal concern to someone; v. treat with excessive indulgence",
+      "timestamp": "2026-01-06T08:43:29.411Z"
+    },
+    "bike_src/data/words/cefr/a1.json": {
+      "zh": "n. 自行车，脚踏车，单车；摩托车; v. 骑自行车（单车）； 用自行车（或摩托车）投递（信件，包裹）；用自行车（或摩托车）投递（信件，包裹）; n. （Bike)（土、土库、塞）比克",
+      "en": "n. a motor vehicle with two wheels and a strong frame; n. a wheeled vehicle that has two wheels and is moved by foot pedals; v. ride a bicycle",
+      "timestamp": "2026-01-06T08:43:30.013Z"
+    },
+    "cafe_src/data/words/cefr/a1.json": {
+      "zh": "n. 咖啡馆；小餐馆",
+      "en": "n. a small restaurant where drinks and snacks are sold",
+      "timestamp": "2026-01-06T08:43:30.591Z"
+    },
+    "girl_src/data/words/cefr/a1.json": {
+      "zh": "n. 女孩；姑娘，未婚女子；女职员，女演员；（男人的）女朋友; n. (Girl)（捷）吉尔（人名）",
+      "en": "n. a young woman; n. a youthful female person; n. a female human offspring; n. a girl or young woman with whom a man is romantically involved; n. a friendly informal reference to a grown woman",
+      "timestamp": "2026-01-06T08:43:31.194Z"
+    },
+    "hall_src/data/words/cefr/a1.json": {
+      "zh": "n. 礼堂，大厅；门厅；走廊，过道；（大学的）学生宿舍；府邸，庄园; 【名】 （Hall）（英）霍尔，（法）阿尔，（土）哈勒，（德、波、丹、芬、瑞典）哈尔（人名）",
+      "en": "n. an interior passage or corridor onto which rooms open; n. a large entrance or reception room or area; n. a large room for gatherings or entertainment; n. a college or university building containing living quarters for students; n. the large room of a manor or castle; n. English writer whose novel about a lesbian relationship was banned in Britain for many years (1883-1943); n. United States child psychologist whose theories of child psychology strongly influenced educational psychology (1844-1924); n. United States chemist who developed an economical method of producing aluminum from bauxite (1863-1914); n. United States explorer who led three expeditions to the Arctic (1821-1871); n. United States astronomer who discovered Phobos and Deimos (the two satellites of Mars) (1829-1907); n. a large and imposing house; n. a large building used by a college or university for teaching or research; n. a large building for meetings or entertainment",
+      "timestamp": "2026-01-06T08:43:31.806Z"
+    },
+    "july_src/data/words/cefr/a1.json": {
+      "zh": "n. 七月",
+      "en": "n. the month following June and preceding August",
+      "timestamp": "2026-01-06T08:43:32.385Z"
+    },
+    "june_src/data/words/cefr/a1.json": {
+      "zh": "n. 六月；琼（人名，来源于拉丁语，含义是“年轻气盛的六月”）",
+      "en": "n. the month following May and preceding July",
+      "timestamp": "2026-01-06T08:43:32.970Z"
+    },
+    "sofa_src/data/words/cefr/a1.json": {
+      "zh": "n. 沙发；长椅; n. （Sofa）人名；（塞）索法",
+      "en": "n. an upholstered seat for more than one person",
+      "timestamp": "2026-01-06T08:43:33.555Z"
+    },
+    "vase_src/data/words/cefr/a1.json": {
+      "zh": "n. 花瓶，（装饰用的）瓶; 【名】 （Vase）（塞、罗、芬）瓦塞（人名）",
+      "en": "n. an open jar of glass or porcelain used as an ornament or to hold flowers",
+      "timestamp": "2026-01-06T08:43:34.147Z"
+    },
+    "angry_src/data/words/cefr/a1.json": {
+      "zh": "adj. 愤怒的，生气的；狂风暴雨的，波涛汹涌的；红肿的，感染的",
+      "en": "adj. feeling or showing anger; adj. (of the elements) as if showing violent anger; adj. severely inflamed and painful",
+      "timestamp": "2026-01-06T08:43:34.778Z"
+    },
+    "april_src/data/words/cefr/a1.json": {
+      "zh": "n. 四月",
+      "en": "n. the month following March and preceding May",
+      "timestamp": "2026-01-06T08:43:35.370Z"
+    },
+    "beach_src/data/words/cefr/a1.json": {
+      "zh": "n. 海滩，海滨; v. 把（船）拖上岸；搁浅；（垂钓者）钓（鱼）上岸；让（某人）受损; 【名】 （Beach）（英）比奇（人名）",
+      "en": "n. an area of sand sloping down to the water of a sea or lake; v. land on a beach",
+      "timestamp": "2026-01-06T08:43:35.979Z"
+    },
+    "begin_src/data/words/cefr/a1.json": {
+      "zh": "v. 开始，着手；开始说；开始发生，开始进行；以……为起点，起始于；首字母为",
+      "en": "n. Israeli statesman (born in Russia) who (as prime minister of Israel) negotiated a peace treaty with Anwar Sadat (then the president of Egypt) (1913-1992); v. take the first step or steps in carrying out an action; v. have a beginning, in a temporal, spatial, or evaluative sense; v. set in motion, cause to start; v. begin to speak or say; v. be the first item or point, constitute the beginning or start, come first in a series; v. have a beginning, of a temporal event; v. have a beginning characterized in some specified way; v. begin an event that is implied and limited by the nature or inherent function of the direct object; v. achieve or accomplish in the least degree, usually used in the negative; v. begin to speak, understand, read, and write a language",
+      "timestamp": "2026-01-06T08:43:36.634Z"
+    },
+    "could_src/data/words/cefr/a1.json": {
+      "zh": "v. （礼貌地请求许可）可以，能；（礼貌地请求别人做事）能，能否；（表示可能）可能，也许；（表示未发生的事情）差点就，本能够；（用于提出建议）可以，能；本该，应该（用于对做过或未做某事表示恼怒）；（强调感觉）真想；好像，仿佛; v.  能（can的过去式）",
+      "en": "n. airtight sealed metal container for food or drink or paint etc.; n. the quantity contained in a can; n. a buoy with a round bottom and conical top; n. the fleshy part of the human body that you sit on; n. a plumbing fixture for defecation and urination; n. a room or building equipped with one or more toilets; v. preserve in a can or tin; v. terminate the employment of",
+      "timestamp": "2026-01-06T08:43:37.301Z"
+    },
+    "daddy_src/data/words/cefr/a1.json": {
+      "zh": "n. 爸爸",
+      "en": "n. an informal term for a father; probably derived from baby talk",
+      "timestamp": "2026-01-06T08:43:37.876Z"
+    },
+    "drama_src/data/words/cefr/a1.json": {
+      "zh": "n. 剧本，戏剧；戏剧研究，戏剧艺术；戏剧性场面，戏剧性事件；激动，刺激; 【名】 （Drama）（刚(金)）德拉马（人名）",
+      "en": "n. a dramatic work intended for performance by actors on a stage; n. an episode that is turbulent or highly emotional; n. the literary genre of works intended for the theater; n. the quality of being arresting or highly emotional",
+      "timestamp": "2026-01-06T08:43:38.479Z"
+    },
+    "email_src/data/words/cefr/a1.json": {
+      "zh": "n. 电子邮件（通信方式）；电子邮件; v. 给（某人）发电子邮件; ��名】 （Email）（法）埃马伊（人名）",
+      "en": "n. (computer science) a system of world-wide electronic communication in which a computer user can compose a message at one terminal that is generated at the recipient's terminal when he logs in; v. communicate electronically on the computer",
+      "timestamp": "2026-01-06T08:43:39.076Z"
+    },
+    "foggy_src/data/words/cefr/a1.json": {
+      "zh": "adj. 有雾的，雾气茫茫的；迷糊的，朦胧的；模糊的，糊涂的",
+      "en": "adj. filled or abounding with fog or mist; adj. stunned or confused and slow to react (as from blows or drunkenness or exhaustion); adj. indistinct or hazy in outline; adj. obscured by fog",
+      "timestamp": "2026-01-06T08:43:39.664Z"
+    },
+    "hello_src/data/words/cefr/a1.json": {
+      "zh": "int. 喂，你好（用于问候或打招呼）；喂，你好（打电话时的招呼语）；喂，你好（引起别人注意的招呼语）；喂，嘿 (认为别人说了蠢话或分心)；嘿（表示惊讶）; n. 招呼，问候；（Hello）（法、印、美、俄）埃洛（人名）; v. 说（或大声说）“喂”；打招呼",
+      "en": "abstract: \"Hello\" is a song by American pop recording duo Karmin. The song is the second official single from their debut EP of the same name, Hello.",
+      "timestamp": "2026-01-06T08:43:40.273Z"
+    },
+    "hobby_src/data/words/cefr/a1.json": {
+      "zh": "n. 业余爱好，嗜好； 小马，马驹；燕隼; 【名】 （Hobby）（英）霍比（人名）",
+      "en": "n. an auxiliary activity; n. a child's plaything consisting of an imitation horse mounted on rockers; the child straddles it and pretends to ride; n. small Old World falcon formerly trained and flown at small birds",
+      "timestamp": "2026-01-06T08:43:40.883Z"
+    },
+    "hotel_src/data/words/cefr/a1.json": {
+      "zh": "n. 旅馆，酒店，饭店；（无线电通讯中）字母H的代码; 【名】 （Hotel）（美）奥泰尔（人名）",
+      "en": "n. a building where travelers can pay for lodging and meals and other services",
+      "timestamp": "2026-01-06T08:43:41.490Z"
+    },
+    "jeans_src/data/words/cefr/a1.json": {
+      "zh": "n. 牛仔裤；工装裤; n. （Jeans）人名；（英、意）琼斯",
+      "en": "n. (usually plural) close-fitting pants of heavy denim for manual work or casual wear; n. a coarse durable twill-weave cotton fabric",
+      "timestamp": "2026-01-06T08:43:42.081Z"
+    },
+    "mommy_src/data/words/cefr/a1.json": {
+      "zh": "n. 妈咪",
+      "en": "n. informal terms for a mother",
+      "timestamp": "2026-01-06T08:43:42.668Z"
+    }
+  },
+  "stats": {
+    "success": 327,
+    "failed": 23,
+    "skipped": 0
+  },
+  "lastUpdate": "2026-01-06T08:43:42.668Z"
+}

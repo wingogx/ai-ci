@@ -80,6 +80,7 @@ export const useGameStore = create<GameState>((set, get) => ({
   revealedWords: [],
 
   initLevel: (level, allWords, learnedWords, helpedWords, grade, helpCount, themeData = null) => {
+    console.log('[GameStore] initLevel 调用:', { level, grade, hasThemeData: !!themeData })
     const isChallenge = isChallengeLevel(level)
     const isTutorialLevel = level <= TUTORIAL_LEVELS
     const wordCount = getWordCountForLevel(level)
@@ -108,6 +109,7 @@ export const useGameStore = create<GameState>((set, get) => ({
       )
       words = result.words
       theme = result.theme || null
+      console.log('[GameStore] 第一次选词结果:', { level, theme, wordCount: words.length })
 
       // 检查是否已尝试过相同的词组合
       const comboKey = words.map((w) => w.id).sort().join(',')
@@ -157,6 +159,7 @@ export const useGameStore = create<GameState>((set, get) => ({
       }
     }
 
+    console.log('[GameStore] 设置状态:', { level, theme, grade })
     set({
       currentLevel: level,
       isChallenge,
