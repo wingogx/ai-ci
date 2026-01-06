@@ -189,14 +189,6 @@ export function useGame() {
       const needsTheme = settings.currentGrade === 'primary' || settings.currentGrade === 'junior'
       const themeReady = !needsTheme || themeData !== null
 
-      console.log('[useGame] 检查启动条件:', {
-        hasWords: allWords.length > 0,
-        hasPuzzle: !!currentPuzzle,
-        needsTheme,
-        themeReady,
-        grade: settings.currentGrade
-      })
-
       if (themeReady) {
         const progress = getCurrentProgress()
         startLevel(progress.completedLevels + 1)
