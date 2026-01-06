@@ -9,8 +9,8 @@
       "phonetic": "/æd/",
       "pos": "v",
       "meaning": {
-        "zh": "添加",
-        "en": "put together"
+        "zh": "vt. 增加, 添加, 附带说明, 计算...总和 vi. 做加法, 积累而成, 增添 [计] 加法",
+        "en": "v. make an addition (to); join or combine or unite with others; increase the quality, quantity, size"
       }
     },
     {
@@ -19,8 +19,8 @@
       "phonetic": "/eɪdʒ/",
       "pos": "n",
       "meaning": {
-        "zh": "年龄",
-        "en": "how old"
+        "zh": "n. 年龄；时代；老年；长时间",
+        "en": "length of life; historical period; old age; long time"
       }
     },
     {
@@ -29,8 +29,8 @@
       "phonetic": "/ɔːl/",
       "pos": "det",
       "meaning": {
-        "zh": "所有的",
-        "en": "every one"
+        "zh": "a. 所有的, 全部的, 一切的 adv. 全部, 全然 pron. 全部 n. 全部",
+        "en": "a. quantifier; used with either mass or count nouns to indicate the whole number or amount of or eve"
       }
     },
     {
@@ -39,8 +39,8 @@
       "phonetic": "/ænd/",
       "pos": "conj",
       "meaning": {
-        "zh": "和",
-        "en": "also, plus"
+        "zh": "conj. 和，与；然后；而且",
+        "en": "together with; then; also"
       }
     },
     {
@@ -49,7 +49,7 @@
       "phonetic": "/ænt/",
       "pos": "n",
       "meaning": {
-        "zh": "蚂蚁",
+        "zh": "n. ant；某物",
         "en": "small insect"
       }
     },
@@ -59,8 +59,8 @@
       "phonetic": "/ˈeni/",
       "pos": "det",
       "meaning": {
-        "zh": "任何",
-        "en": "some"
+        "zh": "a. 任何的 pron. 任何",
+        "en": "s. one or some or every or all without specification\\nr. to any degree or extent"
       }
     },
     {
@@ -69,8 +69,8 @@
       "phonetic": "/ɑːr/",
       "pos": "v",
       "meaning": {
-        "zh": "是",
-        "en": "be (we/you/they)"
+        "zh": "be-. （详见词典）",
+        "en": "plural form of be"
       }
     },
     {
@@ -79,8 +79,8 @@
       "phonetic": "/ɑːrm/",
       "pos": "n",
       "meaning": {
-        "zh": "手臂",
-        "en": "body part"
+        "zh": "n. 手臂, 袖子, 狭长港湾, 武器 vt. 武装, 装备 vi. 武装起来 [计] 异步应答方式",
+        "en": "n. a human limb; technically the part of the superior limb between the shoulder and the elbow but co"
       }
     },
     {
@@ -89,8 +89,8 @@
       "phonetic": "/ɑːt/",
       "pos": "n",
       "meaning": {
-        "zh": "艺术",
-        "en": "creative work"
+        "zh": "n. 艺术, 人文科学, 技术, 巧妙, 诡计, 美术 [计] 实际保持时间, 特许权和资源表, 平均检索时间, 平均运行时间",
+        "en": "n. the products of human creativity; works of art collectively\\nn. the creation of beautiful or sign"
       }
     },
     {
@@ -99,8 +99,8 @@
       "phonetic": "/æsk/",
       "pos": "v",
       "meaning": {
-        "zh": "问",
-        "en": "request info"
+        "zh": "v. 问，询问；请求；要求；邀请",
+        "en": "request information; request; demand; invite"
       }
     },
     {
@@ -109,8 +109,8 @@
       "phonetic": "/ˈbeɪbi/",
       "pos": "n",
       "meaning": {
-        "zh": "婴儿",
-        "en": "very young child"
+        "zh": "n. 婴孩 [医] 婴儿",
+        "en": "n. a very young child (birth to 1 year) who has not yet begun to walk or talk\\nn. the youngest membe"
       }
     },
     {
@@ -119,8 +119,8 @@
       "phonetic": "/bæk/",
       "pos": "n",
       "meaning": {
-        "zh": "背部",
-        "en": "rear part"
+        "zh": "a. 后面的 vt. 使后退, 支持 vi. 倒退, 背靠 adv. 向后地 n. 背部, 后面",
+        "en": "n. the posterior part of a human (or animal) body from the neck to the end of the spine\\nn. the part"
       }
     },
     {
@@ -129,8 +129,8 @@
       "phonetic": "/bæd/",
       "pos": "adj",
       "meaning": {
-        "zh": "坏的",
-        "en": "not good"
+        "zh": "adj. 坏的；严重的；劣质的；不舒服的",
+        "en": "not good; severe; poor quality; unwell"
       }
     },
     {
@@ -139,8 +139,8 @@
       "phonetic": "/bæɡ/",
       "pos": "n",
       "meaning": {
-        "zh": "包",
-        "en": "container"
+        "zh": "n. 袋子, 袋状物 vt. 使膨大, 装袋, 猎获",
+        "en": "n. a flexible container with a single opening\\nn. the quantity of game taken in a particular period "
       }
     },
     {
@@ -149,8 +149,8 @@
       "phonetic": "/bɔːl/",
       "pos": "n",
       "meaning": {
-        "zh": "球",
-        "en": "round toy"
+        "zh": "n. 球, 舞会, 球状物 v. 捏成球形",
+        "en": "n. round object that is hit or thrown or kicked in games\\nn. an object with a spherical shape\\nn. th"
       }
     },
     {
@@ -159,7 +159,7 @@
       "phonetic": "/bəˈnænə/",
       "pos": "n",
       "meaning": {
-        "zh": "香蕉",
+        "zh": "n. banana；某物",
         "en": "yellow fruit"
       }
     },
@@ -169,8 +169,8 @@
       "phonetic": "/bæt/",
       "pos": "n",
       "meaning": {
-        "zh": "蝙蝠/球棒",
-        "en": "animal or stick"
+        "zh": "n. bat；某物 n. bat；某物 n. bat；某物",
+        "en": "hitting tool flying mammal animal or stick"
       }
     },
     {
@@ -179,8 +179,8 @@
       "phonetic": "/ber/",
       "pos": "n",
       "meaning": {
-        "zh": "熊",
-        "en": "large animal"
+        "zh": "n. 熊 v. 承受；忍受；生育",
+        "en": "n. large animal v. endure; support; give birth"
       }
     },
     {
@@ -189,8 +189,8 @@
       "phonetic": "/bed/",
       "pos": "n",
       "meaning": {
-        "zh": "床",
-        "en": "for sleeping"
+        "zh": "n. 床, 睡眠处, 河床, 底座, 路基, 一层 vt. 提供宿处, 栽种, 安装 vi. 睡, 形成坚实的一层",
+        "en": "n. a piece of furniture that provides a place to sleep\\nn. a plot of ground in which plants are grow"
       }
     },
     {
@@ -199,8 +199,8 @@
       "phonetic": "/biː/",
       "pos": "n",
       "meaning": {
-        "zh": "蜜蜂",
-        "en": "makes honey"
+        "zh": "n. 蜜蜂, 聚会",
+        "en": "n. any of numerous hairy-bodied insects including social and solitary species\\nn. a social gathering"
       }
     },
     {
@@ -209,8 +209,8 @@
       "phonetic": "/bɪɡ/",
       "pos": "adj",
       "meaning": {
-        "zh": "大的",
-        "en": "large"
+        "zh": "adj. 大的；重要的；年龄较大的",
+        "en": "large; important; older"
       }
     },
     {
@@ -219,8 +219,8 @@
       "phonetic": "/baɪk/",
       "pos": "n",
       "meaning": {
-        "zh": "自行车",
-        "en": "bicycle"
+        "zh": "n. 自行车, 脚踏车",
+        "en": "n a motor vehicle with two wheels and a strong frame\\nn a wheeled vehicle that has two wheels and is"
       }
     },
     {
@@ -229,8 +229,8 @@
       "phonetic": "/bɜːd/",
       "pos": "n",
       "meaning": {
-        "zh": "鸟",
-        "en": "flying animal"
+        "zh": "n. 鸟, 羽毛球 vi. 打鸟",
+        "en": "n. warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modified as wings\\nn."
       }
     },
     {
@@ -239,8 +239,8 @@
       "phonetic": "/blæk/",
       "pos": "adj",
       "meaning": {
-        "zh": "黑色的",
-        "en": "dark color"
+        "zh": "n. 黑色, 黑颜料 a. 黑色的",
+        "en": "n. the quality or state of the achromatic color of least lightness (bearing the least resemblance to"
       }
     },
     {
@@ -249,8 +249,8 @@
       "phonetic": "/bluː/",
       "pos": "adj",
       "meaning": {
-        "zh": "蓝色的",
-        "en": "sky color"
+        "zh": "n. 蓝色 a. 蓝色的, 下流的, 忧郁的 vt. 染成蓝色 vi. 变蓝",
+        "en": "n. blue color or pigment; resembling the color of the clear sky in the daytime\\nn. blue clothing\\nn."
       }
     },
     {
@@ -259,8 +259,8 @@
       "phonetic": "/boʊt/",
       "pos": "n",
       "meaning": {
-        "zh": "船",
-        "en": "water vehicle"
+        "zh": "n. 船 vi. 乘船 vt. 以船运",
+        "en": "n. a small vessel for travel on water\\nv. ride in a boat on water"
       }
     },
     {
@@ -269,8 +269,8 @@
       "phonetic": "/ˈbɑːdi/",
       "pos": "n",
       "meaning": {
-        "zh": "身体",
-        "en": "physical form"
+        "zh": "n. 身体；尸体；主体；团体；物体",
+        "en": "physical structure; corpse; main part; organization; object"
       }
     },
     {
@@ -279,8 +279,8 @@
       "phonetic": "/bʊk/",
       "pos": "n",
       "meaning": {
-        "zh": "书",
-        "en": "for reading"
+        "zh": "n. 书；书籍 v. 预订；登记",
+        "en": "n. written work v. reserve; register"
       }
     },
     {
@@ -289,8 +289,8 @@
       "phonetic": "/bɑːks/",
       "pos": "n",
       "meaning": {
-        "zh": "盒子",
-        "en": "container"
+        "zh": "n. 盒子, 箱, 方框, 一巴掌 vt. 装...入盒中, 装箱, 打耳光 vi. 拳击 [计] 方框",
+        "en": "n. a (usually rectangular) container; may have a lid\\nn. private area in a theater or grandstand whe"
       }
     },
     {
@@ -299,8 +299,8 @@
       "phonetic": "/bɔɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "男孩",
-        "en": "male child"
+        "zh": "n. 男孩 [法] 男孩, 少年, 儿子",
+        "en": "n. a friendly informal reference to a grown man\\nn. (ethnic slur) offensive and disparaging term for"
       }
     },
     {
@@ -309,8 +309,8 @@
       "phonetic": "/bred/",
       "pos": "n",
       "meaning": {
-        "zh": "面包",
-        "en": "baked food"
+        "zh": "n. 面包, 生计, 食物 vt. 裹以面包屑",
+        "en": "n. food made from dough of flour or meal and usually raised with yeast or baking powder and then bak"
       }
     },
     {
@@ -319,7 +319,7 @@
       "phonetic": "/ˈbrʌðər/",
       "pos": "n",
       "meaning": {
-        "zh": "兄弟",
+        "zh": "n. brother；某物",
         "en": "male sibling"
       }
     },
@@ -329,8 +329,8 @@
       "phonetic": "/braʊn/",
       "pos": "adj",
       "meaning": {
-        "zh": "棕色的",
-        "en": "earth color"
+        "zh": "n. 褐色 a. 褐色的 v. (使)变褐色",
+        "en": "n. an orange of low brightness and saturation\\nn. Scottish botanist who first observed the movement "
       }
     },
     {
@@ -339,8 +339,8 @@
       "phonetic": "/bʌs/",
       "pos": "n",
       "meaning": {
-        "zh": "公共汽车",
-        "en": "large vehicle"
+        "zh": "n. 公共汽车 [计] 总线",
+        "en": "n. a vehicle carrying many passengers; used for public transport\\nn. a car that is old and unreliabl"
       }
     },
     {
@@ -349,8 +349,8 @@
       "phonetic": "/bʌt/",
       "pos": "conj",
       "meaning": {
-        "zh": "但是",
-        "en": "however"
+        "zh": "prep. 除了 conj. 但是 adv. 仅仅",
+        "en": "r and nothing more"
       }
     },
     {
@@ -359,8 +359,8 @@
       "phonetic": "/baɪ/",
       "pos": "v",
       "meaning": {
-        "zh": "买",
-        "en": "purchase"
+        "zh": "vt. 买, 获得 vi. 买 n. 购买, 买得的东西",
+        "en": "v. obtain by purchase; acquire by means of a financial transaction\\nv. be worth or be capable of buy"
       }
     },
     {
@@ -369,8 +369,8 @@
       "phonetic": "/baɪ/",
       "pos": "int",
       "meaning": {
-        "zh": "再见",
-        "en": "goodbye"
+        "zh": "interj. 再会, 回头见 [计] 结束命令",
+        "en": "n. you advance to the next round in a tournament without playing an opponent"
       }
     },
     {
@@ -379,8 +379,8 @@
       "phonetic": "/keɪk/",
       "pos": "n",
       "meaning": {
-        "zh": "蛋糕",
-        "en": "sweet dessert"
+        "zh": "n. 蛋糕, 块, 饼 vt. 使结块, 加块状物于 vi. 结块",
+        "en": "n. a block of solid substance (such as soap or wax)\\nn. baked goods made from or based on a mixture "
       }
     },
     {
@@ -389,8 +389,8 @@
       "phonetic": "/kɔːl/",
       "pos": "v",
       "meaning": {
-        "zh": "打电话/叫",
-        "en": "phone or name"
+        "zh": "n. 呼叫, 访问, 打电话, 号召, 召集, 要求 vt. 呼叫, 召集, 打电话 vi. 叫喊, 访问, 叫牌 [计] 调用",
+        "en": "n. a telephone connection\\nn. a special disposition (as if from a divine source) to pursue a particu"
       }
     },
     {
@@ -399,8 +399,8 @@
       "phonetic": "/kæn/",
       "pos": "v",
       "meaning": {
-        "zh": "能",
-        "en": "be able to"
+        "zh": "vt. 装罐 n. 罐头, 容器 aux. 能, 可以 [计] 作废字符",
+        "en": "n. airtight sealed metal container for food or drink or paint etc.\\nn. the quantity contained in a c"
       }
     },
     {
@@ -409,8 +409,8 @@
       "phonetic": "/kæp/",
       "pos": "n",
       "meaning": {
-        "zh": "帽子",
-        "en": "head covering"
+        "zh": "n. 盖子, 帽子 vt. 戴帽子, 覆盖, 胜过 vi. 脱帽致意 [计] 调用程序分析, 容量, 代码分析程序, 计算机辅助生产, 计算机辅助印刷",
+        "en": "n. a tight-fitting headdress\\nn. a top (as for a bottle)\\nn. something serving as a cover or protect"
       }
     },
     {
@@ -419,8 +419,8 @@
       "phonetic": "/kɑːr/",
       "pos": "n",
       "meaning": {
-        "zh": "汽车",
-        "en": "vehicle"
+        "zh": "n. 汽车, 客车 [机] 车",
+        "en": "n. a motor vehicle with four wheels; usually propelled by an internal combustion engine\\nn. a wheele"
       }
     },
     {
@@ -429,8 +429,8 @@
       "phonetic": "/kɑːd/",
       "pos": "n",
       "meaning": {
-        "zh": "卡片",
-        "en": "paper card"
+        "zh": "n. 卡片, 纸牌, 节目单, 明信片, 梳棉机 vt. 备置卡片, 记于卡片上, 梳理 [计] 卡片, 卡",
+        "en": "n. one of a set of small pieces of stiff paper marked in various ways and used for playing games or "
       }
     },
     {
@@ -439,8 +439,8 @@
       "phonetic": "/kæt/",
       "pos": "n",
       "meaning": {
-        "zh": "猫",
-        "en": "pet animal"
+        "zh": "n. 猫, 恶妇 vi. 呕吐 计算机辅助教育, 计算机辅助测试, 计算机辅助翻译, 计算机辅助排版 [计] 计算机辅助教学, 计算机辅助翻译, 计算机辅助排字, 计算机辅助测试",
+        "en": "n. feline mammal usually having thick soft fur and no ability to roar: domestic cats; wildcats\\nn. a"
       }
     },
     {
@@ -449,8 +449,8 @@
       "phonetic": "/tʃer/",
       "pos": "n",
       "meaning": {
-        "zh": "椅子",
-        "en": "for sitting"
+        "zh": "n. 椅子, 显要的席位, 主席 vt. 使入座, 使就任要职",
+        "en": "n. a seat for one person, with a support for the back\\nn. a particular seat in an orchestra\\nv. act "
       }
     },
     {
@@ -459,8 +459,8 @@
       "phonetic": "/ˈtʃɪkɪn/",
       "pos": "n",
       "meaning": {
-        "zh": "鸡/鸡肉",
-        "en": "bird or meat"
+        "zh": "n. chicken；某物 n. chicken；某物 n. chicken；某物",
+        "en": "bird poultry meat bird or meat"
       }
     },
     {
@@ -469,8 +469,8 @@
       "phonetic": "/tʃaɪld/",
       "pos": "n",
       "meaning": {
-        "zh": "孩子",
-        "en": "young person"
+        "zh": "n. 孩子, 产物, 追随者 [医] 儿童",
+        "en": "n. a young person of either sex\\nn. a human offspring (son or daughter) of any age\\nn. an immature c"
       }
     },
     {
@@ -479,8 +479,8 @@
       "phonetic": "/ˈsɪti/",
       "pos": "n",
       "meaning": {
-        "zh": "城市",
-        "en": "large town"
+        "zh": "n. 城市, 市 [法] 都市, 城市, 市",
+        "en": "n. a large and densely populated urban area; may include several independent administrative district"
       }
     },
     {
@@ -489,8 +489,8 @@
       "phonetic": "/klæs/",
       "pos": "n",
       "meaning": {
-        "zh": "班级",
-        "en": "group of students"
+        "zh": "n. 班级, 阶级, 种类, 课 vt. 分类 [计] 类别",
+        "en": "n. a collection of things sharing a common attribute\\nn. a body of students who are taught together\\"
       }
     },
     {
@@ -499,8 +499,8 @@
       "phonetic": "/ˈklæsruːm/",
       "pos": "n",
       "meaning": {
-        "zh": "教室",
-        "en": "room for teaching"
+        "zh": "n. classroom；某物",
+        "en": "room for lessons"
       }
     },
     {
@@ -509,8 +509,8 @@
       "phonetic": "/kliːn/",
       "pos": "adj",
       "meaning": {
-        "zh": "干净的",
-        "en": "not dirty"
+        "zh": "a. 干净的, 清白的, 简洁的 adv. 清洁地, 完全地 vt. 清理, 使干净, 出空 vi. 被搞干净 n. 打扫",
+        "en": "v. make clean by removing dirt, filth, or unwanted substances from\\nv. remove unwanted substances fr"
       }
     },
     {
@@ -519,8 +519,8 @@
       "phonetic": "/klɑːk/",
       "pos": "n",
       "meaning": {
-        "zh": "时钟",
-        "en": "shows time"
+        "zh": "n. 时钟, 计时器, (袜子上的)绣花边花 vt. 绣花样, 记时, 记录 vi. 记录时间 [计] 时钟",
+        "en": "n. a timepiece that shows the time of day\\nv. measure the time or duration of an event or action or "
       }
     },
     {
@@ -529,8 +529,8 @@
       "phonetic": "/kloʊz/",
       "pos": "v",
       "meaning": {
-        "zh": "关闭",
-        "en": "shut"
+        "zh": "n. 结束, 完结 a. 靠近的, 亲近的, 亲密的, 严密的, 关闭的, 狭窄的, 秘密的 vt. 关, 结束, 使靠近, 封闭, 使接近 vi. 关闭, 结束, 靠近 adv. 接近地, 紧密地 [计] 关闭",
+        "en": "v. move so that an opening or passage is obstructed; make shut\\nv. become closed\\nv. finish or termi"
       }
     },
     {
@@ -539,8 +539,8 @@
       "phonetic": "/koʊt/",
       "pos": "n",
       "meaning": {
-        "zh": "外套",
-        "en": "outer clothing"
+        "zh": "n. 外套 vt. 外面覆盖, 给...穿外套",
+        "en": "n. an outer garment that has sleeves and covers the body from shoulder down; worn outdoors\\nn. growt"
       }
     },
     {
@@ -549,8 +549,8 @@
       "phonetic": "/ˈkɔːrfi/",
       "pos": "n",
       "meaning": {
-        "zh": "咖啡",
-        "en": "hot drink"
+        "zh": "n. 咖啡, 咖啡色 [医] 咖啡, 咖啡豆",
+        "en": "n. a beverage consisting of an infusion of ground coffee beans\\nn. any of several small trees and sh"
       }
     },
     {
@@ -559,8 +559,8 @@
       "phonetic": "/koʊld/",
       "pos": "adj",
       "meaning": {
-        "zh": "冷的",
-        "en": "low temperature"
+        "zh": "n. 感冒, 寒冷 a. 寒冷的, 冷淡的, 冷静的 adv. 完全地",
+        "en": "n. a mild viral infection involving the nose and respiratory passages (but not the lungs)\\nn. the se"
       }
     },
     {
@@ -569,8 +569,8 @@
       "phonetic": "/ˈkʌlər/",
       "pos": "n",
       "meaning": {
-        "zh": "颜色",
-        "en": "hue"
+        "zh": "n. 颜色, 面色, 颜料, 外貌 vt. 把...涂上颜色, 粉饰, 使脸红, 歪曲 vi. 变色",
+        "en": "n. a visual attribute of things that results from the light they emit or transmit or reflect\\nn. int"
       }
     },
     {
@@ -579,8 +579,8 @@
       "phonetic": "/kʌm/",
       "pos": "v",
       "meaning": {
-        "zh": "来",
-        "en": "move toward"
+        "zh": "v. 来，来到；到达；发生；变成",
+        "en": "move toward; arrive; happen; become"
       }
     },
     {
@@ -589,8 +589,8 @@
       "phonetic": "/kʊk/",
       "pos": "v",
       "meaning": {
-        "zh": "烹饪",
-        "en": "prepare food"
+        "zh": "n. 厨子, 厨师 vt. 烹调, 煮饭, 加热 vi. 在煮着",
+        "en": "n. someone who cooks food\\nn. English navigator who claimed the east coast of Australia for Britain "
       }
     },
     {
@@ -599,8 +599,8 @@
       "phonetic": "/kuːl/",
       "pos": "adj",
       "meaning": {
-        "zh": "凉爽的",
-        "en": "slightly cold"
+        "zh": "n. 凉爽, 凉爽的空气 a. 凉爽的, 冷淡的, 冷静的 vi. 冷却, 平息 vt. 使冷却, 使平静",
+        "en": "n. the quality of being at a refreshingly low temperature\\nv. make cool or cooler\\nv. loose heat\\nv."
       }
     },
     {
@@ -609,8 +609,8 @@
       "phonetic": "/kaʊ/",
       "pos": "n",
       "meaning": {
-        "zh": "奶牛",
-        "en": "farm animal"
+        "zh": "n. 母牛, 母兽 vt. 威胁",
+        "en": "n. female of domestic cattle: `moo-cow' is a child's term\\nn. mature female of mammals of which the "
       }
     },
     {
@@ -619,8 +619,8 @@
       "phonetic": "/kʌp/",
       "pos": "n",
       "meaning": {
-        "zh": "杯子",
-        "en": "for drinks"
+        "zh": "n. 杯子, 茶杯, 优胜杯 vt. 使成杯状, 为...拔火罐",
+        "en": "n. a small open container usually used for drinking; usually has a handle\\nn. the quantity a cup wil"
       }
     },
     {
@@ -629,8 +629,8 @@
       "phonetic": "/kʌt/",
       "pos": "v",
       "meaning": {
-        "zh": "切",
-        "en": "divide"
+        "zh": "n. 切口, 割伤, 降低, 切, 割, 砍, 削, 伤口, 削减, 缩短, 删节, 通路 a. 经切割的, 缩减的 vt. 切, 割, 减少, 刺痛, 开辟, 雕刻, 删节, 缩短, 停止, 排斥, 切断, 关, 显出 vi. 切, 割, 砍, 刺痛, 相交, 抄近路, 剪辑 [计] 剪切",
+        "en": "n. a share of the profits\\nn. (film) an immediate transition from one shot to the next\\nn. a trench "
       }
     },
     {
@@ -639,7 +639,7 @@
       "phonetic": "/dæd/",
       "pos": "n",
       "meaning": {
-        "zh": "爸爸",
+        "zh": "n. dad；某物",
         "en": "father"
       }
     },
@@ -649,8 +649,8 @@
       "phonetic": "/dæns/",
       "pos": "v",
       "meaning": {
-        "zh": "跳舞",
-        "en": "move to music"
+        "zh": "v. 做某事；进行 n. dance；某物",
+        "en": "move rhythmically; move lightly artistic movement; act of dancing; social gathering"
       }
     },
     {
@@ -659,8 +659,8 @@
       "phonetic": "/deɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "天",
-        "en": "24 hours"
+        "zh": "n. 天, 日子, 白天, 工作日 [医] 日(一昼夜), 昼, 白天",
+        "en": "n. time for Earth to make a complete rotation on its axis\\nn. some point or period in time\\nn. a day"
       }
     },
     {
@@ -669,8 +669,8 @@
       "phonetic": "/desk/",
       "pos": "n",
       "meaning": {
-        "zh": "书桌",
-        "en": "work table"
+        "zh": "n. 书桌, 办公桌, 工作台",
+        "en": "n. a piece of furniture with a writing surface and usually drawers or other compartments"
       }
     },
     {
@@ -679,7 +679,7 @@
       "phonetic": "/dɪd/",
       "pos": "v",
       "meaning": {
-        "zh": "做（过去式）",
+        "zh": "do-. （详见词典）",
         "en": "past of do"
       }
     },
@@ -689,8 +689,8 @@
       "phonetic": "/ˈdɪnər/",
       "pos": "n",
       "meaning": {
-        "zh": "晚餐",
-        "en": "evening meal"
+        "zh": "n. 晚餐, 正餐, 宴会",
+        "en": "n. the main meal of the day served in the evening or at midday\\nn. a party of people assembled to ha"
       }
     },
     {
@@ -699,8 +699,8 @@
       "phonetic": "/ˈdɑːktər/",
       "pos": "n",
       "meaning": {
-        "zh": "医生",
-        "en": "medical person"
+        "zh": "n. 医生, 博士 vt. 授以博士学位, 诊断, 修改 vi. 行医",
+        "en": "n. a licensed medical practitioner\\nn. children take the roles of physician or patient or nurse and "
       }
     },
     {
@@ -709,8 +709,8 @@
       "phonetic": "/dɔːrɡ/",
       "pos": "n",
       "meaning": {
-        "zh": "狗",
-        "en": "pet animal"
+        "zh": "n. 狗, 坏蛋 vt. 跟踪, 尾随",
+        "en": "n. a member of the genus Canis (probably descended from the common wolf) that has been domesticated "
       }
     },
     {
@@ -719,7 +719,7 @@
       "phonetic": "/dɔːr/",
       "pos": "n",
       "meaning": {
-        "zh": "门",
+        "zh": "n. door；某物",
         "en": "entrance"
       }
     },
@@ -729,8 +729,8 @@
       "phonetic": "/daʊn/",
       "pos": "adv",
       "meaning": {
-        "zh": "向下",
-        "en": "downward"
+        "zh": "a. 向下的 adv. 下, 下去, 降下 prep. 往下, 沿着 n. 丘陵, 软毛, 开阔的高地 [计] 向下, 退下命令",
+        "en": "n. soft fine feathers\\nn. (American football) a complete play to advance the football\\nn. English ph"
       }
     },
     {
@@ -739,8 +739,8 @@
       "phonetic": "/drɔːr/",
       "pos": "v",
       "meaning": {
-        "zh": "画",
-        "en": "make picture"
+        "zh": "v. 画；拉；抽取 n. 平局；抽签",
+        "en": "v. make picture; pull n. tie game; lottery"
       }
     },
     {
@@ -749,8 +749,8 @@
       "phonetic": "/dres/",
       "pos": "n",
       "meaning": {
-        "zh": "连衣裙",
-        "en": "women's clothing"
+        "zh": "n. 服装, 覆盖物 vi. 穿着 vt. 给...穿衣, 整理",
+        "en": "n. a one-piece garment for a woman; has skirt and bodice\\nv. put on clothes\\nv. provide with clothes"
       }
     },
     {
@@ -759,8 +759,8 @@
       "phonetic": "/drɪŋk/",
       "pos": "v",
       "meaning": {
-        "zh": "喝",
-        "en": "take liquid"
+        "zh": "n. 饮料, 酒 v. 喝, 喝酒",
+        "en": "n. a single serving of a beverage\\nn. the act of drinking alcoholic beverages to excess\\nn. any larg"
       }
     },
     {
@@ -769,8 +769,8 @@
       "phonetic": "/dʌk/",
       "pos": "n",
       "meaning": {
-        "zh": "鸭子",
-        "en": "water bird"
+        "zh": "n. 鸭子 vi. 没入水中, 闪避 vt. 猛按...入水, 躲避",
+        "en": "n. small wild or domesticated web-footed broad-billed swimming bird usually having a depressed body "
       }
     },
     {
@@ -779,8 +779,8 @@
       "phonetic": "/ɪr/",
       "pos": "n",
       "meaning": {
-        "zh": "耳朵",
-        "en": "for hearing"
+        "zh": "n. 耳朵, 倾听, 听觉, 穗 vi. 抽穗",
+        "en": "n. the sense organ for hearing and equilibrium\\nn. good hearing\\nn. attention to what is said\\nn. fr"
       }
     },
     {
@@ -789,8 +789,8 @@
       "phonetic": "/iːt/",
       "pos": "v",
       "meaning": {
-        "zh": "吃",
-        "en": "take food"
+        "zh": "v. 吃；进食；侵蚀；消耗",
+        "en": "consume food; corrode; use up"
       }
     },
     {
@@ -799,8 +799,8 @@
       "phonetic": "/eɡ/",
       "pos": "n",
       "meaning": {
-        "zh": "鸡蛋",
-        "en": "from birds"
+        "zh": "n. 蛋, 卵 vt. 挑唆, 煽动, 调蛋黄",
+        "en": "n. animal reproductive body consisting of an ovum or embryo together with nutritive and protective e"
       }
     },
     {
@@ -809,7 +809,7 @@
       "phonetic": "/eɪt/",
       "pos": "num",
       "meaning": {
-        "zh": "八",
+        "zh": "num. （详见词典）",
         "en": "number 8"
       }
     },
@@ -819,8 +819,8 @@
       "phonetic": "/ɪˈlevən/",
       "pos": "num",
       "meaning": {
-        "zh": "十一",
-        "en": "number 11"
+        "zh": "num. 十一, 十一个",
+        "en": "n. the cardinal number that is the sum of ten and one\\ns. being one more than ten"
       }
     },
     {
@@ -829,8 +829,8 @@
       "phonetic": "/end/",
       "pos": "n",
       "meaning": {
-        "zh": "结束",
-        "en": "final part"
+        "zh": "n. 结束, 终点, 目标, 末端, 梢, 死亡, 残余 v. 结束, 终结, 终止 [计] 端",
+        "en": "n. either extremity of something that has length\\nn. the point in time at which something ends\\nn. t"
       }
     },
     {
@@ -839,8 +839,8 @@
       "phonetic": "/ˈɪŋɡlɪʃ/",
       "pos": "n",
       "meaning": {
-        "zh": "英语",
-        "en": "language"
+        "zh": "n. 英语 a. 英文的, 英国人的",
+        "en": "n. an Indo-European language belonging to the West Germanic branch; the official language of Britain"
       }
     },
     {
@@ -849,8 +849,8 @@
       "phonetic": "/ˈiːvnɪŋ/",
       "pos": "n",
       "meaning": {
-        "zh": "晚上",
-        "en": "night time"
+        "zh": "n. 傍晚, 晚间, 末期",
+        "en": "n. the latter part of the day (the period of decreasing daylight from late afternoon until nightfall"
       }
     },
     {
@@ -859,8 +859,8 @@
       "phonetic": "/aɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "眼睛",
-        "en": "for seeing"
+        "zh": "n. 眼睛, 视力, 看 vt. 看, 注视",
+        "en": "n. the organ of sight\\nn. good discernment (either visually or as if visually)\\nn. attention to what"
       }
     },
     {
@@ -869,8 +869,8 @@
       "phonetic": "/feɪs/",
       "pos": "n",
       "meaning": {
-        "zh": "脸",
-        "en": "front of head"
+        "zh": "n. 脸, 面容, 正面, 外观 vt. 面对, 朝, 正视, 面临 vi. 朝, 向 [计] 现场可改变的控制元件",
+        "en": "n. the front of the human head from the forehead to the chin and ear to ear\\nn. the general outward "
       }
     },
     {
@@ -879,8 +879,8 @@
       "phonetic": "/ˈfæməli/",
       "pos": "n",
       "meaning": {
-        "zh": "家庭",
-        "en": "relatives"
+        "zh": "n. 家庭, 家人, 族 a. 家庭的",
+        "en": "n. a social unit living together\\nn. primary social group; parents and children\\nn. people descended"
       }
     },
     {
@@ -889,8 +889,8 @@
       "phonetic": "/fæn/",
       "pos": "n",
       "meaning": {
-        "zh": "风扇/粉丝",
-        "en": "cooling device"
+        "zh": "n. 风扇, 迷, 狂热者, 爱好者 vt. 煽动, 刺激, 吹拂 vi. 飘动, 成扇形散开",
+        "en": "n. a device for creating a current of air by movement of a surface or surfaces\\nn. an ardent followe"
       }
     },
     {
@@ -899,8 +899,8 @@
       "phonetic": "/fɑːrm/",
       "pos": "n",
       "meaning": {
-        "zh": "农场",
-        "en": "for crops/animals"
+        "zh": "n. 农场, 农田 vt. 耕种 vi. 种田",
+        "en": "n. workplace consisting of farm buildings and cultivated land as a unit\\nv. be a farmer; work as a f"
       }
     },
     {
@@ -909,8 +909,8 @@
       "phonetic": "/fæt/",
       "pos": "adj",
       "meaning": {
-        "zh": "胖的",
-        "en": "not thin"
+        "zh": "n. 脂肪, 脂油, 肥肉 a. 肥的, 胖的, 油腻的 n. 文件分配表 [计] 文件分配表",
+        "en": "n. a soft greasy substance occurring in organic tissue and consisting of a mixture of lipids (mostly"
       }
     },
     {
@@ -919,8 +919,8 @@
       "phonetic": "/ˈfɑːðər/",
       "pos": "n",
       "meaning": {
-        "zh": "父亲",
-        "en": "male parent"
+        "zh": "n. 父亲；神父；创始人；先辈",
+        "en": "male parent; priest; founder; ancestor"
       }
     },
     {
@@ -929,8 +929,8 @@
       "phonetic": "/ˌfɪfˈtiːn/",
       "pos": "num",
       "meaning": {
-        "zh": "十五",
-        "en": "number 15"
+        "zh": "num. 十五, 十五个",
+        "en": "n. the cardinal number that is the sum of fourteen and one\\ns. being one more than fourteen"
       }
     },
     {
@@ -939,8 +939,8 @@
       "phonetic": "/ˈfɪfti/",
       "pos": "num",
       "meaning": {
-        "zh": "五十",
-        "en": "number 50"
+        "zh": "num. 五十, 五十个",
+        "en": "n. the cardinal number that is the product of ten and five\\ns. being ten more than forty"
       }
     },
     {
@@ -949,8 +949,8 @@
       "phonetic": "/faɪnd/",
       "pos": "v",
       "meaning": {
-        "zh": "找到",
-        "en": "discover"
+        "zh": "vt. 发现, 感到, 找到, 认为, 得到 vi. 裁决 n. 发现 [计] 查找",
+        "en": "v. come upon, as if by accident; meet with\\nv. come upon after searching; find the location of somet"
       }
     },
     {
@@ -959,8 +959,8 @@
       "phonetic": "/faɪn/",
       "pos": "adj",
       "meaning": {
-        "zh": "好的",
-        "en": "okay"
+        "zh": "n. 罚款, 罚金, 晴天, 精细 a. 好的, 晴朗的, 健康的, 细小的, 精细的 vt. 罚款, 精炼, 澄清 vi. 变清, 变细 adv. 很好 [计] 精细",
+        "en": "n. money extracted as a penalty\\ns. minutely precise especially in differences in meaning\\ns. thin i"
       }
     },
     {
@@ -969,8 +969,8 @@
       "phonetic": "/ˈfɪŋɡər/",
       "pos": "n",
       "meaning": {
-        "zh": "手指",
-        "en": "hand part"
+        "zh": "n. 手指, 指状物, (手套的)手指部分, 指针 v. 用手指拨弄, 伸出 [计] 网络命令",
+        "en": "n. any of the terminal members of the hand (sometimes excepting the thumb)\\nn. the length of breadth"
       }
     },
     {
@@ -979,8 +979,8 @@
       "phonetic": "/fɪʃ/",
       "pos": "n",
       "meaning": {
-        "zh": "鱼",
-        "en": "water animal"
+        "zh": "n. 鱼, 鱼肉, 鱼类, 接合板 vt. 钓, 钓鱼, 查出, 用接合板连接 vi. 捕鱼, 钓鱼, 用钩捞取, 摸索寻找",
+        "en": "n. any of various mostly cold-blooded aquatic vertebrates usually having scales and breathing throug"
       }
     },
     {
@@ -989,7 +989,7 @@
       "phonetic": "/faɪv/",
       "pos": "num",
       "meaning": {
-        "zh": "五",
+        "zh": "num. （详见词典）",
         "en": "number 5"
       }
     },
@@ -999,8 +999,8 @@
       "phonetic": "/flɔːr/",
       "pos": "n",
       "meaning": {
-        "zh": "地板",
-        "en": "bottom surface"
+        "zh": "n. 地板, 楼层, 底部, 底价 vt. 铺地板, 打倒 n. 地面, 地板, 基底 [计] 基底",
+        "en": "n. the inside lower horizontal surface (as of a room, hallway, tent, or other structure)\\nn. a struc"
       }
     },
     {
@@ -1009,8 +1009,8 @@
       "phonetic": "/ˈflaʊər/",
       "pos": "n",
       "meaning": {
-        "zh": "花",
-        "en": "plant bloom"
+        "zh": "n. 花, 开花植物, 精华, 盛时 vi. 开花, 发育, 旺盛, 成熟 vt. 用花装饰, 使开花",
+        "en": "n. a plant cultivated for its blooms or blossoms\\nn. reproductive organ of angiosperm plants especia"
       }
     },
     {
@@ -1019,8 +1019,8 @@
       "phonetic": "/flaɪ/",
       "pos": "v",
       "meaning": {
-        "zh": "飞",
-        "en": "move in air"
+        "zh": "n. 苍蝇, 两翼昆虫, 飞行 vi. 飞, 飞翔, 飘扬, 逃走 vt. 飞, 飞越, 使飘扬, 逃出 a. 敏捷的",
+        "en": "n. two-winged insects characterized by active flight\\nn. an opening in a garment that is closed by a"
       }
     },
     {
@@ -1029,8 +1029,8 @@
       "phonetic": "/fuːd/",
       "pos": "n",
       "meaning": {
-        "zh": "食物",
-        "en": "to eat"
+        "zh": "n. 食物, 养料 [医] 食物, 食品",
+        "en": "n. any substance that can be metabolized by an animal to give energy and build tissue\\nn. any solid "
       }
     },
     {
@@ -1039,8 +1039,8 @@
       "phonetic": "/fʊt/",
       "pos": "n",
       "meaning": {
-        "zh": "脚",
-        "en": "body part"
+        "zh": "n. 脚, 步调, 英尺, 底部, 末尾, 步兵 vt. 走在...上, 给...换底, 支付 vi. 跳舞, 步行, 总计",
+        "en": "n. the part of the leg of a human being below the ankle joint\\nn. a linear unit of length equal to 1"
       }
     },
     {
@@ -1049,8 +1049,8 @@
       "phonetic": "/fɔːr/",
       "pos": "prep",
       "meaning": {
-        "zh": "为了",
-        "en": "intended for"
+        "zh": "prep. 为了；给；因为；对于",
+        "en": "intended for; given to; because of; regarding"
       }
     },
     {
@@ -1059,8 +1059,8 @@
       "phonetic": "/ˈfɔːti/",
       "pos": "num",
       "meaning": {
-        "zh": "四十",
-        "en": "number 40"
+        "zh": "num. 四十, 四十个",
+        "en": "n. the cardinal number that is the product of ten and four\\ns. being ten more than thirty"
       }
     },
     {
@@ -1069,8 +1069,8 @@
       "phonetic": "/fɔːr/",
       "pos": "num",
       "meaning": {
-        "zh": "四",
-        "en": "number 4"
+        "zh": "num. 四, 四个 [机] 四冲程循环",
+        "en": "n. the cardinal number that is the sum of three and one\\ns. being one more than three"
       }
     },
     {
@@ -1079,8 +1079,8 @@
       "phonetic": "/ˌfɔːrˈtiːn/",
       "pos": "num",
       "meaning": {
-        "zh": "十四",
-        "en": "number 14"
+        "zh": "num. 十四, 十四个",
+        "en": "n. the cardinal number that is the sum of thirteen and one\\ns. being one more than thirteen"
       }
     },
     {
@@ -1089,8 +1089,8 @@
       "phonetic": "/fɑːks/",
       "pos": "n",
       "meaning": {
-        "zh": "狐狸",
-        "en": "wild animal"
+        "zh": "n. 狐狸, 狡猾的人 vi. 奸狡地行动, (书页)生斑, 变酸 vt. 欺骗, 使变酸, 为(鞋等)换面, 使生黄斑",
+        "en": "n. alert carnivorous mammal with pointed muzzle and ears and a bushy tail; most are predators that d"
       }
     },
     {
@@ -1099,8 +1099,8 @@
       "phonetic": "/frend/",
       "pos": "n",
       "meaning": {
-        "zh": "朋友",
-        "en": "companion"
+        "zh": "n. 朋友, 支持者, 赞助者 [法] 朋友, 友人, 赞助者",
+        "en": "n. a person you know well and regard with affection and trust\\nn. a member of the Religious Society "
       }
     },
     {
@@ -1109,8 +1109,8 @@
       "phonetic": "/frʌm/",
       "pos": "prep",
       "meaning": {
-        "zh": "从",
-        "en": "starting point"
+        "zh": "prep. 从, 来自, 根据",
+        "en": "prep. Out of the neighborhood of; lessening or losing proximity\\n   to; leaving behind; by reason of"
       }
     },
     {
@@ -1119,8 +1119,8 @@
       "phonetic": "/fruːt/",
       "pos": "n",
       "meaning": {
-        "zh": "水果",
-        "en": "plant food"
+        "zh": "n. 水果, 果类, 结果 [医] 果实, 种实",
+        "en": "n. the ripened reproductive body of a seed plant\\nn. the consequence of some effort or action\\nv. ca"
       }
     },
     {
@@ -1129,8 +1129,8 @@
       "phonetic": "/fʌn/",
       "pos": "n",
       "meaning": {
-        "zh": "乐趣",
-        "en": "enjoyment"
+        "zh": "n. 乐趣, 玩笑, 娱乐 vi. 开玩笑 a. 供娱乐用的",
+        "en": "n. activities that are enjoyable or amusing\\nn. verbal wit or mockery (often at another's expense bu"
       }
     },
     {
@@ -1139,8 +1139,8 @@
       "phonetic": "/ɡeɪm/",
       "pos": "n",
       "meaning": {
-        "zh": "游戏",
-        "en": "play activity"
+        "zh": "n. 比赛, 玩耍, 比分, 得胜, 比赛规则, 策略, 游戏, 野味 vi. 赌博 a. 勇敢的, 有胆量的, 关于野味的, 跛的 [计] 博弈",
+        "en": "n. a contest with rules to determine a winner\\nn. a single play of a sport or other contest\\nn. an a"
       }
     },
     {
@@ -1149,8 +1149,8 @@
       "phonetic": "/ˈɡɑːdn/",
       "pos": "n",
       "meaning": {
-        "zh": "花园",
-        "en": "outdoor space"
+        "zh": "n. 花园, 果园, 菜园 vi. 栽培花木 vt. 造园 a. 花园的, 普通的",
+        "en": "n. a plot of ground where plants are cultivated\\nn. the flowers or vegetables or fruits or herbs tha"
       }
     },
     {
@@ -1159,8 +1159,8 @@
       "phonetic": "/ɡet/",
       "pos": "v",
       "meaning": {
-        "zh": "得到",
-        "en": "obtain"
+        "zh": "v. 得到，获得；变得；到达；理解",
+        "en": "obtain; become; arrive; understand"
       }
     },
     {
@@ -1169,8 +1169,8 @@
       "phonetic": "/ɡɪft/",
       "pos": "n",
       "meaning": {
-        "zh": "礼物",
-        "en": "present"
+        "zh": "n. 礼物, 赠予, 天才 vt. 赋予",
+        "en": "n. something acquired without compensation"
       }
     },
     {
@@ -1179,8 +1179,8 @@
       "phonetic": "/ɡɜːl/",
       "pos": "n",
       "meaning": {
-        "zh": "女孩",
-        "en": "female child"
+        "zh": "n. 女孩, 少女, 女佣",
+        "en": "n. a young woman\\nn. a friendly informal reference to a grown woman"
       }
     },
     {
@@ -1189,8 +1189,8 @@
       "phonetic": "/ɡɪv/",
       "pos": "v",
       "meaning": {
-        "zh": "给",
-        "en": "provide"
+        "zh": "n. 弹性, 适应性 vt. 给, 授予, 供给, 产生, 发表, 付出, 献出, 让出 vi. 捐赠, 支持不住, 让步",
+        "en": "n. the elasticity of something that can be stretched and returns to its original length\\nv. cause to"
       }
     },
     {
@@ -1199,8 +1199,8 @@
       "phonetic": "/ɡlæd/",
       "pos": "adj",
       "meaning": {
-        "zh": "高兴的",
-        "en": "happy"
+        "zh": "a. 高兴的, 喜欢的, 情愿的",
+        "en": "a. showing or causing joy and pleasure; especially made happy\\ns. eagerly disposed to act or to be o"
       }
     },
     {
@@ -1209,8 +1209,8 @@
       "phonetic": "/ɡlæs/",
       "pos": "n",
       "meaning": {
-        "zh": "玻璃杯",
-        "en": "drinking vessel"
+        "zh": "n. 玻璃, 玻璃杯, 透镜 vt. 装玻璃于, 反射, 反映 vi. 成玻璃状",
+        "en": "n. a brittle transparent solid with irregular atomic structure\\nn. a container for holding liquids w"
       }
     },
     {
@@ -1219,8 +1219,8 @@
       "phonetic": "/ɡlʌv/",
       "pos": "n",
       "meaning": {
-        "zh": "手套",
-        "en": "hand covering"
+        "zh": "n. 手套 vt. 给...戴手套",
+        "en": "n. handwear: covers the hand and wrist"
       }
     },
     {
@@ -1229,8 +1229,8 @@
       "phonetic": "/ɡʊd/",
       "pos": "adj",
       "meaning": {
-        "zh": "好的",
-        "en": "nice"
+        "zh": "n. 善行, 好处, 利益 a. 好的, 优良的, 上等的, 愉快的, 有益的, 好心的, 慈善的, 虔诚的",
+        "en": "n. benefit\\nn. moral excellence or admirableness\\nn. that which is pleasing or valuable or useful\\na"
       }
     },
     {
@@ -1239,7 +1239,7 @@
       "phonetic": "/ɡʊdˈbaɪ/",
       "pos": "int",
       "meaning": {
-        "zh": "再见",
+        "zh": "int. （详见词典）",
         "en": "farewell"
       }
     },
@@ -1249,7 +1249,7 @@
       "phonetic": "/ɡɑːt/",
       "pos": "v",
       "meaning": {
-        "zh": "得到（过去式）",
+        "zh": "v. 做某事；进行",
         "en": "past of get"
       }
     },
@@ -1259,8 +1259,8 @@
       "phonetic": "/ˈɡrænfɑːðər/",
       "pos": "n",
       "meaning": {
-        "zh": "爷爷/外公",
-        "en": "father's father"
+        "zh": "n. grandfather；某物 n. grandfather；某物",
+        "en": "father's father father's father"
       }
     },
     {
@@ -1269,8 +1269,8 @@
       "phonetic": "/ˈɡrænmʌðər/",
       "pos": "n",
       "meaning": {
-        "zh": "奶奶/外婆",
-        "en": "mother's mother"
+        "zh": "n. grandmother；某物 n. grandmother；某物",
+        "en": "mother's mother mother's mother"
       }
     },
     {
@@ -1279,8 +1279,8 @@
       "phonetic": "/ɡreɪp/",
       "pos": "n",
       "meaning": {
-        "zh": "葡萄",
-        "en": "small fruit"
+        "zh": "n. 葡萄, 葡萄树 [医] 葡萄",
+        "en": "n. any of various juicy fruit of the genus Vitis with green or purple skins; grow in clusters\\nn. an"
       }
     },
     {
@@ -1289,8 +1289,8 @@
       "phonetic": "/ɡræs/",
       "pos": "n",
       "meaning": {
-        "zh": "草",
-        "en": "ground plant"
+        "zh": "n. 草, 草原, 牧场 [医] 草, 禾本",
+        "en": "n. narrow-leaved green herbage: grown as lawns; used as pasture for grazing animals; cut and dried a"
       }
     },
     {
@@ -1299,8 +1299,8 @@
       "phonetic": "/ɡreɪt/",
       "pos": "adj",
       "meaning": {
-        "zh": "伟大的",
-        "en": "very good"
+        "zh": "adj. 伟大的；巨大的；非常的；极好的",
+        "en": "important; large; very; excellent"
       }
     },
     {
@@ -1309,8 +1309,8 @@
       "phonetic": "/ɡriːn/",
       "pos": "adj",
       "meaning": {
-        "zh": "绿色的",
-        "en": "grass color"
+        "zh": "n. 绿色, 绿色颜料 a. 绿色的, 未成熟的, 新鲜的, 青春的, 无经验的, 脸色发青的",
+        "en": "n. green color or pigment; resembling the color of growing grass\\nn. United States labor leader who "
       }
     },
     {
@@ -1319,7 +1319,7 @@
       "phonetic": "/hæd/",
       "pos": "v",
       "meaning": {
-        "zh": "有（过去式）",
+        "zh": "hav. （详见词典）",
         "en": "past of have"
       }
     },
@@ -1329,8 +1329,8 @@
       "phonetic": "/her/",
       "pos": "n",
       "meaning": {
-        "zh": "头发",
-        "en": "on head"
+        "zh": "n. 头发, 毛发, 些微 [医] 毛, 发",
+        "en": "n. a covering for the body (or parts of it) consisting of a dense growth of threadlike structures (a"
       }
     },
     {
@@ -1339,8 +1339,8 @@
       "phonetic": "/hænd/",
       "pos": "n",
       "meaning": {
-        "zh": "手",
-        "en": "body part"
+        "zh": "n. 手, 爪, 指针, 掌握, 协助, 人手, 手艺, 手迹, 支配, 插手 vt. 交给, 支持, 搀扶",
+        "en": "n. the (prehensile) extremity of the superior limb\\nn. ability\\nn. a position given by its location "
       }
     },
     {
@@ -1349,8 +1349,8 @@
       "phonetic": "/ˈhæpi/",
       "pos": "adj",
       "meaning": {
-        "zh": "快乐的",
-        "en": "joyful"
+        "zh": "a. 快乐的, 幸福的, 愉快的, 恰当的",
+        "en": "a. enjoying or showing or marked by joy or pleasure\\ns. well expressed and to the point"
       }
     },
     {
@@ -1359,7 +1359,7 @@
       "phonetic": "/hæz/",
       "pos": "v",
       "meaning": {
-        "zh": "有",
+        "zh": "hav. （详见词典）",
         "en": "possess"
       }
     },
@@ -1369,8 +1369,8 @@
       "phonetic": "/hæt/",
       "pos": "n",
       "meaning": {
-        "zh": "帽子",
-        "en": "head covering"
+        "zh": "n. 帽子 vt. 给...戴帽子",
+        "en": "n. headdress that protects the head from bad weather; has shaped crown and usually a brim\\nn. an inf"
       }
     },
     {
@@ -1379,8 +1379,8 @@
       "phonetic": "/hæv/",
       "pos": "v",
       "meaning": {
-        "zh": "有",
-        "en": "possess"
+        "zh": "v. 有，拥有；吃，喝；经历；必须",
+        "en": "possess; eat/drink; experience; must"
       }
     },
     {
@@ -1389,8 +1389,8 @@
       "phonetic": "/hed/",
       "pos": "n",
       "meaning": {
-        "zh": "头",
-        "en": "top of body"
+        "zh": "n. 头, 头脑, 领袖, 脑袋, 最前的部分 vt. 为首, 朝向, 前进, 用头顶 vi. 朝特定方向行进, (作物)结穗 a. 头的, 在顶端的, 主要的 [计] 磁头",
+        "en": "n. the upper part of the human body or the front part of the body in animals; contains the face and "
       }
     },
     {
@@ -1399,8 +1399,8 @@
       "phonetic": "/həˈloʊ/",
       "pos": "int",
       "meaning": {
-        "zh": "你好",
-        "en": "greeting"
+        "zh": "interj. 喂, 嘿",
+        "en": "n. an expression of greeting"
       }
     },
     {
@@ -1409,8 +1409,8 @@
       "phonetic": "/help/",
       "pos": "v",
       "meaning": {
-        "zh": "帮助",
-        "en": "assist"
+        "zh": "n. 帮忙, 帮助者, 补救办法, 有益的东西 vt. 帮助, 帮忙, 接济, 治疗, 款待 vi. 有用, 救命, 招待 [计] 帮助, 帮助程序",
+        "en": "v. give help or assistance; be of service\\nv. improve the condition of\\nv. be of use\\nv. contribute "
       }
     },
     {
@@ -1419,7 +1419,7 @@
       "phonetic": "/hen/",
       "pos": "n",
       "meaning": {
-        "zh": "母鸡",
+        "zh": "n. hen；某物",
         "en": "female chicken"
       }
     },
@@ -1429,7 +1429,7 @@
       "phonetic": "/hɜːr/",
       "pos": "pron",
       "meaning": {
-        "zh": "她的",
+        "zh": "det. （详见词典）",
         "en": "belonging to her"
       }
     },
@@ -1439,8 +1439,8 @@
       "phonetic": "/hɪr/",
       "pos": "adv",
       "meaning": {
-        "zh": "这里",
-        "en": "this place"
+        "zh": "adv. 在这里；到这里；在这时",
+        "en": "in/to this place; at this point"
       }
     },
     {
@@ -1449,7 +1449,7 @@
       "phonetic": "/hɪm/",
       "pos": "pron",
       "meaning": {
-        "zh": "他（宾格）",
+        "zh": "pron. （详见词典）",
         "en": "that male (object)"
       }
     },
@@ -1459,8 +1459,8 @@
       "phonetic": "/hɪz/",
       "pos": "pron",
       "meaning": {
-        "zh": "他的",
-        "en": "belonging to him"
+        "zh": "pron. 他的 [化] 组氨酸",
+        "en": "pron. Belonging or pertaining to him; -- used as a pronominal\\n   adjective or adjective pronoun; as"
       }
     },
     {
@@ -1469,8 +1469,8 @@
       "phonetic": "/hoʊm/",
       "pos": "n",
       "meaning": {
-        "zh": "家",
-        "en": "where you live"
+        "zh": "n. 家, 避难所, 故乡 a. 家庭的, 国内的, 打中目标的 adv. 在家, 在本国, 打中目标地 [计] 返回始位",
+        "en": "n. where you live at a particular time\\nn. the country or state or city where you live\\nn. place whe"
       }
     },
     {
@@ -1479,8 +1479,8 @@
       "phonetic": "/hɔːs/",
       "pos": "n",
       "meaning": {
-        "zh": "马",
-        "en": "riding animal"
+        "zh": "n. 马, 骑兵, 脚架 vi. 骑马, 取笑 vt. 使骑马, 系马于",
+        "en": "n. solid-hoofed herbivorous quadruped domesticated since prehistoric times\\nn. a padded gymnastic ap"
       }
     },
     {
@@ -1489,8 +1489,8 @@
       "phonetic": "/hɑːt/",
       "pos": "adj",
       "meaning": {
-        "zh": "热的",
-        "en": "high temperature"
+        "zh": "a. 热的, 热心的, 辣的, 热情的, 激动的, 猛烈的, 紧迫的 adv. 热, 紧迫地",
+        "en": "a. used of physical heat; having a high or higher than desirable temperature or giving off heat or f"
       }
     },
     {
@@ -1499,8 +1499,8 @@
       "phonetic": "/haʊs/",
       "pos": "n",
       "meaning": {
-        "zh": "房子",
-        "en": "building to live"
+        "zh": "n. 房子, 住宅, 机构, 议院, 家族, 家庭 vt. 给...房子住, 收藏 vi. 住, 躲藏",
+        "en": "n. a dwelling that serves as living quarters for one or more families\\nn. the members of a religious"
       }
     },
     {
@@ -1509,8 +1509,8 @@
       "phonetic": "/haʊ/",
       "pos": "adv",
       "meaning": {
-        "zh": "如何",
-        "en": "in what way"
+        "zh": "adv. 如何, 怎样, 多少, 多么 n. 方式",
+        "en": "adv. In what manner or way; by what means or process.\\nadv. To what degree or extent, number or amou"
       }
     },
     {
@@ -1519,8 +1519,8 @@
       "phonetic": "/ˈhʌndrəd/",
       "pos": "num",
       "meaning": {
-        "zh": "一百",
-        "en": "number 100"
+        "zh": "n. 百, 百个东西 num. 百, 百个 a. 一百的, 许多的",
+        "en": "n. ten 10s\\ns. being ten more than ninety"
       }
     },
     {
@@ -1529,8 +1529,8 @@
       "phonetic": "/aɪs/",
       "pos": "n",
       "meaning": {
-        "zh": "冰",
-        "en": "frozen water"
+        "zh": "n. 冰, 冰淇淋, 糖衣, 冷若冰霜, 矜持, 贿赂 vt. 使结冰, 冰镇, 覆以糖衣 vi. 结冰",
+        "en": "n. water frozen in the solid state\\nn. the frozen part of a body of water\\nn. diamonds\\nn. a frozen "
       }
     },
     {
@@ -1539,7 +1539,7 @@
       "phonetic": "/ˈaɪs kriːm/",
       "pos": "n",
       "meaning": {
-        "zh": "冰淇淋",
+        "zh": "n. ice-cream；某物",
         "en": "frozen dessert"
       }
     },
@@ -1549,8 +1549,8 @@
       "phonetic": "/ˈɪntu/",
       "pos": "prep",
       "meaning": {
-        "zh": "进入",
-        "en": "toward inside"
+        "zh": "prep. 到...里；进入；成为",
+        "en": "to inside of; entering; changing to be"
       }
     },
     {
@@ -1559,8 +1559,8 @@
       "phonetic": "/dʒɑːb/",
       "pos": "n",
       "meaning": {
-        "zh": "工作",
-        "en": "paid work"
+        "zh": "n. 工作, 零活, 职业, 事情 vi. 做零工, 打杂, 做股票经纪, 假公济私 vt. 代客买卖, 批发, 承包, 欺骗 [计] 作业",
+        "en": "n. a specific piece of work required to be done as a duty or for a specific fee\\nn. a workplace; as "
       }
     },
     {
@@ -1569,8 +1569,8 @@
       "phonetic": "/dʒuːs/",
       "pos": "n",
       "meaning": {
-        "zh": "果汁",
-        "en": "fruit drink"
+        "zh": "n. 汁, 活力, 体液 vt. 挤出汁来, 加汁",
+        "en": "n. the liquid part that can be extracted from plant or animal tissue by squeezing or cooking\\nn. ene"
       }
     },
     {
@@ -1579,8 +1579,8 @@
       "phonetic": "/dʒʌmp/",
       "pos": "v",
       "meaning": {
-        "zh": "跳",
-        "en": "leap up"
+        "zh": "n. 跳跃, 跳动, 暴涨, 惊跳 vt. 跳跃, 跃过, 突升, 使跳跃 vi. 跳跃, 跳, 跳动, 暴涨 [计] 转移, 跳转",
+        "en": "n. a sudden and decisive increase\\nn. (film) an abrupt transition from one scene to another\\nn. desc"
       }
     },
     {
@@ -1589,8 +1589,8 @@
       "phonetic": "/kiː/",
       "pos": "n",
       "meaning": {
-        "zh": "钥匙",
-        "en": "opens locks"
+        "zh": "n. 钥匙, 键, 解答, 关键, 要害, 基调, 线索, 答案, 暗礁 vt. 调音, 锁上, 提供线索 vi. 使用钥匙 [计] 键, 密钥",
+        "en": "n. metal device shaped in such a way that when it is inserted into the appropriate lock the lock's m"
       }
     },
     {
@@ -1599,8 +1599,8 @@
       "phonetic": "/kaɪnd/",
       "pos": "adj",
       "meaning": {
-        "zh": "善良的",
-        "en": "nice"
+        "zh": "n. 种类, 性质, 方式 a. 亲切的, 仁慈的, 和蔼的",
+        "en": "n. a category of things distinguished by some common characteristic or quality\\na. having or showing"
       }
     },
     {
@@ -1609,8 +1609,8 @@
       "phonetic": "/kaɪt/",
       "pos": "n",
       "meaning": {
-        "zh": "风筝",
-        "en": "flying toy"
+        "zh": "n. 风筝, 筝帆, 空头支票, 骗子 vi. 象风筝一样飞, 轻快地移动, 使用空头支票 vt. 使上升, 骗钱",
+        "en": "n. a bank check that has been fraudulently altered to increase its face value\\nn. a bank check drawn"
       }
     },
     {
@@ -1619,8 +1619,8 @@
       "phonetic": "/niː/",
       "pos": "n",
       "meaning": {
-        "zh": "膝盖",
-        "en": "leg joint"
+        "zh": "n. 膝, 膝盖 vt. 膝行, 用膝盖碰",
+        "en": "n. hinge joint in the human leg connecting the tibia and fibula with the femur and protected in fron"
       }
     },
     {
@@ -1629,8 +1629,8 @@
       "phonetic": "/naɪf/",
       "pos": "n",
       "meaning": {
-        "zh": "刀",
-        "en": "cutting tool"
+        "zh": "n. 小刀, 匕首 vt. 切割, 伤害, 切, 戳 vi. 劈开, 穿过",
+        "en": "n. edge tool used as a cutting instrument; has a pointed blade with a sharp edge and a handle\\nn. a "
       }
     },
     {
@@ -1639,8 +1639,8 @@
       "phonetic": "/noʊ/",
       "pos": "v",
       "meaning": {
-        "zh": "知道",
-        "en": "be aware"
+        "zh": "v. 知道, 了解, 认识, 确信",
+        "en": "n. the fact of being aware of information that is known to few people\\nv. be cognizant or aware of a"
       }
     },
     {
@@ -1649,8 +1649,8 @@
       "phonetic": "/leɪk/",
       "pos": "n",
       "meaning": {
-        "zh": "湖",
-        "en": "water body"
+        "zh": "n. 湖, 池, 色淀 v. (使)血球溶解",
+        "en": "n. a body of (usually fresh) water surrounded by land\\nn. a purplish red pigment prepared from lac o"
       }
     },
     {
@@ -1659,8 +1659,8 @@
       "phonetic": "/læmp/",
       "pos": "n",
       "meaning": {
-        "zh": "台灯",
-        "en": "light source"
+        "zh": "n. 灯 vt. 照亮 [计] 逻辑模拟分析系统",
+        "en": "n. an artificial source of visible illumination\\nn. a piece of furniture holding one or more electri"
       }
     },
     {
@@ -1669,8 +1669,8 @@
       "phonetic": "/læst/",
       "pos": "adj",
       "meaning": {
-        "zh": "最后的",
-        "en": "final"
+        "zh": "a. 最后的, 末尾的, 最近的 vi. 持续, 支持, 维持 vt. 使维持, 够...用 adv. 最后, 后来 n. 最后, 末尾, 鞋楦头",
+        "en": "n. the last or lowest in an ordering or series\\nn. a person's dying act; the final thing a person ca"
       }
     },
     {
@@ -1679,8 +1679,8 @@
       "phonetic": "/leɪt/",
       "pos": "adj",
       "meaning": {
-        "zh": "迟的",
-        "en": "not on time"
+        "zh": "a. 迟的, 晚的, 已故的 adv. 很晚, 很迟, 晚",
+        "en": "a. being or occurring at an advanced period of time or after a usual or expected time\\ns. of the imm"
       }
     },
     {
@@ -1689,8 +1689,8 @@
       "phonetic": "/left/",
       "pos": "adj",
       "meaning": {
-        "zh": "左边的",
-        "en": "opposite of right"
+        "zh": "a. 左边的, 左倾的, 左侧的, 左派的 adv. 在左面 n. 左, 左面, 左派 leave的过去式和过去分词",
+        "en": "n. location near or direction toward the left side; i.e. the side to the north when a person or obje"
       }
     },
     {
@@ -1699,8 +1699,8 @@
       "phonetic": "/leɡ/",
       "pos": "n",
       "meaning": {
-        "zh": "腿",
-        "en": "body part"
+        "zh": "n. 腿, 假腿, 路程 vi. 走, 跑",
+        "en": "n. a human limb; commonly used to refer to a whole limb but technically only the part of the limb be"
       }
     },
     {
@@ -1709,8 +1709,8 @@
       "phonetic": "/ˈlemən/",
       "pos": "n",
       "meaning": {
-        "zh": "柠檬",
-        "en": "sour fruit"
+        "zh": "n. 柠檬, 柠檬树, 柠檬色 [医] 柠檬",
+        "en": "n. yellow oval fruit with juicy acidic flesh\\nn. a small evergreen tree that originated in Asia but "
       }
     },
     {
@@ -1719,8 +1719,8 @@
       "phonetic": "/let/",
       "pos": "v",
       "meaning": {
-        "zh": "让",
-        "en": "allow"
+        "zh": "vt. 让, 假设, 出租, 排放, 妨碍 vi. 出租, 被承包 n. 出租屋, 障碍",
+        "en": "n. a serve that strikes the net before falling into the receiver's court; the ball must be served ag"
       }
     },
     {
@@ -1729,8 +1729,8 @@
       "phonetic": "/ˈlaɪbreri/",
       "pos": "n",
       "meaning": {
-        "zh": "图书馆",
-        "en": "book building"
+        "zh": "n. 图书馆, 藏书, 库 [计] 库",
+        "en": "n. a room where books are kept\\nn. a collection of literary documents or records kept for reference "
       }
     },
     {
@@ -1739,8 +1739,8 @@
       "phonetic": "/laɪk/",
       "pos": "v",
       "meaning": {
-        "zh": "喜欢",
-        "en": "enjoy"
+        "zh": "a. 相似的, 同样的 vt. 喜欢, 愿意, 想 vi. 喜欢, 希望 n. 爱好, 同样的人(或物) prep. 象, 如同 adv. 可能",
+        "en": "n. a similar kind\\nn. a kind of person\\nv. find enjoyable or agreeable\\nv. be fond of"
       }
     },
     {
@@ -1749,8 +1749,8 @@
       "phonetic": "/ˈlaɪən/",
       "pos": "n",
       "meaning": {
-        "zh": "狮子",
-        "en": "big cat"
+        "zh": "n. 狮子, 狮子(星)座, 国际狮子会会员",
+        "en": "n. large gregarious predatory feline of Africa and India having a tawny coat with a shaggy mane in t"
       }
     },
     {
@@ -1759,8 +1759,8 @@
       "phonetic": "/ˈlɪsən/",
       "pos": "v",
       "meaning": {
-        "zh": "听",
-        "en": "hear"
+        "zh": "vi. 听, 倾听, 听从 n. 听, 倾听",
+        "en": "v. hear with intention\\nv. listen and pay attention"
       }
     },
     {
@@ -1769,8 +1769,8 @@
       "phonetic": "/ˈlɪtl/",
       "pos": "adj",
       "meaning": {
-        "zh": "小的",
-        "en": "small"
+        "zh": "adj. 小的；年幼的；短暂的；少许的",
+        "en": "small in size; young; brief; not much"
       }
     },
     {
@@ -1779,8 +1779,8 @@
       "phonetic": "/lɪv/",
       "pos": "v",
       "meaning": {
-        "zh": "住/生活",
-        "en": "reside"
+        "zh": "a. 活的, 生动的, 精力充沛的, 实况转播的 vi. 活, 生存, 居住 vt. 过着, 度过, 经历 adv. 实况地",
+        "en": "v. lead a certain kind of life; live in a certain style\\nv. pursue a positive and satisfying existen"
       }
     },
     {
@@ -1789,8 +1789,8 @@
       "phonetic": "/lɔːrŋ/",
       "pos": "adj",
       "meaning": {
-        "zh": "长的",
-        "en": "not short"
+        "zh": "a. 长的, 长久的, 冗长的, 做多头的 vi. 渴望, 热望, 极想 adv. 长久, 始终 n. 长时间, 长信号, 长整型 [计] 长, 长整型",
+        "en": "a. primarily temporal sense; being or indicating a relatively great or greater than average duration"
       }
     },
     {
@@ -1799,8 +1799,8 @@
       "phonetic": "/lʊk/",
       "pos": "v",
       "meaning": {
-        "zh": "看",
-        "en": "use eyes"
+        "zh": "n. 一看, 神色, 样子, 面容 vi. 看, 注意, 朝着, 显得 vt. 打量, 看上去与...一样, 以眼色(或脸色)显示, 期待",
+        "en": "n. the act of directing the eyes toward something and perceiving it visually\\nn. physical appearance"
       }
     },
     {
@@ -1809,8 +1809,8 @@
       "phonetic": "/lʌv/",
       "pos": "v",
       "meaning": {
-        "zh": "爱",
-        "en": "have affection"
+        "zh": "n. 爱, 恋爱, 爱情, 爱好, 性爱 vt. 爱, 爱好, 爱慕 vi. 爱",
+        "en": "n. a strong positive emotion of regard and affection\\nn. any object of warm affection or devotion; \\"
       }
     },
     {
@@ -1819,7 +1819,7 @@
       "phonetic": "/lʌntʃ/",
       "pos": "n",
       "meaning": {
-        "zh": "午餐",
+        "zh": "n. lunch；某物",
         "en": "midday meal"
       }
     },
@@ -1829,8 +1829,8 @@
       "phonetic": "/meɪk/",
       "pos": "v",
       "meaning": {
-        "zh": "制作",
-        "en": "create"
+        "zh": "vt. 制造, 安排, 创造, 构成, 使得, 产生, 造成, 整理, 布置, 引起, 到达, 进行 vi. 开始, 前进, 增大, 被制造, 被处理 n. 制造, 构造, 性情",
+        "en": "v. engage in\\nv. give certain properties to something\\nv. make or cause to be or to become\\nv. compe"
       }
     },
     {
@@ -1839,8 +1839,8 @@
       "phonetic": "/mæn/",
       "pos": "n",
       "meaning": {
-        "zh": "男人",
-        "en": "adult male"
+        "zh": "n. 男人, 人类, 人 vt. 为...配备人手, 操纵, 使振奋 [计] 城域网, 手册",
+        "en": "n. an adult person who is male (as opposed to a woman)\\nn. the generic use of the word to refer to a"
       }
     },
     {
@@ -1849,8 +1849,8 @@
       "phonetic": "/ˈmæŋɡoʊ/",
       "pos": "n",
       "meaning": {
-        "zh": "芒果",
-        "en": "tropical fruit"
+        "zh": "n. 芒果 [化] 芒果Mangifera indica",
+        "en": "n. large evergreen tropical tree cultivated for its large oval fruit\\nn. large oval tropical fruit h"
       }
     },
     {
@@ -1859,8 +1859,8 @@
       "phonetic": "/ˈmeni/",
       "pos": "det",
       "meaning": {
-        "zh": "许多",
-        "en": "a lot of"
+        "zh": "n. 多数, 多数人 a. 许多的 pron. 许多",
+        "en": "a. a quantifier that can be used with count nouns and is often preceded by `as' or `too' or `so' or "
       }
     },
     {
@@ -1869,8 +1869,8 @@
       "phonetic": "/mæp/",
       "pos": "n",
       "meaning": {
-        "zh": "地图",
-        "en": "drawing of area"
+        "zh": "n. 地图, 天体图, 映像 vt. 映射, 绘制...地图, 计划 [计] 实用程序, 映射, 制造自动化协议",
+        "en": "n. a diagrammatic representation of the earth's surface (or part of it)\\nv. make a map of; show or e"
       }
     },
     {
@@ -1879,8 +1879,8 @@
       "phonetic": "/mɪlk/",
       "pos": "n",
       "meaning": {
-        "zh": "牛奶",
-        "en": "white drink"
+        "zh": "n. 奶, 乳状物 vt. 挤乳, 榨取 vi. 产乳",
+        "en": "n. a white nutritious liquid secreted by mammals and used as food by human beings\\nn. produced by ma"
       }
     },
     {
@@ -1889,7 +1889,7 @@
       "phonetic": "/mɑːm/",
       "pos": "n",
       "meaning": {
-        "zh": "妈妈",
+        "zh": "n. mom；某物",
         "en": "mother"
       }
     },
@@ -1899,8 +1899,8 @@
       "phonetic": "/ˈmʌŋki/",
       "pos": "n",
       "meaning": {
-        "zh": "猴子",
-        "en": "tree animal"
+        "zh": "n. 猴子, 猿, 打桩锤 vi. 淘气, 胡闹 vt. 嘲弄",
+        "en": "n. any of various long-tailed primates (excluding the prosimians)"
       }
     },
     {
@@ -1909,8 +1909,8 @@
       "phonetic": "/mʌnθ/",
       "pos": "n",
       "meaning": {
-        "zh": "月",
-        "en": "time period"
+        "zh": "n. 月 [经] 月",
+        "en": "n. a time unit of approximately 30 days"
       }
     },
     {
@@ -1919,8 +1919,8 @@
       "phonetic": "/muːn/",
       "pos": "n",
       "meaning": {
-        "zh": "月亮",
-        "en": "night sky"
+        "zh": "n. 月亮, 月球, 月光 vi. 闲荡 vt. 虚度",
+        "en": "n. the natural satellite of the Earth\\nn. any object resembling a moon\\nn. United States religious l"
       }
     },
     {
@@ -1929,7 +1929,7 @@
       "phonetic": "/ˈmɔːnɪŋ/",
       "pos": "n",
       "meaning": {
-        "zh": "早上",
+        "zh": "n. morning；某物",
         "en": "early day"
       }
     },
@@ -1939,8 +1939,8 @@
       "phonetic": "/ˈmʌðər/",
       "pos": "n",
       "meaning": {
-        "zh": "母亲",
-        "en": "female parent"
+        "zh": "n. 母亲, 修女院长 vt. 产生, 照看, 收养",
+        "en": "n. a woman who has given birth to a child (also used as a term of address to your mother)\\nn. a stri"
       }
     },
     {
@@ -1949,8 +1949,8 @@
       "phonetic": "/maʊs/",
       "pos": "n",
       "meaning": {
-        "zh": "老鼠",
-        "en": "small animal"
+        "zh": "n. 老鼠, 胆小羞怯的人, 鼠标 vi. 捕鼠, 窥探 vt. 探出 [计] 鼠标",
+        "en": "n. any of numerous small rodents typically resembling diminutive rats having pointed snouts and smal"
       }
     },
     {
@@ -1959,8 +1959,8 @@
       "phonetic": "/maʊθ/",
       "pos": "n",
       "meaning": {
-        "zh": "嘴",
-        "en": "for eating"
+        "zh": "n. 嘴, 口, 口腔, 口状物 vi. 装腔作势说话, 做鬼脸 vt. 说出, 做作地说",
+        "en": "n. the opening through which food is taken in and vocalizations emerge\\nn. the externally visible pa"
       }
     },
     {
@@ -1969,7 +1969,7 @@
       "phonetic": "/ˈmuːvi/",
       "pos": "n",
       "meaning": {
-        "zh": "电影",
+        "zh": "n. movie；某物",
         "en": "film"
       }
     },
@@ -1979,8 +1979,8 @@
       "phonetic": "/mʌm/",
       "pos": "n",
       "meaning": {
-        "zh": "妈妈",
-        "en": "mother (British)"
+        "zh": "n. 菊花, 沉默 a. 沉默的 vi. 演哑剧 interj. 别说话",
+        "en": "n. secrecy\\ns. failing to speak or communicate etc when expected to"
       }
     },
     {
@@ -1989,8 +1989,8 @@
       "phonetic": "/ˈmjuːzɪk/",
       "pos": "n",
       "meaning": {
-        "zh": "音乐",
-        "en": "songs and sounds"
+        "zh": "n. music；某物",
+        "en": "organized sound; musical composition"
       }
     },
     {
@@ -1999,8 +1999,8 @@
       "phonetic": "/neɪm/",
       "pos": "n",
       "meaning": {
-        "zh": "名字",
-        "en": "what you are called"
+        "zh": "n. 名字, 名称, 姓名, 名义, 名誉, 文件名 vt. 命名, 称呼, 任命, 提名, 列举 a. 姓名的, 据以取名的 [计] 名称, 文件名, 姓名",
+        "en": "n. a language unit by which a person or thing is known\\nn. a person's reputation\\nn. family based on"
       }
     },
     {
@@ -2009,8 +2009,8 @@
       "phonetic": "/nɪr/",
       "pos": "prep",
       "meaning": {
-        "zh": "接近",
-        "en": "close to"
+        "zh": "a. 近的, 近亲的, 近似的 adv. 接近, 亲近 prep. 靠近, 近似于 v. 接近, 走近",
+        "en": "a. not far distant in time or space or degree or circumstances\\ns. being on the left side\\ns. closel"
       }
     },
     {
@@ -2019,8 +2019,8 @@
       "phonetic": "/niːd/",
       "pos": "v",
       "meaning": {
-        "zh": "需要",
-        "en": "require"
+        "zh": "n. 需要, 必须, 缺乏 vt. 需要, 必需 vi. 贫困, 有必要 aux. 需要",
+        "en": "n. a condition requiring relief\\nn. anything that is necessary but lacking\\nv. have or feel a need f"
       }
     },
     {
@@ -2029,8 +2029,8 @@
       "phonetic": "/nuː/",
       "pos": "adj",
       "meaning": {
-        "zh": "新的",
-        "en": "recently made"
+        "zh": "adj. 新的；新鲜的；不熟悉的",
+        "en": "recently made; fresh; unfamiliar"
       }
     },
     {
@@ -2039,8 +2039,8 @@
       "phonetic": "/nekst/",
       "pos": "adj",
       "meaning": {
-        "zh": "下一个",
-        "en": "following"
+        "zh": "n. 下一个 a. 下一个的, 其次的, 贴近的 adv. 然后, 下次, 次于 [计] 近邻干扰",
+        "en": "r. at the time or occasion immediately following"
       }
     },
     {
@@ -2049,8 +2049,8 @@
       "phonetic": "/naɪs/",
       "pos": "adj",
       "meaning": {
-        "zh": "好的",
-        "en": "pleasant"
+        "zh": "a. 美好的, 和蔼的, 正派的, 做得好的, 精密的, 细微的, 挑剔的, 谨慎的",
+        "en": "n. a city in southeastern France on the Mediterranean; the leading resort on the French Riviera\\na. "
       }
     },
     {
@@ -2059,8 +2059,8 @@
       "phonetic": "/naɪt/",
       "pos": "n",
       "meaning": {
-        "zh": "夜晚",
-        "en": "dark time"
+        "zh": "n. 夜, 夜晚, 晚上, 黑暗, 夜晚的工作 [法] 夜, 黑夜, 黑暗",
+        "en": "n. the time after sunset and before sunrise while it is dark outside\\nn. a period of ignorance or ba"
       }
     },
     {
@@ -2069,7 +2069,7 @@
       "phonetic": "/naɪn/",
       "pos": "num",
       "meaning": {
-        "zh": "九",
+        "zh": "num. （详见词典）",
         "en": "number 9"
       }
     },
@@ -2079,8 +2079,8 @@
       "phonetic": "/ˌnaɪnˈtiːn/",
       "pos": "num",
       "meaning": {
-        "zh": "十九",
-        "en": "number 19"
+        "zh": "num. 十九, 十九个",
+        "en": "n. the cardinal number that is the sum of eighteen and one\\ns. being one more than eighteen"
       }
     },
     {
@@ -2089,8 +2089,8 @@
       "phonetic": "/ˈnaɪnti/",
       "pos": "num",
       "meaning": {
-        "zh": "九十",
-        "en": "number 90"
+        "zh": "num. 九十, 九十个",
+        "en": "n. the cardinal number that is the product of ten and nine\\ns. being ten more than eighty"
       }
     },
     {
@@ -2099,7 +2099,7 @@
       "phonetic": "/ˈnuːdl/",
       "pos": "n",
       "meaning": {
-        "zh": "面条",
+        "zh": "n. noodle；某物",
         "en": "long pasta"
       }
     },
@@ -2109,8 +2109,8 @@
       "phonetic": "/nuːn/",
       "pos": "n",
       "meaning": {
-        "zh": "中午",
-        "en": "12 o'clock"
+        "zh": "n. 正午, 中午, 全盛期",
+        "en": "n. the middle of the day"
       }
     },
     {
@@ -2119,8 +2119,8 @@
       "phonetic": "/noʊz/",
       "pos": "n",
       "meaning": {
-        "zh": "鼻子",
-        "en": "for smelling"
+        "zh": "n. 鼻子, 突出部分, 嗅觉 vt. 嗅到, 探出, 用鼻子触 vi. 闻, 嗅, 探听, 告密",
+        "en": "n. the organ of smell and entrance to the respiratory tract; the prominent part of the face of man o"
       }
     },
     {
@@ -2129,8 +2129,8 @@
       "phonetic": "/nɑːt/",
       "pos": "adv",
       "meaning": {
-        "zh": "不",
-        "en": "negative"
+        "zh": "adv. 不, 非, 未 [计] 非",
+        "en": "r. negation of a word or group of words"
       }
     },
     {
@@ -2139,8 +2139,8 @@
       "phonetic": "/ˈnoʊtbʊk/",
       "pos": "n",
       "meaning": {
-        "zh": "笔记本",
-        "en": "for writing"
+        "zh": "n. 笔记本, 手册, 期票簿",
+        "en": "n. a book with blank pages for recording notes or memoranda\\nn. a small compact portable computer"
       }
     },
     {
@@ -2149,8 +2149,8 @@
       "phonetic": "/naʊ/",
       "pos": "adv",
       "meaning": {
-        "zh": "现在",
-        "en": "at this time"
+        "zh": "adv. 现在, 刚才, 目前 n. 现在 a. 现在的 conj. 由于",
+        "en": "n. the momentary present\\nr. in the historical present; at this point in the narration of a series o"
       }
     },
     {
@@ -2159,8 +2159,8 @@
       "phonetic": "/ˈnʌmbər/",
       "pos": "n",
       "meaning": {
-        "zh": "数字",
-        "en": "counting symbol"
+        "zh": "n. 数, 数字, 数目, 号码 vt. 数, 计算, 共计 vi. 计算, 报数 [计] 数字",
+        "en": "n. the property possessed by a sum or total or indefinite quantity of units or individuals\\nn. a con"
       }
     },
     {
@@ -2169,8 +2169,8 @@
       "phonetic": "/nɜːs/",
       "pos": "n",
       "meaning": {
-        "zh": "护士",
-        "en": "medical helper"
+        "zh": "n. 护士, 保姆, 奶妈 vt. 看护, 照顾, 培养 vi. 喂奶, 看护病人",
+        "en": "n. one skilled in caring for young children or the sick (usually under the supervision of a physicia"
       }
     },
     {
@@ -2179,8 +2179,8 @@
       "phonetic": "/oʊld/",
       "pos": "adj",
       "meaning": {
-        "zh": "老的",
-        "en": "not young"
+        "zh": "adj. 老的；旧的；以前的；...岁的",
+        "en": "aged; not new; former; of age"
       }
     },
     {
@@ -2189,8 +2189,8 @@
       "phonetic": "/wʌn/",
       "pos": "num",
       "meaning": {
-        "zh": "一",
-        "en": "number 1"
+        "zh": "n. 一(个) pron. 一, 任何人 num. 一, 一个 a. 一致的, 完整的",
+        "en": "n. the smallest whole number or a numeral representing this number\\nn. a single person or thing\\ns. "
       }
     },
     {
@@ -2199,8 +2199,8 @@
       "phonetic": "/ˈoʊnli/",
       "pos": "adv",
       "meaning": {
-        "zh": "仅仅",
-        "en": "just"
+        "zh": "a. 唯一的, 仅有的, 最佳的 adv. 只有, 仅仅, 只能 conj. 但是, 不过",
+        "en": "r. with nevertheless the final result\\nr. in the final outcome\\nr. except that; only this time she c"
       }
     },
     {
@@ -2209,8 +2209,8 @@
       "phonetic": "/ˈoʊpən/",
       "pos": "v",
       "meaning": {
-        "zh": "打开",
-        "en": "not closed"
+        "zh": "n. 公开, 户外, 空旷 a. 开着的, 开放的, 开阔的, 营业着的, 公开的, 悬而未决的 vt. 打开, 公开, 开放 vi. 展开, 开始, 展现 [计] 打开指令",
+        "en": "n. a clear or unobstructed space or expanse of land or water\\nn. a tournament in which both professi"
       }
     },
     {
@@ -2219,8 +2219,8 @@
       "phonetic": "/ˈɔːrɪndʒ/",
       "pos": "n",
       "meaning": {
-        "zh": "橙子",
-        "en": "citrus fruit"
+        "zh": "n. 柑橘, 桔子, 橘色 a. 橘色的",
+        "en": "n. round yellow to orange fruit of any of several citrus trees\\nn. orange color or pigment; any of a"
       }
     },
     {
@@ -2229,7 +2229,7 @@
       "phonetic": "/aʊr/",
       "pos": "pron",
       "meaning": {
-        "zh": "我们的",
+        "zh": "det. （详见词典）",
         "en": "belonging to us"
       }
     },
@@ -2239,8 +2239,8 @@
       "phonetic": "/aʊt/",
       "pos": "adv",
       "meaning": {
-        "zh": "外面",
-        "en": "not inside"
+        "zh": "adv. 出去；在外；熄灭；出现",
+        "en": "away from inside; outdoors; not burning; into view"
       }
     },
     {
@@ -2249,7 +2249,7 @@
       "phonetic": "/ˈpændə/",
       "pos": "n",
       "meaning": {
-        "zh": "熊猫",
+        "zh": "n. panda；某物",
         "en": "Chinese bear"
       }
     },
@@ -2259,8 +2259,8 @@
       "phonetic": "/ˈperənt/",
       "pos": "n",
       "meaning": {
-        "zh": "父母",
-        "en": "mother or father"
+        "zh": "n. 父母, 父母亲, 根源 [法] 父亲, 母亲, 根源",
+        "en": "n. a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a re"
       }
     },
     {
@@ -2269,8 +2269,8 @@
       "phonetic": "/pɑːrk/",
       "pos": "n",
       "meaning": {
-        "zh": "公园",
-        "en": "outdoor space"
+        "zh": "n. 公园, 停车处 vt. 停车, 置于 vi. 停车",
+        "en": "n. a large area of land preserved in its natural state as public property\\nn. a piece of open land f"
       }
     },
     {
@@ -2279,8 +2279,8 @@
       "phonetic": "/ˈpɑːti/",
       "pos": "n",
       "meaning": {
-        "zh": "聚会",
-        "en": "celebration"
+        "zh": "n. 宴会, 党, 政党, 团体, 当事人, 聚会 v. 举办聚会",
+        "en": "n. an organization to gain political power\\nn. a group of people gathered together for pleasure\\nn. "
       }
     },
     {
@@ -2289,8 +2289,8 @@
       "phonetic": "/piːtʃ/",
       "pos": "n",
       "meaning": {
-        "zh": "桃子",
-        "en": "soft fruit"
+        "zh": "n. 桃子, 桃树, 桃色, 美人儿, 极好的事物 vt. 告发 vi. 告密, 检举",
+        "en": "n. cultivated in temperate regions\\nn. downy juicy fruit with sweet yellowish or whitish flesh"
       }
     },
     {
@@ -2299,8 +2299,8 @@
       "phonetic": "/per/",
       "pos": "n",
       "meaning": {
-        "zh": "梨",
-        "en": "green fruit"
+        "zh": "n. 梨子, 梨树, 梨木 [机] 梨木",
+        "en": "n. sweet juicy gritty-textured fruit available in many varieties\\nn. Old World tree having sweet gri"
       }
     },
     {
@@ -2309,8 +2309,8 @@
       "phonetic": "/pen/",
       "pos": "n",
       "meaning": {
-        "zh": "钢笔",
-        "en": "writing tool"
+        "zh": "n. 钢笔, 笔, 笔调, 笔杆子, 作家, 围栏, 栅栏, 禽畜 vt. 写, 关入栏中, 囚禁 vi. 动笔, 写作",
+        "en": "n. a writing implement with a point from which ink flows\\nn. an enclosure for confining livestock\\nn"
       }
     },
     {
@@ -2319,8 +2319,8 @@
       "phonetic": "/ˈpensl/",
       "pos": "n",
       "meaning": {
-        "zh": "铅笔",
-        "en": "drawing tool"
+        "zh": "n. 铅笔, 色笔, 眉笔, 画笔, 光线束 vt. 用铅笔写或涂, 草拟",
+        "en": "n. a thin cylindrical pointed writing implement; a rod of marking substance encased in wood\\nn. grap"
       }
     },
     {
@@ -2329,8 +2329,8 @@
       "phonetic": "/ˈpiːpl/",
       "pos": "n",
       "meaning": {
-        "zh": "人们",
-        "en": "persons"
+        "zh": "n. 人, 人民, 民族, 平民 vt. 使住满人, 居住于",
+        "en": "n. (plural) any group of human beings (men or women or children) collectively\\nn. members of a famil"
       }
     },
     {
@@ -2339,8 +2339,8 @@
       "phonetic": "/pet/",
       "pos": "n",
       "meaning": {
-        "zh": "宠物",
-        "en": "animal at home"
+        "zh": "n. 宠物, 受宠爱的人, 宠坏的孩子, 不悦, 生气 a. 宠爱的, 表示亲昵的, 养着观赏的, 特别珍爱的, 格外的 vt. 宠爱, 溺爱, 抚摸 vi. 拥抱, 爱抚, 生气, 发脾气",
+        "en": "n. a domesticated animal kept for companionship or amusement\\nn. a fit of petulance or sulkiness (es"
       }
     },
     {
@@ -2349,8 +2349,8 @@
       "phonetic": "/foʊn/",
       "pos": "n",
       "meaning": {
-        "zh": "电话",
-        "en": "communication device"
+        "zh": "n. 电话, 受话器, 耳机 vt. 打电话给 vi. 打电话",
+        "en": "n. (phonetics) an individual sound unit of speech without concern as to whether or not it is a phone"
       }
     },
     {
@@ -2359,8 +2359,8 @@
       "phonetic": "/ˈfoʊtoʊ/",
       "pos": "n",
       "meaning": {
-        "zh": "照片",
-        "en": "picture"
+        "zh": "n. 相片, 照片, 逼真的描绘 v. 照相 a. 照相的, 摄影用的, 详细记录的, 逼真的, 酷似的",
+        "en": "n a representation of a person or scene in the form of a print or transparent slide; recorded by a c"
       }
     },
     {
@@ -2369,8 +2369,8 @@
       "phonetic": "/ˈpɪktʃər/",
       "pos": "n",
       "meaning": {
-        "zh": "图画",
-        "en": "image"
+        "zh": "n. 图画, 照片, 景色, 美丽如画的人(或物), 化身, 生动的描述, 想像, 形象思维 vt. 画, 拍摄, 用图说明, 描写, 想像 [计] 图象",
+        "en": "n. a visual representation (of an object or scene or person or abstraction) produced on a surface\\nn"
       }
     },
     {
@@ -2379,8 +2379,8 @@
       "phonetic": "/pɪɡ/",
       "pos": "n",
       "meaning": {
-        "zh": "猪",
-        "en": "farm animal"
+        "zh": "n. 猪, 猪肉, 贪婪的人, 猪一样的人 v. 生小猪, 象猪般地生活",
+        "en": "n. a crude block of metal (lead or iron) poured from a smelting furnace\\nv. live like a pig, in squa"
       }
     },
     {
@@ -2389,8 +2389,8 @@
       "phonetic": "/pɪŋk/",
       "pos": "adj",
       "meaning": {
-        "zh": "粉色的",
-        "en": "light red"
+        "zh": "n. 粉红色, 石竹花, 化身, 典范, 头面人物, 极度 a. 粉红的, 石竹科的, 比较激进的, 脸色发红的, 精致的, 有点下流的 vt. 刺, 扎, 刺痛, 射伤, 使面红耳赤, 使变粉红色 vi. 变粉红色",
+        "en": "n. a light shade of red\\nn. any of various flowers of plants of the genus Dianthus cultivated for th"
       }
     },
     {
@@ -2399,8 +2399,8 @@
       "phonetic": "/ˈpiːtsə/",
       "pos": "n",
       "meaning": {
-        "zh": "披萨",
-        "en": "Italian food"
+        "zh": "n. pizza；某物",
+        "en": "Italian dish"
       }
     },
     {
@@ -2409,8 +2409,8 @@
       "phonetic": "/pleɪs/",
       "pos": "n",
       "meaning": {
-        "zh": "地方",
-        "en": "location"
+        "zh": "n. 地方, 地点, 位置, 住所, 座位, 地位, 处境, 特权, 空间, 余地, 职务, 位 vt. 放置, 寄予, 认出, 评定, 任命 vi. 名次列前",
+        "en": "n. any area set aside for a particular purpose\\nn. an abstract mental location\\nn. a general vicinit"
       }
     },
     {
@@ -2419,8 +2419,8 @@
       "phonetic": "/pleɪn/",
       "pos": "n",
       "meaning": {
-        "zh": "飞机",
-        "en": "aircraft"
+        "zh": "n. 平面, 扁平物, 机翼, 飞机, 水准, 地位 a. 平的, 平面的 vt. 将...刨平, 刨平, 掠过水面 vi. 翱翔, 乘飞机旅行, 刨掉",
+        "en": "n. (mathematics) an unbounded two-dimensional shape\\nn. a level of existence or development\\nn. a po"
       }
     },
     {
@@ -2429,8 +2429,8 @@
       "phonetic": "/pleɪ/",
       "pos": "v",
       "meaning": {
-        "zh": "玩",
-        "en": "have fun"
+        "zh": "v. 玩；演奏；播放 n. 游戏；戏剧",
+        "en": "v. engage in games; perform n. game; drama"
       }
     },
     {
@@ -2439,8 +2439,8 @@
       "phonetic": "/pliːz/",
       "pos": "int",
       "meaning": {
-        "zh": "请",
-        "en": "polite request"
+        "zh": "adv. 请 vt. 使高兴, 合...的心意, 取悦 vi. 使人满意, 讨好, 愿意, 敬请",
+        "en": "v. give pleasure to or be pleasing to\\nv. be the will of or have the will (to)\\nv. give satisfaction"
       }
     },
     {
@@ -2449,8 +2449,8 @@
       "phonetic": "/ˈprezənt/",
       "pos": "n",
       "meaning": {
-        "zh": "礼物",
-        "en": "gift"
+        "zh": "n. 现在, 礼品, 瞄准 a. 现在的, 出席的 vt. 介绍, 引见, 赠送, 提出, 呈现, 上演 vi. 举枪瞄准",
+        "en": "n. the period of time that is happening now; any continuous stretch of time including the moment of "
       }
     },
     {
@@ -2459,8 +2459,8 @@
       "phonetic": "/ˈprɪti/",
       "pos": "adj",
       "meaning": {
-        "zh": "漂亮的",
-        "en": "beautiful"
+        "zh": "a. 漂亮的, 优美的, 机灵的, 狡猾的, 恰当的 adv. 相当, 颇",
+        "en": "s. pleasing by delicacy or grace; not imposing\\ns. (used ironically) unexpectedly bad"
       }
     },
     {
@@ -2469,8 +2469,8 @@
       "phonetic": "/ˈpjuːpl/",
       "pos": "n",
       "meaning": {
-        "zh": "学生",
-        "en": "child learner"
+        "zh": "n. 学生, 门生, 未成年人, 瞳孔 [医] 瞳孔",
+        "en": "n. the contractile aperture in the center of the iris of the eye; resembles a large black dot"
       }
     },
     {
@@ -2479,8 +2479,8 @@
       "phonetic": "/ˈpɜːrpl/",
       "pos": "adj",
       "meaning": {
-        "zh": "紫色的",
-        "en": "violet color"
+        "zh": "n. 紫色, 帝位 a. 紫色的, 帝王的, 华而不实的 v. (使)成紫色",
+        "en": "n. a purple color or pigment\\nn. of imperial status\\nv. become purple\\nv. color purple"
       }
     },
     {
@@ -2489,8 +2489,8 @@
       "phonetic": "/pʊt/",
       "pos": "v",
       "meaning": {
-        "zh": "放",
-        "en": "place"
+        "zh": "v. 放；安置；表达；估计；施加",
+        "en": "place; position; express; estimate; apply"
       }
     },
     {
@@ -2499,8 +2499,8 @@
       "phonetic": "/ˈræbɪt/",
       "pos": "n",
       "meaning": {
-        "zh": "兔子",
-        "en": "hopping animal"
+        "zh": "n. 兔子 vi. 猎兔 vt. 让...见鬼去",
+        "en": "n. any of various burrowing animals of the family Leporidae having long ears and short tails; some d"
       }
     },
     {
@@ -2509,8 +2509,8 @@
       "phonetic": "/reɪn/",
       "pos": "n",
       "meaning": {
-        "zh": "雨",
-        "en": "water from sky"
+        "zh": "n. 雨, 下雨, 雨天 vi. 下雨 vt. 使大量落下",
+        "en": "n. water falling in drops from vapor condensed in the atmosphere\\nn. drops of fresh water that fall "
       }
     },
     {
@@ -2519,8 +2519,8 @@
       "phonetic": "/riːd/",
       "pos": "v",
       "meaning": {
-        "zh": "读",
-        "en": "look at words"
+        "zh": "v. 读, 阅读, 理解 a. 有学问的 n. 读取, 阅读 [计] 读取",
+        "en": "n. something that is read\\nv. interpret something that is written or printed\\nv. have or contain a c"
       }
     },
     {
@@ -2529,8 +2529,8 @@
       "phonetic": "/red/",
       "pos": "adj",
       "meaning": {
-        "zh": "红色的",
-        "en": "color of blood"
+        "zh": "a. 红的, 红色的, 红肿的, 流血的 n. 红色, 红颜料, 赤字 [计] 简化, 减少",
+        "en": "n. red color or pigment; the chromatic color resembling the hue of blood\\nn. a tributary of the Miss"
       }
     },
     {
@@ -2539,8 +2539,8 @@
       "phonetic": "/raɪs/",
       "pos": "n",
       "meaning": {
-        "zh": "米饭",
-        "en": "grain food"
+        "zh": "n. 米, 米饭, 稻 vt. 将...压成米粒状",
+        "en": "n. grains used as food either unpolished or more often polished\\nn. annual or perennial rhizomatous "
       }
     },
     {
@@ -2549,8 +2549,8 @@
       "phonetic": "/raɪt/",
       "pos": "adj",
       "meaning": {
-        "zh": "右边的",
-        "en": "opposite of left"
+        "zh": "n. 权利, 右边, 正义, 右派, 公正 a. 正确的, 对的, 恰当的, 正常的, 正直的, 正面的, 右方的 adv. 正确地, 以有利结果, 一直, 直接, 向右 vt. 扶直, 整理, 纠正, 伸冤, 使昭雪 vi. 恢复平衡 [计] 右, 权利",
+        "en": "n. an abstract idea of that which is due to a person or governmental body by law or tradition or nat"
       }
     },
     {
@@ -2559,8 +2559,8 @@
       "phonetic": "/ˈrɪvər/",
       "pos": "n",
       "meaning": {
-        "zh": "河流",
-        "en": "water flow"
+        "zh": "n. 河, 江 [法] 河流, 江河, 内河",
+        "en": "n. a large natural stream of water (larger than a creek)"
       }
     },
     {
@@ -2569,8 +2569,8 @@
       "phonetic": "/roʊd/",
       "pos": "n",
       "meaning": {
-        "zh": "路",
-        "en": "for vehicles"
+        "zh": "n. 路, 道路, 公路, 途径, 方法 [法] 公路, 道路, 行车道",
+        "en": "n. an open way (generally public) for travel or transportation\\nn. a way or means to achieve somethi"
       }
     },
     {
@@ -2579,8 +2579,8 @@
       "phonetic": "/ruːm/",
       "pos": "n",
       "meaning": {
-        "zh": "房间",
-        "en": "space in house"
+        "zh": "n. 房间, 空位, 场所 vi. 住宿, 居住 vt. 留宿",
+        "en": "n. an area within a building enclosed by walls and floor and ceiling\\nn. space for movement\\nn. oppo"
       }
     },
     {
@@ -2589,8 +2589,8 @@
       "phonetic": "/ˈruːlər/",
       "pos": "n",
       "meaning": {
-        "zh": "尺子",
-        "en": "measuring tool"
+        "zh": "n. 统治者, 管理者, 尺, 直尺 n. 划线板 [计] 标尺",
+        "en": "n. a person who rules or commands"
       }
     },
     {
@@ -2599,8 +2599,8 @@
       "phonetic": "/rʌn/",
       "pos": "v",
       "meaning": {
-        "zh": "跑",
-        "en": "move fast"
+        "zh": "v. 跑；运转；经营 n. 跑步；旅程",
+        "en": "v. move fast; operate n. act of running; journey"
       }
     },
     {
@@ -2609,7 +2609,7 @@
       "phonetic": "/sæd/",
       "pos": "adj",
       "meaning": {
-        "zh": "悲伤的",
+        "zh": "adj. ...的；某种的",
         "en": "unhappy"
       }
     },
@@ -2619,8 +2619,8 @@
       "phonetic": "/seɪ/",
       "pos": "v",
       "meaning": {
-        "zh": "说",
-        "en": "speak"
+        "zh": "vt. 说, 讲, 念, 说明, 指明 vi. 说, 讲 n. 意见, 发言权",
+        "en": "n. the chance to speak\\nv. communicate or express nonverbally\\nv. utter aloud\\nv. state as one's opi"
       }
     },
     {
@@ -2629,8 +2629,8 @@
       "phonetic": "/skuːl/",
       "pos": "n",
       "meaning": {
-        "zh": "学校",
-        "en": "place to learn"
+        "zh": "n. 学校, 鱼群, 门派, 学派 vt. 教育, 训练, 培养 vi. 成群地游",
+        "en": "n. an educational institution\\nn. a building where young people receive education\\nn. the process of"
       }
     },
     {
@@ -2639,8 +2639,8 @@
       "phonetic": "/siː/",
       "pos": "v",
       "meaning": {
-        "zh": "看见",
-        "en": "use eyes"
+        "zh": "v. 看见；理解；会面；经历；确保",
+        "en": "perceive; understand; meet; experience; ensure"
       }
     },
     {
@@ -2649,7 +2649,7 @@
       "phonetic": "/ˈsevən/",
       "pos": "num",
       "meaning": {
-        "zh": "七",
+        "zh": "num. （详见词典）",
         "en": "number 7"
       }
     },
@@ -2659,8 +2659,8 @@
       "phonetic": "/ˌsevənˈtiːn/",
       "pos": "num",
       "meaning": {
-        "zh": "十七",
-        "en": "number 17"
+        "zh": "num. 十七, 十七个",
+        "en": "n. the cardinal number that is the sum of sixteen and one\\ns. being one more than sixteen"
       }
     },
     {
@@ -2669,8 +2669,8 @@
       "phonetic": "/ˈsevənti/",
       "pos": "num",
       "meaning": {
-        "zh": "七十",
-        "en": "number 70"
+        "zh": "num. 七十, 七十个",
+        "en": "n. the cardinal number that is the product of ten and seven\\ns. being ten more than sixty"
       }
     },
     {
@@ -2679,8 +2679,8 @@
       "phonetic": "/ʃiː/",
       "pos": "pron",
       "meaning": {
-        "zh": "她",
-        "en": "female person"
+        "zh": "pron. 人；某人",
+        "en": "female person or animal"
       }
     },
     {
@@ -2689,7 +2689,7 @@
       "phonetic": "/ʃiːp/",
       "pos": "n",
       "meaning": {
-        "zh": "羊",
+        "zh": "n. sheep；某物",
         "en": "farm animal"
       }
     },
@@ -2699,8 +2699,8 @@
       "phonetic": "/ʃɪp/",
       "pos": "n",
       "meaning": {
-        "zh": "轮船",
-        "en": "large boat"
+        "zh": "n. 船, 舰 vt. 以船运送, 装船, 运送 vi. 上船, 乘船",
+        "en": "n. a vessel that carries passengers or freight\\nv. hire for work on a ship\\nv. travel by ship\\nv. pl"
       }
     },
     {
@@ -2709,8 +2709,8 @@
       "phonetic": "/ʃɜːt/",
       "pos": "n",
       "meaning": {
-        "zh": "衬衫",
-        "en": "upper clothing"
+        "zh": "n. 衬衫, 内衣, 汗衫",
+        "en": "n. a garment worn on the upper half of the body\\nv. put a shirt on"
       }
     },
     {
@@ -2719,8 +2719,8 @@
       "phonetic": "/ʃuː/",
       "pos": "n",
       "meaning": {
-        "zh": "鞋子",
-        "en": "foot covering"
+        "zh": "n. 鞋, 靴, 外胎 vt. 给...穿鞋, 为马钉蹄铁",
+        "en": "n. footwear shaped to fit the foot (below the ankle) with a flexible upper of leather or plastic and"
       }
     },
     {
@@ -2729,8 +2729,8 @@
       "phonetic": "/ʃɑːp/",
       "pos": "n",
       "meaning": {
-        "zh": "商店",
-        "en": "store"
+        "zh": "n. 商店, 工厂, 车间 vi. 购物, 到处寻找 vt. 选购",
+        "en": "n. a mercantile establishment for the retail sale of goods or services\\nv. do one's shopping\\nv. sho"
       }
     },
     {
@@ -2739,8 +2739,8 @@
       "phonetic": "/ʃɔːt/",
       "pos": "adj",
       "meaning": {
-        "zh": "短的",
-        "en": "not long"
+        "zh": "a. 短的, 近的, 矮的, 短期的, 简短的, 少量的 adv. 简短地, 突然 n. 扼要, 短片, 缺乏 vt. 故意少给, 使短路",
+        "en": "n. the location on a baseball field where the shortstop is stationed\\na. primarily temporal sense; i"
       }
     },
     {
@@ -2749,8 +2749,8 @@
       "phonetic": "/sɪŋ/",
       "pos": "v",
       "meaning": {
-        "zh": "唱歌",
-        "en": "make music"
+        "zh": "vi. 唱, 唱歌, 演唱, 鸣, 啼 vt. 唱, 歌颂 n. 嗖嗖声",
+        "en": "v. deliver by singing\\nv. produce tones with the voice\\nv. to make melodious sounds"
       }
     },
     {
@@ -2759,8 +2759,8 @@
       "phonetic": "/ˈsɪstər/",
       "pos": "n",
       "meaning": {
-        "zh": "姐妹",
-        "en": "female sibling"
+        "zh": "n. 姐妹, 姐, 妹, 护士, 修女 vt. 姐妹般对待",
+        "en": "n. a female person who has the same parents as another person\\nn. (Roman Catholic Church) a title gi"
       }
     },
     {
@@ -2769,8 +2769,8 @@
       "phonetic": "/sɪt/",
       "pos": "v",
       "meaning": {
-        "zh": "坐",
-        "en": "be seated"
+        "zh": "vi. 坐, 就座, 坐落 vt. 使就座, 骑 n. 坐, 衣服合身",
+        "en": "v. be seated\\nv. be around, often idly or without specific purpose\\nv. be in session\\nv. be located "
       }
     },
     {
@@ -2779,7 +2779,7 @@
       "phonetic": "/sɪks/",
       "pos": "num",
       "meaning": {
-        "zh": "六",
+        "zh": "num. （详见词典）",
         "en": "number 6"
       }
     },
@@ -2789,8 +2789,8 @@
       "phonetic": "/ˌsɪksˈtiːn/",
       "pos": "num",
       "meaning": {
-        "zh": "十六",
-        "en": "number 16"
+        "zh": "num. 十六, 十六个",
+        "en": "n. the cardinal number that is the sum of fifteen and one\\ns. being one more than fifteen"
       }
     },
     {
@@ -2799,8 +2799,8 @@
       "phonetic": "/ˈsɪksti/",
       "pos": "num",
       "meaning": {
-        "zh": "六十",
-        "en": "number 60"
+        "zh": "num. 六十, 六十个",
+        "en": "n. the cardinal number that is the product of ten and six\\ns. being ten more than fifty"
       }
     },
     {
@@ -2809,8 +2809,8 @@
       "phonetic": "/skɜːt/",
       "pos": "n",
       "meaning": {
-        "zh": "裙子",
-        "en": "women's clothing"
+        "zh": "n. 裙子, 下摆, 边缘, 郊区 vt. 位于...边缘, 绕过, 回避 vi. 位于边缘",
+        "en": "n. cloth covering that forms the part of a garment below the waist\\nn. a garment hanging from the wa"
       }
     },
     {
@@ -2819,8 +2819,8 @@
       "phonetic": "/sliːp/",
       "pos": "v",
       "meaning": {
-        "zh": "睡觉",
-        "en": "rest in bed"
+        "zh": "n. 睡眠, 静止, 昏迷, 麻木, 长眠, 冬眠 vi. 睡觉, 睡眠, 静止 vt. 睡",
+        "en": "n. a natural and periodic state of rest during which consciousness of the world is suspended\\nn. a t"
       }
     },
     {
@@ -2829,8 +2829,8 @@
       "phonetic": "/smɔːl/",
       "pos": "adj",
       "meaning": {
-        "zh": "小的",
-        "en": "not big"
+        "zh": "adj. 小的；少的；不重要的",
+        "en": "little in size; not much; unimportant"
       }
     },
     {
@@ -2839,8 +2839,8 @@
       "phonetic": "/snoʊ/",
       "pos": "n",
       "meaning": {
-        "zh": "雪",
-        "en": "frozen rain"
+        "zh": "n. 雪, 积雪, 下雪, 雪花形干扰 vi. 下雪, 似雪般落下 vt. 使雪白, 用雪覆盖, 使像雪般落下",
+        "en": "n. precipitation falling from clouds in the form of ice crystals\\nn. a layer of snowflakes (white cr"
       }
     },
     {
@@ -2849,8 +2849,8 @@
       "phonetic": "/sʌm/",
       "pos": "det",
       "meaning": {
-        "zh": "一些",
-        "en": "a few"
+        "zh": "pron. 一些, 一部分, 若干 adv. 大约 a. 一些的, 少许的, 某一的",
+        "en": "a. quantifier; used with either mass nouns or plural count nouns to indicate an unspecified number o"
       }
     },
     {
@@ -2859,8 +2859,8 @@
       "phonetic": "/sʌn/",
       "pos": "n",
       "meaning": {
-        "zh": "儿子",
-        "en": "male child"
+        "zh": "n. 儿子, 女婿, 子孙 [法] 儿子, 女婿, 养子",
+        "en": "n. a male human offspring\\nn. the divine word of God; the second person in the Trinity (incarnate in"
       }
     },
     {
@@ -2869,8 +2869,8 @@
       "phonetic": "/sɔːrŋ/",
       "pos": "n",
       "meaning": {
-        "zh": "歌曲",
-        "en": "music with words"
+        "zh": "n. 歌, 曲, 鸣声, 歌唱, 歌曲, 诗歌",
+        "en": "n. a short musical composition with words\\nn. a distinctive or characteristic sound\\nn. the act of s"
       }
     },
     {
@@ -2879,8 +2879,8 @@
       "phonetic": "/ˈsɑːri/",
       "pos": "int",
       "meaning": {
-        "zh": "对不起",
-        "en": "apology"
+        "zh": "adj. ...的；某种的 int. （详见词典）",
+        "en": "apologetic apology"
       }
     },
     {
@@ -2889,8 +2889,8 @@
       "phonetic": "/spel/",
       "pos": "v",
       "meaning": {
-        "zh": "拼写",
-        "en": "write letters"
+        "zh": "n. 符咒, 魅力, 轮值, 轮班, 工作时间, 一次发作 vt. 拼写, 拼成, 琢磨, 理解, 招致, 轮换, 迷住 vi. 轮换, 拼字",
+        "en": "n. a verbal formula believed to have magical force\\nv. orally recite the letters of or give the spel"
       }
     },
     {
@@ -2899,8 +2899,8 @@
       "phonetic": "/spɔːt/",
       "pos": "n",
       "meaning": {
-        "zh": "运动",
-        "en": "physical activity"
+        "zh": "n. 运动, 游戏, 娱乐, 消遣, 玩笑 a. 运动的, 户外穿戴的 vi. 游戏, 参加体育运动, 戏弄, 产生变种 vt. 炫耀, 使产生变种",
+        "en": "n. an active diversion requiring physical exertion and competition\\nn. the occupation of athletes wh"
       }
     },
     {
@@ -2909,8 +2909,8 @@
       "phonetic": "/sprɪŋ/",
       "pos": "n",
       "meaning": {
-        "zh": "春天",
-        "en": "warm season"
+        "zh": "n. 春天, 弹簧, 跳跃, 弹性, 活力, 泉, 源泉 a. 春天的 vi. 跳, 弹跳, 涌出, 生长, 裂开, 高耸 vt. 使跳起, 使爆炸, 突然提出",
+        "en": "n. the season of growth\\nn. a metal elastic device that returns to its shape or position when pushed"
       }
     },
     {
@@ -2919,8 +2919,8 @@
       "phonetic": "/stænd/",
       "pos": "v",
       "meaning": {
-        "zh": "站",
-        "en": "be upright"
+        "zh": "n. 站立, 站住, 停顿, 讲台, 看台, 立场, 法院证人席 vi. 站, 立, 坐落, 停滞, 位于, 坚持, 维持原状 vt. 忍受, 使站立, 抵挡",
+        "en": "n. the position where a thing or person stands\\nn. a growth of similar plants (usually trees) in a p"
       }
     },
     {
@@ -2929,8 +2929,8 @@
       "phonetic": "/stɑːr/",
       "pos": "n",
       "meaning": {
-        "zh": "星星",
-        "en": "in night sky"
+        "zh": "n. 星, 恒星, 星形物, 运气, 明星 vt. 以星状物装饰, 用星号标, 使成为明星 vi. 变成明星",
+        "en": "n. (astronomy) a celestial body of hot gases that radiates energy derived from thermonuclear reactio"
       }
     },
     {
@@ -2939,8 +2939,8 @@
       "phonetic": "/stɑːp/",
       "pos": "v",
       "meaning": {
-        "zh": "停止",
-        "en": "cease"
+        "zh": "n. 停止, 车站, 逗留, 填塞, 障碍, (风琴的)音栓 vi. 停止, 被塞住 vt. 塞住, 堵塞, 阻止, 击落, 停止, 终止, 断绝",
+        "en": "n. the event of something ending\\nn. the act of stopping something\\nn. a brief stay in the course of"
       }
     },
     {
@@ -2949,8 +2949,8 @@
       "phonetic": "/ˈstɔːri/",
       "pos": "n",
       "meaning": {
-        "zh": "故事",
-        "en": "tale"
+        "zh": "n. 故事, 小说, 传奇, 描述, 阅历, 经历, 层",
+        "en": "n. a piece of fiction that narrates a chain of related events"
       }
     },
     {
@@ -2959,8 +2959,8 @@
       "phonetic": "/striːt/",
       "pos": "n",
       "meaning": {
-        "zh": "街道",
-        "en": "road in town"
+        "zh": "n. 街道, 马路, 街区 a. 街道的",
+        "en": "n. a thoroughfare (usually including sidewalks) that is lined with buildings\\nn. the part of a thoro"
       }
     },
     {
@@ -2969,8 +2969,8 @@
       "phonetic": "/ˈstuːdənt/",
       "pos": "n",
       "meaning": {
-        "zh": "学生",
-        "en": "learner"
+        "zh": "n. 学生, 研究者, 学者",
+        "en": "n. a learner who is enrolled in an educational institution"
       }
     },
     {
@@ -2979,8 +2979,8 @@
       "phonetic": "/ˈstʌdi/",
       "pos": "v",
       "meaning": {
-        "zh": "学习",
-        "en": "learn"
+        "zh": "n. 学习, 研究, 学科, 论文, 求学, 书房, 试作 vt. 学习, 读书, 研究, 考虑, 计划 vi. 学习, 思索",
+        "en": "n. applying the mind to learning and understanding a subject (especially by reading)\\nn. a state of "
       }
     },
     {
@@ -2989,8 +2989,8 @@
       "phonetic": "/ˈsʌmər/",
       "pos": "n",
       "meaning": {
-        "zh": "夏天",
-        "en": "hot season"
+        "zh": "n. 夏季, 全盛时期 vi. 避暑, 过夏天 [计] 加法器",
+        "en": "n. the warmest season of the year; in the northern hemisphere it extends from the summer solstice to"
       }
     },
     {
@@ -2999,8 +2999,8 @@
       "phonetic": "/sʌn/",
       "pos": "n",
       "meaning": {
-        "zh": "太阳",
-        "en": "day star"
+        "zh": "n. 太阳, 日, 日光, 阳光 vt. 晒 vi. 晒太阳",
+        "en": "n. the star that is the source of light and heat for the planets in the solar system\\nn. a person co"
       }
     },
     {
@@ -3009,8 +3009,8 @@
       "phonetic": "/ˈsʌndeɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "星期日",
-        "en": "day of week"
+        "zh": "n. 星期日 a. 星期日的, 业余的 vi. 度星期日",
+        "en": "n. first day of the week; observed as a day of rest and worship by most Christians\\nn. United States"
       }
     },
     {
@@ -3019,8 +3019,8 @@
       "phonetic": "/swɪm/",
       "pos": "v",
       "meaning": {
-        "zh": "游泳",
-        "en": "move in water"
+        "zh": "n. 游泳, 漂浮, 潮流, 眩晕 vi. 游泳, 游, 漂浮, 浸, 覆盖, 充溢, 大量拥有, 旋转, 眩晕 vt. 游过, 使浮起",
+        "en": "v. travel through water\\nv. be dizzy or giddy\\nv. be covered with or submerged in a liquid\\nv. move "
       }
     },
     {
@@ -3029,8 +3029,8 @@
       "phonetic": "/ˈteɪbl/",
       "pos": "n",
       "meaning": {
-        "zh": "桌子",
-        "en": "flat furniture"
+        "zh": "n. 桌子, 餐桌, 工作台, 铭文, 表格, 表, 高原, 平地层 vt. 搁置, 嵌合, 制表, 把...列入议事日程 [计] 表格, 模拟运算表",
+        "en": "n. a set of data arranged in rows and columns\\nn. a piece of furniture having a smooth flat top that"
       }
     },
     {
@@ -3039,8 +3039,8 @@
       "phonetic": "/tɔːl/",
       "pos": "adj",
       "meaning": {
-        "zh": "高的",
-        "en": "high"
+        "zh": "a. 高的, 长的, 夸大的 adv. 夸大地",
+        "en": "n. a garment size for a tall person\\na. great in vertical dimension; high in stature\\ns. impressivel"
       }
     },
     {
@@ -3049,8 +3049,8 @@
       "phonetic": "/ˈtæksi/",
       "pos": "n",
       "meaning": {
-        "zh": "出租车",
-        "en": "hired car"
+        "zh": "n. 出租车 vi. 乘出租车 vt. 用出租车送",
+        "en": "v. travel slowly\\nv. ride in a taxicab"
       }
     },
     {
@@ -3059,8 +3059,8 @@
       "phonetic": "/tiː/",
       "pos": "n",
       "meaning": {
-        "zh": "茶",
-        "en": "hot drink"
+        "zh": "n. 茶, 茶叶 [医] 茶, 茶剂, 浸剂",
+        "en": "n. a beverage made by steeping tea leaves in water\\nn. a light midafternoon meal of tea and sandwich"
       }
     },
     {
@@ -3069,8 +3069,8 @@
       "phonetic": "/tiːtʃ/",
       "pos": "v",
       "meaning": {
-        "zh": "教",
-        "en": "instruct"
+        "zh": "vt. 教, 讲授, 教导, 教育 vi. 教书, 教学, 可以教",
+        "en": "n. an English pirate who operated in the Caribbean and off the Atlantic coast of North America (died"
       }
     },
     {
@@ -3079,8 +3079,8 @@
       "phonetic": "/ˈtiːtʃər/",
       "pos": "n",
       "meaning": {
-        "zh": "老师",
-        "en": "educator"
+        "zh": "n. 人；某人 n. teacher；某物",
+        "en": "person who teaches educator"
       }
     },
     {
@@ -3089,8 +3089,8 @@
       "phonetic": "/tel/",
       "pos": "v",
       "meaning": {
-        "zh": "告诉",
-        "en": "inform"
+        "zh": "vt. 告诉, 说, 吩咐, 断定, 知道 vi. 讲述, 泄密, 告发, 表明",
+        "en": "n. a Swiss patriot who lived in the early 14th century and who was renowned for his skill as an arch"
       }
     },
     {
@@ -3099,7 +3099,7 @@
       "phonetic": "/ten/",
       "pos": "num",
       "meaning": {
-        "zh": "十",
+        "zh": "num. （详见词典）",
         "en": "number 10"
       }
     },
@@ -3109,8 +3109,8 @@
       "phonetic": "/θæŋk/",
       "pos": "v",
       "meaning": {
-        "zh": "感谢",
-        "en": "express gratitude"
+        "zh": "n. 谢意, 感谢 vt. 谢谢, 感谢",
+        "en": "v. express gratitude or show appreciation to"
       }
     },
     {
@@ -3119,8 +3119,8 @@
       "phonetic": "/ðæt/",
       "pos": "det",
       "meaning": {
-        "zh": "那个",
-        "en": "not this"
+        "zh": "a. 那, 那个 conj. 以致, 因为 pron. 那 adv. 那么, 那样",
+        "en": "pron., a., conj., &  As a demonstrative pronoun (pl. Those),\\n   that usually points out, or refers "
       }
     },
     {
@@ -3129,7 +3129,7 @@
       "phonetic": "/ðə/",
       "pos": "art",
       "meaning": {
-        "zh": "这个/那个",
+        "zh": "det. 这个，那个；这些，那些（定冠词）",
         "en": "definite article"
       }
     },
@@ -3139,7 +3139,7 @@
       "phonetic": "/ðer/",
       "pos": "pron",
       "meaning": {
-        "zh": "他们的",
+        "zh": "det. 他们的；她们的；它们的",
         "en": "belonging to them"
       }
     },
@@ -3149,8 +3149,8 @@
       "phonetic": "/ðem/",
       "pos": "pron",
       "meaning": {
-        "zh": "他们（宾格）",
-        "en": "those people (object)"
+        "zh": "pron. 他们；她们；它们（宾格）",
+        "en": "people/things previously mentioned (object form)"
       }
     },
     {
@@ -3159,8 +3159,8 @@
       "phonetic": "/ðen/",
       "pos": "adv",
       "meaning": {
-        "zh": "然后",
-        "en": "after that"
+        "zh": "adv. 那时；然后；那么；而且",
+        "en": "at that time; next; in that case; also"
       }
     },
     {
@@ -3169,8 +3169,8 @@
       "phonetic": "/ðer/",
       "pos": "adv",
       "meaning": {
-        "zh": "那里",
-        "en": "that place"
+        "zh": "adv. 在那里；往那里；在那方面",
+        "en": "in that place; to that place; in that respect"
       }
     },
     {
@@ -3179,8 +3179,8 @@
       "phonetic": "/ðiːz/",
       "pos": "det",
       "meaning": {
-        "zh": "这些",
-        "en": "plural of this"
+        "zh": "det. （详见词典）",
+        "en": "plural of 'this'"
       }
     },
     {
@@ -3189,7 +3189,7 @@
       "phonetic": "/ðeɪ/",
       "pos": "pron",
       "meaning": {
-        "zh": "他们",
+        "zh": "pron. （详见词典）",
         "en": "those people"
       }
     },
@@ -3199,8 +3199,8 @@
       "phonetic": "/θɪn/",
       "pos": "adj",
       "meaning": {
-        "zh": "瘦的",
-        "en": "not fat"
+        "zh": "a. 薄的, 细的, 瘦的, 稀疏的, 稀薄的, 淡的, 弱的, 空洞的 vt. 使变薄, 使变细, 使稀少, 使淡 vi. 变薄, 变细, 变少, 变淡 adv. 薄地, 稀疏地, 微弱地 n. 细小部分",
+        "en": "v. lose thickness; become thin or thinner\\nv. make thin or thinner\\na. of relatively small extent fr"
       }
     },
     {
@@ -3209,8 +3209,8 @@
       "phonetic": "/θɪŋ/",
       "pos": "n",
       "meaning": {
-        "zh": "东西",
-        "en": "object"
+        "zh": "n. 事物, 东西, 物, 用品, 事, 事件, 情况, 行为, 特征",
+        "en": "n. a special situation\\nn. an action\\nn. a special abstraction\\nn. an artifact"
       }
     },
     {
@@ -3219,8 +3219,8 @@
       "phonetic": "/θɪŋk/",
       "pos": "v",
       "meaning": {
-        "zh": "想",
-        "en": "use mind"
+        "zh": "vt. 想, 考虑, 想起, 想像, 打算, 认为 vi. 思考, 料想 n. 想法 a. 思想的",
+        "en": "n. an instance of deliberate thinking\\nv. judge or regard; look upon; judge\\nv. expect, believe, or "
       }
     },
     {
@@ -3229,8 +3229,8 @@
       "phonetic": "/θɜːd/",
       "pos": "num",
       "meaning": {
-        "zh": "第三",
-        "en": "ordinal 3"
+        "zh": "num. 第三, 三分之一 [机] 第三",
+        "en": "n. following the second position in an ordering or series\\nn. the musical interval between one note "
       }
     },
     {
@@ -3239,8 +3239,8 @@
       "phonetic": "/ˌθɜːrˈtiːn/",
       "pos": "num",
       "meaning": {
-        "zh": "十三",
-        "en": "number 13"
+        "zh": "num. 十三, 十三个",
+        "en": "n. the cardinal number that is the sum of twelve and one\\ns. being one more than twelve"
       }
     },
     {
@@ -3249,8 +3249,8 @@
       "phonetic": "/ˈθɜːti/",
       "pos": "num",
       "meaning": {
-        "zh": "三十",
-        "en": "number 30"
+        "zh": "num. 三十, 三十个",
+        "en": "n. the cardinal number that is the product of ten and three\\ns. being ten more than twenty"
       }
     },
     {
@@ -3259,8 +3259,8 @@
       "phonetic": "/ðɪs/",
       "pos": "det",
       "meaning": {
-        "zh": "这个",
-        "en": "near thing"
+        "zh": "pron. 这, 本 a. 这, 本 adv. 这么",
+        "en": "pron. & a. As a demonstrative pronoun, this denotes something\\n   that is present or near in place o"
       }
     },
     {
@@ -3269,7 +3269,7 @@
       "phonetic": "/ðoʊz/",
       "pos": "det",
       "meaning": {
-        "zh": "那些",
+        "zh": "det. （详见词典）",
         "en": "plural of that"
       }
     },
@@ -3279,7 +3279,7 @@
       "phonetic": "/θriː/",
       "pos": "num",
       "meaning": {
-        "zh": "三",
+        "zh": "num. （详见词典）",
         "en": "number 3"
       }
     },
@@ -3289,8 +3289,8 @@
       "phonetic": "/ˈtaɪɡər/",
       "pos": "n",
       "meaning": {
-        "zh": "老虎",
-        "en": "big cat"
+        "zh": "n. 老虎, 虎, 凶暴的人",
+        "en": "n. a fierce or audacious person\\nn. large feline of forests in most of Asia having a tawny coat with"
       }
     },
     {
@@ -3299,8 +3299,8 @@
       "phonetic": "/taɪm/",
       "pos": "n",
       "meaning": {
-        "zh": "时间",
-        "en": "hours and minutes"
+        "zh": "n. 时间, 时侯, 时机, 时期, 期限, 次数, 节拍, 暂停, 规定时间 vt. 测定...的时间, 记录...的时间, 计时, 定时 a. 时间的, 记时的, 定时的, 定期的, 分期的 [计] DOS内部命令:用于显示或设定系统的时间",
+        "en": "n. an instance or single occasion for some event\\nn. a period of time considered as a resource under"
       }
     },
     {
@@ -3309,8 +3309,8 @@
       "phonetic": "/təˈdeɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "今天",
-        "en": "this day"
+        "zh": "n. 今天, 当今, 现在 adv. 今天, 当今",
+        "en": "n. the present time or age\\nn. the day that includes the present moment (as opposed to yesterday or "
       }
     },
     {
@@ -3319,8 +3319,8 @@
       "phonetic": "/təˈɡeðər/",
       "pos": "adv",
       "meaning": {
-        "zh": "一起",
-        "en": "with each other"
+        "zh": "adv. 一起；共同；同时；不断地",
+        "en": "with each other; jointly; at same time; continuously"
       }
     },
     {
@@ -3329,8 +3329,8 @@
       "phonetic": "/təˈmɑːroʊ/",
       "pos": "n",
       "meaning": {
-        "zh": "明天",
-        "en": "next day"
+        "zh": "n. 明天, 未来 adv. 明天, 未来地",
+        "en": "n. the day after today\\nn. the near future\\nr. the next day, the day after, following the present da"
       }
     },
     {
@@ -3339,8 +3339,8 @@
       "phonetic": "/tuː/",
       "pos": "adv",
       "meaning": {
-        "zh": "也/太",
-        "en": "also, excessively"
+        "zh": "adv. 也；太；很；过分",
+        "en": "also; excessively; very; more than enough"
       }
     },
     {
@@ -3349,8 +3349,8 @@
       "phonetic": "/tɔɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "玩具",
-        "en": "for playing"
+        "zh": "n. 玩具, 小玩艺儿, 小型的东西, 消遣 a. 供玩耍的, 作为玩具的 vi. 玩弄, 戏弄, 调情",
+        "en": "n. a nonfunctional replica of something else (frequently used as a modifier)\\nn. a device regarded a"
       }
     },
     {
@@ -3359,8 +3359,8 @@
       "phonetic": "/treɪn/",
       "pos": "n",
       "meaning": {
-        "zh": "火车",
-        "en": "railway vehicle"
+        "zh": "n. 火车, 列车, 行列, 长队, 一连串的后果, 顺序 vt. 训练, 教育, 对准 vi. 受训练, 锻炼",
+        "en": "n. public transport provided by a line of railway cars coupled together and drawn by a locomotive\\nn"
       }
     },
     {
@@ -3369,8 +3369,8 @@
       "phonetic": "/triː/",
       "pos": "n",
       "meaning": {
-        "zh": "树",
-        "en": "tall plant"
+        "zh": "n. 树, 木料, 树状物 vt. 把...赶上树 [计] 树",
+        "en": "n. a tall perennial woody plant having a main trunk and branches forming a distinct elevated crown; "
       }
     },
     {
@@ -3379,8 +3379,8 @@
       "phonetic": "/ˈtraʊzərz/",
       "pos": "n",
       "meaning": {
-        "zh": "裤子",
-        "en": "leg clothing"
+        "zh": "pl. 裤子, 长裤",
+        "en": "n (usually in the plural) a garment extending from the waist to the knee or ankle, covering each leg"
       }
     },
     {
@@ -3389,8 +3389,8 @@
       "phonetic": "/trʌk/",
       "pos": "n",
       "meaning": {
-        "zh": "卡车",
-        "en": "large vehicle"
+        "zh": "n. 卡车, 货车, 对...进行交易, 来往, 实物工资, (供应市场的)蔬菜, 废物, 废话 vt. 对...进行交易, 交往, 以卡车运输 vi. 驾驶卡车, 以物易物",
+        "en": "n. an automotive vehicle suitable for hauling\\nv. convey (goods etc.) by truck"
       }
     },
     {
@@ -3399,8 +3399,8 @@
       "phonetic": "/twelv/",
       "pos": "num",
       "meaning": {
-        "zh": "十二",
-        "en": "number 12"
+        "zh": "num. 十二, 十二个",
+        "en": "n. the cardinal number that is the sum of eleven and one\\ns. denoting a quantity consisting of 12 it"
       }
     },
     {
@@ -3409,8 +3409,8 @@
       "phonetic": "/ˈtwenti/",
       "pos": "num",
       "meaning": {
-        "zh": "二十",
-        "en": "number 20"
+        "zh": "num. 二十, 二十个",
+        "en": "n. the cardinal number that is the sum of nineteen and one\\ns. denoting a quantity consisting of 20 "
       }
     },
     {
@@ -3419,7 +3419,7 @@
       "phonetic": "/tuː/",
       "pos": "num",
       "meaning": {
-        "zh": "二",
+        "zh": "num. （详见词典）",
         "en": "number 2"
       }
     },
@@ -3429,8 +3429,8 @@
       "phonetic": "/ˈʌŋkl/",
       "pos": "n",
       "meaning": {
-        "zh": "叔叔/舅舅",
-        "en": "parent's brother"
+        "zh": "n. 叔父, 伯父, 姨丈",
+        "en": "n. the brother of your father or mother; the husband of your aunt\\nn. a source of help and advice an"
       }
     },
     {
@@ -3439,8 +3439,8 @@
       "phonetic": "/ˈʌndər/",
       "pos": "prep",
       "meaning": {
-        "zh": "在...下面",
-        "en": "below"
+        "zh": "prep. 在...之下, 低于 a. 下面的, 从属的 adv. 在下面",
+        "en": "s. lower in rank, power, or authority\\nr. down to defeat, death, or ruin\\nr. through a range downwar"
       }
     },
     {
@@ -3449,8 +3449,8 @@
       "phonetic": "/juːz/",
       "pos": "v",
       "meaning": {
-        "zh": "使用",
-        "en": "employ"
+        "zh": "n. 使用, 习惯, 使用价值, 用法, 使用权 vt. 使用, 利用, 运用, 耗费 vi. 惯常",
+        "en": "n. the act of using\\nn. a particular service\\nn. (law) the exercise of the legal right to enjoy the "
       }
     },
     {
@@ -3459,8 +3459,8 @@
       "phonetic": "/ˈveri/",
       "pos": "adv",
       "meaning": {
-        "zh": "非常",
-        "en": "extremely"
+        "zh": "a. 真正的, 恰好的, 十足的, 特有的 adv. 非常, 完全",
+        "en": "s. precisely as stated\\nr. used as intensifiers; `real' is sometimes used informally for `really'; `"
       }
     },
     {
@@ -3469,8 +3469,8 @@
       "phonetic": "/weɪt/",
       "pos": "v",
       "meaning": {
-        "zh": "等待",
-        "en": "stay for"
+        "zh": "n. 等待, 等候 vt. 等候, 期待, 延缓, 伺候, 推迟 vi. 等, 等候, 耽搁, 伺候用餐 [计] 等待",
+        "en": "n. the act of waiting (remaining inactive in one place while expecting something)\\nv. stay in one pl"
       }
     },
     {
@@ -3479,8 +3479,8 @@
       "phonetic": "/wɔːrk/",
       "pos": "v",
       "meaning": {
-        "zh": "走路",
-        "en": "move on foot"
+        "zh": "v. 走；步行 n. 步行；散步",
+        "en": "v. move on foot; go on foot n. act of walking; stroll"
       }
     },
     {
@@ -3489,8 +3489,8 @@
       "phonetic": "/wɔːl/",
       "pos": "n",
       "meaning": {
-        "zh": "墙",
-        "en": "room barrier"
+        "zh": "n. 墙, 墙壁, 垣, 内壁, 分界物, 屏障 a. 墙的 vt. 给...建墙, 禁闭, 用墙围住 [计] 背景墙",
+        "en": "n. an architectural partition with a height and length greater than its thickness; used to divide or"
       }
     },
     {
@@ -3499,8 +3499,8 @@
       "phonetic": "/wɑːnt/",
       "pos": "v",
       "meaning": {
-        "zh": "想要",
-        "en": "desire"
+        "zh": "n. 需要的东西, 缺乏, 贫困, 需要 vt. 要, 希望, 应该, 缺少 vi. 生活困苦, 需要, 缺少",
+        "en": "v. have need of\\nv. hunt or look for; want for a particular reason\\nv. wish or demand the presence o"
       }
     },
     {
@@ -3509,8 +3509,8 @@
       "phonetic": "/wɔːrm/",
       "pos": "adj",
       "meaning": {
-        "zh": "温暖的",
-        "en": "not cold"
+        "zh": "a. 暖和的, 暖的, 温暖的, 热烈的, 兴奋的, 激烈的, 多情的, 色情的 vt. 使温暖, 弄热, 使兴奋, 使充满仇恨 vi. 变暖和, 变温暖, 取暖, 激动, 同情, 爱好 n. 暖, 保暖物",
+        "en": "v. get warm or warmer\\nv. make warm or warmer\\na. having or producing a comfortable and agreeable de"
       }
     },
     {
@@ -3519,8 +3519,8 @@
       "phonetic": "/wɑːʃ/",
       "pos": "v",
       "meaning": {
-        "zh": "洗",
-        "en": "clean with water"
+        "zh": "n. 洗, 洗涤, 冲洗, 洗的衣服, 冲积物, 洼地 vt. 洗, 洗涤, 洗清, 用水冲洗, 流过, 弄湿, 粉刷, 镀金属薄层于 vi. 洗涤, 洗澡, 被冲蚀, 漂浮",
+        "en": "n. a thin coat of water-base paint\\nn. the work of cleansing (usually with soap and water)\\nn. the d"
       }
     },
     {
@@ -3529,8 +3529,8 @@
       "phonetic": "/wɑːtʃ/",
       "pos": "v",
       "meaning": {
-        "zh": "观看",
-        "en": "look at"
+        "zh": "n. 观察, 手表, 看守, 守护, 监视, 值班人 vt. 看, 注视, 照顾, 看守, 守护, 监视 vi. 观看, 注视, 守侯",
+        "en": "n. a small portable timepiece\\nn. a period of time (4 or 2 hours) during which some of a ship's crew"
       }
     },
     {
@@ -3539,8 +3539,8 @@
       "phonetic": "/ˈwɔːtər/",
       "pos": "n",
       "meaning": {
-        "zh": "水",
-        "en": "liquid to drink"
+        "zh": "n. 水, 雨水, 海水, 水位, 水面, 流水 vt. 给...浇水, 供以水, 注入水, 使湿 vi. 流泪, 流口水, 加水 a. 水的, 水上的, 水生的, 含水的",
+        "en": "n. binary compound that occurs at room temperature as a clear colorless odorless tasteless liquid; f"
       }
     },
     {
@@ -3549,8 +3549,8 @@
       "phonetic": "/weɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "方法/路",
-        "en": "method or path"
+        "zh": "n. 方法，方式；道路；方向；距离",
+        "en": "method; road; direction; distance"
       }
     },
     {
@@ -3559,8 +3559,8 @@
       "phonetic": "/ˈweðər/",
       "pos": "n",
       "meaning": {
-        "zh": "天气",
-        "en": "climate condition"
+        "zh": "n. 天气, 气象, 处境 a. 迎风的 vt. 使受风吹雨打, 侵蚀, 使风化, 经受住 vi. 风化, 受侵蚀, 经受风雨",
+        "en": "n. the atmospheric conditions that comprise the state of the atmosphere in terms of temperature and "
       }
     },
     {
@@ -3569,7 +3569,7 @@
       "phonetic": "/ˈwenzdeɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "星期三",
+        "zh": "n. wednesday；某物",
         "en": "day of week"
       }
     },
@@ -3579,7 +3579,7 @@
       "phonetic": "/wiːk/",
       "pos": "n",
       "meaning": {
-        "zh": "周",
+        "zh": "n. week；某物",
         "en": "seven days"
       }
     },
@@ -3589,7 +3589,7 @@
       "phonetic": "/ˌwiːkˈend/",
       "pos": "n",
       "meaning": {
-        "zh": "周末",
+        "zh": "n. weekend；某物",
         "en": "Saturday and Sunday"
       }
     },
@@ -3599,8 +3599,8 @@
       "phonetic": "/ˈwelkəm/",
       "pos": "int",
       "meaning": {
-        "zh": "欢迎",
-        "en": "greeting"
+        "zh": "n. 欢迎, 欢迎词 a. 受欢迎的, 可随意的, 可喜的 vt. 欢迎, 接待 interj. 欢迎",
+        "en": "n. the state of being welcome\\nn. a greeting or reception\\nv. accept gladly\\nv. bid welcome to; gree"
       }
     },
     {
@@ -3609,8 +3609,8 @@
       "phonetic": "/wel/",
       "pos": "adv",
       "meaning": {
-        "zh": "好",
-        "en": "in a good way"
+        "zh": "adv. 很好地 adj. 健康的 n. 井",
+        "en": "adv. in good way adj. healthy n. water source"
       }
     },
     {
@@ -3619,7 +3619,7 @@
       "phonetic": "/went/",
       "pos": "v",
       "meaning": {
-        "zh": "去（过去式）",
+        "zh": "v. 做某事；进行",
         "en": "past of go"
       }
     },
@@ -3629,8 +3629,8 @@
       "phonetic": "/wʌt/",
       "pos": "pron",
       "meaning": {
-        "zh": "什么",
-        "en": "which thing"
+        "zh": "pron. 什么 interj. 怎么, 多么 a. 什么的 adv. 到什么程度",
+        "en": "pron., a., & adv. As an interrogative pronoun, used in asking\\n   questions regarding either persons"
       }
     },
     {
@@ -3639,8 +3639,8 @@
       "phonetic": "/wen/",
       "pos": "adv",
       "meaning": {
-        "zh": "何时",
-        "en": "what time"
+        "zh": "adv. 什么时候；当...时",
+        "en": "at what time; at time that"
       }
     },
     {
@@ -3649,8 +3649,8 @@
       "phonetic": "/wer/",
       "pos": "adv",
       "meaning": {
-        "zh": "哪里",
-        "en": "what place"
+        "zh": "adv. 在哪里；...的地方",
+        "en": "in/to which place; place in which"
       }
     },
     {
@@ -3659,8 +3659,8 @@
       "phonetic": "/wɪtʃ/",
       "pos": "det",
       "meaning": {
-        "zh": "哪一个",
-        "en": "what one"
+        "zh": "pron. 哪一个, 那一个",
+        "en": "a. Of what sort or kind; what; what a; who.\\na. A interrogative pronoun, used both substantively and"
       }
     },
     {
@@ -3669,8 +3669,8 @@
       "phonetic": "/waɪt/",
       "pos": "adj",
       "meaning": {
-        "zh": "白色的",
-        "en": "snow color"
+        "zh": "adj. 白色的；纯洁的；苍白的",
+        "en": "of color white; pure; pale"
       }
     },
     {
@@ -3679,8 +3679,8 @@
       "phonetic": "/huː/",
       "pos": "pron",
       "meaning": {
-        "zh": "谁",
-        "en": "what person"
+        "zh": "pron. 谁；...的人",
+        "en": "which person; person that"
       }
     },
     {
@@ -3689,8 +3689,8 @@
       "phonetic": "/waɪ/",
       "pos": "adv",
       "meaning": {
-        "zh": "为什么",
-        "en": "for what reason"
+        "zh": "adv. 为什么 n. 原因, 理由",
+        "en": "n. the cause or intention underlying an action or situation, especially in the phrase `the whys and "
       }
     },
     {
@@ -3699,8 +3699,8 @@
       "phonetic": "/wɪl/",
       "pos": "v",
       "meaning": {
-        "zh": "将要",
-        "en": "future tense"
+        "zh": "mod. （详见词典） n. will；某物 v. 做某事；进行",
+        "en": "expressing future; expressing willingness determination; testament; desire want; make happen by will"
       }
     },
     {
@@ -3709,8 +3709,8 @@
       "phonetic": "/wɪnd/",
       "pos": "n",
       "meaning": {
-        "zh": "风",
-        "en": "moving air"
+        "zh": "n. wind；某物 v. 做某事；进行",
+        "en": "moving air; breath wrap; move in curves; turn mechanism"
       }
     },
     {
@@ -3719,8 +3719,8 @@
       "phonetic": "/ˈwɪndoʊ/",
       "pos": "n",
       "meaning": {
-        "zh": "窗户",
-        "en": "glass opening"
+        "zh": "n. window；某物",
+        "en": "opening for light; opening; opportunity"
       }
     },
     {
@@ -3729,7 +3729,7 @@
       "phonetic": "/ˈwɪntər/",
       "pos": "n",
       "meaning": {
-        "zh": "冬天",
+        "zh": "n. winter；某物",
         "en": "cold season"
       }
     },
@@ -3739,8 +3739,8 @@
       "phonetic": "/wɪð/",
       "pos": "prep",
       "meaning": {
-        "zh": "和",
-        "en": "together"
+        "zh": "prep. 和...一起；用；具有；关于",
+        "en": "accompanied by; using; having; concerning"
       }
     },
     {
@@ -3749,7 +3749,7 @@
       "phonetic": "/ˈwʊmən/",
       "pos": "n",
       "meaning": {
-        "zh": "女人",
+        "zh": "n. woman；某物",
         "en": "adult female"
       }
     },
@@ -3759,8 +3759,8 @@
       "phonetic": "/wɜːrk/",
       "pos": "v",
       "meaning": {
-        "zh": "工作",
-        "en": "do job"
+        "zh": "v. 工作；运转 n. 工作；著作",
+        "en": "v. do job; function n. job; creation"
       }
     },
     {
@@ -3769,8 +3769,8 @@
       "phonetic": "/wɜːld/",
       "pos": "n",
       "meaning": {
-        "zh": "世界",
-        "en": "the earth"
+        "zh": "n. 世界；地球；领域；世人",
+        "en": "earth; planet; sphere; people"
       }
     },
     {
@@ -3779,8 +3779,8 @@
       "phonetic": "/raɪt/",
       "pos": "v",
       "meaning": {
-        "zh": "写",
-        "en": "make words"
+        "zh": "v. 写；写作；编写；写信",
+        "en": "mark with letters; compose; create; correspond"
       }
     },
     {
@@ -3789,8 +3789,8 @@
       "phonetic": "/jɪr/",
       "pos": "n",
       "meaning": {
-        "zh": "年",
-        "en": "12 months"
+        "zh": "n. 年；岁；年度",
+        "en": "period of 365 days; age; academic/financial year"
       }
     },
     {
@@ -3799,7 +3799,7 @@
       "phonetic": "/ˈjeloʊ/",
       "pos": "adj",
       "meaning": {
-        "zh": "黄色的",
+        "zh": "adj. ...的；某种的",
         "en": "sun color"
       }
     },
@@ -3809,7 +3809,7 @@
       "phonetic": "/jes/",
       "pos": "int",
       "meaning": {
-        "zh": "是的",
+        "zh": "adv. （详见词典）",
         "en": "affirmative"
       }
     },
@@ -3819,7 +3819,7 @@
       "phonetic": "/ˈjestərdeɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "昨天",
+        "zh": "adv. （详见词典）",
         "en": "day before"
       }
     },
@@ -3829,8 +3829,8 @@
       "phonetic": "/juː/",
       "pos": "pron",
       "meaning": {
-        "zh": "你/你们",
-        "en": "the person spoken to"
+        "zh": "pron. 你；你们",
+        "en": "person/people being addressed"
       }
     },
     {
@@ -3839,8 +3839,8 @@
       "phonetic": "/jʌŋ/",
       "pos": "adj",
       "meaning": {
-        "zh": "年轻的",
-        "en": "not old"
+        "zh": "adj. 年轻的；幼小的；没经验的",
+        "en": "in early stage of life; immature; inexperienced"
       }
     },
     {
@@ -3849,7 +3849,7 @@
       "phonetic": "/jʊr/",
       "pos": "pron",
       "meaning": {
-        "zh": "你的/你们的",
+        "zh": "det. （详见词典）",
         "en": "belonging to you"
       }
     },
@@ -3859,7 +3859,7 @@
       "phonetic": "/zuː/",
       "pos": "n",
       "meaning": {
-        "zh": "动物园",
+        "zh": "n. zoo；某物",
         "en": "animal park"
       }
     },
@@ -3869,8 +3869,8 @@
       "phonetic": "/ˈæftər/",
       "pos": "prep",
       "meaning": {
-        "zh": "在...之后",
-        "en": "later than"
+        "zh": "prep. 在...之后, 由于 conj. 在...之后 adv. 后来",
+        "en": "s. located farther aft\\nr. behind or in the rear"
       }
     },
     {
@@ -3879,8 +3879,8 @@
       "phonetic": "/ˌæftərˈnuːn/",
       "pos": "n",
       "meaning": {
-        "zh": "下午",
-        "en": "after noon"
+        "zh": "n. 午后, 下午",
+        "en": "n. the part of the day between noon and evening"
       }
     },
     {
@@ -3889,8 +3889,8 @@
       "phonetic": "/əˈɡen/",
       "pos": "adv",
       "meaning": {
-        "zh": "再次",
-        "en": "once more"
+        "zh": "adv. 又；再一次；另一方面",
+        "en": "once more; on another occasion; on other hand"
       }
     },
     {
@@ -3899,8 +3899,8 @@
       "phonetic": "/ˈɔːlweɪz/",
       "pos": "adv",
       "meaning": {
-        "zh": "总是",
-        "en": "every time"
+        "zh": "adv. 总是, 始终",
+        "en": "r. at all times; all the time and on every occasion\\nr. at any time or in any event\\nr. forever; thr"
       }
     },
     {
@@ -3909,7 +3909,7 @@
       "phonetic": "/ˈænɪməl/",
       "pos": "n",
       "meaning": {
-        "zh": "动物",
+        "zh": "n. animal；某物",
         "en": "living creature"
       }
     },
@@ -3919,8 +3919,8 @@
       "phonetic": "/ˈænsər/",
       "pos": "n",
       "meaning": {
-        "zh": "答案",
-        "en": "response"
+        "zh": "n. 答案, 回答, 回报, 答辩 vt. 回答, 反驳, 适应, 响应, 符合 vi. 回答, 答应, 负责, 符合, 成功 [计] 用户问题及答案新闻组",
+        "en": "n. a statement (either spoken or written) that is made to reply to a question or request or criticis"
       }
     },
     {
@@ -3929,8 +3929,8 @@
       "phonetic": "/ˈæpl/",
       "pos": "n",
       "meaning": {
-        "zh": "苹果",
-        "en": "round fruit"
+        "zh": "n. 苹果, 家伙 [医] 苹果",
+        "en": "n. fruit with red or yellow or green skin and sweet to tart crisp whitish flesh\\nn. native Eurasian "
       }
     },
     {
@@ -3939,8 +3939,8 @@
       "phonetic": "/əˈraʊnd/",
       "pos": "prep",
       "meaning": {
-        "zh": "周围",
-        "en": "surrounding"
+        "zh": "prep. 包围, 在...周围, 四处 adv. 兜着圈子, 在附近, 到处",
+        "en": "r. by a circular or circuitous route\\nr. in a circle or circular motion\\nr. to a particular destinat"
       }
     },
     {
@@ -3949,8 +3949,8 @@
       "phonetic": "/ænt/",
       "pos": "n",
       "meaning": {
-        "zh": "姑姑/阿姨",
-        "en": "parent's sister"
+        "zh": "n. aunt；某物 n. aunt；某物",
+        "en": "parent's sister parent's sister"
       }
     },
     {
@@ -3959,7 +3959,7 @@
       "phonetic": "/ˈɔːtəm/",
       "pos": "n",
       "meaning": {
-        "zh": "秋天",
+        "zh": "n. autumn；某物",
         "en": "fall season"
       }
     },
@@ -3969,8 +3969,8 @@
       "phonetic": "/bɪˈkɔːrz/",
       "pos": "conj",
       "meaning": {
-        "zh": "因为",
-        "en": "for the reason"
+        "zh": "conj. （详见词典）",
+        "en": "for the reason that; since"
       }
     },
     {
@@ -3979,8 +3979,8 @@
       "phonetic": "/bɪˈfɔːr/",
       "pos": "prep",
       "meaning": {
-        "zh": "在...之前",
-        "en": "earlier than"
+        "zh": "prep. 在...之前 conj. 在...之前 adv. 在前",
+        "en": "r earlier in time; previously\\nr at or in the front"
       }
     },
     {
@@ -3989,8 +3989,8 @@
       "phonetic": "/bɪˈhaɪnd/",
       "pos": "prep",
       "meaning": {
-        "zh": "在...后面",
-        "en": "at back"
+        "zh": "adv. 在后地 prep. 在...背后",
+        "en": "s. having the lower score or lagging position in a contest\\nr. in or to or toward the rear\\nr. remai"
       }
     },
     {
@@ -3999,7 +3999,7 @@
       "phonetic": "/bɪˈsaɪd/",
       "pos": "prep",
       "meaning": {
-        "zh": "在...旁边",
+        "zh": "prep. （详见词典）",
         "en": "next to"
       }
     },
@@ -4009,8 +4009,8 @@
       "phonetic": "/bɪˈtwiːn/",
       "pos": "prep",
       "meaning": {
-        "zh": "在...之间",
-        "en": "in the middle of"
+        "zh": "prep. 在...之间；在...中间",
+        "en": "in space/time separating; shared by"
       }
     },
     {
@@ -4019,7 +4019,7 @@
       "phonetic": "/ˈbɜːrθdeɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "生日",
+        "zh": "n. birthday；某物",
         "en": "day of birth"
       }
     },
@@ -4029,7 +4029,7 @@
       "phonetic": "/ˈbrekfəst/",
       "pos": "n",
       "meaning": {
-        "zh": "早餐",
+        "zh": "n. breakfast；某物",
         "en": "morning meal"
       }
     },
@@ -4039,8 +4039,8 @@
       "phonetic": "/ˈbɪzi/",
       "pos": "adj",
       "meaning": {
-        "zh": "忙碌的",
-        "en": "occupied"
+        "zh": "a. 忙碌的, 热闹的, 没空的 vt. 使忙 vi. 忙碌 [计] 忙",
+        "en": "v. keep busy with\\na. actively or fully engaged or occupied\\ns. overcrowded or cluttered with detail"
       }
     },
     {
@@ -4049,8 +4049,8 @@
       "phonetic": "/tʃiːp/",
       "pos": "adj",
       "meaning": {
-        "zh": "便宜的",
-        "en": "low price"
+        "zh": "a. 便宜的, 不值钱的, 可鄙的 adv. 便宜地",
+        "en": "a. relatively low in price or charging low prices\\ns. embarrassingly stingy"
       }
     },
     {
@@ -4059,7 +4059,7 @@
       "phonetic": "/ˈtʃɪldrən/",
       "pos": "n",
       "meaning": {
-        "zh": "孩子们",
+        "zh": "n. children；某物",
         "en": "plural of child"
       }
     },
@@ -4069,8 +4069,8 @@
       "phonetic": "/ˈtʃaɪnə/",
       "pos": "n",
       "meaning": {
-        "zh": "中国",
-        "en": "country name"
+        "zh": "n. china；某物 n. china；某物",
+        "en": "country name ceramic"
       }
     },
     {
@@ -4079,8 +4079,8 @@
       "phonetic": "/tʃaɪˈniːz/",
       "pos": "adj",
       "meaning": {
-        "zh": "中国的/中文",
-        "en": "from China"
+        "zh": "n. 中文, 中国话, 中国人 a. 中国的, 中国话的",
+        "en": "n. any of the Sino-Tibetan languages spoken in China; regarded as dialects of a single language (eve"
       }
     },
     {
@@ -4089,8 +4089,8 @@
       "phonetic": "/ˈkrɪsməs/",
       "pos": "n",
       "meaning": {
-        "zh": "圣诞节",
-        "en": "holiday"
+        "zh": "n. 圣诞节",
+        "en": "n. period extending from Dec. 24 to Jan. 6\\nn. a Christian holiday celebrating the birth of Christ; "
       }
     },
     {
@@ -4099,7 +4099,7 @@
       "phonetic": "/ˈklevər/",
       "pos": "adj",
       "meaning": {
-        "zh": "聪明的",
+        "zh": "adj. ...的；某种的",
         "en": "smart"
       }
     },
@@ -4109,8 +4109,8 @@
       "phonetic": "/kloʊðz/",
       "pos": "n",
       "meaning": {
-        "zh": "衣服",
-        "en": "things to wear"
+        "zh": "n. clothes；某物",
+        "en": "items to wear"
       }
     },
     {
@@ -4119,8 +4119,8 @@
       "phonetic": "/ˈklaʊdi/",
       "pos": "adj",
       "meaning": {
-        "zh": "多云的",
-        "en": "with clouds"
+        "zh": "a. 多云的, 有愁容的, 云的, 浑浊的 [建] (混)浊的",
+        "en": "s. lacking definite form or limits\\na. full of or covered with clouds\\ns. (of liquids) clouded as wi"
       }
     },
     {
@@ -4129,8 +4129,8 @@
       "phonetic": "/kəmˈpjuːtər/",
       "pos": "n",
       "meaning": {
-        "zh": "电脑",
-        "en": "electronic device"
+        "zh": "n. 电脑, 电子计算机 [计] 计算机",
+        "en": "n. a machine for performing calculations automatically"
       }
     },
     {
@@ -4139,8 +4139,8 @@
       "phonetic": "/ˈkʌzən/",
       "pos": "n",
       "meaning": {
-        "zh": "堂/表兄弟姐妹",
-        "en": "relative"
+        "zh": "n. 堂兄弟姊妹, 表兄弟姊妹 [法] 同辈表亲或堂亲",
+        "en": "n. the child of your aunt or uncle"
       }
     },
     {
@@ -4149,7 +4149,7 @@
       "phonetic": "/ˈdɔːtər/",
       "pos": "n",
       "meaning": {
-        "zh": "女儿",
+        "zh": "n. daughter；某物",
         "en": "female child"
       }
     },
@@ -4159,8 +4159,8 @@
       "phonetic": "/dɪr/",
       "pos": "adj",
       "meaning": {
-        "zh": "亲爱的",
-        "en": "beloved"
+        "zh": "n. 亲爱的人 a. 亲爱的, 昂贵的, 严重的, 急迫的 interj. 啊 adv. 深爱地, 高价地",
+        "en": "s. with or in a close or intimate relationship\\ns. earnest"
       }
     },
     {
@@ -4169,8 +4169,8 @@
       "phonetic": "/dɪˈlɪʃəs/",
       "pos": "adj",
       "meaning": {
-        "zh": "美味的",
-        "en": "tasty"
+        "zh": "adj. ...的；某种的",
+        "en": "very tasty"
       }
     },
     {
@@ -4179,8 +4179,8 @@
       "phonetic": "/ˈdɪfərənt/",
       "pos": "adj",
       "meaning": {
-        "zh": "不同的",
-        "en": "not same"
+        "zh": "a. 不同的 [机] 差动, 微分的, 差速器",
+        "en": "a. unlike in nature or quality or form or degree\\ns. distinctly separate from the first\\ns. differin"
       }
     },
     {
@@ -4189,8 +4189,8 @@
       "phonetic": "/ˈdɪfɪkəlt/",
       "pos": "adj",
       "meaning": {
-        "zh": "困难的",
-        "en": "hard"
+        "zh": "adj. ...的；某种的",
+        "en": "hard to do"
       }
     },
     {
@@ -4199,8 +4199,8 @@
       "phonetic": "/iːtʃ/",
       "pos": "det",
       "meaning": {
-        "zh": "每个",
-        "en": "every one"
+        "zh": "a. 每个, 每一 adv. 每个 pron. 每个, 个人, 各自",
+        "en": "s. (used of count nouns) every one considered individually\\nr. to or from every one of two or more ("
       }
     },
     {
@@ -4209,8 +4209,8 @@
       "phonetic": "/ˈɜːli/",
       "pos": "adj",
       "meaning": {
-        "zh": "早的",
-        "en": "before time"
+        "zh": "a. 早的, 早熟的 adv. 很早, 初",
+        "en": "a. at or near the beginning of a period of time or course of events or before the usual or expected "
       }
     },
     {
@@ -4219,8 +4219,8 @@
       "phonetic": "/ˈiːzi/",
       "pos": "adj",
       "meaning": {
-        "zh": "容易的",
-        "en": "not hard"
+        "zh": "a. 容易的, 缓缓的, 舒适的, 从容的, 宽容的, 流畅的, 随便的, 自在的, 疲软的 adv. 容易地, 慢慢地",
+        "en": "a. posing no difficulty; requiring little effort\\ns. not hurried or forced\\na. free from worry or an"
       }
     },
     {
@@ -4229,8 +4229,8 @@
       "phonetic": "/ɪˈnʌf/",
       "pos": "adv",
       "meaning": {
-        "zh": "足够",
-        "en": "sufficient"
+        "zh": "n. 充足, 够, 很多 a. 充足的, 足够 adv. 足够 interj. 够了",
+        "en": "n. an adequate quantity; a quantity that is large enough to achieve a purpose\\nr. as much as necessa"
       }
     },
     {
@@ -4239,8 +4239,8 @@
       "phonetic": "/ˈevri/",
       "pos": "det",
       "meaning": {
-        "zh": "每一个",
-        "en": "all"
+        "zh": "det. （详见词典） det. （详见词典）",
+        "en": "all possible all"
       }
     },
     {
@@ -4249,8 +4249,8 @@
       "phonetic": "/ˈevriwʌn/",
       "pos": "pron",
       "meaning": {
-        "zh": "每个人",
-        "en": "all people"
+        "zh": "pron. 每个人, 人人 [计] 系统中的一个组名",
+        "en": "n. Everybody; -- commonly separated, every one."
       }
     },
     {
@@ -4259,8 +4259,8 @@
       "phonetic": "/ˈevriθɪŋ/",
       "pos": "pron",
       "meaning": {
-        "zh": "一切",
-        "en": "all things"
+        "zh": "pron. 每件事物, 所有事物",
+        "en": "n. Whatever pertains to the subject under consideration;\\n   all things."
       }
     },
     {
@@ -4269,8 +4269,8 @@
       "phonetic": "/ˈevriwer/",
       "pos": "adv",
       "meaning": {
-        "zh": "到处",
-        "en": "all places"
+        "zh": "adv. 各处, 到处",
+        "en": "r. to or in any or all places; (`everyplace' is used informally for `everywhere')"
       }
     },
     {
@@ -4279,8 +4279,8 @@
       "phonetic": "/ɪkˈsaɪtɪd/",
       "pos": "adj",
       "meaning": {
-        "zh": "兴奋的",
-        "en": "thrilled"
+        "zh": "a. 兴奋的, 已励磁的, 已激发的, 激昂的, 激动的",
+        "en": "a. in an aroused state"
       }
     },
     {
@@ -4289,8 +4289,8 @@
       "phonetic": "/ɪkˈspensɪv/",
       "pos": "adj",
       "meaning": {
-        "zh": "昂贵的",
-        "en": "high price"
+        "zh": "a. 贵的, 奢华的, 费用浩大的, 乱化钱的 [经] 高价的, 昂贵的, 浪费的",
+        "en": "a. high in price or charging high prices"
       }
     },
     {
@@ -4299,8 +4299,8 @@
       "phonetic": "/ˈfeɪməs/",
       "pos": "adj",
       "meaning": {
-        "zh": "著名的",
-        "en": "well-known"
+        "zh": "adj. ...的；某种的",
+        "en": "well known"
       }
     },
     {
@@ -4309,8 +4309,8 @@
       "phonetic": "/ˈfeɪvərɪt/",
       "pos": "adj",
       "meaning": {
-        "zh": "最喜欢的",
-        "en": "most liked"
+        "zh": "n. 喜欢的事物 a. 喜爱的, 宠爱的",
+        "en": "n a competitor thought likely to win\\nn a special loved one\\nn something regarded with special favor"
       }
     },
     {
@@ -4319,8 +4319,8 @@
       "phonetic": "/ˈfestɪvl/",
       "pos": "n",
       "meaning": {
-        "zh": "节日",
-        "en": "celebration"
+        "zh": "a. 节日的, 喜庆的, 快乐的 n. 节日, 庆祝, 欢宴",
+        "en": "n. a day or period of time set aside for feasting and celebration\\nn. an organized series of acts an"
       }
     },
     {
@@ -4329,8 +4329,8 @@
       "phonetic": "/fɜːst/",
       "pos": "num",
       "meaning": {
-        "zh": "第一",
-        "en": "number one"
+        "zh": "adj. 第一的；最初的；首要的",
+        "en": "coming before all others; earliest; most important"
       }
     },
     {
@@ -4339,8 +4339,8 @@
       "phonetic": "/ˈfʊtbɔːl/",
       "pos": "n",
       "meaning": {
-        "zh": "足球",
-        "en": "sport"
+        "zh": "n. football；某物",
+        "en": "soccer"
       }
     },
     {
@@ -4349,8 +4349,8 @@
       "phonetic": "/ˈfraɪdeɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "星期五",
-        "en": "day of week"
+        "zh": "n. friday；某物",
+        "en": "5th day of week"
       }
     },
     {
@@ -4359,8 +4359,8 @@
       "phonetic": "/frʌnt/",
       "pos": "n",
       "meaning": {
-        "zh": "前面",
-        "en": "forward part"
+        "zh": "n. 前面, 开头, 前线, 阵线, 态度 vt. 面对, 朝向, 对抗 vi. 朝向",
+        "en": "n. the side that is forward or prominent\\nn. the outward appearance of a person\\nn. the side that is"
       }
     },
     {
@@ -4369,8 +4369,8 @@
       "phonetic": "/hɑːd/",
       "pos": "adj",
       "meaning": {
-        "zh": "困难的/硬的",
-        "en": "difficult or solid"
+        "zh": "adj. 硬的；困难的；努力的；严厉的",
+        "en": "solid; difficult; diligent; harsh"
       }
     },
     {
@@ -4379,8 +4379,8 @@
       "phonetic": "/ˈhelθi/",
       "pos": "adj",
       "meaning": {
-        "zh": "健康的",
-        "en": "well"
+        "zh": "a. 健康的, 有益健康的, 卫生的 [医] 健康的",
+        "en": "a. having or indicating good health in body or mind; free from infirmity or disease\\ns. financially "
       }
     },
     {
@@ -4389,8 +4389,8 @@
       "phonetic": "/ˈhevi/",
       "pos": "adj",
       "meaning": {
-        "zh": "重的",
-        "en": "with weight"
+        "zh": "a. 重的, 巨大的, 沉重的, 笨重的, 过度的 adv. 沉重地 n. 重物, 严肃角色",
+        "en": "n. an actor who plays villainous roles\\nn. a serious (or tragic) role in a play\\na. of comparatively"
       }
     },
     {
@@ -4399,8 +4399,8 @@
       "phonetic": "/ˈhelpfəl/",
       "pos": "adj",
       "meaning": {
-        "zh": "有帮助的",
-        "en": "useful"
+        "zh": "a. 有帮助的, 有益的, 有用的",
+        "en": "a. providing assistance or serving a useful function"
       }
     },
     {
@@ -4409,8 +4409,8 @@
       "phonetic": "/haɪ/",
       "pos": "adj",
       "meaning": {
-        "zh": "高的",
-        "en": "tall"
+        "zh": "n. 高度, 高处 a. 高的, 高级的, 主要的, 高尚的, 高原的, 高音的, 昂贵的, 傲慢的 adv. 高度地, 奢侈地",
+        "en": "n. a lofty level or position or degree\\nn. an air mass of higher than normal pressure\\nn. a state of"
       }
     },
     {
@@ -4419,8 +4419,8 @@
       "phonetic": "/ˈhɑːbi/",
       "pos": "n",
       "meaning": {
-        "zh": "爱好",
-        "en": "interest"
+        "zh": "n. 嗜好, 癖好, 爱好",
+        "en": "n. a child's plaything consisting of an imitation horse mounted on rockers; the child straddles it a"
       }
     },
     {
@@ -4429,8 +4429,8 @@
       "phonetic": "/ˈhɑːlədeɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "假期",
-        "en": "vacation"
+        "zh": "n. 假日, 假期, 节日 vi. 度假",
+        "en": "n. a day on which work is suspended by law or custom"
       }
     },
     {
@@ -4439,8 +4439,8 @@
       "phonetic": "/ˈhɑːspɪtl/",
       "pos": "n",
       "meaning": {
-        "zh": "医院",
-        "en": "medical place"
+        "zh": "n. hospital；某物",
+        "en": "medical facility"
       }
     },
     {
@@ -4449,8 +4449,8 @@
       "phonetic": "/aʊr/",
       "pos": "n",
       "meaning": {
-        "zh": "小时",
-        "en": "60 minutes"
+        "zh": "n. 小时, 钟头, 时间, ...点钟, 课时",
+        "en": "n. a period of time equal to 1/24th of a day\\nn. clock time\\nn. a special and memorable period\\nn. d"
       }
     },
     {
@@ -4459,8 +4459,8 @@
       "phonetic": "/ˈhʌŋɡri/",
       "pos": "adj",
       "meaning": {
-        "zh": "饥饿的",
-        "en": "want food"
+        "zh": "a. 饥饿的, 荒年的, 渴望的, 不毛的 [化] 欠鞣皮",
+        "en": "a. feeling hunger; feeling a need or desire to eat food"
       }
     },
     {
@@ -4469,8 +4469,8 @@
       "phonetic": "/ɪmˈpɔːtənt/",
       "pos": "adj",
       "meaning": {
-        "zh": "重要的",
-        "en": "significant"
+        "zh": "adj. 重要的；有势力的；有地位的",
+        "en": "of great significance; powerful; of high rank"
       }
     },
     {
@@ -4479,7 +4479,7 @@
       "phonetic": "/ˈɪntrəstɪŋ/",
       "pos": "adj",
       "meaning": {
-        "zh": "有趣的",
+        "zh": "adj. ...的；某种的",
         "en": "engaging"
       }
     },
@@ -4489,8 +4489,8 @@
       "phonetic": "/ˈdʒænjueri/",
       "pos": "n",
       "meaning": {
-        "zh": "一月",
-        "en": "first month"
+        "zh": "n. january；某物",
+        "en": "1st month"
       }
     },
     {
@@ -4499,8 +4499,8 @@
       "phonetic": "/ˈkɪtʃɪn/",
       "pos": "n",
       "meaning": {
-        "zh": "厨房",
-        "en": "cooking room"
+        "zh": "n. 厨房, 全套炊具 [医] 厨房",
+        "en": "n. a room equipped for preparing meals"
       }
     },
     {
@@ -4509,8 +4509,8 @@
       "phonetic": "/ˈlæŋɡwɪdʒ/",
       "pos": "n",
       "meaning": {
-        "zh": "语言",
-        "en": "speech system"
+        "zh": "n. 语言, 文字, 措辞 [计] 语言",
+        "en": "n. a systematic means of communicating by the use of sounds or conventional symbols\\nn. the mental f"
       }
     },
     {
@@ -4519,8 +4519,8 @@
       "phonetic": "/læf/",
       "pos": "v",
       "meaning": {
-        "zh": "笑",
-        "en": "show joy"
+        "zh": "n. 笑, 笑声 vi. 笑, 大笑 vt. 以笑表示",
+        "en": "n. the sound of laughing\\nn. a facial expression characteristic of a person laughing\\nv. produce lau"
       }
     },
     {
@@ -4529,8 +4529,8 @@
       "phonetic": "/lɜːn/",
       "pos": "v",
       "meaning": {
-        "zh": "学习",
-        "en": "gain knowledge"
+        "zh": "v. 学习；学会；得知；认识到",
+        "en": "gain knowledge; acquire skill; find out; realize"
       }
     },
     {
@@ -4539,8 +4539,8 @@
       "phonetic": "/ˈlesən/",
       "pos": "n",
       "meaning": {
-        "zh": "课程",
-        "en": "teaching period"
+        "zh": "n. lesson；某物 n. lesson；某物",
+        "en": "period of teaching teaching period"
       }
     },
     {
@@ -4549,8 +4549,8 @@
       "phonetic": "/ˈletər/",
       "pos": "n",
       "meaning": {
-        "zh": "字母/信",
-        "en": "alphabet or mail"
+        "zh": "n. 信, 字母, 证书, 字面意义, 铅字, 学问, 出租人 vt. 写字母于, 在...上刻字母, 用字母标明 vi. 写印刷体字 [计] 字母",
+        "en": "n. a written message addressed to a person or organization\\nn. the conventional characters of the al"
       }
     },
     {
@@ -4559,8 +4559,8 @@
       "phonetic": "/laɪt/",
       "pos": "n",
       "meaning": {
-        "zh": "光/轻的",
-        "en": "brightness or not heavy"
+        "zh": "n. 光, 光亮, 灯, 日光, 发光体, 光源, 杰出人物, 火花, 眼光 a. 轻的, 少量的, 轻微的, 轻快的, 轻浮的, 明亮的, 淡色的, 容易的 vt. 点燃, 照亮 vi. 点着, 变亮, 突降, 偶然碰到 adv. 轻地",
+        "en": "n. (physics) electromagnetic radiation that can produce a visual sensation\\nn. any device serving as"
       }
     },
     {
@@ -4569,8 +4569,8 @@
       "phonetic": "/ˈlɪvɪŋ/",
       "pos": "adj",
       "meaning": {
-        "zh": "生活的",
-        "en": "alive"
+        "zh": "n. 生活, 生计, 生存 a. 活的, 逼真的, 现存的",
+        "en": "n. people who are still living\\na. pertaining to living persons\\ns. true to life; lifelike\\ns. (info"
       }
     },
     {
@@ -4579,7 +4579,7 @@
       "phonetic": "/ˈlʌvli/",
       "pos": "adj",
       "meaning": {
-        "zh": "可爱的",
+        "zh": "adj. ...的；某种的",
         "en": "beautiful"
       }
     },
@@ -4589,8 +4589,8 @@
       "phonetic": "/ˈlʌki/",
       "pos": "adj",
       "meaning": {
-        "zh": "幸运的",
-        "en": "fortunate"
+        "zh": "a. 幸运的, 吉祥的, 好运的, 侥幸的",
+        "en": "s. occurring by chance\\na. having or bringing good fortune"
       }
     },
     {
@@ -4599,7 +4599,7 @@
       "phonetic": "/mæθ/",
       "pos": "n",
       "meaning": {
-        "zh": "数学",
+        "zh": "n. math；某物",
         "en": "mathematics"
       }
     },
@@ -4609,8 +4609,8 @@
       "phonetic": "/ˈmætər/",
       "pos": "n",
       "meaning": {
-        "zh": "事情",
-        "en": "issue"
+        "zh": "n. 事件, 物质, 原因, 素材, 实体, 重要 vi. 有关系",
+        "en": "n. a vaguely specified concern\\nn. that which has mass and occupies space\\nn. a problem\\nn. (used wi"
       }
     },
     {
@@ -4619,8 +4619,8 @@
       "phonetic": "/ˈmeɪbi/",
       "pos": "adv",
       "meaning": {
-        "zh": "也许",
-        "en": "perhaps"
+        "zh": "adv. 也许, 大概 n. 可能性",
+        "en": "r by chance"
       }
     },
     {
@@ -4629,8 +4629,8 @@
       "phonetic": "/ˈmɪdl/",
       "pos": "n",
       "meaning": {
-        "zh": "中间",
-        "en": "center"
+        "zh": "n. 中央, 中间, 腰部 a. 中央的, 中庸的, 中间的",
+        "en": "n. an intermediate part or section\\nn. the middle area of the human torso (usually in front)\\nn. tim"
       }
     },
     {
@@ -4639,8 +4639,8 @@
       "phonetic": "/ˈmɪnɪt/",
       "pos": "n",
       "meaning": {
-        "zh": "分钟",
-        "en": "60 seconds"
+        "zh": "n. 分, 分钟, 片刻, 备忘录, 笔记 vt. 记录, 摘录, 测定时间 a. 微小的, 详细的",
+        "en": "n. a unit of time equal to 60 seconds or 1/60th of an hour\\nn. a unit of angular distance equal to a"
       }
     },
     {
@@ -4649,8 +4649,8 @@
       "phonetic": "/ˈmʌndeɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "星期一",
-        "en": "day of week"
+        "zh": "n. monday；某物",
+        "en": "1st day of week"
       }
     },
     {
@@ -4659,8 +4659,8 @@
       "phonetic": "/ˈmʌni/",
       "pos": "n",
       "meaning": {
-        "zh": "钱",
-        "en": "currency"
+        "zh": "n. 金钱, 一笔款, 财富, 货币, 金额 [经] 货币, 金钱, 财产",
+        "en": "n. the most common medium of exchange; functions as legal tender\\nn. wealth reckoned in terms of mon"
       }
     },
     {
@@ -4669,7 +4669,7 @@
       "phonetic": "/ˈmaʊntən/",
       "pos": "n",
       "meaning": {
-        "zh": "山",
+        "zh": "n. mountain；某物",
         "en": "high land"
       }
     },
@@ -4679,8 +4679,8 @@
       "phonetic": "/ˈnevər/",
       "pos": "adv",
       "meaning": {
-        "zh": "从不",
-        "en": "not ever"
+        "zh": "adv. 从不, 决不, 不曾 [法] 永不, 决不, 从来没有",
+        "en": "r. not ever; at no time in the past or future\\nr. not at all; certainly not; not in any circumstance"
       }
     },
     {
@@ -4689,8 +4689,8 @@
       "phonetic": "/ˈnʌθɪŋ/",
       "pos": "pron",
       "meaning": {
-        "zh": "没有什么",
-        "en": "not anything"
+        "zh": "pron. 没有东西；没有事情",
+        "en": "not anything; not something"
       }
     },
     {
@@ -4699,8 +4699,8 @@
       "phonetic": "/ˈɔːrfɪs/",
       "pos": "n",
       "meaning": {
-        "zh": "办公室",
-        "en": "work place"
+        "zh": "n. 办公室, 部, 公职, 职责 [化] 办公室",
+        "en": "n. place of business where professional or clerical duties are performed\\nn. (of a government or gov"
       }
     },
     {
@@ -4709,7 +4709,7 @@
       "phonetic": "/ˈɔːrfən/",
       "pos": "adv",
       "meaning": {
-        "zh": "经常",
+        "zh": "adv. （详见词典）",
         "en": "frequently"
       }
     },
@@ -4719,8 +4719,8 @@
       "phonetic": "/ˌaʊtˈsaɪd/",
       "pos": "adv",
       "meaning": {
-        "zh": "外面",
-        "en": "not inside"
+        "zh": "n. 外面, 外表, 外界 a. 外面的, 外表的, 外界的 adv. 外面, 外表, 外界",
+        "en": "n. the region that is outside of something\\nn. the outer side or surface of something\\na. relating t"
       }
     },
     {
@@ -4729,8 +4729,8 @@
       "phonetic": "/ˈpleɪɡraʊnd/",
       "pos": "n",
       "meaning": {
-        "zh": "操场",
-        "en": "play area"
+        "zh": "n. 运动场, 操场, 度假胜地, 活动场所",
+        "en": "n. yard consisting of an outdoor area for children's play"
       }
     },
     {
@@ -4739,8 +4739,8 @@
       "phonetic": "/ˈpɑːpjələr/",
       "pos": "adj",
       "meaning": {
-        "zh": "受欢迎的",
-        "en": "well-liked"
+        "zh": "a. 通俗的, 流行的, 受欢迎的, 大众的, 人民的, 普及的 [经] 大众的, 通俗的, 普及的",
+        "en": "a. regarded with great favor, approval, or affection especially by the general public\\ns. carried on"
       }
     },
     {
@@ -4749,8 +4749,8 @@
       "phonetic": "/ˈprɑːbləm/",
       "pos": "n",
       "meaning": {
-        "zh": "问题",
-        "en": "difficulty"
+        "zh": "n. 问题, 难题 a. 成问题的, 难处理的",
+        "en": "n. a state of difficulty that needs to be resolved\\nn. a question raised for consideration or soluti"
       }
     },
     {
@@ -4759,8 +4759,8 @@
       "phonetic": "/ˈkwestʃən/",
       "pos": "n",
       "meaning": {
-        "zh": "问题",
-        "en": "inquiry"
+        "zh": "n. 问题, 询问 v. 询问, 审问, 怀疑 [计] 询问",
+        "en": "n. an instance of questioning\\nn. the subject matter at issue\\nn. a sentence of inquiry that asks fo"
       }
     },
     {
@@ -4769,8 +4769,8 @@
       "phonetic": "/ˈreɪni/",
       "pos": "adj",
       "meaning": {
-        "zh": "下雨的",
-        "en": "with rain"
+        "zh": "adj. ...的；某种的",
+        "en": "having rain"
       }
     },
     {
@@ -4779,8 +4779,8 @@
       "phonetic": "/ˈredi/",
       "pos": "adj",
       "meaning": {
-        "zh": "准备好的",
-        "en": "prepared"
+        "zh": "n. 预备好的状态, 现款 a. 准备好的, 备用的, 可以使用的 adv. 预先, 迅速 vt. 使准备好",
+        "en": "n. poised for action\\na. completely prepared or in condition for immediate action or use or progress"
       }
     },
     {
@@ -4789,8 +4789,8 @@
       "phonetic": "/ˈriːəli/",
       "pos": "adv",
       "meaning": {
-        "zh": "真正地",
-        "en": "truly"
+        "zh": "adv. （详见词典） adv. （详见词典）",
+        "en": "truly truly"
       }
     },
     {
@@ -4799,8 +4799,8 @@
       "phonetic": "/rɪˈmembər/",
       "pos": "v",
       "meaning": {
-        "zh": "记得",
-        "en": "recall"
+        "zh": "vt. 记得, 回忆起, 记住, 铭记, 纪念 vi. 记得",
+        "en": "v. recall knowledge from memory; have a recollection\\nv. keep in mind for attention or consideration"
       }
     },
     {
@@ -4809,8 +4809,8 @@
       "phonetic": "/ˈrestərɑːnt/",
       "pos": "n",
       "meaning": {
-        "zh": "餐厅",
-        "en": "eating place"
+        "zh": "n. 餐馆, 饭店",
+        "en": "n. a building where people go to eat"
       }
     },
     {
@@ -4819,8 +4819,8 @@
       "phonetic": "/ˈsætərdeɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "星期六",
-        "en": "day of week"
+        "zh": "n. saturday；某物",
+        "en": "6th day of week"
       }
     },
     {
@@ -4829,8 +4829,8 @@
       "phonetic": "/ˈsaɪəns/",
       "pos": "n",
       "meaning": {
-        "zh": "科学",
-        "en": "study of nature"
+        "zh": "n. 科学, 学科, 学问, 自然科学 [医] 科学",
+        "en": "n. a particular branch of scientific knowledge"
       }
     },
     {
@@ -4839,8 +4839,8 @@
       "phonetic": "/ˈsekənd/",
       "pos": "num",
       "meaning": {
-        "zh": "第二",
-        "en": "ordinal 2"
+        "zh": "n. 秒, 瞬间, 第二名, 支持者, 助手 a. 第二的, 其次的, 次要的, 附加的, 辅助的 num. 第二 vt. 当...助手, 支持",
+        "en": "n. 1/60 of a minute; the basic unit of time adopted under the Systeme International d'Unites\\nn. fol"
       }
     },
     {
@@ -4849,8 +4849,8 @@
       "phonetic": "/ˈʃɑːpɪŋ/",
       "pos": "n",
       "meaning": {
-        "zh": "购物",
-        "en": "buying things"
+        "zh": "n. 买东西, 购物 [经] 购物, 买东西",
+        "en": "n. searching for or buying goods or services\\nn. the commodities purchased from stores"
       }
     },
     {
@@ -4859,8 +4859,8 @@
       "phonetic": "/ʃoʊ/",
       "pos": "v",
       "meaning": {
-        "zh": "展示",
-        "en": "display"
+        "zh": "n. 显示, 表现, 展览, 卖弄, 炫耀, 外观, 演出, 洋相 vt. 表示, 显示, 展现, 陈列, 演出, 表明, 指出, 带领 vi. 露面, 显现, 演出 [计] 显示",
+        "en": "n. the act of publicly exhibiting or entertaining\\nn. a social event involving a public performance "
       }
     },
     {
@@ -4869,8 +4869,8 @@
       "phonetic": "/ˈsnoʊi/",
       "pos": "adj",
       "meaning": {
-        "zh": "下雪的",
-        "en": "with snow"
+        "zh": "a. 多雪的, 雪的, 被雪所覆盖着的, 下雪的",
+        "en": "s marked by the presence of snow\\ns covered with snow\\ns of the white color of snow"
       }
     },
     {
@@ -4879,8 +4879,8 @@
       "phonetic": "/ˈsʌmtaɪmz/",
       "pos": "adv",
       "meaning": {
-        "zh": "有时",
-        "en": "occasionally"
+        "zh": "adv. 有时, 时常, 往往",
+        "en": "r. on certain occasions or in certain cases but not always; at other times for six months"
       }
     },
     {
@@ -4889,8 +4889,8 @@
       "phonetic": "/ˈspeʃəl/",
       "pos": "adj",
       "meaning": {
-        "zh": "特别的",
-        "en": "unique"
+        "zh": "n. 专辑, 专车, 号外, 特别的东西, 负有特别任务的人员 a. 特别的, 专门的, 特殊的, 额外的, 附加的, 特别亲密的",
+        "en": "n. a special offering (usually temporary and at a reduced price) that is featured in advertising\\nn."
       }
     },
     {
@@ -4899,8 +4899,8 @@
       "phonetic": "/strɔːrŋ/",
       "pos": "adj",
       "meaning": {
-        "zh": "强壮的",
-        "en": "powerful"
+        "zh": "a. 强壮的, 坚固的, 坚强的, 强烈的, 有力的, 优良的 adv. 强劲地, 有力地, 猛烈地",
+        "en": "a. having strength or power greater than average or expected\\ns. not faint or feeble\\ns. of verbs no"
       }
     },
     {
@@ -4909,8 +4909,8 @@
       "phonetic": "/ˈsʌbdʒɪkt/",
       "pos": "n",
       "meaning": {
-        "zh": "科目",
-        "en": "school topic"
+        "zh": "n. 科目, 主题, 臣民, 主语, 题目, (事物的)经受者, 学科, 受治疗者, 原因, 理由 a. 服从的, 易患...的, 隶属的, 受支配的 adv. 在...条件下 vt. 使隶属, 使受到 [计] 主题, 主体",
+        "en": "n. the subject matter of a conversation or discussion\\nn. something (a person or object or scene) se"
       }
     },
     {
@@ -4919,8 +4919,8 @@
       "phonetic": "/ˈsʌni/",
       "pos": "adj",
       "meaning": {
-        "zh": "晴朗的",
-        "en": "with sun"
+        "zh": "a. 阳光充足的, 乐观的, 快乐的, 像太阳的",
+        "en": "s bright and pleasant; promoting a feeling of cheer"
       }
     },
     {
@@ -4929,8 +4929,8 @@
       "phonetic": "/ˈsuːpərmɑːrkɪt/",
       "pos": "n",
       "meaning": {
-        "zh": "超市",
-        "en": "large store"
+        "zh": "n. 超级市场 [经] 超级市场, 自助售货商店",
+        "en": "n. a large self-service grocery store selling groceries and dairy products and household goods"
       }
     },
     {
@@ -4939,8 +4939,8 @@
       "phonetic": "/ʃʊr/",
       "pos": "adj",
       "meaning": {
-        "zh": "确定的",
-        "en": "certain"
+        "zh": "a. 确信, 必然的, 必定的 adv. 当然, 确实地, 无疑地",
+        "en": "s. physically secure or dependable\\ns. (of persons) worthy of trust or confidence\\ns. infallible or "
       }
     },
     {
@@ -4949,8 +4949,8 @@
       "phonetic": "/ˈtelɪfoʊn/",
       "pos": "n",
       "meaning": {
-        "zh": "电话",
-        "en": "communication device"
+        "zh": "n. 电话, 电话机 v. 打电话",
+        "en": "n. electronic equipment that converts sound into electrical signals that can be transmitted over dis"
       }
     },
     {
@@ -4959,8 +4959,8 @@
       "phonetic": "/ˈtelɪvɪʒən/",
       "pos": "n",
       "meaning": {
-        "zh": "电视",
-        "en": "TV"
+        "zh": "n. television；某物",
+        "en": "viewing device"
       }
     },
     {
@@ -4969,8 +4969,8 @@
       "phonetic": "/tɜːrm/",
       "pos": "n",
       "meaning": {
-        "zh": "学期",
-        "en": "school period"
+        "zh": "n. 术语, 专有名词, 期限, 学期, 任期, 条件, 价钱, 关系, 地位, 项, 界石 vt. 称, 呼 [计] 检索词",
+        "en": "n. a word or expression used for some particular thing\\nn. a limited period of time\\nn. any distinct"
       }
     },
     {
@@ -4979,8 +4979,8 @@
       "phonetic": "/ˈθɜːsti/",
       "pos": "adj",
       "meaning": {
-        "zh": "口渴的",
-        "en": "want drink"
+        "zh": "a. 口渴的, 渴望的, 干燥的",
+        "en": "s. needing moisture\\na. feeling a need or desire to drink\\ns. able to take in large quantities of mo"
       }
     },
     {
@@ -4989,7 +4989,7 @@
       "phonetic": "/ˈθɜːrzdeɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "星期四",
+        "zh": "n. thursday；某物",
         "en": "day of week"
       }
     },
@@ -4999,8 +4999,8 @@
       "phonetic": "/ˈtaɪərd/",
       "pos": "adj",
       "meaning": {
-        "zh": "累的",
-        "en": "exhausted"
+        "zh": "a. 疲累的, 疲乏的, 厌倦的",
+        "en": "a. depleted of strength or energy"
       }
     },
     {
@@ -5009,7 +5009,7 @@
       "phonetic": "/ˈtuːzdeɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "星期二",
+        "zh": "n. tuesday；某物",
         "en": "day of week"
       }
     },
@@ -5019,7 +5019,7 @@
       "phonetic": "/ˈjuːʒuəli/",
       "pos": "adv",
       "meaning": {
-        "zh": "通常",
+        "zh": "adv. （详见词典）",
         "en": "normally"
       }
     },
@@ -5029,7 +5029,7 @@
       "phonetic": "/ˈwʌndərfəl/",
       "pos": "adj",
       "meaning": {
-        "zh": "精彩的",
+        "zh": "adj. ...的；某种的",
         "en": "amazing"
       }
     }

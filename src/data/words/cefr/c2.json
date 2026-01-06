@@ -9,8 +9,8 @@
       "phonetic": "/keɪ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 珊瑚礁；沙洲；岩礁",
-        "en": "A small, low island largely made of sand or coral."
+        "zh": "n. 沙礁, 珊瑚礁, 沙洲",
+        "en": "n a coral reef off the southern coast of Florida"
       }
     },
     {
@@ -19,8 +19,8 @@
       "phonetic": "/ɛb/",
       "pos": "v",
       "meaning": {
-        "zh": "n. 衰退；退潮",
-        "en": "The receding movement of the tide."
+        "zh": "n. 退潮, 衰退 vi. 潮退, 衰退",
+        "en": "n. a gradual decline (in size or strength or power or number)\\nn. the outward flow of the tide\\nv. f"
       }
     },
     {
@@ -29,8 +29,8 @@
       "phonetic": "/ɔːr/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 矿石，矿砂",
-        "en": "n. a mineral that contains metal that is valuable enough to be mined; n. a monetary subunit in Denmark and Norway and Sweden; 100 ore equal 1 krona"
+        "zh": "n. 矿石 [经] 矿",
+        "en": "n. a mineral that contains metal that is valuable enough to be mined\\nn. a monetary subunit in Denma"
       }
     },
     {
@@ -39,8 +39,8 @@
       "phonetic": "/wæks/",
       "pos": "v",
       "meaning": {
-        "zh": "n. 蜡，蜂蜡；耳垢； 一阵愤怒；唱片；类似蜡的黏性物质（尤指液体或碳氢化合物）",
-        "en": "Beeswax."
+        "zh": "n. 蜡, 蜡状物, 一阵发怒, 增加, (月亮)渐盈 vi. 变大, 增大, 月亮渐满 vt. 上蜡于",
+        "en": "n. any of various substances of either mineral origin or plant or animal origin; they are solid at n"
       }
     },
     {
@@ -99,8 +99,8 @@
       "phonetic": "/daɪv/",
       "pos": "n",
       "meaning": {
-        "zh": "潜水",
-        "en": "plunge"
+        "zh": "n. 潜水, 跳水 vi. 跳水, 俯冲, 猛冲 vt. 把...突然伸入",
+        "en": "n. a headlong plunge into water\\nn. a steep nose-down descent by an aircraft\\nv. drop steeply\\nv. pl"
       }
     },
     {
@@ -109,8 +109,8 @@
       "phonetic": "/ˈekoʊ/",
       "pos": "n",
       "meaning": {
-        "zh": "回声",
-        "en": "reflected sound"
+        "zh": "n. 回声, 回音, 回波 vi. 发回声, 随声附和 vt. 摹仿, 重复, 反射 [计] 回显",
+        "en": "n. the repetition of a sound resulting from reflection of the sound waves\\nn. (Greek mythology) a ny"
       }
     },
     {
@@ -149,7 +149,7 @@
       "phonetic": "/floʊ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 浮冰；大浮冰",
+        "zh": "n. floe；某物",
         "en": "A low, flat mass of floating ice."
       }
     },
@@ -189,8 +189,8 @@
       "phonetic": "/hʌl/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 船体；（果实的）外壳",
-        "en": "The outer covering of a fruit or seed."
+        "zh": "n. 壳, 皮, 船体 vt. 去壳",
+        "en": "n. dry outer covering of a fruit or seed or nut\\nn. persistent enlarged calyx at base of e.g. a stra"
       }
     },
     {
@@ -209,8 +209,8 @@
       "phonetic": "/lɑːk/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 云雀；百灵鸟；欢乐",
-        "en": "n. North American songbirds having a yellow breast; n. a songbird that lives mainly on the ground in open country; has streaky brown plumage; n. any of numerous predominantly Old World birds noted for their singing; n. any carefree episode"
+        "zh": "n. 云雀, 百灵鸟, 欢乐, 嬉耍 vi. 嬉耍, 骑马玩乐 vt. 愚弄",
+        "en": "n. any of numerous predominantly Old World birds noted for their singing"
       }
     },
     {
@@ -219,8 +219,8 @@
       "phonetic": "/lɔːd/",
       "pos": "v",
       "meaning": {
-        "zh": "赞美",
-        "en": "praise highly"
+        "zh": "v. 做某事；进行 verb. （详见词典）",
+        "en": "praise highly To praise highly; to extol"
       }
     },
     {
@@ -269,8 +269,8 @@
       "phonetic": "/naɪ/",
       "pos": "adv",
       "meaning": {
-        "zh": "vi. 靠近",
-        "en": "To draw nigh (to); to approach; to come near"
+        "zh": "a. 在附近的 adv. 在附近地 prep. 近于",
+        "en": "a not far distant in time or space or degree or circumstances\\ns being on the left side\\nr near in t"
       }
     },
     {
@@ -289,7 +289,7 @@
       "phonetic": "/ˈpaɪɚ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 火葬用的柴堆",
+        "zh": "n. pyre；某物",
         "en": "n. wood heaped for burning a dead body as a funeral rite"
       }
     },
@@ -389,8 +389,8 @@
       "phonetic": "/əbˈhɔːr/",
       "pos": "v",
       "meaning": {
-        "zh": "憎恶",
-        "en": "detest utterly"
+        "zh": "vt. 憎恶, 痛恨, 回避, 拒绝",
+        "en": "v. find repugnant"
       }
     },
     {
@@ -399,8 +399,8 @@
       "phonetic": "/əˈdɛpt/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 熟练的，擅长的",
-        "en": "One fully skilled or well versed in anything; a proficient"
+        "zh": "a. 熟练的, 老练的, 巧妙的 n. 能手, 内行",
+        "en": "s. having or showing knowledge and skill and aptitude"
       }
     },
     {
@@ -409,8 +409,8 @@
       "phonetic": "/əˈdɔːr(ɹ)n/",
       "pos": "v",
       "meaning": {
-        "zh": "v. 装饰；使生色",
-        "en": "Adornment"
+        "zh": "vt. 装饰, 使生色",
+        "en": "v make more attractive by adding ornament, colour, etc.\\nv be beautiful to look at\\nv furnish with p"
       }
     },
     {
@@ -429,8 +429,8 @@
       "phonetic": "/əˈlɑt/",
       "pos": "v",
       "meaning": {
-        "zh": "v. 分配，分派，划拨",
-        "en": "To distribute or apportion by (or as if by) lot."
+        "zh": "vt. 分配, 分摊指定 [经] (按股或按规定)分配, 配(拨)给, 规(派)定",
+        "en": "v give out\\nv allow to have\\nv administer or bestow, as in small portions"
       }
     },
     {
@@ -439,8 +439,8 @@
       "phonetic": "/æŋ(k)st/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 焦虑；担心",
-        "en": "Emotional turmoil; painful sadness."
+        "zh": "n. 焦虑, 疑惧 [医] 恐怖",
+        "en": "n. an acute but unspecific feeling of anxiety; usually reserved for philosophical anxiety about the "
       }
     },
     {
@@ -469,7 +469,7 @@
       "phonetic": "/ˈeɪvi.ən/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 鸟的；鸟类的",
+        "zh": "adj. ...的；某种的",
         "en": "A bird."
       }
     },
@@ -489,8 +489,8 @@
       "phonetic": "/blɪts/",
       "pos": "v",
       "meaning": {
-        "zh": "n. 闪电战",
-        "en": "n. (American football) defensive players try to break through the offensive line; n. a swift and violent military offensive with intensive aerial bombardment; v. attack suddenly and without warning"
+        "zh": "n. 闪电战 vt. 以闪电战攻击",
+        "en": "n. a swift and violent military offensive with intensive aerial bombardment\\nv. attack suddenly and "
       }
     },
     {
@@ -499,8 +499,8 @@
       "phonetic": "/blɝ(ː)b/",
       "pos": "n",
       "meaning": {
-        "zh": "n. （书、新产品等的）简介",
-        "en": "n. a promotional statement (as found on the dust jackets of books)"
+        "zh": "n. 推荐广告 vt. 推荐吹捧",
+        "en": "n a promotional statement (as found on the dust jackets of books)"
       }
     },
     {
@@ -509,8 +509,8 @@
       "phonetic": "/ˈboʊ.ɡəs/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 假冒的，伪造的",
-        "en": "A liquor made of rum and molasses."
+        "zh": "a. 假的, 伪造的 [经] 伪的, 伪造的",
+        "en": "s. fraudulent; having a misleading appearance"
       }
     },
     {
@@ -519,8 +519,8 @@
       "phonetic": "/briːf/",
       "pos": "n",
       "meaning": {
-        "zh": "简短的",
-        "en": "lasting short time"
+        "zh": "n. 摘要, 简报 a. 简短的, 短暂的 vt. 对...作简报, 摘要, 节录",
+        "en": "n. a document stating the facts and points of law of a client's case\\nn. a condensed written summary"
       }
     },
     {
@@ -529,7 +529,7 @@
       "phonetic": "/brɪŋk/",
       "pos": "n",
       "meaning": {
-        "zh": "边缘",
+        "zh": "n. brink；某物",
         "en": "extreme edge"
       }
     },
@@ -539,8 +539,8 @@
       "phonetic": "/bɹuːd/",
       "pos": "v",
       "meaning": {
-        "zh": "v. 孵蛋；沉思，担忧",
-        "en": "n. the young of an animal cared for at one time; v. think moodily or anxiously about something; v. hang over, as of something threatening, dark, or menacing; v. be in a huff and display one's displeasure"
+        "zh": "n. 一窝, 一伙 vt. 孵, 沉思",
+        "en": "n. the young of an animal cared for at one time\\nv. think moodily or anxiously about something\\nv. h"
       }
     },
     {
@@ -549,8 +549,8 @@
       "phonetic": "/ˈkɹoʊni/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 密友；好朋友",
-        "en": "(originally Cambridge University) Close friend."
+        "zh": "n. 密友, 亲密伙伴, 好朋友",
+        "en": "n a close friend who accompanies his buddies in their activities"
       }
     },
     {
@@ -559,8 +559,8 @@
       "phonetic": "/dɔːnt/",
       "pos": "v",
       "meaning": {
-        "zh": "v. 使胆怯，使气馁；威吓",
-        "en": "To discourage, intimidate."
+        "zh": "vt. 威吓, 难倒, 使气馁",
+        "en": "v. cause to lose courage"
       }
     },
     {
@@ -579,8 +579,8 @@
       "phonetic": "/ˈedɪfaɪ/",
       "pos": "v",
       "meaning": {
-        "zh": "教化",
-        "en": "instruct or improve morally"
+        "zh": "vt. 启迪, 熏陶, 教诲",
+        "en": "v make understand"
       }
     },
     {
@@ -589,8 +589,8 @@
       "phonetic": "/ɪmˈbed/",
       "pos": "v",
       "meaning": {
-        "zh": "嵌入",
-        "en": "fix firmly in"
+        "zh": "vt. 使插入, 使嵌入, 使深留脑中 [计] 嵌入",
+        "en": "v. attach to, as a journalist to a military unit when reporting on a war"
       }
     },
     {
@@ -599,8 +599,8 @@
       "phonetic": "/ɪpɑːksiː/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 环氧树脂",
-        "en": "n. a thermosetting resin; used chiefly in strong adhesives and coatings and laminates; v. glue with epoxy"
+        "zh": "a. 环氧的 [化] 环氧",
+        "en": "n. a thermosetting resin; used chiefly in strong adhesives and coatings and laminates\\nv. glue with "
       }
     },
     {
@@ -619,8 +619,8 @@
       "phonetic": "/ɪɡˈzækt/",
       "pos": "v",
       "meaning": {
-        "zh": "精确的",
-        "en": "completely accurate"
+        "zh": "a. 精确的, 准确的, 精密的 vt. 强求, 急需",
+        "en": "a. marked by strict and particular and complete accordance with fact"
       }
     },
     {
@@ -629,8 +629,8 @@
       "phonetic": "/ɪkˈsud/",
       "pos": "v",
       "meaning": {
-        "zh": "vt. 散发；流出；使渗出",
-        "en": "v. release (a liquid) in drops or small quantities; v. make apparent by one's mood or behaviour"
+        "zh": "v. (使)流出, (使)渗出",
+        "en": "v. release (a liquid) in drops or small quantities\\nv. make apparent by one's mood or behavior"
       }
     },
     {
@@ -659,8 +659,8 @@
       "phonetic": "/ɡlɪts/",
       "pos": "n",
       "meaning": {
-        "zh": "v. 使光彩夺目，使绚丽",
-        "en": "Garish, brilliant showiness."
+        "zh": "n. 闪光, 炫目, 浮华",
+        "en": "n tasteless showiness"
       }
     },
     {
@@ -699,8 +699,8 @@
       "phonetic": "/hɔɪst/",
       "pos": "v",
       "meaning": {
-        "zh": "v. 吊起，提升；投篮",
-        "en": "A hoisting device, such as pulley or crane."
+        "zh": "n. 升高, 起重机, 推动 v. 升起, 升高, 举起",
+        "en": "n. lifting device for raising heavy or cumbersome objects\\nv. raise or haul up with or as if with me"
       }
     },
     {
@@ -779,8 +779,8 @@
       "phonetic": "/pleɪn/",
       "pos": "n",
       "meaning": {
-        "zh": "飞机",
-        "en": "aircraft"
+        "zh": "n. 平面, 扁平物, 机翼, 飞机, 水准, 地位 a. 平的, 平面的 vt. 将...刨平, 刨平, 掠过水面 vi. 翱翔, 乘飞机旅行, 刨掉",
+        "en": "n. (mathematics) an unbounded two-dimensional shape\\nn. a level of existence or development\\nn. a po"
       }
     },
     {
@@ -849,8 +849,8 @@
       "phonetic": "/kwɑːm/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 疑虑；不安",
-        "en": "A feeling of apprehension, doubt, fear etc."
+        "zh": "n. 晕眩, 不安, 疑虑 [法] 疑虑, 不安, 内疚",
+        "en": "n uneasiness about the fitness of an action\\nn a mild state of nausea"
       }
     },
     {
@@ -899,8 +899,8 @@
       "phonetic": "/ʃiːf/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 捆；束；扎",
-        "en": "n. a package of several things tied together for carrying or storing"
+        "zh": "n. 束, 捆, 扎 vt. 捆, 束",
+        "en": "n a package of several things tied together for carrying or storing"
       }
     },
     {
@@ -929,8 +929,8 @@
       "phonetic": "/spaɪə/",
       "pos": "n",
       "meaning": {
-        "zh": "n. [建]尖顶；尖塔；螺旋",
-        "en": "The stalk or stem of a plant."
+        "zh": "n. 尖塔, 尖顶, 锥形体, 螺旋 vi. 突出, 耸立, 螺旋形上升 vt. 给...加塔尖",
+        "en": "n a tall tower that forms the superstructure of a building (usually a church or temple) and that tap"
       }
     },
     {
@@ -959,8 +959,8 @@
       "phonetic": "/ˈʌtə/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 完全的，彻底的",
-        "en": "Outer; furthest out, most remote."
+        "zh": "a. 全然的, 绝对的, 完全的 vt. 发出声音, 做声, 发表, 发射, 流通",
+        "en": "v. express audibly; utter sounds (not necessarily words)\\nv. put into circulation"
       }
     },
     {
@@ -1059,7 +1059,7 @@
       "phonetic": "",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 忧虑的",
+        "zh": "adj. ...的；某种的",
         "en": "Fraught with angst. "
       }
     },
@@ -1069,7 +1069,7 @@
       "phonetic": "/ɑːrˈkeɪn/",
       "pos": "adj",
       "meaning": {
-        "zh": "神秘的",
+        "zh": "adj. ...的；某种的",
         "en": "mysterious or secret"
       }
     },
@@ -1119,7 +1119,7 @@
       "phonetic": "/biˈhɛst/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 命令；邀请；请求",
+        "zh": "n. behest；某物",
         "en": "n. an authoritative command or request"
       }
     },
@@ -1129,8 +1129,8 @@
       "phonetic": "/bɪˈreft/",
       "pos": "adj",
       "meaning": {
-        "zh": "丧失的",
-        "en": "deprived of"
+        "zh": "a. 缺少的, 丧失的, 失去亲人的 bereave的过去式和过去分词",
+        "en": "s. unhappy in love; suffering from unrequited love"
       }
     },
     {
@@ -1139,8 +1139,8 @@
       "phonetic": "/blaɪt/",
       "pos": "n",
       "meaning": {
-        "zh": "枯萎病；灾害",
-        "en": "disease or damage"
+        "zh": "n. 枯萎病 vt. 使染上枯萎病, 破坏 vi. 枯萎",
+        "en": "n. a state or condition being blighted\\nn. any plant disease resulting in withering without rotting\\"
       }
     },
     {
@@ -1169,8 +1169,8 @@
       "phonetic": "/ˈkoʊdʒənt/",
       "pos": "adj",
       "meaning": {
-        "zh": "有说服力的",
-        "en": "clear and convincing"
+        "zh": "a. 使人首肯的, 使人信服的, 中肯切题的 [法] 有说服力的, 无法反驳的",
+        "en": "s. powerfully persuasive"
       }
     },
     {
@@ -1179,8 +1179,8 @@
       "phonetic": "/kɔːr(ɹ)dən/",
       "pos": "v",
       "meaning": {
-        "zh": "n. 警戒线；绶带；束带层",
-        "en": "n. cord or ribbon worn as an insignia of honor or rank; n. adornment consisting of an ornamental ribbon or cord"
+        "zh": "n. 哨兵线, 非常警戒线, 饰带 vt. 用警戒线围住",
+        "en": "n. a series of sentinels or of military posts enclosing or guarding some place or thing\\nn. cord or "
       }
     },
     {
@@ -1189,7 +1189,7 @@
       "phonetic": "/ˈkoːps/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 尸体",
+        "zh": "n. corpse；某物",
         "en": "A dead body."
       }
     },
@@ -1219,8 +1219,8 @@
       "phonetic": "/kɑːsʌt/",
       "pos": "v",
       "meaning": {
-        "zh": "vt. 宠爱；溺爱；纵容",
-        "en": "A pet, especially a pet lamb."
+        "zh": "n. 供玩赏的小动物, 爱畜 vt. 宠爱, 珍爱, 溺爱",
+        "en": "v treat with excessive indulgence"
       }
     },
     {
@@ -1249,8 +1249,8 @@
       "phonetic": "/ˈdɛdən/",
       "pos": "v",
       "meaning": {
-        "zh": "vt. 使减弱；使麻木；隔阻",
-        "en": "To render less lively; to diminish; to muffle."
+        "zh": "vt. 使减弱, 使麻木 vi. 减弱",
+        "en": "v. make vapid or deprive of spirit\\nv. lessen the momentum or velocity of\\nv. become lifeless, less "
       }
     },
     {
@@ -1259,8 +1259,8 @@
       "phonetic": "/dɪˈnoʊt/",
       "pos": "v",
       "meaning": {
-        "zh": "表示",
-        "en": "indicate"
+        "zh": "vt. 指示, 表示",
+        "en": "v. be a sign or indication of\\nv. have as a meaning"
       }
     },
     {
@@ -1279,8 +1279,8 @@
       "phonetic": "/ɪmˈbɑdi/",
       "pos": "v",
       "meaning": {
-        "zh": "体现",
-        "en": "give form to"
+        "zh": "vt. 具体表达, 使具体化 [经] 合并, 具体化, 具体表现",
+        "en": "v. represent, as of a character on stage\\nv. represent or express something abstract in tangible for"
       }
     },
     {
@@ -1289,7 +1289,7 @@
       "phonetic": "/ˈekstənt/",
       "pos": "adj",
       "meaning": {
-        "zh": "现存的",
+        "zh": "adj. ...的；某种的",
         "en": "still in existence"
       }
     },
@@ -1309,8 +1309,8 @@
       "phonetic": "/ˈfɹɑlɪk/",
       "pos": "v",
       "meaning": {
-        "zh": "v. 嬉戏；调情",
-        "en": "Gaiety; merriment."
+        "zh": "n. 嬉戏 vi. 嬉戏 a. 嬉戏的, 欢乐的",
+        "en": "v. play boisterously"
       }
     },
     {
@@ -1329,8 +1329,8 @@
       "phonetic": "/ɡoʊʃ/",
       "pos": "adj",
       "meaning": {
-        "zh": "笨拙的",
-        "en": "lacking social grace"
+        "zh": "a. 缺乏社经验的, 笨拙的, 粗鲁的, 无礼的, 偏转的",
+        "en": "s. lacking social polish"
       }
     },
     {
@@ -1339,8 +1339,8 @@
       "phonetic": "/ˈɡlɪtsi/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 盛大的；浮华的",
-        "en": "Brilliantly showy."
+        "zh": "a. <美><加> 闪光的, 耀眼的, 眩目的",
+        "en": ""
       }
     },
     {
@@ -1349,8 +1349,8 @@
       "phonetic": "/ˈhæmpər/",
       "pos": "v",
       "meaning": {
-        "zh": "阻碍",
-        "en": "hinder or impede"
+        "zh": "n. 食篮, 阻碍物, 食盒 vt. 阻碍, 使困累, 妨碍, 牵制",
+        "en": "n. a basket usually with a cover\\nv. prevent the progress or free movement of"
       }
     },
     {
@@ -1359,8 +1359,8 @@
       "phonetic": "/ˈhæzəd/",
       "pos": "v",
       "meaning": {
-        "zh": "危险",
-        "en": "potential danger"
+        "zh": "n. 冒险, 危险, 机会 vt. 冒...的危险, 赌运气, 使冒危险 [计] 相关危险",
+        "en": "n. a source of danger; a possibility of incurring loss or misfortune\\nn. an obstacle on a golf cours"
       }
     },
     {
@@ -1389,8 +1389,8 @@
       "phonetic": "/ˈhɪndər/",
       "pos": "v",
       "meaning": {
-        "zh": "阻碍",
-        "en": "create difficulties"
+        "zh": "a. 后面的 v. 阻碍, 打扰",
+        "en": "v be a hindrance or obstacle to\\nv hinder or prevent the progress or accomplishment of\\nv put at a d"
       }
     },
     {
@@ -1409,7 +1409,7 @@
       "phonetic": "/ɪnsaɪz/",
       "pos": "v",
       "meaning": {
-        "zh": "vt. 切；切割；雕刻",
+        "zh": "vt. 切割, 雕刻 [医] 切",
         "en": "v. make an incision into by carving or cutting"
       }
     },
@@ -1419,8 +1419,8 @@
       "phonetic": "/ɪnˈdjuːs/",
       "pos": "v",
       "meaning": {
-        "zh": "引起",
-        "en": "succeed in persuading"
+        "zh": "vt. 引诱, 招致, 归纳出, 感应 [医] 诱导, 感应",
+        "en": "v. cause to arise\\nv. cause to do; cause to act in a specified manner\\nv. cause to occur rapidly\\nv."
       }
     },
     {
@@ -1479,8 +1479,8 @@
       "phonetic": "/liːˈeɪz/",
       "pos": "v",
       "meaning": {
-        "zh": "vi. 保持联络；担任联络官",
-        "en": "To establish a liaison."
+        "zh": "vi. 保持联络, 担任联络官",
+        "en": "v act between parties with a view to reconciling differences"
       }
     },
     {
@@ -1489,7 +1489,7 @@
       "phonetic": "/ˈlɔɪtə(ɹ)/",
       "pos": "v",
       "meaning": {
-        "zh": "vi. 虚度；闲荡；徘徊",
+        "zh": "v. 闲荡, 虚度, 徘徊",
         "en": "v. be about"
       }
     },
@@ -1529,8 +1529,8 @@
       "phonetic": "/ˈmæŋ.ɡəl/",
       "pos": "v",
       "meaning": {
-        "zh": "vt. 乱砍；轧布；损坏",
-        "en": "n. clothes dryer for drying and ironing laundry by passing it between two heavy heated rollers; v. press with a mangle; v. injure badly by beating; v. alter so as to make unrecognizable"
+        "zh": "vt. 乱砍, 损坏, 轧布 n. 轧布机",
+        "en": "n. clothes dryer for drying and ironing laundry by passing it between two heavy heated rollers\\nv. p"
       }
     },
     {
@@ -1579,8 +1579,8 @@
       "phonetic": "/mɪlˈjɜːr/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 环境；周围；出身背景",
-        "en": "Medium."
+        "zh": "n. 周围, 社会环境, 环境, 表达的手法 [医] 环境",
+        "en": "n. the environmental condition"
       }
     },
     {
@@ -1679,8 +1679,8 @@
       "phonetic": "/ˈɹæ.vɪʃ/",
       "pos": "v",
       "meaning": {
-        "zh": "vt. 强夺；强奸；使着迷",
-        "en": "To seize and carry away by violence; to snatch by force."
+        "zh": "vt. 强夺, 夺走, 使出神, 强奸 [法] 强夺, 抢去, 强奸",
+        "en": "v force (someone) to have sex against their will\\nv hold spellbound"
       }
     },
     {
@@ -1689,8 +1689,8 @@
       "phonetic": "/ɹiˈbjuːk/",
       "pos": "v",
       "meaning": {
-        "zh": "v. 斥责，指责",
-        "en": "A harsh criticism."
+        "zh": "n. 指责, 谴责, 非难 vt. 斥责, 指责, 制止",
+        "en": "n. an act or expression of criticism and censure"
       }
     },
     {
@@ -1699,8 +1699,8 @@
       "phonetic": "/ɹɪˈpoʊz/",
       "pos": "v",
       "meaning": {
-        "zh": "n. 休息；睡眠；静止",
-        "en": "Rest; sleep."
+        "zh": "n. 休息, 睡眠, 静止 vt. 使休息, 寄托于 vi. 休息, 长眠, 静卧, 座落, 依靠, 信赖",
+        "en": "n. a disposition free from stress or emotion\\nv. put or confide something in a person or thing\\nv. l"
       }
     },
     {
@@ -1709,8 +1709,8 @@
       "phonetic": "/ɹɪˈpjuːt/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 名誉，名声；声望，美誉",
-        "en": "Reputation, especially a good reputation."
+        "zh": "n. 名望, 名气, 声望 vt. 认为, 以为",
+        "en": "n. the state of being held in high esteem and honor"
       }
     },
     {
@@ -1799,8 +1799,8 @@
       "phonetic": "/ˈswɪvəl/",
       "pos": "v",
       "meaning": {
-        "zh": "n. 转环；转椅座架",
-        "en": "n. a coupling (as in a chain) that has one end that turns on a headed pin; v. turn on a pivot"
+        "zh": "n. 转环, 旋转轴承, 转椅座架 v. (使)旋转",
+        "en": "n. a coupling (as in a chain) that has one end that turns on a headed pin"
       }
     },
     {
@@ -1859,8 +1859,8 @@
       "phonetic": "/ˈtɑtə/",
       "pos": "v",
       "meaning": {
-        "zh": "vi. 蹒跚；踉跄",
-        "en": "An unsteady movement or gait."
+        "zh": "vi. 蹒跚, 动摇 n. 蹒跚的步子",
+        "en": "v. move without being stable, as if threatening to fall"
       }
     },
     {
@@ -1909,8 +1909,8 @@
       "phonetic": "/ˈvɛɹ.əl.i/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 真正地；真实地",
-        "en": "Truly; doubtlessly; honestly; in truth."
+        "zh": "adv. 真正地, 真实地",
+        "en": "r. in truth; certainly"
       }
     },
     {
@@ -1919,8 +1919,8 @@
       "phonetic": "/ˈvɜːrmɪn/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 害虫；寄生虫；歹徒",
-        "en": "n. an irritating or obnoxious person; n. any of various small animals or insects that are pests; e.g. cockroaches or rats"
+        "zh": "n. 害虫, 歹徒 [医] 虫, 体外寄生虫(如蚤、臭虫、蚤等)",
+        "en": "n. an irritating or obnoxious person\\nn. any of various small animals or insects that are pests; e.g"
       }
     },
     {
@@ -1939,8 +1939,8 @@
       "phonetic": "/ˈwɑ.loʊ/",
       "pos": "v",
       "meaning": {
-        "zh": "vi. 打滚；沉迷；颠簸",
-        "en": "An instance of wallowing."
+        "zh": "vi. 打滚, 沉迷, 颠簸 n. 打滚, 泥坑, 堕落",
+        "en": "n. a puddle where animals go to wallow\\nn. an indolent or clumsy rolling about\\nv. devote oneself en"
       }
     },
     {
@@ -1959,8 +1959,8 @@
       "phonetic": "/ˈhoʊli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 完全地，全部地",
-        "en": "Completely and entirely; to the fullest extent."
+        "zh": "adv. 完全地, 整个, 统统, 全部 [法] 完全地, 统统地",
+        "en": "r. to a complete degree or to the full or entire extent (`whole' is often used informally for `wholl"
       }
     },
     {
@@ -1979,8 +1979,8 @@
       "phonetic": "/əˈbɑlɪʃ/",
       "pos": "v",
       "meaning": {
-        "zh": "废除",
-        "en": "officially end"
+        "zh": "vt. 废止, 革除, 消灭 [经] 废除, 取消, 裁撤",
+        "en": "v. do away with"
       }
     },
     {
@@ -1989,8 +1989,8 @@
       "phonetic": "/ˈeɪk(ə)ɹɪd͡ʒ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 面积，英亩数",
-        "en": "Size, as measured in acres."
+        "zh": "n. 英亩数, 土地面积 [经] 英亩数, 土地面积, 矿区租赁面积",
+        "en": "n. an area of ground used for some particular purpose (such as building or farming)"
       }
     },
     {
@@ -1999,8 +1999,8 @@
       "phonetic": "/ˈædvɜːs/",
       "pos": "adj",
       "meaning": {
-        "zh": "不利的",
-        "en": "unfavorable"
+        "zh": "a. 不利的, 敌对的, 相反的, 逆的 [法] 相反的, 敌对的, 逆的",
+        "en": "s. contrary to your interests or welfare\\ns. in an opposing direction"
       }
     },
     {
@@ -2039,8 +2039,8 @@
       "phonetic": "/ˈɑːdjuəs/",
       "pos": "adj",
       "meaning": {
-        "zh": "艰巨的",
-        "en": "difficult and tiring"
+        "zh": "a. 费力的, 努力的, 险峻的",
+        "en": "s. characterized by effort to the point of exhaustion; especially physical effort\\ns. taxing to the "
       }
     },
     {
@@ -2049,8 +2049,8 @@
       "phonetic": "/ʌtuːnd/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 理解的；音感好的",
-        "en": "To bring into musical accord."
+        "zh": "v. 使协调( attune的过去式和过去分词 )",
+        "en": "v adjust or accustom to; bring into harmony with"
       }
     },
     {
@@ -2059,8 +2059,8 @@
       "phonetic": "/ɔːrˈstɪər/",
       "pos": "adj",
       "meaning": {
-        "zh": "简朴的；严厉的",
-        "en": "severe or strict"
+        "zh": "a. 严峻的, 禁欲的, 简朴的",
+        "en": "s. severely simple\\ns. of a stern or strict bearing or demeanor; forbidding in aspect"
       }
     },
     {
@@ -2089,8 +2089,8 @@
       "phonetic": "/ˈblʌbɚ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 鲸脂；哭泣",
-        "en": "n. an insulating layer of fat under the skin of whales and other large marine mammals; used as a source of oil; n. excess bodily weight; v. cry or whine with snuffling; v. utter while crying"
+        "zh": "n. 鲸脂, 哭泣 v. 又哭又闹",
+        "en": "n. an insulating layer of fat under the skin of whales and other large marine mammals; used as a sou"
       }
     },
     {
@@ -2099,7 +2099,7 @@
       "phonetic": "/ˈbrevɪti/",
       "pos": "n",
       "meaning": {
-        "zh": "简洁",
+        "zh": "n. brevity；某物",
         "en": "concise expression"
       }
     },
@@ -2109,8 +2109,8 @@
       "phonetic": "/ˈbʌzəɹd/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 秃鹰类；贪婪卑鄙的小人",
-        "en": "n. a New World vulture that is common in South America and Central America and the southern United States; n. the common European short-winged hawk"
+        "zh": "n. 贪婪的人, 做营营声的小虫",
+        "en": "n. a New World vulture that is common in South America and Central America and the southern United S"
       }
     },
     {
@@ -2119,8 +2119,8 @@
       "phonetic": "/ˈkæləs/",
       "pos": "adj",
       "meaning": {
-        "zh": "冷酷的",
-        "en": "emotionally hardened"
+        "zh": "a. 麻木的, 无情的, 坚硬的, 硬皮的, 起老茧的 vt. 使生茧, 使变硬",
+        "en": "v. make insensitive or callous; deaden feelings or morals\\ns. emotionally hardened"
       }
     },
     {
@@ -2129,8 +2129,8 @@
       "phonetic": "/kæˈskeɪd/",
       "pos": "v",
       "meaning": {
-        "zh": "瀑布",
-        "en": "steep waterfall"
+        "zh": "n. 小瀑布, 瀑布状物 vi. 成瀑布落下 [计] 层叠, 级联",
+        "en": "n. a small waterfall or series of small waterfalls\\nn. a succession of stages or operations or proce"
       }
     },
     {
@@ -2139,8 +2139,8 @@
       "phonetic": "/ˈsɜːrkɪt/",
       "pos": "n",
       "meaning": {
-        "zh": "电路",
-        "en": "path"
+        "zh": "n. 电路, 环(行)道, 巡回 [计] 线路",
+        "en": "n. an electrical device that provides a path for electrical current to flow\\nn. an established itine"
       }
     },
     {
@@ -2159,8 +2159,8 @@
       "phonetic": "/kəˈmoʊd/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 洗脸台；便桶；衣柜",
-        "en": "A low chest of drawers on short legs."
+        "zh": "n. 洗脸台, 五斗橱, 便桶",
+        "en": "n a plumbing fixture for defecation and urination\\nn a tall elegant chest of drawers"
       }
     },
     {
@@ -2169,8 +2169,8 @@
       "phonetic": "/kənˈdoʊn/",
       "pos": "v",
       "meaning": {
-        "zh": "宽恕",
-        "en": "accept or overlook"
+        "zh": "vt. 赦, 宽恕 [法] 宽恕, 不咎, 抵销",
+        "en": "v excuse, overlook, or make allowances for; be lenient with"
       }
     },
     {
@@ -2189,8 +2189,8 @@
       "phonetic": "/kɑˈnoʊt/",
       "pos": "v",
       "meaning": {
-        "zh": "vt. 意味着；含言外之意",
-        "en": "To signify beyond its literal or principal meaning."
+        "zh": "vt. 含蓄着, 内涵着, 意味着",
+        "en": "v. involve as a necessary condition of consequence; as in logic"
       }
     },
     {
@@ -2219,7 +2219,7 @@
       "phonetic": "",
       "pos": "adj",
       "meaning": {
-        "zh": "狂热的",
+        "zh": "adj. ...的；某种的",
         "en": "Resembling a cult"
       }
     },
@@ -2239,8 +2239,8 @@
       "phonetic": "/ˈdefɪsɪt/",
       "pos": "n",
       "meaning": {
-        "zh": "赤字",
-        "en": "amount lacking"
+        "zh": "n. 赤字, 不足额 [医] 短缺",
+        "en": "n. the property of being an amount by which something is less than expected or required\\nn. a defici"
       }
     },
     {
@@ -2249,8 +2249,8 @@
       "phonetic": "/dɪˈtɹækt/",
       "pos": "v",
       "meaning": {
-        "zh": "vt. 转移，使分心",
-        "en": "To take away; to withdraw or remove."
+        "zh": "vi. 减去, 贬低 vt. 转移, 分散",
+        "en": "v take away a part from; diminish"
       }
     },
     {
@@ -2299,7 +2299,7 @@
       "phonetic": "/ˈɛd.ɪ.fɪs/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 大厦；大建筑物",
+        "zh": "n. edifice；某物",
         "en": "n. a structure that has a roof and walls and stands more or less permanently in one place"
       }
     },
@@ -2319,8 +2319,8 @@
       "phonetic": "/ɪleɪʃʌn/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 兴高采烈，得意洋洋",
-        "en": "An exhilarating psychological state of pride and optimism."
+        "zh": "n. 得意洋洋, 兴高采烈 [医] 得意[洋洋], 高兴",
+        "en": "n. an exhilarating psychological state of pride and optimism; an absence of depression\\nn. a feeling"
       }
     },
     {
@@ -2339,8 +2339,8 @@
       "phonetic": "/ˈemjuleɪt/",
       "pos": "v",
       "meaning": {
-        "zh": "效仿",
-        "en": "match or surpass by imitation"
+        "zh": "vt. 效法, 尽力赶上, 同...竞争 [计] 仿真",
+        "en": "v. strive to equal or match, especially by imitating\\nv. imitate the function of (another system), a"
       }
     },
     {
@@ -2379,8 +2379,8 @@
       "phonetic": "/ˈetʃ.ɪŋ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 蚀刻术；蚀刻版画",
-        "en": "n. an impression made from an etched plate; n. an etched plate made with the use of acid; n. making engraved or etched plates and printing designs from them"
+        "zh": "n. 蚀刻版画, 蚀刻画, 蚀刻术 [化] 蚀刻",
+        "en": "n. an impression made from an etched plate\\nn. an etched plate made with the use of acid"
       }
     },
     {
@@ -2409,8 +2409,8 @@
       "phonetic": "",
       "pos": "adv",
       "meaning": {
-        "zh": "全力以赴地",
-        "en": "abstract: FlatOut is a series of demolition derby-style racing games (formerly) developed by Finnish Bugbear Entertainment and (formerly) published by Empire Interactive. FlatOut-series has sold almost 3 million units worldwide."
+        "zh": "adv. 行为；动作",
+        "en": "abstract: FlatOut is a series of demolition derby-style racing games (formerly) developed by Finnish"
       }
     },
     {
@@ -2459,7 +2459,7 @@
       "phonetic": "/ˈhæpləs/",
       "pos": "adj",
       "meaning": {
-        "zh": "不幸的",
+        "zh": "adj. ...的；某种的",
         "en": "unfortunate"
       }
     },
@@ -2469,8 +2469,8 @@
       "phonetic": "/ˈhɑti/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 傲慢的；自大的",
-        "en": "adj. having or showing arrogant superiority to and disdain of those one views as unworthy"
+        "zh": "a. 傲慢的, 骄傲的, 崇高的",
+        "en": "s having or showing arrogant superiority to and disdain of those one views as unworthy"
       }
     },
     {
@@ -2489,8 +2489,8 @@
       "phonetic": "/ˈɪnɡɹeɪt/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 忘恩负义的人",
-        "en": "An ungrateful person"
+        "zh": "n. 忘恩者 a. 不知恩的, 忘恩的",
+        "en": "n. a person who shows no gratitude"
       }
     },
     {
@@ -2559,7 +2559,7 @@
       "phonetic": "/ˈmæɹɪnə/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 水手；船员",
+        "zh": "n. mariner；某物",
         "en": "A sailor."
       }
     },
@@ -2589,8 +2589,8 @@
       "phonetic": "/ˈmɑt əld/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 斑驳的，杂色的",
-        "en": "adj. having spots or patches of color"
+        "zh": "a. 杂色的, 斑驳的 [医] 斑色的, 斑状的",
+        "en": "v mark with spots or blotches of different color or shades of color as if stained\\nv colour with str"
       }
     },
     {
@@ -2599,8 +2599,8 @@
       "phonetic": "/ˈnæsənt/",
       "pos": "adj",
       "meaning": {
-        "zh": "新生的",
-        "en": "just beginning to develop"
+        "zh": "a. 发生中的, 开始存在的, 初期的 [医] 初发的, 初生的",
+        "en": "a. being born or beginning"
       }
     },
     {
@@ -2609,8 +2609,8 @@
       "phonetic": "/əˈbliːk/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 斜的；不光明正大的",
-        "en": "An oblique line."
+        "zh": "a. 斜的, 倾斜的, 间接的, 不光明正大的, 躲躲闪闪的 [医] 斜的",
+        "en": "n. any grammatical case other than the nominative\\na. slanting or inclined in direction or course or"
       }
     },
     {
@@ -2619,8 +2619,8 @@
       "phonetic": "/oʊˈpæsɪtiː/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 不透明；不传导；暧昧",
-        "en": "n. the phenomenon of not permitting the passage of electromagnetic radiation; n. incomprehensibility resulting from obscurity of meaning; n. the quality of being opaque to a degree; the degree to which something reduces the passage of light"
+        "zh": "n. 不透明, 电波不透过, 不透明体 [医] 浑浊, 不透明, 不透光, 不透明区, 浊斑",
+        "en": "n. the phenomenon of not permitting the passage of electromagnetic radiation\\nn. incomprehensibility"
       }
     },
     {
@@ -2669,7 +2669,7 @@
       "phonetic": "/ˈpluːmɪdʒ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 鸟类羽毛；翅膀",
+        "zh": "n. plumage；某物",
         "en": "n. the light horny waterproof structure forming the external covering of birds"
       }
     },
@@ -2699,8 +2699,8 @@
       "phonetic": "/ˈɹɛptʃɘ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 兴高采烈",
-        "en": "Extreme pleasure, happiness or excitement."
+        "zh": "n. 兴高采烈, 着迷, 欢天喜地, 狂喜 vt. 使狂喜",
+        "en": "n a state of being carried away by overwhelming emotion\\nn a state of elated bliss"
       }
     },
     {
@@ -2719,8 +2719,8 @@
       "phonetic": "/ɹɪˈkluːs/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 隐士；隐居者",
-        "en": "n. one who lives in solitude; adj. withdrawn from society; seeking solitude"
+        "zh": "a. 隐遁的, 偏僻的 n. 隐遁者, 遁世者",
+        "en": "s. withdrawn from society; seeking solitude"
       }
     },
     {
@@ -2729,8 +2729,8 @@
       "phonetic": "/riːɪʃuː/",
       "pos": "v",
       "meaning": {
-        "zh": "v. 重新发行；再发出",
-        "en": "Something that has issued, or been issued again."
+        "zh": "vt. 再发给, 重新发行 vi. 再发给 n. 重新发行, 再版物",
+        "en": "n. a publication (such as a book) that is reprinted without changes or editing and offered again for"
       }
     },
     {
@@ -2749,8 +2749,8 @@
       "phonetic": "/ˌɹiːˈsaʊnd/",
       "pos": "v",
       "meaning": {
-        "zh": "vi. 回响；鸣响；被传颂",
-        "en": "An echoing or reverberating sound."
+        "zh": "vi. 回响, 鸣响, 反响, 驰名, 被传遍 vt. 使回响, 传颂",
+        "en": "v. ring or echo with sound"
       }
     },
     {
@@ -2849,7 +2849,7 @@
       "phonetic": "",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 蠕动的",
+        "zh": "adj. ...的；某种的",
         "en": "That squirms, writhes or wriggles. "
       }
     },
@@ -2869,8 +2869,8 @@
       "phonetic": "/səbˈsɪst/",
       "pos": "v",
       "meaning": {
-        "zh": "vi. 存在；维持生活",
-        "en": "To survive on a minimum of resources."
+        "zh": "vt. 供给食物, 供养 vi. 生存, 存在",
+        "en": "v support oneself"
       }
     },
     {
@@ -2899,8 +2899,8 @@
       "phonetic": "/səˈfjuːz/",
       "pos": "v",
       "meaning": {
-        "zh": "vt. 充满；弥漫",
-        "en": "v. cause to spread or flush or flood through, over, or across; v. to become overspread as with a fluid, a colour, a gleam of light"
+        "zh": "vt. 遍布, 弥漫, 充满",
+        "en": "v. cause to spread or flush or flood through, over, or across\\nv. to become overspread as with a flu"
       }
     },
     {
@@ -2949,7 +2949,7 @@
       "phonetic": "/toʊˈtemɪk/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 图腾的",
+        "zh": "adj. ...的；某种的",
         "en": "Serving as, or relating to, a totem."
       }
     },
@@ -3069,8 +3069,8 @@
       "phonetic": "/ˈæ.dɪ.tɪv/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 添加剂，添加物",
-        "en": "n. something added to enhance food or gasoline or paint or medicine; adj. characterized or produced by addition; adj. designating or involving an equation whose terms are of the first degree"
+        "zh": "a. 添加的, 附加的, 加法的, 累积的 n. 添加物",
+        "en": "n. something added to enhance food or gasoline or paint or medicine\\na. characterized or produced by"
       }
     },
     {
@@ -3089,8 +3089,8 @@
       "phonetic": "/ˈæl.ɘˌɡoʊɹ.i/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 寓言",
-        "en": "n. a short moral story (often with animal characters); n. a visible symbol representing an abstract idea; n. an expressive style that uses fictional characters and events to describe some subject by suggestive resemblances; an extended metaphor"
+        "zh": "n. allegory；某物",
+        "en": "n. a short moral story (often with animal characters); n. a visible symbol representing an abstract "
       }
     },
     {
@@ -3099,7 +3099,7 @@
       "phonetic": "/əˈlu.ʒən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 暗指，影射，典故",
+        "zh": "n. allusion；某物",
         "en": "n. passing reference or indirect mention"
       }
     },
@@ -3149,8 +3149,8 @@
       "phonetic": "/ɑːrkaɪvʌl/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 档案的",
-        "en": "The act of archiving something."
+        "zh": "a. 档案的, 档案中的",
+        "en": "a. of or relating to or contained in or serving as an archive"
       }
     },
     {
@@ -3179,8 +3179,8 @@
       "phonetic": "/ˈɔtoʊˌmeɪt/",
       "pos": "v",
       "meaning": {
-        "zh": "v. 使自动化",
-        "en": "To replace or enhance human labor with machines."
+        "zh": "vt. vi. (使)自动化 [计] 自动化",
+        "en": "v make automatic or control or operate automatically"
       }
     },
     {
@@ -3189,7 +3189,7 @@
       "phonetic": "",
       "pos": "adv",
       "meaning": {
-        "zh": "丧失地",
+        "zh": "adv. 人；某人",
         "en": "(of a person) Pained by the loss of someone. "
       }
     },
@@ -3199,8 +3199,8 @@
       "phonetic": "/bˈlʌbəri/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 鲸脂的",
-        "en": "Having the characteristics of blubber. "
+        "zh": "a. 鲸脂的, 多鲸脂的",
+        "en": "s. swollen with fat"
       }
     },
     {
@@ -3209,8 +3209,8 @@
       "phonetic": "/ˈbɹændɪʃ/",
       "pos": "v",
       "meaning": {
-        "zh": "vt. 挥舞；炫耀",
-        "en": "The act of flourishing or waving."
+        "zh": "vt. 挥, 挥舞 n. 挥舞",
+        "en": "v. move or swing back and forth\\nv. exhibit aggressively"
       }
     },
     {
@@ -3219,7 +3219,7 @@
       "phonetic": "/ˈbɹuː.hɑː.hɑː/",
       "pos": "n",
       "meaning": {
-        "zh": "n. （法）吵闹；骚动",
+        "zh": "n. brouhaha；某物",
         "en": "A stir; a fuss or uproar."
       }
     },
@@ -3229,7 +3229,7 @@
       "phonetic": "/kəˈlæmɪti/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 灾难，灾祸",
+        "zh": "n. calamity；某物",
         "en": "An event resulting in great loss."
       }
     },
@@ -3249,8 +3249,8 @@
       "phonetic": "/ˈkoʊdʒəntli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 痛切地；中肯地",
-        "en": "In a cogent manner. "
+        "zh": "adv. 痛切地, 中肯地",
+        "en": "adv. In a cogent manner; forcibly; convincingly;\\n   conclusively."
       }
     },
     {
@@ -3259,7 +3259,7 @@
       "phonetic": "/kʌlaɪdɜːr/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 对撞机；碰撞机",
+        "zh": "n. collider；某物",
         "en": "n. an accelerator in which two beams of particles are forced to collide head on"
       }
     },
@@ -3279,8 +3279,8 @@
       "phonetic": "/kənˈvɜːs/",
       "pos": "adj",
       "meaning": {
-        "zh": "v. 谈话，交谈",
-        "en": "n. a proposition obtained by conversion; v. carry on a conversation; adj. of words so related that one reverses the relation denoted by the other; adj. turned about in order or relation"
+        "zh": "n. 相反的事物, 倒, 逆向 a. 相反的, 逆向的, 颠倒的 vi. 交谈, 谈话",
+        "en": "n. a proposition obtained by conversion\\nv. carry on a conversation\\ns. of words so related that one"
       }
     },
     {
@@ -3299,8 +3299,8 @@
       "phonetic": "/dɪˈnaʊns/",
       "pos": "v",
       "meaning": {
-        "zh": "谴责",
-        "en": "publicly condemn"
+        "zh": "vt. 告发, 抨击, 谴责 [法] 谴责, 斥责, 告发",
+        "en": "v. speak out against\\nv. announce the termination of, as of treaties\\nv. give away information about"
       }
     },
     {
@@ -3319,8 +3319,8 @@
       "phonetic": "/ˈderəlɪkt/",
       "pos": "adj",
       "meaning": {
-        "zh": "被遗弃的",
-        "en": "abandoned"
+        "zh": "a. 被抛弃了的, 无主的, 玩忽职守的 n. 遗弃物, 被遗弃的人, 玩忽职守者",
+        "en": "n. a person without a home, job, or property\\ns. failing in what duty requires"
       }
     },
     {
@@ -3349,7 +3349,7 @@
       "phonetic": "/ˈdɪlɪdʒənt/",
       "pos": "adj",
       "meaning": {
-        "zh": "勤奋的",
+        "zh": "adj. ...的；某种的",
         "en": "hardworking"
       }
     },
@@ -3359,8 +3359,8 @@
       "phonetic": "/dɪˈmɪnɪʃ/",
       "pos": "v",
       "meaning": {
-        "zh": "减少",
-        "en": "make smaller"
+        "zh": "v. (使)减少, (使)变小",
+        "en": "v. lessen the authority, dignity, or reputation of"
       }
     },
     {
@@ -3369,8 +3369,8 @@
       "phonetic": "/dɪˈspɜːs/",
       "pos": "v",
       "meaning": {
-        "zh": "分散",
-        "en": "scatter in different directions"
+        "zh": "vt. 分散, 传播, 散开 vi. 分散 a. 分散的 [计] 分散",
+        "en": "v. to cause to separate and go in different directions\\nv. move away from each other; \\nv. separate "
       }
     },
     {
@@ -3389,8 +3389,8 @@
       "phonetic": "/ˈdræbnəs/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 单调乏味",
-        "en": "The characteristic of being drab. "
+        "zh": "n. 乏味, 单调",
+        "en": "n having a drab or dowdy quality; lacking stylishness or elegance"
       }
     },
     {
@@ -3399,7 +3399,7 @@
       "phonetic": "/ˈdɹʌdʒəɹi/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 苦工，苦差事",
+        "zh": "n. drudgery；某物",
         "en": "Tedious, menial, and exhausting work."
       }
     },
@@ -3429,8 +3429,8 @@
       "phonetic": "/ɪˈmʌlsɪfaɪ/",
       "pos": "v",
       "meaning": {
-        "zh": "vt. 使……乳化",
-        "en": "To make into an emulsion."
+        "zh": "vt. 使乳化 [医] 乳化",
+        "en": "v. cause to become an emulsion; make into an emulsion\\nv. form into or become an emulsion"
       }
     },
     {
@@ -3439,8 +3439,8 @@
       "phonetic": "/ɛnˈkʌmbə(ɹ)/",
       "pos": "v",
       "meaning": {
-        "zh": "vt. 阻塞；妨害；拖累",
-        "en": "To load down something with a burden"
+        "zh": "vt. 妨害, 阻塞, 拖累 [经] 使负(债等), 负有义务",
+        "en": "v hold back"
       }
     },
     {
@@ -3449,8 +3449,8 @@
       "phonetic": "/ɪnˈdʒendər/",
       "pos": "v",
       "meaning": {
-        "zh": "产生",
-        "en": "cause or give rise to"
+        "zh": "vt. 产生, 引起 vi. 发生, 形成",
+        "en": "v. call forth"
       }
     },
     {
@@ -3469,8 +3469,8 @@
       "phonetic": "/ɪˈfɛməɹə/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 蜉蝣",
-        "en": "Objects that are designed to be short-lived."
+        "zh": "n. 生命短促的人(或物), 蜉蝣",
+        "en": "n. something transitory; lasting a day"
       }
     },
     {
@@ -3509,8 +3509,8 @@
       "phonetic": "/ɛksɜːsɪst/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 驱魔的人；召魂者",
-        "en": "A person, especially a priest, who practices exorcism."
+        "zh": "n. 驱魔的人, 召魂者",
+        "en": "n. one of the minor orders in the unreformed Western Church but now suppressed in the Roman Catholic"
       }
     },
     {
@@ -3539,8 +3539,8 @@
       "phonetic": "/fɜːrɑːsʌtiː/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 凶猛；残忍；暴行",
-        "en": "The condition of being ferocious."
+        "zh": "n. 凶猛, 残忍, 狂暴的行为",
+        "en": "n. the property of being wild or turbulent"
       }
     },
     {
@@ -3549,8 +3549,8 @@
       "phonetic": "/ˈflæɡɪŋ/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 下垂的；衰弱的",
-        "en": "To furnish or deck out with flags."
+        "zh": "n. 铺砌石板, 铺石材料, 石板路 a. 下垂的, 衰弱的, 萎靡不振的",
+        "en": "n. flagstones collectively\\nn. a walk of flagstones"
       }
     },
     {
@@ -3559,8 +3559,8 @@
       "phonetic": "/ˈfɹuː.ɪʃ.ən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 完成，成就；结果实",
-        "en": "The fulfillment of something worked for."
+        "zh": "n. 成就, 实现, 结果实",
+        "en": "n. the condition of bearing fruit\\nn. enjoyment derived from use or possession"
       }
     },
     {
@@ -3579,8 +3579,8 @@
       "phonetic": "/hɜːrˈmetɪk/",
       "pos": "adj",
       "meaning": {
-        "zh": "密封的",
-        "en": "complete and airtight"
+        "zh": "a. 奥妙的, 密封的, 不透气的, 不漏气的, 与外界隔绝的 [计] 全密封的",
+        "en": "s. completely sealed; completely airtight"
       }
     },
     {
@@ -3589,8 +3589,8 @@
       "phonetic": "/ˈhɪðəˌtuː/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 迄今，至今",
-        "en": "Up to this or that time."
+        "zh": "adv. 迄今, 至今",
+        "en": "r used in negative statement to describe a situation that has existed up to this point or up to the "
       }
     },
     {
@@ -3599,7 +3599,7 @@
       "phonetic": "/ˌhoʊ.ˈtɛl.i.əɹ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 旅馆老板；旅馆经理",
+        "zh": "n. hotelier；某物",
         "en": "Someone who runs a hotel"
       }
     },
@@ -3619,8 +3619,8 @@
       "phonetic": "/ɪnˈkoʊət/",
       "pos": "adj",
       "meaning": {
-        "zh": "刚开始的",
-        "en": "just begun"
+        "zh": "a. 刚开始的, 不成熟的, 未发达的 [经] 不完整",
+        "en": "s only partly in existence; imperfectly formed"
       }
     },
     {
@@ -3629,8 +3629,8 @@
       "phonetic": "/ˈɪndələnt/",
       "pos": "adj",
       "meaning": {
-        "zh": "懒惰的",
-        "en": "wanting to avoid activity"
+        "zh": "a. 懒惰的, 无痛的 [医] 无痛的",
+        "en": "s. (of tumors, e.g.) slow to heal or develop and usually painless"
       }
     },
     {
@@ -3649,8 +3649,8 @@
       "phonetic": "/ˌɪnjuˈɛndoʊ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 暗讽，讽刺；影射",
-        "en": "n. an indirect (and usually malicious) implication"
+        "zh": "n. 讽刺, 暗讽 vi. 说讽刺话 vt. 暗示",
+        "en": "n an indirect (and usually malicious) implication"
       }
     },
     {
@@ -3679,8 +3679,8 @@
       "phonetic": "/mɛnʌsɪŋ/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 威胁的；险恶的",
-        "en": "To make threats against (someone); to intimidate."
+        "zh": "a. 恐吓的, 威胁的 [法] 威胁的, 恐吓的, 险恶的",
+        "en": "v pose a threat to; present a danger to\\nv express a threat either by an utterance or a gesture\\nv a"
       }
     },
     {
@@ -3689,8 +3689,8 @@
       "phonetic": "/mezˈmerɪk/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 催眠术的",
-        "en": "Of or relating to mesmerism or mesmerization"
+        "zh": "a. 催眠术的 [医] 催眠术的",
+        "en": "s attracting and holding interest as if by a spell"
       }
     },
     {
@@ -3699,8 +3699,8 @@
       "phonetic": "/ˈmetld/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 碎石铺面的",
-        "en": "To make a road using crushed rock, stones etc."
+        "zh": "a. <英>(道路)碎石铺面的",
+        "en": "v cover with metal"
       }
     },
     {
@@ -3739,7 +3739,7 @@
       "phonetic": "/mɪˈstiːk/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 奥秘，秘诀；神秘性",
+        "zh": "n. 神秘的气氛, 奥秘, 秘诀",
         "en": "n. an aura of heightened value or interest or meaning surrounding a person or thing"
       }
     },
@@ -3759,7 +3759,7 @@
       "phonetic": "/ɑːpjʌlʌns/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 富裕；丰富",
+        "zh": "n. opulence；某物",
         "en": "Wealth"
       }
     },
@@ -3769,8 +3769,8 @@
       "phonetic": "/aʊtmoʊdʌd/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 过时的，不流行的",
-        "en": "To render no longer fashionable."
+        "zh": "a. 过时的, 废弃的 [经] (式样等)过时的, 废弃了的",
+        "en": "v make unfashionable, outdated, or obsolete\\ns out of fashion"
       }
     },
     {
@@ -3779,8 +3779,8 @@
       "phonetic": "/pætʃli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 不规则地，散落地",
-        "en": "In a patchy manner. "
+        "zh": "adv. 不规则地, 散落地",
+        "en": "r. in spots"
       }
     },
     {
@@ -3869,8 +3869,8 @@
       "phonetic": "/pjunɪtɪv/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 惩罚性的；刑罚的",
-        "en": "Inflicting punishment, punishing"
+        "zh": "a. 刑罚的, 惩罚性的 [法] 刑罚的, 惩罚性的, 结予惩处的",
+        "en": "a. inflicting punishment"
       }
     },
     {
@@ -3929,8 +3929,8 @@
       "phonetic": "/ˈɹuːmɪnənt/",
       "pos": "adj",
       "meaning": {
-        "zh": "n. 反刍动物；沉思默想的人",
-        "en": "n. any of various cud-chewing hoofed mammals having a stomach divided into four (occasionally three) compartments; adj. related to or characteristic of animals of the suborder Ruminantia or any other animal that chews a cud"
+        "zh": "a. 反刍类的, 沉思的, 默想的 n. 反刍动物",
+        "en": "n. any of various cud-chewing hoofed mammals having a stomach divided into four (occasionally three)"
       }
     },
     {
@@ -3949,8 +3949,8 @@
       "phonetic": "/ˈsælɪˌvɛɹi/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 唾液的；分泌唾液的",
-        "en": "A salivary gland."
+        "zh": "a. 唾液的, 分泌唾液的 [医] 涎的, 唾液的",
+        "en": "a. of or relating to saliva"
       }
     },
     {
@@ -3959,8 +3959,8 @@
       "phonetic": "/sɪdeɪtliː/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 安详地；镇静地",
-        "en": "adv. in a sedate manner"
+        "zh": "adv. 镇静地, 安详地",
+        "en": "r. in a sedate manner"
       }
     },
     {
@@ -4049,8 +4049,8 @@
       "phonetic": "/sɪˈlæb.ɪk/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 音节的",
-        "en": "A syllabic sound."
+        "zh": "n. 音节主音 a. 音节的",
+        "en": "a. of or relating to syllables\\na. consisting of or using a syllabary\\na. (of verse) having lines ba"
       }
     },
     {
@@ -4079,8 +4079,8 @@
       "phonetic": "/təˈnæs.ɪ.ti/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 顽强，执着，坚持；黏性",
-        "en": "n. persistent determination"
+        "zh": "n. 固执, 不屈不挠, 顽固, 黏性, 韧性 [机] 坚轫",
+        "en": "n persistent determination"
       }
     },
     {
@@ -4089,7 +4089,7 @@
       "phonetic": "/tʌmɪdʌtiː/",
       "pos": "n",
       "meaning": {
-        "zh": "n.  胆怯，胆小，羞怯",
+        "zh": "n. timidity；某物",
         "en": "Shyness"
       }
     },
@@ -4109,8 +4109,8 @@
       "phonetic": "/vɜːrˈbeɪ.tɪm/",
       "pos": "adj",
       "meaning": {
-        "zh": "adv. 一字不差地，逐字地",
-        "en": "A word-for-word report of a speech."
+        "zh": "a. 逐字的, 照字面的 adv. 逐字地",
+        "en": "r. using exactly the same words"
       }
     },
     {
@@ -4129,8 +4129,8 @@
       "phonetic": "/vɜːdʒʌnʌl/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 处女的；无瑕的",
-        "en": "A musical instrument in the harpsichord family."
+        "zh": "a. 处女的, 纯洁的, 没有玷污的, 未受精的 [医] 处女的",
+        "en": "n. a legless rectangular harpsichord; played (usually by women) in the 16th and 17th centuries\\na. c"
       }
     },
     {
@@ -4149,7 +4149,7 @@
       "phonetic": "/ˈvoʊkəlɪst/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 歌手；声乐家",
+        "zh": "n. vocalist；某物",
         "en": "A singer; a person who likes to sing."
       }
     },
@@ -4159,8 +4159,8 @@
       "phonetic": "/vɔːræsʌtiː/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 贪食，贪婪",
-        "en": "The state of being voracious; rapacity or extreme gluttony. "
+        "zh": "n. 贪食, 贪婪",
+        "en": "n excessive desire to eat\\nn extreme gluttony"
       }
     },
     {
@@ -4179,8 +4179,8 @@
       "phonetic": "/əˈbʌndəns/",
       "pos": "n",
       "meaning": {
-        "zh": "丰富",
-        "en": "large quantity"
+        "zh": "n. 丰富, 充足, 大量 [经] 丰富, 充裕",
+        "en": "n. the property of a more than adequate quantity or supply\\nn. (physics) the ratio of the number of "
       }
     },
     {
@@ -4189,7 +4189,7 @@
       "phonetic": "/ækrʌbætɪk/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 杂技的；特技的",
+        "zh": "adj. ...的；某种的",
         "en": "Of or pertaining to an acrobat."
       }
     },
@@ -4199,7 +4199,7 @@
       "phonetic": "/ʌdɔːnmʌnt/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 装饰；装饰品",
+        "zh": "n. adornment；某物",
         "en": "A decoration; that which adorns."
       }
     },
@@ -4209,8 +4209,8 @@
       "phonetic": "/ædvɜːsliː/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 不利地，有害地",
-        "en": "In an adverse manner."
+        "zh": "adv. 不利, 有害, 相反, 逆, 敌对, 逆向",
+        "en": "r. in an adverse manner"
       }
     },
     {
@@ -4269,7 +4269,7 @@
       "phonetic": "/ˈɑːkɪtaɪp/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 原型；典型",
+        "zh": "n. archetype；某物",
         "en": "n. an original model on which something is patterned"
       }
     },
@@ -4289,8 +4289,8 @@
       "phonetic": "/əˈtɹɪʃən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 摩擦；磨损；消耗",
-        "en": "Wearing or grinding down by friction."
+        "zh": "n. 摩擦, 磨损 [医] 擦除术",
+        "en": "n. sorrow for sin arising from fear of damnation\\nn. a wearing down to weaken or destroy\\nn. the act"
       }
     },
     {
@@ -4329,7 +4329,7 @@
       "phonetic": "/ˌæk.si.əˈmæt.ɪk/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 公理的；自明的",
+        "zh": "adj. ...的；某种的",
         "en": "Self-evident or unquestionable."
       }
     },
@@ -4359,7 +4359,7 @@
       "phonetic": "/ˈbɹɪmˌstoʊn/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 硫磺；悍妇",
+        "zh": "n. brimstone；某物",
         "en": "The sulfur of Hell; Hell, damnation."
       }
     },
@@ -4369,8 +4369,8 @@
       "phonetic": "/ˌbʌkəˈnɪə(ɹ)/",
       "pos": "v",
       "meaning": {
-        "zh": "n. 海盗",
-        "en": "n. someone who robs at sea or plunders the land from the sea without having a commission from any sovereign nation; v. live like a buccaneer"
+        "zh": "n. 海盗 vi. 做海盗",
+        "en": "v. live like a buccaneer"
       }
     },
     {
@@ -4389,8 +4389,8 @@
       "phonetic": "/ˌkæləˈrɪfɪk/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 发热的，生热的",
-        "en": "Relating to calories."
+        "zh": "a. 生热的, 产热的, (热)卡的 [医] 生热的, 产热的",
+        "en": "s. heat-generating"
       }
     },
     {
@@ -4419,7 +4419,7 @@
       "phonetic": "/ˈkɑɡnətɪv/",
       "pos": "adj",
       "meaning": {
-        "zh": "认知的",
+        "zh": "adj. ...的；某种的",
         "en": "relating to cognition"
       }
     },
@@ -4429,8 +4429,8 @@
       "phonetic": "/kəˈmɑdəti/",
       "pos": "n",
       "meaning": {
-        "zh": "商品",
-        "en": "tradable item"
+        "zh": "n. 农产品, 商品, 有用的物品 [经] 商品, 货物, 日用品",
+        "en": "n. articles of commerce"
       }
     },
     {
@@ -4439,8 +4439,8 @@
       "phonetic": "/kənˈteɪdʒən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 传染病；蔓延；触染",
-        "en": "A disease spread by contact"
+        "zh": "n. 触染, 触染病, 蔓延, 歪风 [医] 接触传染",
+        "en": "n. the communication of an attitude or emotional state among a number of people"
       }
     },
     {
@@ -4449,8 +4449,8 @@
       "phonetic": "/ˈkɑrəleɪt/",
       "pos": "n",
       "meaning": {
-        "zh": "相关联",
-        "en": "have mutual relationship"
+        "zh": "n. 有相互关系的东西, 相关物 vt. 使有相互关系 vi. 相关",
+        "en": "n. either of two or more related or complementary variables\\nv. to bear a reciprocal or mutual relat"
       }
     },
     {
@@ -4459,7 +4459,7 @@
       "phonetic": "/krɪpʌlɪŋ/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 造成严重后果的",
+        "zh": "adj. ...的；某种的",
         "en": "adj. that cripples or disables or incapacitates"
       }
     },
@@ -4489,8 +4489,8 @@
       "phonetic": "/dɪˈprævɪti/",
       "pos": "n",
       "meaning": {
-        "zh": "堕落",
-        "en": "moral corruption"
+        "zh": "n. 堕落, 腐败, 邪恶 [法] 堕落, 腐化, 败坏",
+        "en": "n. a corrupt or depraved or degenerate act or practice"
       }
     },
     {
@@ -4499,8 +4499,8 @@
       "phonetic": "/ˈdeprɪkeɪt/",
       "pos": "v",
       "meaning": {
-        "zh": "反对",
-        "en": "express disapproval"
+        "zh": "vt. 声明不赞成, 抗议, 反对 [法] 对...表示不赞成, 反对",
+        "en": "v. express strong disapproval of; deplore\\nv. belittle"
       }
     },
     {
@@ -4509,8 +4509,8 @@
       "phonetic": "/dɪˈtɛɹənt/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 威慑，遏制；威慑武器",
-        "en": "Something that deters."
+        "zh": "a. 制止的, 威慑的, 遏制的 n. 威慑力量(或因素), 制止物",
+        "en": "s. tending to deter"
       }
     },
     {
@@ -4519,7 +4519,7 @@
       "phonetic": "/ˈdiː.vi.əntli/",
       "pos": "adv",
       "meaning": {
-        "zh": "偏离地",
+        "zh": "adv. （详见词典）",
         "en": "In a defiant manner. "
       }
     },
@@ -4529,8 +4529,8 @@
       "phonetic": "/ˈdɪlɪdʒəns/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 勤奋，用功；公共马车",
-        "en": "n. conscientiousness in paying proper attention to a task; giving the degree of care required in a given situation; n. persevering determination to perform a task; n. a diligent effort"
+        "zh": "n. diligence；某物",
+        "en": "n. conscientiousness in paying proper attention to a task; giving the degree of care required in a g"
       }
     },
     {
@@ -4539,8 +4539,8 @@
       "phonetic": "/dɪˈspærɪdʒ/",
       "pos": "v",
       "meaning": {
-        "zh": "贬低",
-        "en": "speak slightingly of"
+        "zh": "vt. 蔑视, 贬损 [法] 轻视, 贬低, 诽谤",
+        "en": "v. express a negative opinion of"
       }
     },
     {
@@ -4559,8 +4559,8 @@
       "phonetic": "/dɪˈsembəl/",
       "pos": "v",
       "meaning": {
-        "zh": "掩饰",
-        "en": "conceal true feelings"
+        "zh": "v. 掩饰, 假装不知道",
+        "en": "v. hide under a false appearance\\nv. behave unnaturally or affectedly"
       }
     },
     {
@@ -4579,7 +4579,7 @@
       "phonetic": "/iˈlɛk.tɹoʊd/",
       "pos": "n",
       "meaning": {
-        "zh": "n. [电] 电极；电焊条",
+        "zh": "n. electrode；某物",
         "en": "n. a conductor used to make electrical contact with some part of a circuit"
       }
     },
@@ -4589,8 +4589,8 @@
       "phonetic": "/ɪˈmɑljəmənt/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 薪水，报酬",
-        "en": "n. compensation received by virtue of holding an office or having employment (usually in the form of wages or fees)"
+        "zh": "n. emolument；某物",
+        "en": "n. compensation received by virtue of holding an office or having employment (usually in the form of"
       }
     },
     {
@@ -4599,8 +4599,8 @@
       "phonetic": "/ɛmjʊˈleɪʃən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 仿效，模仿；仿真；竞争",
-        "en": "n. ambition to equal or excel; n. (computer science) technique of one machine obtaining the same results as another; n. effort to equal or surpass another"
+        "zh": "n. 效法, 竞争 [计] 仿真",
+        "en": "n. ambition to equal or excel\\nn. (computer science) technique of one machine obtaining the same res"
       }
     },
     {
@@ -4609,8 +4609,8 @@
       "phonetic": "/ɪnˈkʌmpəs/",
       "pos": "v",
       "meaning": {
-        "zh": "包含",
-        "en": "include comprehensively"
+        "zh": "vt. 围绕, 完成, 包括, 包含, 环绕, 包围",
+        "en": "v include in scope; include as part of something broader; have as one's sphere or territory"
       }
     },
     {
@@ -4619,8 +4619,8 @@
       "phonetic": "/ɪˈfemərəl/",
       "pos": "adj",
       "meaning": {
-        "zh": "短暂的",
-        "en": "lasting a very short time"
+        "zh": "a. 朝生暮死的, 短命的, 短暂的 [医] 暂时的",
+        "en": "s. lasting a very short time"
       }
     },
     {
@@ -4629,7 +4629,7 @@
       "phonetic": "/ˈjuːfəmɪzəm/",
       "pos": "n",
       "meaning": {
-        "zh": "委婉语",
+        "zh": "n. euphemism；某物",
         "en": "mild expression"
       }
     },
@@ -4639,7 +4639,7 @@
       "phonetic": "",
       "pos": "adv",
       "meaning": {
-        "zh": "唤起地",
+        "zh": "adv. （详见词典）",
         "en": "By way of revocation; so as to revoke. "
       }
     },
@@ -4659,8 +4659,8 @@
       "phonetic": "/ˈfæbrɪkeɪt/",
       "pos": "v",
       "meaning": {
-        "zh": "捏造",
-        "en": "invent falsely"
+        "zh": "vt. 制造, 建造, 装配, 伪造",
+        "en": "v. make up something artificial or untrue"
       }
     },
     {
@@ -4669,8 +4669,8 @@
       "phonetic": "/fækˈsɪm.ə.li/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 传真；复写",
-        "en": "A copy or reproduction."
+        "zh": "n. 摹(真)本, 传真 vt. 传真, 临摹 a. 复制的 [计] 复制",
+        "en": "n. an exact copy or reproduction\\nn. duplicator that transmits the copy by wire or radio"
       }
     },
     {
@@ -4679,8 +4679,8 @@
       "phonetic": "/ˈflʌktʃueɪt/",
       "pos": "v",
       "meaning": {
-        "zh": "波动",
-        "en": "rise and fall"
+        "zh": "vi. 变动, 起伏, 动摇 vt. 使波动, 使动摇",
+        "en": "v. cause to fluctuate or move in a wavelike pattern\\nv. move or sway in a rising and falling or wave"
       }
     },
     {
@@ -4699,8 +4699,8 @@
       "phonetic": "/ˈfrækʃəs/",
       "pos": "adj",
       "meaning": {
-        "zh": "易怒的",
-        "en": "irritable and quarrelsome"
+        "zh": "a. 易怒的, 倔强的, 脾气不好的",
+        "en": "s. stubbornly resistant to authority or control\\ns. unpredictably difficult in operation; likely to "
       }
     },
     {
@@ -4739,8 +4739,8 @@
       "phonetic": "/hɔːtɪliː/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 傲慢地；骄傲地",
-        "en": "In a haughty manner; with excessive or unwarranted pride. "
+        "zh": "adv. 傲慢地, 骄傲地",
+        "en": "r. in a haughty manner"
       }
     },
     {
@@ -4759,7 +4759,7 @@
       "phonetic": "/ˈhaɪndsaɪt/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 后见之明；枪的照门",
+        "zh": "n. hindsight；某物",
         "en": "n. understanding the nature of an event after it has happened"
       }
     },
@@ -4769,8 +4769,8 @@
       "phonetic": "/ˈhoʊmˌstɛd/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 宅地；家园；田产",
-        "en": "n. the home and adjacent grounds occupied by a family; n. land acquired from the United States public lands by filing a record and living on and cultivating it under the homestead law; n. dwelling that is usually a farmhouse and adjoining land; v. settle land given by the government and occupy it as a homestead"
+        "zh": "n. 家园, 田产 [法] 宅基地, 住宅",
+        "en": "n. the home and adjacent grounds occupied by a family\\nn. land acquired from the United States publi"
       }
     },
     {
@@ -4789,8 +4789,8 @@
       "phonetic": "/ɪnˈsɪpiənt/",
       "pos": "adj",
       "meaning": {
-        "zh": "初期的",
-        "en": "in an initial stage"
+        "zh": "a. 起初的, 发端的, 初期的 [医] 初发的, 初期的",
+        "en": "s. only partly in existence; imperfectly formed"
       }
     },
     {
@@ -4819,8 +4819,8 @@
       "phonetic": "/ˈɪndələns/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 懒散，懒惰；无痛",
-        "en": "Habitual laziness or sloth."
+        "zh": "n. 怠惰, 无痛 [医] 无痛",
+        "en": "n. inactivity resulting from a dislike of work"
       }
     },
     {
@@ -4839,8 +4839,8 @@
       "phonetic": "/ɪnˈdʒenjuəs/",
       "pos": "adj",
       "meaning": {
-        "zh": "天真的",
-        "en": "innocent and unsuspecting"
+        "zh": "a. 坦白的, 正直的, 天真的",
+        "en": "a. characterized by an inability to mask your feelings; not devious"
       }
     },
     {
@@ -4859,8 +4859,8 @@
       "phonetic": "/ɪn.ˈtɹɪn.zɪk/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 内在的，固有的",
-        "en": "adj. belonging to a thing by its very nature; adj. situated within or belonging solely to the organ or body part on which it acts"
+        "zh": "a. 本质的, 原有的, 真正的 [医] 内部的, 内在的",
+        "en": "a. belonging to a thing by its very nature\\ns. situated within or belonging solely to the organ or b"
       }
     },
     {
@@ -4869,8 +4869,8 @@
       "phonetic": "/ˈlæsɪtjuːd/",
       "pos": "n",
       "meaning": {
-        "zh": "倦怠",
-        "en": "physical or mental weariness"
+        "zh": "n. 疲倦, 疲乏, 无精神 [医] 倦怠",
+        "en": "n a state of comatose torpor (as found in sleeping sickness)\\nn a feeling of lack of interest or ene"
       }
     },
     {
@@ -4929,8 +4929,8 @@
       "phonetic": "/ˈmæliəbəl/",
       "pos": "adj",
       "meaning": {
-        "zh": "可塑的",
-        "en": "easily influenced"
+        "zh": "a. 有延展性的, 可锻的 [医] 可展的, 易适应的",
+        "en": "s easily influenced\\ns capable of being shaped or bent or drawn out"
       }
     },
     {
@@ -4939,8 +4939,8 @@
       "phonetic": "/midiˈeɪʃən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 调解，仲裁",
-        "en": "n. negotiation to resolve differences conducted by some impartial party; n. the act of intervening for the purpose of bringing about a settlement"
+        "zh": "n. 调停, 调解, 中介 [医] 间介[作用], 居间[作用]",
+        "en": "n. a negotiation to resolve differences that is conducted by some impartial party\\nn. the act of int"
       }
     },
     {
@@ -4959,8 +4959,8 @@
       "phonetic": "/ˈmɜːr.sə.nə.ɹi/",
       "pos": "n",
       "meaning": {
-        "zh": "adj. 雇佣的；唯利是图的",
-        "en": "One motivated by gain, especially monetary."
+        "zh": "n. 唯利是图者, 雇佣兵 a. 为钱而工作的, 被雇的, 图利的",
+        "en": "n. a person hired to fight for another country than their own\\ns. serving for wages in a foreign arm"
       }
     },
     {
@@ -5009,7 +5009,7 @@
       "phonetic": "/mʌnˈdænəti/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 尘俗",
+        "zh": "n. mundanity；某物",
         "en": "mundaneness; the characteristic of being mundane "
       }
     },
@@ -5019,8 +5019,8 @@
       "phonetic": "/nɑˈstaldʒə/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 怀旧，念旧",
-        "en": "A longing for home or familiar surroundings; homesickness."
+        "zh": "n. 乡愁, 向往过去, 怀旧之情 [医] 怀乡病",
+        "en": "n. longing for something past"
       }
     },
     {
@@ -5029,8 +5029,8 @@
       "phonetic": "/nɔːstældʒɪk/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 思乡的；引人怀旧的",
-        "en": "A person who displays nostalgia for something."
+        "zh": "a. 乡愁的, 怀旧的 [医] 怀乡病的",
+        "en": "s. unhappy about being away and longing for familiar things or persons"
       }
     },
     {
@@ -5039,7 +5039,7 @@
       "phonetic": "/noʊ.təˈɹaɪ.ə.ti/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 臭名昭著，声名狼藉",
+        "zh": "n. notoriety；某物",
         "en": "The condition of being infamous or notorious."
       }
     },
@@ -5129,8 +5129,8 @@
       "phonetic": "/pəˈveɪ.sɪv/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 弥漫的，遍布的",
-        "en": "adj. spreading or spread throughout"
+        "zh": "a. 普遍的, 流行的, 到处蔓延的, 到处渗透的",
+        "en": "s spreading or spread throughout"
       }
     },
     {
@@ -5139,7 +5139,7 @@
       "phonetic": "/pluːtʌkræt/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 财阀；富豪",
+        "zh": "n. plutocrat；某物",
         "en": "Someone who rules by virtue of his or her wealth."
       }
     },
@@ -5159,8 +5159,8 @@
       "phonetic": "/pɑˈstɛɹɪti/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 子孙，后裔；后代",
-        "en": "n. all of the offspring of a given progenitor; n. all future generations"
+        "zh": "n. 子孙, 后裔 [法] 子嗣, 后代, 后裔",
+        "en": "n. all future generations"
       }
     },
     {
@@ -5199,8 +5199,8 @@
       "phonetic": "/ˈpɹoʊˌskɹaɪb/",
       "pos": "v",
       "meaning": {
-        "zh": "vt. 剥夺……的公权；禁止",
-        "en": "To forbid or prohibit."
+        "zh": "vt. 剥夺...的公民权, 使失去法律保护, 把...充军, 把...放逐, 排斥, 禁止",
+        "en": "v command against"
       }
     },
     {
@@ -5219,7 +5219,7 @@
       "phonetic": "/ˈprʊriəns/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 淫乱；好色",
+        "zh": "n. prurience；某物",
         "en": "The quality of being prurient. "
       }
     },
@@ -5239,7 +5239,7 @@
       "phonetic": "/ɹɪˈkluːsɪv/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 隐居的；隐遁的",
+        "zh": "adj. ...的；某种的",
         "en": "adj. withdrawn from society; seeking solitude; adj. providing privacy or seclusion"
       }
     },
@@ -5259,8 +5259,8 @@
       "phonetic": "/rɪˈkʌmbənt/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 斜倚的；休息的",
-        "en": "adj. lying down; in a position of comfort or rest"
+        "zh": "a. 斜靠着的, 躺着的, 不活泼的, 休息着的 [医] 斜卧的, 躺着的",
+        "en": "s lying down; in a position of comfort or rest"
       }
     },
     {
@@ -5279,8 +5279,8 @@
       "phonetic": "/ɹepˈtɪliən/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 爬虫类的；卑鄙的",
-        "en": "A reptilian animal: a reptile."
+        "zh": "a. 爬虫类的, 像爬虫的, 卑鄙的 n. 爬行动物",
+        "en": "a. of or relating to the class Reptilia"
       }
     },
     {
@@ -5319,7 +5319,7 @@
       "phonetic": "/ˈsɛkjʊləli/",
       "pos": "adv",
       "meaning": {
-        "zh": "世俗地",
+        "zh": "adv. （详见词典）",
         "en": "In a secular fashion. "
       }
     },
@@ -5339,8 +5339,8 @@
       "phonetic": "/səˈlɪləkwi/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 独白；自言自语",
-        "en": "n. speech you make to yourself; n. a (usually long) dramatic speech intended to give the illusion of unspoken reflections"
+        "zh": "n. soliloquy；某物",
+        "en": "n. speech you make to yourself; n. a (usually long) dramatic speech intended to give the illusion of"
       }
     },
     {
@@ -5349,7 +5349,7 @@
       "phonetic": "/ˈsɑlɪpsɪzm/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 唯我论",
+        "zh": "n. solipsism；某物",
         "en": "n. (philosophy) the philosophical theory that the self is all that you know to exist"
       }
     },
@@ -5449,8 +5449,8 @@
       "phonetic": "/ˈtɹɛtʃəɹi/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 背叛；变节；背叛行为",
-        "en": "Deliberate, often calculated, disregard for trust or faith."
+        "zh": "n. 背叛, 变节 [法] 背叛, 变节, 背信弃义",
+        "en": "n. an act of deliberate betrayal"
       }
     },
     {
@@ -5479,7 +5479,7 @@
       "phonetic": "/ʌnɜːrvɪŋ/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 使人紧张不安的",
+        "zh": "adj. ...的；某种的",
         "en": "adj. inspiring fear"
       }
     },
@@ -5499,8 +5499,8 @@
       "phonetic": "/ˈvɛ.ɹɪ.tə.bl/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 真正的，名副其实的",
-        "en": "True; genuine."
+        "zh": "a. 名副其实的, 真实的, 确实的, 真的",
+        "en": "s often used as intensifiers\\ns not counterfeit or copied"
       }
     },
     {
@@ -5569,7 +5569,7 @@
       "phonetic": "/zoʊˈɑlədʒɪst/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 动物学家",
+        "zh": "n. zoologist；某物",
         "en": "One who studies zoology."
       }
     },
@@ -5579,8 +5579,8 @@
       "phonetic": "/ˌæbəˈreɪʃən/",
       "pos": "n",
       "meaning": {
-        "zh": "偏差；异常",
-        "en": "deviation from normal"
+        "zh": "n. 离开正路, 偏离, 畸变, 光行差, 心理失常, 色差 [化] 光行差",
+        "en": "n. a disorder in one's mental state\\nn. an optical phenomenon resulting from the failure of a lens o"
       }
     },
     {
@@ -5589,8 +5589,8 @@
       "phonetic": "/əˈbʌn.dn̩t.li/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 丰富地；大量地",
-        "en": "adv. in an abundant manner"
+        "zh": "adv. 大量地, 丰富地",
+        "en": "r. in an abundant manner"
       }
     },
     {
@@ -5599,7 +5599,7 @@
       "phonetic": "/ækrʌbætɪks/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 杂技；巧妙手法",
+        "zh": "n. acrobatics；某物",
         "en": "The art of performing acrobatic gymnastic feats."
       }
     },
@@ -5619,8 +5619,8 @@
       "phonetic": "/-lɑɹɪti/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 有角；成角状；生硬",
-        "en": "n. a shape having one or more sharp angles; n. the property possessed by a shape that has angles"
+        "zh": "n. 有角, 角状, 生硬 [机] 倾斜度",
+        "en": "n. the property possessed by a shape that has angles"
       }
     },
     {
@@ -5629,7 +5629,7 @@
       "phonetic": "/ænˈtɪθəsɪs/",
       "pos": "n",
       "meaning": {
-        "zh": "对立面",
+        "zh": "n. antithesis；某物",
         "en": "direct opposite"
       }
     },
@@ -5639,8 +5639,8 @@
       "phonetic": "/əˈpɹɛntɪs/",
       "pos": "v",
       "meaning": {
-        "zh": "n. 学徒，徒弟；生手，新手",
-        "en": "A trainee, especially in a skilled trade."
+        "zh": "n. 学徒, 生手 vt. 使做学徒",
+        "en": "n. works for an expert to learn a trade\\nv. be or work as an apprentice"
       }
     },
     {
@@ -5649,7 +5649,7 @@
       "phonetic": "/ɑːrktaɪpʌl/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 原型的；典型的",
+        "zh": "adj. ...的；某种的",
         "en": "Of or pertaining to an archetype."
       }
     },
@@ -5659,8 +5659,8 @@
       "phonetic": "/ɑːrˈtɪkjuleɪt/",
       "pos": "adj",
       "meaning": {
-        "zh": "清晰表达",
-        "en": "express clearly"
+        "zh": "a. 发音清晰的, 口才好的 vt. 明白地说, 以关节连接, 使成为系统的整体",
+        "en": "v. unite by forming a joint or joints\\nv. express or state clearly\\na. expressing yourself easily or"
       }
     },
     {
@@ -5669,8 +5669,8 @@
       "phonetic": "/əˈsɪmɪleɪt/",
       "pos": "v",
       "meaning": {
-        "zh": "吸收",
-        "en": "absorb and integrate"
+        "zh": "vt. 使同化, 吸收, 使相拟, 把...比作 vi. 被吸收, 被同化",
+        "en": "v. become similar to one's environment\\nv. make similar\\nv. take (gas, light or heat) into a solutio"
       }
     },
     {
@@ -5689,8 +5689,8 @@
       "phonetic": "/əˈteɪnmənt/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 达到，获得；成就，造诣",
-        "en": "n. the act of achieving an aim; n. arrival at a new stage; n. an ability that has been acquired by training"
+        "zh": "n. attainment；某物",
+        "en": "n. the act of achieving an aim; n. arrival at a new stage; n. an ability that has been acquired by t"
       }
     },
     {
@@ -5699,8 +5699,8 @@
       "phonetic": "/ɔːrˈtɑnəməs/",
       "pos": "adj",
       "meaning": {
-        "zh": "自主的",
-        "en": "independent"
+        "zh": "a. 自治的 [医] 自主的",
+        "en": "s. (of political bodies) not controlled by outside forces\\ns. existing as an independent entity\\ns. "
       }
     },
     {
@@ -5709,8 +5709,8 @@
       "phonetic": "/ˈbænɪʃmənt/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 流放，充军；放逐",
-        "en": "The act of banishing."
+        "zh": "n. 放逐, 驱逐 [法] 驱逐出境, 放逐, 流利",
+        "en": "n. the state of being banished or ostracized (excluded from society by general consent)\\nn. rejectio"
       }
     },
     {
@@ -5719,7 +5719,7 @@
       "phonetic": "/bəˈfuːnəɹi/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 滑稽；打诨",
+        "zh": "n. buffoonery；某物",
         "en": "The behaviour expected of a buffoon; foolishness, silliness."
       }
     },
@@ -5759,8 +5759,8 @@
       "phonetic": "/kɹəˈnɑl.ə.dʒi/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 年表；年代学",
-        "en": "n. an arrangement of events in time; n. a record of events in the order of their occurrence; n. the determination of the actual temporal sequence of past events"
+        "zh": "n. 年代学, 资料按年月次序的排列, 按时间顺序编制的表格, 年表",
+        "en": "n. an arrangement of events in time\\nn. a record of events in the order of their occurrence\\nn. the "
       }
     },
     {
@@ -5769,8 +5769,8 @@
       "phonetic": "/klɔɪstɜːd/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 隐居的，与世隔绝的",
-        "en": "To become a Roman Catholic religious."
+        "zh": "a. 居于修道院内的, 隐居的, 与世隔绝的, 有回廊的",
+        "en": "s. of communal life sequestered from the world under religious vows\\ns. providing privacy or seclusi"
       }
     },
     {
@@ -5779,8 +5779,8 @@
       "phonetic": "/kəˈloʊkwiəl/",
       "pos": "adj",
       "meaning": {
-        "zh": "口语的",
-        "en": "informal speech"
+        "zh": "a. 会话的, 口语的, 口语体的",
+        "en": "s. characteristic of informal spoken language or conversation"
       }
     },
     {
@@ -5789,7 +5789,7 @@
       "phonetic": "/kəˈloʊkwiːəm/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 讨论会；专题座谈会",
+        "zh": "n. colloquium；某物",
         "en": "A colloquy; a meeting for discussion."
       }
     },
@@ -5829,8 +5829,8 @@
       "phonetic": "/kənˈdʒektʃər/",
       "pos": "v",
       "meaning": {
-        "zh": "猜测",
-        "en": "opinion without proof"
+        "zh": "n. 推测, 猜想, 揣摩 v. 推测, 猜想, 揣摩 [计] 推测",
+        "en": "n. reasoning that involves the formation of conclusions from incomplete evidence"
       }
     },
     {
@@ -5849,7 +5849,7 @@
       "phonetic": "/kəˈrɪkjələm/",
       "pos": "n",
       "meaning": {
-        "zh": "课程",
+        "zh": "n. curriculum；某物",
         "en": "course of study"
       }
     },
@@ -5859,8 +5859,8 @@
       "phonetic": "/dɪˈlɪbərət/",
       "pos": "v",
       "meaning": {
-        "zh": "故意的",
-        "en": "done on purpose"
+        "zh": "a. 深思熟虑的, 故意的, 从容的 v. 仔细考虑",
+        "en": "s. carefully thought out in advance"
       }
     },
     {
@@ -5869,8 +5869,8 @@
       "phonetic": "/ˌdiː.noʊˈteɪ.ʃən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 指称意义，本义",
-        "en": "n. the act of indicating or pointing out by name; n. the most direct or specific meaning of a word or expression; the class of objects that an expression refers to"
+        "zh": "n. denotation；某物",
+        "en": "n. the act of indicating or pointing out by name; n. the most direct or specific meaning of a word o"
       }
     },
     {
@@ -5879,8 +5879,8 @@
       "phonetic": "/dɪˈpɹɛsɪv/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 抑郁的；压抑的",
-        "en": "A person suffering from depression."
+        "zh": "a. 压抑的, 压下的, 沉闷的 [医] 抑郁的, 阻抑的, 压低的",
+        "en": "n. someone suffering psychological depression"
       }
     },
     {
@@ -5889,8 +5889,8 @@
       "phonetic": "/dɪˈɹaɪsɪvli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 嘲弄地；嘲笑地",
-        "en": "In a derisive manner; demeaningly, mockingly."
+        "zh": "adv. 嘲笑地, 嘲弄地",
+        "en": "r. in a disrespectful and mocking manner"
       }
     },
     {
@@ -5929,8 +5929,8 @@
       "phonetic": "/ˌdɪvɨˈneɪʃən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 预测，占卜",
-        "en": "n. successful conjecture by unusual insight or good luck; n. a prediction uttered under divine inspiration; n. the art or gift of prophecy (or the pretense of prophecy) by supernatural means"
+        "zh": "n. divination；某物",
+        "en": "n. successful conjecture by unusual insight or good luck; n. a prediction uttered under divine inspi"
       }
     },
     {
@@ -5959,7 +5959,7 @@
       "phonetic": "/ɪ.læsˈtɪs.ɪ.ti/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 弹性，弹力；灵活性",
+        "zh": "n. elasticity；某物",
         "en": "n. the tendency of a body to return to its original shape after it has been stretched or compressed"
       }
     },
@@ -5979,7 +5979,7 @@
       "phonetic": "/əˈmʌl.sɪf.aɪ.ə(ɹ)/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 乳化剂，黏合剂",
+        "zh": "n. emulsifier；某物",
         "en": "n. a surface-active agent that promotes the formation of an emulsion"
       }
     },
@@ -5989,8 +5989,8 @@
       "phonetic": "/ɪnˈdjɔːrɹɪŋli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 耐久地；永久地",
-        "en": "In an enduring manner or fashion; so as to endure or last. "
+        "zh": "adv. 耐久地, 永久地",
+        "en": "r. in an enduring manner"
       }
     },
     {
@@ -5999,7 +5999,7 @@
       "phonetic": "/ˈfæbjʊˈlæʃən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 虚构情节",
+        "zh": "n. 行为；动作",
         "en": "The act or result of fabulating; a fabrication. "
       }
     },
@@ -6039,8 +6039,8 @@
       "phonetic": "/ˈfɔːrmɪdəbl/",
       "pos": "adj",
       "meaning": {
-        "zh": "强大的",
-        "en": "inspiring fear"
+        "zh": "a. 巨大的, 优秀的, 可怕的, 艰难的",
+        "en": "s. extremely impressive in strength or excellence\\ns. inspiring fear"
       }
     },
     {
@@ -6059,8 +6059,8 @@
       "phonetic": "/ˌhæb.ɪˈteɪ.ʃən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 居住；住所",
-        "en": "n. the native habitat or home of an animal or plant; n. housing that someone is living in; n. the act of dwelling in or living permanently in a place (said of both animals and men)"
+        "zh": "n. habitation；某物",
+        "en": "n. the native habitat or home of an animal or plant; n. housing that someone is living in; n. the ac"
       }
     },
     {
@@ -6089,7 +6089,7 @@
       "phonetic": "/haɪˈpɑθəsɪs/",
       "pos": "n",
       "meaning": {
-        "zh": "假设",
+        "zh": "n. hypothesis；某物",
         "en": "proposed explanation"
       }
     },
@@ -6119,7 +6119,7 @@
       "phonetic": "/ɪmˈpɛk.ə.bli/",
       "pos": "adv",
       "meaning": {
-        "zh": "无可挑剔地",
+        "zh": "adv. （详见词典）",
         "en": "In a perfect or flawless manner."
       }
     },
@@ -6159,7 +6159,7 @@
       "phonetic": "",
       "pos": "adv",
       "meaning": {
-        "zh": "刚开始的",
+        "zh": "adv. （详见词典）",
         "en": "In an inchoate way. "
       }
     },
@@ -6179,8 +6179,8 @@
       "phonetic": "",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 怠惰地；不痛地",
-        "en": "In an indolent manner. "
+        "zh": "adv. 怠惰地, 不痛地",
+        "en": "r. in an indolent manner"
       }
     },
     {
@@ -6189,8 +6189,8 @@
       "phonetic": "/ɪnduːsmʌnt/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 诱因，刺激",
-        "en": "n. a positive motivational influence; n. act of bringing about a desired result"
+        "zh": "n. 诱因, 动机, 吸引力, 刺激物 [法] 诱惑, 引诱, 诱因",
+        "en": "n. act of bringing about a desired result"
       }
     },
     {
@@ -6209,7 +6209,7 @@
       "phonetic": "/ɪnˈeksərəbəl/",
       "pos": "adj",
       "meaning": {
-        "zh": "无情的",
+        "zh": "adj. ...的；某种的",
         "en": "impossible to stop"
       }
     },
@@ -6239,7 +6239,7 @@
       "phonetic": "/ɪnˈfæləbli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 绝无错误的",
+        "zh": "adv. （详见词典）",
         "en": "In an infallible manner. "
       }
     },
@@ -6249,8 +6249,8 @@
       "phonetic": "/ɪnˈfɜːr(ɹ)nəlli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 可憎地；恶魔似地",
-        "en": "In an infernal manner. "
+        "zh": "adv. 恶魔似地, 可憎地",
+        "en": "adv. In an infernal manner; diabolically."
       }
     },
     {
@@ -6279,8 +6279,8 @@
       "phonetic": "/læɹɪnˈdʒajtɪs/",
       "pos": "n",
       "meaning": {
-        "zh": "n. [耳鼻喉] 喉炎",
-        "en": "n. inflammation of the mucous membrane of the larynx; characterized by hoarseness or loss of voice and coughing"
+        "zh": "n. laryngitis；某物",
+        "en": "n. inflammation of the mucous membrane of the larynx; characterized by hoarseness or loss of voice a"
       }
     },
     {
@@ -6289,8 +6289,8 @@
       "phonetic": "/loʊkʌmoʊʃʌn/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 运动；移动；旅行",
-        "en": "n. the power or ability to move; n. self-propelled movement"
+        "zh": "n. 运动, 移动, 旅行 [医] 行动, 运动",
+        "en": "n. the power or ability to move\\nn. self-propelled movement"
       }
     },
     {
@@ -6299,8 +6299,8 @@
       "phonetic": "/ˌloʊkoʊˈmoʊtiv/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 机车，火车头",
-        "en": "The power unit of a train that pulls the coaches or wagons."
+        "zh": "n. 火车头, 机车 a. 运转的, 火车头的, 移动的",
+        "en": "n. a wheeled vehicle consisting of a self-propelled engine that is used to draw trains along railway"
       }
     },
     {
@@ -6329,8 +6329,8 @@
       "phonetic": "/mɛnʌsɪŋliː/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 胁迫地；险恶地",
-        "en": "In a menacing manner."
+        "zh": "adv. 威胁地, 恐吓地",
+        "en": "r. in a menacing manner"
       }
     },
     {
@@ -6349,8 +6349,8 @@
       "phonetic": "/məˈtɪkjələs/",
       "pos": "adj",
       "meaning": {
-        "zh": "一丝不苟的",
-        "en": "showing great attention to detail"
+        "zh": "a. 一丝不苟的, 精确的, 过细的",
+        "en": "s. marked by precise accordance with details\\ns. marked by extreme care in treatment of details"
       }
     },
     {
@@ -6359,7 +6359,7 @@
       "phonetic": "",
       "pos": "v",
       "meaning": {
-        "zh": "模具；霉菌",
+        "zh": "v. 做某事；进行",
         "en": ""
       }
     },
@@ -6369,8 +6369,8 @@
       "phonetic": "/mjuːtʌnʌsli/",
       "pos": "adv",
       "meaning": {
-        "zh": "反抗地",
-        "en": "In a mutinous manner. "
+        "zh": "adv. 反抗地, 叛变地",
+        "en": ""
       }
     },
     {
@@ -6379,8 +6379,8 @@
       "phonetic": "/ˈnɑn.ʃəl.ənt/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 冷淡的，漠不关心的",
-        "en": "Casually calm and relaxed."
+        "zh": "a. 不关心的, 冷淡的, 无动于衷的",
+        "en": "s marked by blithe unconcern"
       }
     },
     {
@@ -6389,8 +6389,8 @@
       "phonetic": "/ɑˈstɛns.ɪ.bəl/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 表面的；假装的",
-        "en": "Apparent, evident; meant for open display."
+        "zh": "a. 表面的, 假装的, 看得出的 [经] 表面的, 诡称的",
+        "en": "s. represented or appearing as such; pretended"
       }
     },
     {
@@ -6399,8 +6399,8 @@
       "phonetic": "/ɑˈstɛn.sɪ.bli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 表面上；外表",
-        "en": "(modal) Seemingly, apparently, on the surface."
+        "zh": "adv. 可公开, 显然, 表面, 外表, 诡称, 假装",
+        "en": "r from appearances alone"
       }
     },
     {
@@ -6409,7 +6409,7 @@
       "phonetic": "/aʊtpeɪʃʌnt/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 门诊病人",
+        "zh": "n. outpatient；某物",
         "en": "n. a patient who does not reside in the hospital where he is being treated"
       }
     },
@@ -6419,8 +6419,8 @@
       "phonetic": "/pəˈdɛst.ɹi.ən/",
       "pos": "adj",
       "meaning": {
-        "zh": "n. 步行者，行人",
-        "en": "n. a person who travels by foot; adj. lacking wit or imagination"
+        "zh": "n. 行人, 步行者 a. 人行的, 徒步的, 呆板的, 通俗的, 平淡无奇的",
+        "en": "n. a person who travels by foot\\ns. lacking wit or imagination"
       }
     },
     {
@@ -6429,8 +6429,8 @@
       "phonetic": "/pɜːrvɜːsʌtiː/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 邪恶；任性；性变态",
-        "en": "The quality of being perverse."
+        "zh": "n. 乖僻, 倔强, 任性, 反常, 性变态",
+        "en": "n. deliberately deviating from what is good"
       }
     },
     {
@@ -6449,8 +6449,8 @@
       "phonetic": "/pɹəˈkoʊʃəs/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 早熟的；过早发育的",
-        "en": "adj. characterized by or characteristic of exceptionally early development or maturity (especially in mental aptitude); adj. appearing or developing early"
+        "zh": "a. 早熟的, 像大人的 [医] 早熟的",
+        "en": "a. characterized by or characteristic of exceptionally early development or maturity (especially in "
       }
     },
     {
@@ -6459,8 +6459,8 @@
       "phonetic": "/pɹiːˈɛmɪnənt/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 卓越的；超群的",
-        "en": "adj. greatest in importance or degree or significance or achievement"
+        "zh": "a. 优秀的, 超群的, 卓越的",
+        "en": "s greatest in importance or degree or significance or achievement"
       }
     },
     {
@@ -6489,8 +6489,8 @@
       "phonetic": "/prʌsiːdʒɜːrʌl/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 程序上的",
-        "en": "adj. of or relating to procedure; adj. relating to court practice and procedure as opposed to the principles of law"
+        "zh": "a. 程序上的 [经] 程序上的",
+        "en": "a. of or relating to procedure"
       }
     },
     {
@@ -6499,7 +6499,7 @@
       "phonetic": "/prəʊˈməʊtəbl/",
       "pos": "adj",
       "meaning": {
-        "zh": "能推销的",
+        "zh": "adj. ...的；某种的",
         "en": "Able to be promoted; eligible for promotion. "
       }
     },
@@ -6509,8 +6509,8 @@
       "phonetic": "/proʊˈtruːʒn/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 突出；突出物",
-        "en": "The act of protruding."
+        "zh": "n. 突出, 突出部, 露出 [医] 前突, 突出",
+        "en": "n. the act of projecting out from something"
       }
     },
     {
@@ -6559,8 +6559,8 @@
       "phonetic": "/ɹɪˈk(j)uːpəˌɹeɪt/",
       "pos": "v",
       "meaning": {
-        "zh": "vi. 恢复，复原；挽回损失",
-        "en": "v. regain or make up for; v. regain a former condition after a financial loss; v. restore to good health or strength; v. get over an illness or shock"
+        "zh": "vt. 恢复, 使复原, 使恢复健康, 使恢复精神 vi. 复原, 恢复健康, 挽回损失",
+        "en": "v. restore to good health or strength\\nv. get over an illness or shock"
       }
     },
     {
@@ -6599,7 +6599,7 @@
       "phonetic": "/riːmɪtʌns/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 汇款额；汇款，汇寄",
+        "zh": "n. 汇款 [经] 汇款, 寄款, 支付(金额)",
         "en": "n. a payment of money sent to a person in another place"
       }
     },
@@ -6609,8 +6609,8 @@
       "phonetic": "/ɹɪˈmɔːr(ɹ)sfʊl/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 懊悔的；悔恨的",
-        "en": "(of a person) Feeling or filled with remorse."
+        "zh": "a. 极为后悔的, 懊悔的",
+        "en": "s feeling or expressing pain or sorrow for sins or offenses"
       }
     },
     {
@@ -6629,8 +6629,8 @@
       "phonetic": "/ˈɹɛtɹoˌspɛkt/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 回顾，回想",
-        "en": "Consideration of past times."
+        "zh": "n. 回顾, 追忆, 回溯 v. 回顾, 追忆",
+        "en": "n. contemplation of things past"
       }
     },
     {
@@ -6639,8 +6639,8 @@
       "phonetic": "/rɪvɛlʌtɔːriː/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 泄露的，启示的",
-        "en": "Of, pertaining to, or in the nature of a revelation"
+        "zh": "a. 揭示性的, 启示性的, 启示的",
+        "en": "s (usually followed by `of') pointing out or revealing clearly\\ns prophetic of devastation or ultima"
       }
     },
     {
@@ -6659,8 +6659,8 @@
       "phonetic": "/ruːmɪneɪʃʌn/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 沉思；反刍",
-        "en": "The act of ruminating; i.e. chewing cud."
+        "zh": "n. 反刍, 沉思, 默想 [医] 反刍, 反嚼, 沉思",
+        "en": "n. (of ruminants) chewing (the cud)\\nn. regurgitation of small amounts of food; seen in some infants"
       }
     },
     {
@@ -6689,8 +6689,8 @@
       "phonetic": "/ˈsmæ.təɹ.ɪŋ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 一知半解；少数；略知",
-        "en": "A superficial or shallow knowledge of a subject."
+        "zh": "n. 肤浅的知识, 一知半解的知识, 片断的知识, 少数, 少量",
+        "en": "n. a slight or superficial understanding of a subject"
       }
     },
     {
@@ -6709,8 +6709,8 @@
       "phonetic": "/səˈɹiː(.ə)l.ɪz.əm/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 超现实主义",
-        "en": "n. a 20th century movement of artists and writers (developing out of dadaism) who used fantastic images and incongruous juxtapositions in order to represent unconscious thoughts and dreams"
+        "zh": "n. 超现实主义 [法] 超现实主义",
+        "en": "n. a 20th century movement of artists and writers (developing out of dadaism) who used fantastic ima"
       }
     },
     {
@@ -6779,8 +6779,8 @@
       "phonetic": "/ʌnfiːzʌbʌl/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 不可行的，难实现的",
-        "en": "Infeasible: not feasible."
+        "zh": "a. 不能实行的, 难实施的, 不切实际的",
+        "en": "s not capable of being carried out or put into practice"
       }
     },
     {
@@ -6789,7 +6789,7 @@
       "phonetic": "",
       "pos": "adv",
       "meaning": {
-        "zh": "不能实行地",
+        "zh": "adv. （详见词典）",
         "en": "In an unfeasible manner; not feasibly; to a degree that i..."
       }
     },
@@ -6849,7 +6849,7 @@
       "phonetic": "/ˌæf.ɛkˈteɪ.ʃən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 做作；矫揉造作；假装",
+        "zh": "n. 假装, 做作, 矫情 [医] 矫饰, 矫情",
         "en": "n. a deliberate pretense or exaggerated display"
       }
     },
@@ -6899,8 +6899,8 @@
       "phonetic": "/bəˈlɪdʒərənt/",
       "pos": "adj",
       "meaning": {
-        "zh": "好战的",
-        "en": "hostile and aggressive"
+        "zh": "a. 好战的, 交战的, 交战国的 [法] 交战一方, 交战国, 交战集团",
+        "en": "s. engaged in war"
       }
     },
     {
@@ -6909,8 +6909,8 @@
       "phonetic": "/ˌbenɪˈfɪʃəri/",
       "pos": "n",
       "meaning": {
-        "zh": "受益人",
-        "en": "person who benefits"
+        "zh": "n. 受惠者, 受益人 a. 受封的",
+        "en": "n. the recipient of funds or other benefits\\na. having or arising from a benefice"
       }
     },
     {
@@ -6919,7 +6919,7 @@
       "phonetic": "/ˈbɹɛdˌwɪnɚ/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 养家糊口的人",
+        "zh": "n. breadwinner；某物",
         "en": "The primary income-earner in a household."
       }
     },
@@ -6929,8 +6929,8 @@
       "phonetic": "/kʌnkɜːrʌns/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 同时发生；赞同；合作",
-        "en": "Agreement; concurring."
+        "zh": "n. 赞同, 意见一致, 协力 [法] 协力, 同时发生, 一致",
+        "en": "n. agreement of results or opinions\\nn. acting together, as agents or circumstances or events\\nn. a "
       }
     },
     {
@@ -6939,8 +6939,8 @@
       "phonetic": "/kənˈfæbjʊleɪt/",
       "pos": "v",
       "meaning": {
-        "zh": "vi. 交谈，闲谈；虚构",
-        "en": "To speak casually with; to chat."
+        "zh": "vi. 交谈, 闲谈, 谈话",
+        "en": "v. unconsciously replace fact with fantasy in one's memory"
       }
     },
     {
@@ -6989,8 +6989,8 @@
       "phonetic": "/kənˈtɹæp.ʃən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 奇妙的装置；精巧的设计",
-        "en": "A machine that is complicated and precarious."
+        "zh": "n. 奇妙的装置, 稀奇古怪的玩意儿, 新发明的玩意儿, 外形奇怪的机器/装置",
+        "en": "n a device or control that is very useful for a particular job"
       }
     },
     {
@@ -6999,8 +6999,8 @@
       "phonetic": "/kɑɹəˈleɪʃən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 相互关系，关联；相关量",
-        "en": "n. a reciprocal relation between two or more things; n. a statistic representing how closely two variables co-vary; it can vary from -1 (perfect negative correlation) through 0 (no correlation) to +1 (perfect positive correlation); n. a statistical relation between two or more variables such that systematic changes in the value of one variable are accompanied by systematic changes in the other"
+        "zh": "n. 相互关系, 相关, 关联 [医] 相关, 联系",
+        "en": "n. a reciprocal relation between two or more things\\nn. a statistical relation between two or more v"
       }
     },
     {
@@ -7019,7 +7019,7 @@
       "phonetic": "/dɪˈfɪʃəntli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 不充分地",
+        "zh": "adv. （详见词典）",
         "en": "In a deficient manner. "
       }
     },
@@ -7039,8 +7039,8 @@
       "phonetic": "/dɪsˈpæɹɪdʒɪŋ(ɡ)/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 诋毁的，轻蔑的",
-        "en": "To match unequally; to degrade or dishonor."
+        "zh": "a. 蔑视的, 轻视的, 毁谤的",
+        "en": "v express a negative opinion of\\ns expressive of low opinion"
       }
     },
     {
@@ -7049,8 +7049,8 @@
       "phonetic": "/dɪˈsemɪneɪt/",
       "pos": "v",
       "meaning": {
-        "zh": "传播",
-        "en": "spread widely"
+        "zh": "vt. 散播, 传播, 宣传 vi. 广为传播",
+        "en": "v cause to become widely known"
       }
     },
     {
@@ -7069,7 +7069,7 @@
       "phonetic": "/ˌɛdɪfɪˈkeɪʃən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 启迪；教诲；精神修养",
+        "zh": "n. edification；某物",
         "en": "n. uplifting enlightenment"
       }
     },
@@ -7079,8 +7079,8 @@
       "phonetic": "/ɪˌɡælɪˈteəriən/",
       "pos": "adj",
       "meaning": {
-        "zh": "平等主义的",
-        "en": "believing in equality"
+        "zh": "a. 平等主义的 n. 平等主义",
+        "en": "n. a person who believes in the equality of all people"
       }
     },
     {
@@ -7099,8 +7099,8 @@
       "phonetic": "/ɪnˈkʌmbrəns/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 累赘；妨害物",
-        "en": "Something that encumbers; a burden that must be carried."
+        "zh": "n. 阻碍, 妨害物, 累赘 [法] 累赘, 负担, 财产留置权",
+        "en": "n. a charge against property (as a lien or mortgage)"
       }
     },
     {
@@ -7119,7 +7119,7 @@
       "phonetic": "/juːfʌmɪstɪk/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 委婉的；婉言的",
+        "zh": "adj. ...的；某种的",
         "en": "Of or pertaining to euphemism."
       }
     },
@@ -7139,7 +7139,7 @@
       "phonetic": "/ˈflaɪtɪnɪs/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 疯狂；轻浮",
+        "zh": "n. flightiness；某物",
         "en": "The quality of being flighty. "
       }
     },
@@ -7149,8 +7149,8 @@
       "phonetic": "/flʌktʃuːˈeɪʃən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 波动，起伏",
-        "en": "n. a wave motion; n. an instance of change; the rate or magnitude of change; n. the quality of being unsteady and subject to changes"
+        "zh": "n. 变动, 波动, 动摇 [化] 涨落",
+        "en": "n. a wave motion\\nn. the quality of being unsteady and subject to changes"
       }
     },
     {
@@ -7179,8 +7179,8 @@
       "phonetic": "/haɪpɑːθʌsaɪz/",
       "pos": "v",
       "meaning": {
-        "zh": "vt. 假设，假定",
-        "en": "To believe or assert on uncertain grounds."
+        "zh": "vt. 假设, 假定",
+        "en": "v to believe especially on uncertain or tentative grounds"
       }
     },
     {
@@ -7189,8 +7189,8 @@
       "phonetic": "/ˌɪɡnəˈmɪniəs/",
       "pos": "adj",
       "meaning": {
-        "zh": "可耻的",
-        "en": "deserving public disgrace"
+        "zh": "a. 可耻的, 不名誉的, 下流的",
+        "en": "s (used of conduct or character) deserving or bringing disgrace or shame"
       }
     },
     {
@@ -7199,8 +7199,8 @@
       "phonetic": "/ɪŋkɔːrŋruːɪtiː/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 不协调；不一致；不适宜",
-        "en": "The state of being incongruous, or lacking congruence."
+        "zh": "n. 不协调, 不一致, 不合适 [化] 异元性",
+        "en": "n. the quality of disagreeing; being unsuitable and inappropriate"
       }
     },
     {
@@ -7229,8 +7229,8 @@
       "phonetic": "/ɪnˈdʌldʒəntli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 溺爱地；放任地",
-        "en": "In an indulgent manner. "
+        "zh": "adv. 放纵地, 纵容地",
+        "en": "r. in an indulgent manner"
       }
     },
     {
@@ -7239,8 +7239,8 @@
       "phonetic": "/ɪnˈdʒenjuəsli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 率直地；正直地",
-        "en": "In an ingenuous manner; frankly, straightforwardly. "
+        "zh": "adv. 率直地, 正直地",
+        "en": "r in an ingenuous manner"
       }
     },
     {
@@ -7249,8 +7249,8 @@
       "phonetic": "/ɪnˈskruːtəbəl/",
       "pos": "adj",
       "meaning": {
-        "zh": "高深莫测的",
-        "en": "impossible to understand"
+        "zh": "a. 难以了解的, 不能预测的 [法] 不可理解的, 不可思议的, 不可测知的",
+        "en": "s of an obscure nature"
       }
     },
     {
@@ -7319,7 +7319,7 @@
       "phonetic": "",
       "pos": "adv",
       "meaning": {
-        "zh": "运动地",
+        "zh": "adv. （详见词典）",
         "en": "In a kinetic manner. "
       }
     },
@@ -7329,8 +7329,8 @@
       "phonetic": "/ˌlæm.ənˈteɪ.ʃən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 悲痛，悲叹",
-        "en": "The act of lamenting."
+        "zh": "n. 悲叹, 哀悼",
+        "en": "n. the passionate and demonstrative activity of expressing grief"
       }
     },
     {
@@ -7339,7 +7339,7 @@
       "phonetic": "/ˌmæɡnəˈnɪmɪti/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 宽宏大量；慷慨",
+        "zh": "n. magnanimity；某物",
         "en": "n. liberality in bestowing gifts; extremely liberal and generous of spirit"
       }
     },
@@ -7349,8 +7349,8 @@
       "phonetic": "/mæɡˈnænɪməs/",
       "pos": "adj",
       "meaning": {
-        "zh": "宽宏大量的",
-        "en": "very generous or forgiving"
+        "zh": "a. 宽宏大量的, 有雅量的 [法] 气量大的, 宽大的, 高尚的",
+        "en": "s noble and generous in spirit\\ns generous and understanding and tolerant"
       }
     },
     {
@@ -7359,8 +7359,8 @@
       "phonetic": "/mʌlɪʃɪsliː/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 有敌意地，恶意地",
-        "en": "In a malicious manner, or for malicious reasons"
+        "zh": "adv. 有敌意地, 恶意地",
+        "en": "r. with malice; in a malicious manner"
       }
     },
     {
@@ -7379,8 +7379,8 @@
       "phonetic": "/mʌloʊdiːʌsli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 悦耳地，旋律优美地",
-        "en": "In a melodious manner. "
+        "zh": "adv. 悦耳地, 旋律优美地",
+        "en": "r in a melodious manner"
       }
     },
     {
@@ -7389,8 +7389,8 @@
       "phonetic": "/ˌmiːtɪəˈɹɑlədʒi/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 气象状态，气象学",
-        "en": "n. predicting what the weather will be; n. the earth science dealing with phenomena of the atmosphere (especially weather)"
+        "zh": "n. 气象学, 气象状态 [医] 气象学",
+        "en": "n. predicting what the weather will be\\nn. the earth science dealing with phenomena of the atmospher"
       }
     },
     {
@@ -7399,8 +7399,8 @@
       "phonetic": "/meθəˈdɑlədʒi/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 方法论，一套方法",
-        "en": "(originally science) The study of methods used in a field."
+        "zh": "n. 方法学, 方法论 [化] 操作法",
+        "en": "n. the branch of philosophy that analyzes the principles and procedures of inquiry in a particular d"
       }
     },
     {
@@ -7409,7 +7409,7 @@
       "phonetic": "/mjuːˈnɪfɪsəns/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 慷慨给与；宽宏大量",
+        "zh": "n. munificence；某物",
         "en": "The quality of being munificent; generosity."
       }
     },
@@ -7429,8 +7429,8 @@
       "phonetic": "/ˈpeɪnzˌteɪkɪŋ/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 刻苦的，下苦功的",
-        "en": "The application of careful and attentive effort."
+        "zh": "n. 辛苦, 苦心, 工夫 a. 辛苦的, 勤勉的, 小心的",
+        "en": "s characterized by extreme care and great effort"
       }
     },
     {
@@ -7519,8 +7519,8 @@
       "phonetic": "/pʌŋktʃuːælɪtiː/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 准时性",
-        "en": "The state of being punctual"
+        "zh": "n. 严守时间, 正确",
+        "en": "n. the quality or habit of adhering to an appointed time"
       }
     },
     {
@@ -7549,8 +7549,8 @@
       "phonetic": "/ˈɹæp.tʃəɹ.əsli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 兴高采烈地；狂喜地",
-        "en": "In a rapturous manner. "
+        "zh": "adv. 兴高采烈地, 狂喜地",
+        "en": "r in an ecstatic manner"
       }
     },
     {
@@ -7559,8 +7559,8 @@
       "phonetic": "/ɹɪˈdʌn.dəntli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 多余地",
-        "en": "In a redundant manner. "
+        "zh": "adv. 多余地, 冗余地",
+        "en": "adv. In a refundant manner."
       }
     },
     {
@@ -7589,8 +7589,8 @@
       "phonetic": "/ɹɪˈsʌsɪˌteɪt/",
       "pos": "v",
       "meaning": {
-        "zh": "vt. 使复苏；使复兴",
-        "en": "To restore consciousness, vigor, or life to."
+        "zh": "v. (使)复苏, (使)复兴",
+        "en": "v. cause to regain consciousness"
       }
     },
     {
@@ -7609,7 +7609,7 @@
       "phonetic": "/sɪlɛktɪvʌtiː/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 选择性；分离性；选择度",
+        "zh": "n. 选择性, 选择度 [化] 选择性",
         "en": "n. the property of being selective"
       }
     },
@@ -7629,7 +7629,7 @@
       "phonetic": "/ˈspɑn.tə.neɪ.ə.ti/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 自发性，自然；自发行为",
+        "zh": "n. spontaneity；某物",
         "en": "The quality of being spontaneous."
       }
     },
@@ -7649,8 +7649,8 @@
       "phonetic": "/strɪndʒʌntliː/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 严格地，严厉地",
-        "en": "in a stringent manner "
+        "zh": "adv. 严格地, 严厉地",
+        "en": "r in a stringent manner"
       }
     },
     {
@@ -7679,7 +7679,7 @@
       "phonetic": "/ˈtæsɪtɜːnɪti/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 沉默寡言；缄默",
+        "zh": "n. taciturnity；某物",
         "en": "The trait of being taciturn. "
       }
     },
@@ -7699,7 +7699,7 @@
       "phonetic": "/təˈneɪʃəsli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 坚持地",
+        "zh": "adv. （详见词典）",
         "en": "In a tenacious manner."
       }
     },
@@ -7709,8 +7709,8 @@
       "phonetic": "/tɛstɪmoʊniːʌl/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 证明书；推荐书",
-        "en": "A statement, especially one given under oath; testimony"
+        "zh": "n. 证明书, 介绍信, 奖品, 奖金, 奖状, 感谢信, 表扬信 a. (有关)证明书的, 鉴定书的, 表扬的, 褒奖的",
+        "en": "a. expressing admiration or appreciation\\na. of or relating to or constituting testimony"
       }
     },
     {
@@ -7739,8 +7739,8 @@
       "phonetic": "/ʌnɨˈkwɪvəkəl/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 明确的；不含糊的",
-        "en": "adj. admitting of no doubt or misunderstanding; having only one meaning or interpretation and leading to only one conclusion; adj. clearly defined or formulated"
+        "zh": "a. 不含糊的, 不模棱两可的, 明确的 [法] 不含混的, 明白的, 直率的",
+        "en": "a. admitting of no doubt or misunderstanding; having only one meaning or interpretation and leading "
       }
     },
     {
@@ -7789,8 +7789,8 @@
       "phonetic": "/ʌnsʌspɛktɪd/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 不受怀疑的；未知的",
-        "en": "Not suspected; not having raised suspicion."
+        "zh": "a. 不受怀疑的, 无嫌疑的, 未知的, 意料外的 [法] 未被怀疑的, 无嫌疑的",
+        "en": "a. not suspected or believed likely"
       }
     },
     {
@@ -7809,8 +7809,8 @@
       "phonetic": "/vɛˈstɪdʒəlli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 残余地，遗留地",
-        "en": "In a vestigial manner. "
+        "zh": "adv. vestigial的变形",
+        "en": ""
       }
     },
     {
@@ -7819,8 +7819,8 @@
       "phonetic": "/vɪndɪˈkeɪʃən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 辩护；证明无罪",
-        "en": "The act of vindicating or the state of being vindicated."
+        "zh": "n. 辩护, 证明无辜, 辩明 [法] 辩明, 辩白, 辩护",
+        "en": "n. the act of vindicating or defending against criticism or censure etc."
       }
     },
     {
@@ -7829,7 +7829,7 @@
       "phonetic": "/ˌædvənˈteɪd͡ʒəs/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 有利的，有益的",
+        "zh": "adj. ...的；某种的",
         "en": "Being of advantage, beneficial."
       }
     },
@@ -7859,7 +7859,7 @@
       "phonetic": "",
       "pos": "n",
       "meaning": {
-        "zh": "热情，热忱",
+        "zh": "n. ardor/ardour；某物",
         "en": ""
       }
     },
@@ -7889,7 +7889,7 @@
       "phonetic": "/ɑθənˈtɪsɪti/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 真实性，可靠性",
+        "zh": "n. 可靠性, 真实性 [经] 确实性, 真实性",
         "en": "n. undisputed credibility"
       }
     },
@@ -7909,7 +7909,7 @@
       "phonetic": "/bʌlɪdʒɜːrʌns/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 斗争性；好战性；交战",
+        "zh": "n. belligerence；某物",
         "en": "n. hostile or warlike attitude or nature; n. a natural disposition to be hostile"
       }
     },
@@ -7919,7 +7919,7 @@
       "phonetic": "/ˈblændɪʃmn̩t/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 奉承；谄媚；哄诱",
+        "zh": "n. blandishment；某物",
         "en": "n. flattery intended to persuade; n. the act of urging by means of teasing or flattery"
       }
     },
@@ -7949,8 +7949,8 @@
       "phonetic": "/ˌkɔɹ.iˈɑɡ.ɹə.fi/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 编舞；舞蹈艺术；舞艺",
-        "en": "n. a show involving artistic dancing; n. the representation of dancing by symbols as music is represented by notes; n. a notation used by choreographers"
+        "zh": "n. choreography；某物",
+        "en": "n. a show involving artistic dancing; n. the representation of dancing by symbols as music is repres"
       }
     },
     {
@@ -7959,8 +7959,8 @@
       "phonetic": "/kəˈloʊkwiəli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 口语地；用通俗语",
-        "en": "In a colloquial manner."
+        "zh": "adv. 用口语, 用通俗语",
+        "en": "r. with the use of colloquial expressions"
       }
     },
     {
@@ -7969,8 +7969,8 @@
       "phonetic": "/kəˈmenʃərət/",
       "pos": "adj",
       "meaning": {
-        "zh": "相称的",
-        "en": "proportionate"
+        "zh": "a. 同量的, 同等的, 相称的",
+        "en": "a. corresponding in size or degree or extent"
       }
     },
     {
@@ -7979,7 +7979,7 @@
       "phonetic": "/kʌmpɛlɪŋliː/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 咄咄逼人地",
+        "zh": "adv. （详见词典）",
         "en": "In a compelling manner."
       }
     },
@@ -7989,8 +7989,8 @@
       "phonetic": "/kʌnsɪliːeɪʃʌn/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 调解；安抚；说服",
-        "en": "n. the state of manifesting goodwill and cooperation after being reconciled; n. any of various forms of mediation whereby disputes may be settled short of arbitration; n. the act of placating and overcoming distrust and animosity"
+        "zh": "n. 说服, 安抚, 抚慰, 调和 [经] 调解",
+        "en": "n. the state of manifesting goodwill and cooperation after being reconciled\\nn. any of various forms"
       }
     },
     {
@@ -7999,8 +7999,8 @@
       "phonetic": "/kənˈsɪliətəri/",
       "pos": "adj",
       "meaning": {
-        "zh": "调解的",
-        "en": "intended to placate"
+        "zh": "a. 安抚的, 和好的, 调和的",
+        "en": "a. intended to placate"
       }
     },
     {
@@ -8029,8 +8029,8 @@
       "phonetic": "/kənˈtɛm(p).tju.əs/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 轻蔑的，鄙视的",
-        "en": "adj. expressing extreme contempt"
+        "zh": "a. 轻蔑的, 鄙视的, 瞧不起人的",
+        "en": "s. expressing extreme contempt"
       }
     },
     {
@@ -8049,7 +8049,7 @@
       "phonetic": "/ˌdɛlɪkəˈtɛsən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 熟食；现成的食品",
+        "zh": "n. delicatessen；某物",
         "en": "Delicacies; exotic or expensive foods."
       }
     },
@@ -8109,7 +8109,7 @@
       "phonetic": "",
       "pos": "adv",
       "meaning": {
-        "zh": "情绪高涨地",
+        "zh": "adv. （详见词典）",
         "en": "In a euphoric manner. "
       }
     },
@@ -8129,7 +8129,7 @@
       "phonetic": "/ˈhap(ə)nˌstans/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 偶然事件，巧合",
+        "zh": "n. happenstance；某物",
         "en": "The chance or random quality of an event or circumstance."
       }
     },
@@ -8139,7 +8139,7 @@
       "phonetic": "/hɛdmɪstrʌs/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 女校长",
+        "zh": "n. headmistress；某物",
         "en": "A female school principal."
       }
     },
@@ -8169,7 +8169,7 @@
       "phonetic": "/hɪstɛrɪkliː/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 歇斯底里地",
+        "zh": "adv. （详见词典）",
         "en": "In a hysterical manner; showing signs of hysteria."
       }
     },
@@ -8179,8 +8179,8 @@
       "phonetic": "/ˌɪdiəˈsɪŋkrəsi/",
       "pos": "n",
       "meaning": {
-        "zh": "特质",
-        "en": "distinctive characteristic"
+        "zh": "n. 气质, 特性, 风格 [化] 特异反应",
+        "en": "n. a behavioral attribute that is distinctive and peculiar to an individual"
       }
     },
     {
@@ -8189,8 +8189,8 @@
       "phonetic": "/ɪndɪskrɛʃʌn/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 轻率；言行失检",
-        "en": "The quality or state of being indiscreet; lack of discretion"
+        "zh": "n. 鲁莽, 不慎重, 轻率 [法] 言行失检, 轻率, 不慎重",
+        "en": "n. the trait of being injudicious\\nn. a petty misdeed"
       }
     },
     {
@@ -8219,8 +8219,8 @@
       "phonetic": "/ɪnɜːrmiːdiːɛriː/",
       "pos": "n",
       "meaning": {
-        "zh": "adj. 中间的，过渡的",
-        "en": "n. a negotiator who acts as a link between parties"
+        "zh": "n. 仲裁者, 调解者, 媒介物, 中间人 a. 中间的, 媒介的",
+        "en": "n a negotiator who acts as a link between parties"
       }
     },
     {
@@ -8229,8 +8229,8 @@
       "phonetic": "/mæliːʌbɪlʌtiː/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 顺从；可锻性；展延性",
-        "en": "The quality or state of being malleable. "
+        "zh": "n. 可展性, 可锻性, 顺从 [医] 展性",
+        "en": "n. the property of being physically malleable; the property of something that can be worked or hamme"
       }
     },
     {
@@ -8259,8 +8259,8 @@
       "phonetic": "/nɑːnʃʌlɑːntliː/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 冷淡地，漠不关心地",
-        "en": "In a nonchalant manner."
+        "zh": "adv. 漠不关心地, 无动于衷地",
+        "en": "r in a composed and unconcerned manner\\nr in an unconcerned manner"
       }
     },
     {
@@ -8269,8 +8269,8 @@
       "phonetic": "/ɑːktʌdʒɪnɛriːʌn/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 八十岁到八十九岁的人",
-        "en": "n. someone whose age is in the eighties; adj. being from 80 to 89 years old"
+        "zh": "a. 80岁到90岁(的人)的 n. 80岁到90岁的人",
+        "en": "n. someone whose age is in the eighties\\ns. being from 80 to 89 years old"
       }
     },
     {
@@ -8289,7 +8289,7 @@
       "phonetic": "/ˌpɔ.lɪ.sɪˈlæ.bɪk/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 多音节的",
+        "zh": "adj. ...的；某种的",
         "en": "A word having more than one syllable"
       }
     },
@@ -8309,8 +8309,8 @@
       "phonetic": "/pɹəˈkoʊʃəsli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 早熟地",
-        "en": "In a precocious manner. "
+        "zh": "adv. 发育过早地, 过早发展地",
+        "en": "r. in a precocious manner"
       }
     },
     {
@@ -8319,7 +8319,7 @@
       "phonetic": "/ˌpɹiː.dəˈlɛk.ʃn̩/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 偏爱，嗜好",
+        "zh": "n. predilection；某物",
         "en": "n. a predisposition in favor of something; n. a strong liking"
       }
     },
@@ -8349,8 +8349,8 @@
       "phonetic": "/pɹoʊˈskɹɪp.ʃən/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 禁止；放逐；剥夺人权",
-        "en": "A prohibition."
+        "zh": "n. 剥夺人权, 放逐 [法] 剥夺, 剥夺公权, 禁止",
+        "en": "n a decree that prohibits something\\nn rejection by means of an act of banishing or proscribing some"
       }
     },
     {
@@ -8359,7 +8359,7 @@
       "phonetic": "/rɪkuːpɜːreɪʃʌn/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 恢复；复原",
+        "zh": "n. recuperation；某物",
         "en": "Gradual restoration to health."
       }
     },
@@ -8379,8 +8379,8 @@
       "phonetic": "/rɪˈmɑːnstrəns/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 抗议；规劝；谏书",
-        "en": "n. the act of expressing earnest opposition or protest"
+        "zh": "n. 抗议, 忠告, 规劝 [法] 抗议, 抗辩, 规劝",
+        "en": "n the act of expressing earnest opposition or protest"
       }
     },
     {
@@ -8429,8 +8429,8 @@
       "phonetic": "/səbˈstanʃɪeɪt/",
       "pos": "v",
       "meaning": {
-        "zh": "vt. 证实；使实体化",
-        "en": "v. establish or strengthen as with new evidence or facts; v. represent in bodily form; v. make real or concrete; give reality or substance to; v. solidify, firm, or strengthen"
+        "zh": "vt. 使实体化, 证实 [经] 确证",
+        "en": "v. solidify, firm, or strengthen"
       }
     },
     {
@@ -8459,8 +8459,8 @@
       "phonetic": "/ˌækrəˈbætɪkli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 杂技地，特技地",
-        "en": "In an acrobatic manner. "
+        "zh": "adv. acrobatic（杂技的）的变形",
+        "en": ""
       }
     },
     {
@@ -8469,8 +8469,8 @@
       "phonetic": "/ˌkrɑnəˈlɑdʒɪkl/",
       "pos": "adj",
       "meaning": {
-        "zh": "按时间顺序的",
-        "en": "in order of time"
+        "zh": "a. 年代学的, 按时间顺序的, 按照年月顺序的 [计] 编年的, 按年月日顺序的",
+        "en": "a. relating to or arranged according to temporal order"
       }
     },
     {
@@ -8479,8 +8479,8 @@
       "phonetic": "/kʌnfæbjʌleɪʃʌn/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 交谈；闲谈",
-        "en": "A casual conversation; a chat. "
+        "zh": "n. 交谈, 闲谈 [医] 虚谈症, 虚构症",
+        "en": "n. (psychiatry) a plausible but imagined memory that fills in gaps in what is remembered"
       }
     },
     {
@@ -8489,7 +8489,7 @@
       "phonetic": "/ˌkɑnstərˈneɪʃən/",
       "pos": "n",
       "meaning": {
-        "zh": "惊愕",
+        "zh": "n. consternation；某物",
         "en": "feelings of anxiety"
       }
     },
@@ -8509,8 +8509,8 @@
       "phonetic": "/ˈdeprəkeɪtɪŋli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 极不赞成地；恳求地",
-        "en": "In a deprecating manner. "
+        "zh": "adv. 不赞成地, 不以为然地",
+        "en": "adv. In a deprecating manner."
       }
     },
     {
@@ -8519,8 +8519,8 @@
       "phonetic": "/dɪˈspærɪdʒmənt/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 贬低，轻视",
-        "en": "The act of disparaging, of belittling. "
+        "zh": "n. 轻视, 说...坏话, 毁谤, 贬低, 轻蔑 [法] 诽谤, 不相称",
+        "en": "n. a communication that belittles somebody or something\\nn. the act of speaking contemptuously of"
       }
     },
     {
@@ -8579,8 +8579,8 @@
       "phonetic": "/ɪdiːoʊsɪnkrætɪk/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 独特的，怪癖的",
-        "en": "Peculiar to a specific individual; eccentric."
+        "zh": "a. 特质的, 异质的, 特殊的 [医] 特[异反]应性的, 特异体质的",
+        "en": "s. peculiar to the individual"
       }
     },
     {
@@ -8589,8 +8589,8 @@
       "phonetic": "/ˌɪɡnəˈmɪniəsli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 可耻地",
-        "en": "In an ignominious manner. "
+        "zh": "adv. 耻辱地, 屈辱地, 丢脸地",
+        "en": "r in a dishonorable manner or to a dishonorable degree"
       }
     },
     {
@@ -8619,7 +8619,7 @@
       "phonetic": "/ɪŋkɔːrŋruːʌsliː/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 不调和地",
+        "zh": "adv. （详见词典）",
         "en": "In an incongruous manner."
       }
     },
@@ -8649,7 +8649,7 @@
       "phonetic": "/ɪnfælɪbɪlɪtiː/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 无误；教皇永无谬误论",
+        "zh": "n. infallibility；某物",
         "en": "n. the quality of never making an error"
       }
     },
@@ -8709,8 +8709,8 @@
       "phonetic": "/mɑːrkɪtʌbɪlɪtiː/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 可销售，市场性；适销性",
-        "en": "The likelihood that something will sell; market appeal."
+        "zh": "n. 可销售, 市场性 [经] 变现性, 销路, 适销性",
+        "en": ""
       }
     },
     {
@@ -8729,7 +8729,7 @@
       "phonetic": "",
       "pos": "adj",
       "meaning": {
-        "zh": "贫乏的",
+        "zh": "adj. ...的；某种的",
         "en": ""
       }
     },
@@ -8739,8 +8739,8 @@
       "phonetic": "/nəˈstældʒɪkliˌnɑːˈstældʒɪkli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 怀乡地；恋旧地",
-        "en": "In a nostalgic manner. "
+        "zh": "adv. 怀乡地, 怀旧地, 恋旧地",
+        "en": "r. in a nostalgic manner"
       }
     },
     {
@@ -8779,8 +8779,8 @@
       "phonetic": "/fɪlʌnθrɑːpɪk/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 慈善的，捐助的",
-        "en": "adj. generous in assistance to the poor; adj. of or relating to or characterized by philanthropy"
+        "zh": "a. 慈善(事业)的, 博爱的, 乐善好施的 [法] 博爱的, 仁慈的, 慈善事业的",
+        "en": "a. of or relating to or characterized by philanthropy"
       }
     },
     {
@@ -8799,8 +8799,8 @@
       "phonetic": "/priːkʌnsɛpʃʌn/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 偏见；先入之见；预想",
-        "en": "n. an opinion formed beforehand without adequate evidence; n. a partiality that prevents objective consideration of an issue or situation"
+        "zh": "n. 事先钩成的看法, 成见 [法] 先入之见, 成见, 偏见",
+        "en": "n. an opinion formed beforehand without adequate evidence"
       }
     },
     {
@@ -8849,8 +8849,8 @@
       "phonetic": "/rɪsʌsɪteɪʃʌn/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 苏醒，复活；复兴",
-        "en": "The act of resuscitating."
+        "zh": "n. 复生, 复兴 [医] 复苏[术], 回生",
+        "en": "n. the act of reviving a person and returning them to consciousness"
       }
     },
     {
@@ -8859,8 +8859,8 @@
       "phonetic": "/ˌretrəˈspekʃn/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 回顾；反省；追忆",
-        "en": "The deliberate recall of past events"
+        "zh": "n. 回顾, 追忆, 反省 [医] 追想, 回忆",
+        "en": "n. reference to things past\\nn. memory for experiences that are past"
       }
     },
     {
@@ -8949,7 +8949,7 @@
       "phonetic": "",
       "pos": "adj",
       "meaning": {
-        "zh": "不减少的",
+        "zh": "adj. ...的；某种的",
         "en": "becoming smaller "
       }
     },
@@ -8959,8 +8959,8 @@
       "phonetic": "/ʌnɨˈkwɪvək(ə)lɪ/",
       "pos": "adv",
       "meaning": {
-        "zh": "明确地",
-        "en": "adv. in an unambiguous manner"
+        "zh": "adv. 只有一种含意地, 清楚明白地",
+        "en": "r in an unambiguous manner"
       }
     },
     {
@@ -8969,8 +8969,8 @@
       "phonetic": "/ˌʌnɪkˈsepʃən(ə)l/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 非例外的；普通的",
-        "en": "Not exceptional."
+        "zh": "a. 非例外的, 平常的, 不特别的, 不容许有例外的",
+        "en": "s not special in any way"
       }
     },
     {
@@ -8989,7 +8989,7 @@
       "phonetic": "/ə.ˌkaʊn.tə.ˈbɪl.ət.i/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 责任，责任心，可说明性",
+        "zh": "n. 负有责任, 可说明性 [化] 衡算计量",
         "en": "n. responsibility to someone or for some activity"
       }
     },
@@ -8999,7 +8999,7 @@
       "phonetic": "",
       "pos": "n",
       "meaning": {
-        "zh": "军械库",
+        "zh": "n. armory/armoury；某物",
         "en": ""
       }
     },
@@ -9019,7 +9019,7 @@
       "phonetic": "/ˌsə.kəmˈnæv.ɪ.ɡeɪt/",
       "pos": "v",
       "meaning": {
-        "zh": "vt. 环航",
+        "zh": "v. 做某事；进行",
         "en": "v. travel around, either by plane or ship"
       }
     },
@@ -9039,7 +9039,7 @@
       "phonetic": "/kənˈtɛmp.tju.əs.li/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 轻蔑地",
+        "zh": "adv. （详见词典）",
         "en": "In a disrespectful or discourteous manner; condescendingly."
       }
     },
@@ -9059,7 +9059,7 @@
       "phonetic": "/ˌhɪstriˈɑːnɪkli/",
       "pos": "adv",
       "meaning": {
-        "zh": "戏剧上地",
+        "zh": "adv. （详见词典）",
         "en": "In a histrionic manner. "
       }
     },
@@ -9079,7 +9079,7 @@
       "phonetic": "/ˌmiːtɪəɹəˈlɑd͡ʒɪkl̩/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 气象学的",
+        "zh": "adj. ...的；某种的",
         "en": "Of or pertaining to meteorology."
       }
     },
@@ -9119,8 +9119,8 @@
       "phonetic": "/prɛʃɜːrɪzeɪʃʌn/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 增压；气密；压力输送",
-        "en": "abstract: Pressurization is the application of pressure in a given situation or environment; and more specifically refers to the process by which atmospheric pressure is maintained in an isolated or semi-isolated atmospheric environment (for instance, in an aircraft, or whilst scuba diving)."
+        "zh": "n. 压力输送, 挤压, 气密, 密封, 增压, 加压 [化] 高压密封法",
+        "en": ""
       }
     },
     {
@@ -9129,8 +9129,8 @@
       "phonetic": "/pɹiː.sʌ.pəˈzɪ.ʃ(ə)n/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 假定；预想；臆测",
-        "en": "n. the act of presupposing; a supposition made prior to having knowledge (as for the purpose of argument)"
+        "zh": "n. presupposition；某物",
+        "en": "n. the act of presupposing; a supposition made prior to having knowledge (as for the purpose of argu"
       }
     },
     {
@@ -9159,8 +9159,8 @@
       "phonetic": "/ˌtelɪˈskɑːpɪkli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 伸缩地；望远镜地",
-        "en": "By means of a telescope. "
+        "zh": "adv. 望远镜地, 伸缩地",
+        "en": "r. in a telescopic manner"
       }
     },
     {
@@ -9189,7 +9189,7 @@
       "phonetic": "",
       "pos": "adj",
       "meaning": {
-        "zh": "编舞的",
+        "zh": "adj. ...的；某种的",
         "en": "(archaic) Pertaining to chorography; provincial. "
       }
     },
@@ -9199,8 +9199,8 @@
       "phonetic": "/krɑːnʌlɑːdʒɪkliː/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 按年代地",
-        "en": "(manner) In a chronological manner; with reference to time."
+        "zh": "adv. 按时间的前后顺序排列地",
+        "en": "r. with respect to chronology"
       }
     },
     {
@@ -9209,7 +9209,7 @@
       "phonetic": "/sɪnɪmʌtæɡrʌfɜːr/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 放映技师；电影摄影技师",
+        "zh": "n. cinematographer；某物",
         "en": "n. a photographer who operates a movie camera"
       }
     },
@@ -9229,7 +9229,7 @@
       "phonetic": "/diːˌmɪstɪfɪˈkeɪʃn/",
       "pos": "n",
       "meaning": {
-        "zh": "n. 非神秘化启发，启蒙",
+        "zh": "n. demystification；某物",
         "en": "The removal of mystery or confusion surrounding a topic o..."
       }
     },
@@ -9259,8 +9259,8 @@
       "phonetic": "/ɡrævʌteɪʃnʌliː/",
       "pos": "adv",
       "meaning": {
-        "zh": "引力地",
-        "en": "As a result of the force of gravity. "
+        "zh": "adv. gravitational（万有引力的）的变形",
+        "en": "r. with respect to gravitation"
       }
     },
     {
@@ -9279,7 +9279,7 @@
       "phonetic": "/ɪmprɑːvɪzeɪʃʌnʌl/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 即兴的",
+        "zh": "adj. ...的；某种的",
         "en": "Having the nature of an improvisation."
       }
     },
@@ -9299,7 +9299,7 @@
       "phonetic": "/ˌɪn.təˈɹɑ.ɡə.tɪvli/",
       "pos": "adv",
       "meaning": {
-        "zh": "疑问地",
+        "zh": "adv. （详见词典）",
         "en": "In an interrogative manner; by means of a question. "
       }
     },
@@ -9309,7 +9309,7 @@
       "phonetic": "/fɪziːʌlɑːdʒɪkliː/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 生理学方面",
+        "zh": "adv. （详见词典）",
         "en": "In accordance with the science of physiology."
       }
     },
@@ -9349,8 +9349,8 @@
       "phonetic": "/ˌʌndɪˈmɑːnstrətɪv/",
       "pos": "adj",
       "meaning": {
-        "zh": "adj. 含蓄的；不露感情的",
-        "en": "adj. not given to open expression of emotion"
+        "zh": "a. 不露声色的, 矜持寡言的",
+        "en": "a. not given to open expression of emotion"
       }
     },
     {
@@ -9369,7 +9369,7 @@
       "phonetic": "/ʌnʌbtruːsɪvnəs/",
       "pos": "n",
       "meaning": {
-        "zh": "不冒失",
+        "zh": "n. 状态；情况",
         "en": "The state of being unobtrusive. "
       }
     },
@@ -9379,7 +9379,7 @@
       "phonetic": "/ɔːl/",
       "pos": "adj",
       "meaning": {
-        "zh": "包罗万象的",
+        "zh": "adj. 事物；东西",
         "en": "Including everything; universal"
       }
     },
@@ -9389,7 +9389,7 @@
       "phonetic": "/ˌkætəˈstrɑːfɪkli/",
       "pos": "adv",
       "meaning": {
-        "zh": "灾难性地",
+        "zh": "adv. （详见词典）",
         "en": "adv. with unfortunate consequences"
       }
     },
@@ -9409,8 +9409,8 @@
       "phonetic": "/mɛθʌdʌlɑːdʒɪkʌlli/",
       "pos": "adv",
       "meaning": {
-        "zh": "方法学",
-        "en": "In a methodological manner. "
+        "zh": "adv. 方法学(methodological的变形)",
+        "en": "r. in a methodical manner"
       }
     },
     {
@@ -9419,7 +9419,7 @@
       "phonetic": "/æn.θɹə.pə.ˈlɑdʒikəlli/",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 人类学上",
+        "zh": "adv. （详见词典）",
         "en": "In a manner which pertains to anthropology. "
       }
     },
@@ -9429,8 +9429,8 @@
       "phonetic": "",
       "pos": "adv",
       "meaning": {
-        "zh": "adv. 突降地，虎头蛇尾地",
-        "en": "In an anticlimactic manner. "
+        "zh": "adv. anticlimactic, anticlimactical 的变形",
+        "en": ""
       }
     },
     {
@@ -9459,8 +9459,8 @@
       "phonetic": "",
       "pos": "v",
       "meaning": {
-        "zh": "使麻痹",
-        "en": ""
+        "zh": "v. 做某事；进行 v. 做某事；进行",
+        "en": " "
       }
     },
     {
@@ -9469,7 +9469,7 @@
       "phonetic": "/ˌfɪlənˈθrɑːpɪkli/",
       "pos": "adv",
       "meaning": {
-        "zh": "慈善地",
+        "zh": "adv. （详见词典）",
         "en": "In a philanthropic manner. "
       }
     },
@@ -9489,8 +9489,8 @@
       "phonetic": "",
       "pos": "n",
       "meaning": {
-        "zh": "策略；机动",
-        "en": ""
+        "zh": "v. 做某事；进行",
+        "en": "The planned movement of troops, vehicles etc.; a strategi..."
       }
     },
     {
@@ -9499,7 +9499,7 @@
       "phonetic": "",
       "pos": "v",
       "meaning": {
-        "zh": "碳化",
+        "zh": "v. 做某事；进行",
         "en": ""
       }
     },
@@ -9519,7 +9519,7 @@
       "phonetic": "",
       "pos": "v",
       "meaning": {
-        "zh": "节约",
+        "zh": "v. 做某事；进行",
         "en": ""
       }
     },
@@ -9529,7 +9529,7 @@
       "phonetic": "",
       "pos": "adv",
       "meaning": {
-        "zh": "仅凭印象地，主观地",
+        "zh": "adv. （详见词典）",
         "en": "In an impressionistic manner. "
       }
     },
@@ -9549,7 +9549,7 @@
       "phonetic": "",
       "pos": "v",
       "meaning": {
-        "zh": "稳定",
+        "zh": "v. 做某事；进行",
         "en": ""
       }
     },
@@ -9559,7 +9559,7 @@
       "phonetic": "",
       "pos": "v",
       "meaning": {
-        "zh": "逗引",
+        "zh": "v. 做某事；进行",
         "en": ""
       }
     },
@@ -9569,7 +9569,7 @@
       "phonetic": "",
       "pos": "adj",
       "meaning": {
-        "zh": "集中的",
+        "zh": "adj. ...的；某种的",
         "en": ""
       }
     },
@@ -9579,7 +9579,7 @@
       "phonetic": "",
       "pos": "v",
       "meaning": {
-        "zh": "电脑化",
+        "zh": "v. 做某事；进行",
         "en": ""
       }
     },
@@ -9589,7 +9589,7 @@
       "phonetic": "",
       "pos": "v",
       "meaning": {
-        "zh": "结晶；明确化",
+        "zh": "v. 做某事；进行",
         "en": ""
       }
     },
@@ -9599,7 +9599,7 @@
       "phonetic": "",
       "pos": "v",
       "meaning": {
-        "zh": "使熟悉",
+        "zh": "v. 做某事；进行",
         "en": ""
       }
     },
@@ -9609,7 +9609,7 @@
       "phonetic": "",
       "pos": "v",
       "meaning": {
-        "zh": "实现；具体化",
+        "zh": "v. 做某事；进行",
         "en": ""
       }
     },
@@ -9619,7 +9619,7 @@
       "phonetic": "",
       "pos": "n",
       "meaning": {
-        "zh": "轻罪",
+        "zh": "n. misdemeanor/misdemanour；某物",
         "en": ""
       }
     },
@@ -9629,7 +9629,7 @@
       "phonetic": "",
       "pos": "adj",
       "meaning": {
-        "zh": "居高临下的",
+        "zh": "adj. ...的；某种的",
         "en": ""
       }
     },
@@ -9639,7 +9639,7 @@
       "phonetic": "",
       "pos": "v",
       "meaning": {
-        "zh": "使镇静",
+        "zh": "v. 做某事；进行",
         "en": ""
       }
     },
@@ -9649,7 +9649,7 @@
       "phonetic": "",
       "pos": "n",
       "meaning": {
-        "zh": "利用",
+        "zh": "n. utilization/utilisation；某物",
         "en": ""
       }
     },
@@ -9659,7 +9659,7 @@
       "phonetic": "",
       "pos": "v",
       "meaning": {
-        "zh": "分散",
+        "zh": "v. 做某事；进行",
         "en": ""
       }
     },
@@ -9669,7 +9669,7 @@
       "phonetic": "",
       "pos": "adv",
       "meaning": {
-        "zh": "使麻痹地",
+        "zh": "adv. （详见词典）",
         "en": ""
       }
     },
@@ -9679,7 +9679,7 @@
       "phonetic": "",
       "pos": "adv",
       "meaning": {
-        "zh": "居高临下地",
+        "zh": "adv. （详见词典）",
         "en": ""
       }
     },
@@ -9689,7 +9689,7 @@
       "phonetic": "",
       "pos": "adv",
       "meaning": {
-        "zh": "逗引地",
+        "zh": "adv. （详见词典）",
         "en": ""
       }
     },
@@ -9699,7 +9699,7 @@
       "phonetic": "",
       "pos": "n",
       "meaning": {
-        "zh": "结晶",
+        "zh": "n. crystallization/crystallisation；某物",
         "en": ""
       }
     },
@@ -9709,7 +9709,7 @@
       "phonetic": "",
       "pos": "n",
       "meaning": {
-        "zh": "实现",
+        "zh": "n. materialization/materialisation；某物",
         "en": ""
       }
     },
@@ -9719,7 +9719,7 @@
       "phonetic": "/sɛlf/",
       "pos": "n",
       "meaning": {
-        "zh": "自我膨胀",
+        "zh": "n. self-aggrandizement/self-aggrandisement；某物",
         "en": ""
       }
     },
@@ -9729,8 +9729,8 @@
       "phonetic": "/lɔːd/",
       "pos": "verb",
       "meaning": {
-        "zh": "赞美；称赞；颂扬",
-        "en": "To praise highly; to extol"
+        "zh": "v. 做某事；进行 verb. （详见词典）",
+        "en": "praise highly To praise highly; to extol"
       }
     }
   ]
