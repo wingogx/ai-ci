@@ -1,6 +1,6 @@
 'use client'
 
-import { useCallback } from 'react'
+import { useCallback, useState } from 'react'
 import { cn } from '@/utils'
 import type { Word } from '@/types'
 import type { Language } from '@/types'
@@ -21,6 +21,8 @@ export function WordCard({
   onPlaySound,
   className,
 }: WordCardProps) {
+  const [isExpanded, setIsExpanded] = useState(false)
+
   const handlePlaySound = useCallback(() => {
     onPlaySound?.(word.word)
   }, [word.word, onPlaySound])
@@ -42,6 +44,13 @@ export function WordCard({
 
   const posLabel = word.pos ? posLabels[word.pos]?.[language] || word.pos : ''
   const meaning = word.meaning?.[language] || ''
+
+  // 检查释义是否过长（超过100字）
+  const MAX_LENGTH = 100
+  const isTooLong = meaning.length > MAX_LENGTH
+  const displayMeaning = isTooLong && !isExpanded
+    ? meaning.substring(0, MAX_LENGTH) + '...'
+    : meaning
 
   return (
     <div
@@ -78,7 +87,19 @@ export function WordCard({
         </div>
         {/* 释义 */}
         {meaning && (
-          <p className="text-sm text-gray-600 mt-0.5">{meaning}</p>
+          <div className="mt-0.5">
+            <p className="text-sm text-gray-600">{displayMeaning}</p>
+            {isTooLong && (
+              <button
+                onClick={() => setIsExpanded(!isExpanded)}
+                className="text-xs text-blue-600 hover:text-blue-700 mt-1 hover:underline transition-colors"
+              >
+                {isExpanded
+                  ? (language === 'zh' ? '收起' : 'Show less')
+                  : (language === 'zh' ? '查看更多' : 'Show more')}
+              </button>
+            )}
+          </div>
         )}
       </div>
     </div>
