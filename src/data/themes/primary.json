@@ -1,6 +1,6 @@
 {
   "level": "primary",
-  "totalThemes": 15,
+  "totalThemes": 42,
   "themes": [
     {
       "id": "weekdays",
@@ -292,6 +292,557 @@
         "pri_379"
       ],
       "wordCount": 14
+    },
+    {
+      "id": "furniture",
+      "name": "家具/房间",
+      "level": "primary",
+      "words": [
+        "pri_019",
+        "pri_072",
+        "pri_100",
+        "pri_166",
+        "pri_303",
+        "pri_349",
+        "pri_371",
+        "pri_372"
+      ],
+      "wordCount": 8
+    },
+    {
+      "id": "jobs",
+      "name": "职业",
+      "level": "primary",
+      "words": [
+        "pri_059",
+        "pri_065",
+        "pri_070",
+        "pri_090",
+        "pri_217",
+        "pri_275",
+        "pri_307",
+        "pri_376"
+      ],
+      "wordCount": 8
+    },
+    {
+      "id": "nature",
+      "name": "自然",
+      "level": "primary",
+      "words": [
+        "pri_101",
+        "pri_129",
+        "pri_192",
+        "pri_251",
+        "pri_256",
+        "pri_284",
+        "pri_293",
+        "pri_300",
+        "pri_337",
+        "pri_468"
+      ],
+      "wordCount": 10
+    },
+    {
+      "id": "positions",
+      "name": "方位",
+      "level": "primary",
+      "words": [
+        "pri_012",
+        "pri_073",
+        "pri_155",
+        "pri_169",
+        "pri_201",
+        "pri_220",
+        "pri_255",
+        "pri_344",
+        "pri_399",
+        "pri_401",
+        "pri_436",
+        "pri_449"
+      ],
+      "wordCount": 12
+    },
+    {
+      "id": "people",
+      "name": "人物",
+      "level": "primary",
+      "words": [
+        "pri_011",
+        "pri_030",
+        "pri_047",
+        "pri_110",
+        "pri_118",
+        "pri_184",
+        "pri_186",
+        "pri_233",
+        "pri_375",
+        "pri_406"
+      ],
+      "wordCount": 10
+    },
+    {
+      "id": "movement",
+      "name": "移动动作",
+      "level": "primary",
+      "words": [
+        "pri_058",
+        "pri_102",
+        "pri_123",
+        "pri_124",
+        "pri_125",
+        "pri_260",
+        "pri_277",
+        "pri_292",
+        "pri_294",
+        "pri_302",
+        "pri_348"
+      ],
+      "wordCount": 11
+    },
+    {
+      "id": "handActions",
+      "name": "手部动作",
+      "level": "primary",
+      "words": [
+        "pri_051",
+        "pri_053",
+        "pri_063",
+        "pri_074",
+        "pri_116",
+        "pri_119",
+        "pri_221",
+        "pri_249",
+        "pri_352"
+      ],
+      "wordCount": 9
+    },
+    {
+      "id": "dailyActivities",
+      "name": "日常活动",
+      "level": "primary",
+      "words": [
+        "pri_076",
+        "pri_079",
+        "pri_183",
+        "pri_282",
+        "pri_345"
+      ],
+      "wordCount": 5
+    },
+    {
+      "id": "studyActivities",
+      "name": "学习活动",
+      "level": "primary",
+      "words": [
+        "pri_164",
+        "pri_320",
+        "pri_322",
+        "pri_480",
+        "pri_482"
+      ],
+      "wordCount": 5
+    },
+    {
+      "id": "communication",
+      "name": "交流动词",
+      "level": "primary",
+      "words": [
+        "pri_010",
+        "pri_039",
+        "pri_262",
+        "pri_309",
+        "pri_392"
+      ],
+      "wordCount": 5
+    },
+    {
+      "id": "emotion",
+      "name": "情感动词",
+      "level": "primary",
+      "words": [
+        "pri_141",
+        "pri_174",
+        "pri_181",
+        "pri_202",
+        "pri_311",
+        "pri_350",
+        "pri_441",
+        "pri_459"
+      ],
+      "wordCount": 8
+    },
+    {
+      "id": "possession",
+      "name": "拥有/变化",
+      "level": "primary",
+      "words": [
+        "pri_036",
+        "pri_095",
+        "pri_136",
+        "pri_138",
+        "pri_488"
+      ],
+      "wordCount": 5
+    },
+    {
+      "id": "sizeAdjectives",
+      "name": "大小形容词",
+      "level": "primary",
+      "words": [
+        "pri_021",
+        "pri_091",
+        "pri_177",
+        "pri_179",
+        "pri_274",
+        "pri_283",
+        "pri_304",
+        "pri_321",
+        "pri_442"
+      ],
+      "wordCount": 9
+    },
+    {
+      "id": "qualityAdjectives",
+      "name": "品质形容词",
+      "level": "primary",
+      "words": [
+        "pri_013",
+        "pri_096",
+        "pri_130",
+        "pri_203",
+        "pri_205",
+        "pri_218",
+        "pri_383",
+        "pri_384"
+      ],
+      "wordCount": 8
+    },
+    {
+      "id": "feelingAdjectives",
+      "name": "感觉形容词",
+      "level": "primary",
+      "words": [
+        "pri_135",
+        "pri_261",
+        "pri_288",
+        "pri_447",
+        "pri_500",
+        "pri_502"
+      ],
+      "wordCount": 6
+    },
+    {
+      "id": "questionWords",
+      "name": "疑问词",
+      "level": "primary",
+      "words": [
+        "pri_151",
+        "pri_363",
+        "pri_364",
+        "pri_365",
+        "pri_366",
+        "pri_368",
+        "pri_369"
+      ],
+      "wordCount": 7
+    },
+    {
+      "id": "commonWords",
+      "name": "常用词",
+      "level": "primary",
+      "words": [
+        "pri_001",
+        "pri_002",
+        "pri_003",
+        "pri_004",
+        "pri_005",
+        "pri_006",
+        "pri_007",
+        "pri_009",
+        "pri_035",
+        "pri_211",
+        "pri_215",
+        "pri_285",
+        "pri_287",
+        "pri_313",
+        "pri_314",
+        "pri_315",
+        "pri_316",
+        "pri_317",
+        "pri_318",
+        "pri_319",
+        "pri_334",
+        "pri_346",
+        "pri_381",
+        "pri_387",
+        "pri_389",
+        "pri_390",
+        "pri_391",
+        "pri_394",
+        "pri_396",
+        "pri_471",
+        "pri_490"
+      ],
+      "wordCount": 31
+    },
+    {
+      "id": "pronouns",
+      "name": "代词",
+      "level": "primary",
+      "words": [
+        "pri_140",
+        "pri_142",
+        "pri_143",
+        "pri_144",
+        "pri_145",
+        "pri_146",
+        "pri_153",
+        "pri_154",
+        "pri_223",
+        "pri_268",
+        "pri_312",
+        "pri_326",
+        "pri_327",
+        "pri_359",
+        "pri_360",
+        "pri_361",
+        "pri_362",
+        "pri_385",
+        "pri_439",
+        "pri_440",
+        "pri_448",
+        "pri_504"
+      ],
+      "wordCount": 22
+    },
+    {
+      "id": "prepositions",
+      "name": "介词",
+      "level": "primary",
+      "words": [
+        "pri_037",
+        "pri_105",
+        "pri_111",
+        "pri_224",
+        "pri_332",
+        "pri_374",
+        "pri_472",
+        "pri_473",
+        "pri_474"
+      ],
+      "wordCount": 9
+    },
+    {
+      "id": "meals",
+      "name": "餐食",
+      "level": "primary",
+      "words": [
+        "pri_069",
+        "pri_103",
+        "pri_182",
+        "pri_403"
+      ],
+      "wordCount": 4
+    },
+    {
+      "id": "subjects",
+      "name": "学科",
+      "level": "primary",
+      "words": [
+        "pri_084",
+        "pri_199",
+        "pri_228",
+        "pri_234",
+        "pri_289",
+        "pri_295",
+        "pri_408",
+        "pri_429",
+        "pri_461",
+        "pri_485",
+        "pri_491",
+        "pri_495"
+      ],
+      "wordCount": 12
+    },
+    {
+      "id": "household",
+      "name": "日常用品",
+      "level": "primary",
+      "words": [
+        "pri_052",
+        "pri_089",
+        "pri_159",
+        "pri_163",
+        "pri_235",
+        "pri_413",
+        "pri_457",
+        "pri_497"
+      ],
+      "wordCount": 8
+    },
+    {
+      "id": "entertainment",
+      "name": "娱乐",
+      "level": "primary",
+      "words": [
+        "pri_015",
+        "pri_113",
+        "pri_117",
+        "pri_161",
+        "pri_197",
+        "pri_335"
+      ],
+      "wordCount": 6
+    },
+    {
+      "id": "adverbs",
+      "name": "副词",
+      "level": "primary",
+      "words": [
+        "pri_167",
+        "pri_204",
+        "pri_330",
+        "pri_355",
+        "pri_424",
+        "pri_425",
+        "pri_426",
+        "pri_427",
+        "pri_433",
+        "pri_470"
+      ],
+      "wordCount": 10
+    },
+    {
+      "id": "beingVerbs",
+      "name": "Be动词/助动词",
+      "level": "primary",
+      "words": [
+        "pri_020",
+        "pri_040",
+        "pri_068",
+        "pri_176",
+        "pri_200",
+        "pri_216",
+        "pri_370",
+        "pri_397",
+        "pri_398",
+        "pri_400",
+        "pri_409",
+        "pri_430",
+        "pri_463",
+        "pri_498"
+      ],
+      "wordCount": 14
+    },
+    {
+      "id": "otherNouns",
+      "name": "其他名词",
+      "level": "primary",
+      "words": [
+        "pri_049",
+        "pri_083",
+        "pri_241",
+        "pri_402",
+        "pri_444",
+        "pri_477",
+        "pri_478"
+      ],
+      "wordCount": 7
+    },
+    {
+      "id": "miscellaneous",
+      "name": "补充词汇",
+      "level": "primary",
+      "words": [
+        "pri_014",
+        "pri_017",
+        "pri_026",
+        "pri_027",
+        "pri_029",
+        "pri_043",
+        "pri_048",
+        "pri_057",
+        "pri_062",
+        "pri_064",
+        "pri_109",
+        "pri_112",
+        "pri_120",
+        "pri_121",
+        "pri_122",
+        "pri_132",
+        "pri_156",
+        "pri_160",
+        "pri_165",
+        "pri_168",
+        "pri_172",
+        "pri_178",
+        "pri_180",
+        "pri_187",
+        "pri_189",
+        "pri_198",
+        "pri_213",
+        "pri_214",
+        "pri_236",
+        "pri_237",
+        "pri_240",
+        "pri_244",
+        "pri_245",
+        "pri_246",
+        "pri_247",
+        "pri_257",
+        "pri_259",
+        "pri_264",
+        "pri_272",
+        "pri_291",
+        "pri_296",
+        "pri_299",
+        "pri_323",
+        "pri_338",
+        "pri_339",
+        "pri_347",
+        "pri_353",
+        "pri_373",
+        "pri_377",
+        "pri_386",
+        "pri_404",
+        "pri_405",
+        "pri_407",
+        "pri_410",
+        "pri_411",
+        "pri_416",
+        "pri_417",
+        "pri_418",
+        "pri_419",
+        "pri_420",
+        "pri_421",
+        "pri_422",
+        "pri_423",
+        "pri_428",
+        "pri_431",
+        "pri_432",
+        "pri_438",
+        "pri_443",
+        "pri_450",
+        "pri_452",
+        "pri_453",
+        "pri_456",
+        "pri_458",
+        "pri_460",
+        "pri_462",
+        "pri_464",
+        "pri_467",
+        "pri_475",
+        "pri_476",
+        "pri_481",
+        "pri_487",
+        "pri_492",
+        "pri_493",
+        "pri_496",
+        "pri_499",
+        "pri_505"
+      ],
+      "wordCount": 86
     }
   ]
 }
