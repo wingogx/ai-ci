@@ -185,11 +185,25 @@ export function useGame() {
   // 词库加载完成后开始游戏（只在首次加载时执行）
   useEffect(() => {
     if (allWords.length > 0 && !currentPuzzle) {
-      const progress = getCurrentProgress()
-      startLevel(progress.completedLevels + 1)
+      // 对于小学和初中，需要等待主题数据加载完成
+      const needsTheme = settings.currentGrade === 'primary' || settings.currentGrade === 'junior'
+      const themeReady = !needsTheme || themeData !== null
+
+      console.log('[useGame] 检查启动条件:', {
+        hasWords: allWords.length > 0,
+        hasPuzzle: !!currentPuzzle,
+        needsTheme,
+        themeReady,
+        grade: settings.currentGrade
+      })
+
+      if (themeReady) {
+        const progress = getCurrentProgress()
+        startLevel(progress.completedLevels + 1)
+      }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [allWords.length]) // 只依赖词库是否加载完成
+  }, [allWords.length, themeData]) // 依赖词库和主题数据
 
   // 进入关卡时播放单词
   useEffect(() => {
