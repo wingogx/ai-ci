@@ -80,10 +80,23 @@ export function selectWordsFromTheme(
 ): Word[] {
   const result: Word[] = []
 
+  console.log('[selectWordsFromTheme] 开始选词:', {
+    totalWords: allWords.length,
+    themeWordIds: themeWordIds.length,
+    wordCount
+  })
+
   // 1. 筛选主题词
   const themeWords = allWords.filter((w) => themeWordIds.includes(w.id))
 
+  console.log('[selectWordsFromTheme] 筛选主题词:', {
+    themeWords: themeWords.length,
+    themeWordIdsExample: themeWordIds.slice(0, 3),
+    allWordsIdsExample: allWords.slice(0, 3).map(w => w.id)
+  })
+
   if (themeWords.length === 0) {
+    console.warn('[selectWordsFromTheme] 没有找到主题词！')
     return result
   }
 
