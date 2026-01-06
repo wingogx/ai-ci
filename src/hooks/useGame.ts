@@ -4,7 +4,9 @@ import { useCallback, useEffect, useState } from 'react'
 import { useGameStore, useUserStore } from '@/stores'
 import { useSpeech } from './useSpeech'
 import { loadWordList } from '@/lib/wordLoader'
+import { loadThemeData } from '@/lib/themeLoader'
 import type { Word } from '@/types'
+import type { ThemeData } from '@/lib/themeSelector'
 
 /**
  * 游戏主逻辑 Hook
@@ -12,6 +14,7 @@ import type { Word } from '@/types'
 export function useGame() {
   const [isLoading, setIsLoading] = useState(true)
   const [allWords, setAllWords] = useState<Word[]>([])
+  const [themeData, setThemeData] = useState<ThemeData | null>(null)
   const [error, setError] = useState<string | null>(null)
 
   const { speak, speakWords } = useSpeech()
@@ -22,6 +25,7 @@ export function useGame() {
     isChallenge,
     isTutorialLevel,
     currentGrade: gameGrade,
+    currentTheme,
     currentPuzzle,
     currentWords,
     placedLetters,
@@ -51,15 +55,20 @@ export function useGame() {
   } = useUserStore()
 
   /**
-   * 加载词库
+   * 加载词库和主题数据
    */
   const loadWords = useCallback(async () => {
     setIsLoading(true)
     setError(null)
 
     try {
+      // 加载词库
       const words = await loadWordList(settings.currentGrade)
       setAllWords(words)
+
+      // 加载主题数据（仅小学和初中）
+      const themes = await loadThemeData(settings.currentGrade)
+      setThemeData(themes)
     } catch (err) {
       setError('加载词库失败，请检查网络连接')
       console.error(err)
@@ -85,10 +94,11 @@ export function useGame() {
         learnedWords,
         helpedWords,
         settings.currentGrade,
-        progress.helpCount
+        progress.helpCount,
+        themeData
       )
     },
-    [allWords, getCurrentProgress, initLevel, settings.currentGrade]
+    [allWords, themeData, getCurrentProgress, initLevel, settings.currentGrade]
   )
 
   /**
@@ -207,6 +217,7 @@ export function useGame() {
     currentLevel,
     isChallenge,
     isTutorialLevel,
+    currentTheme,
     currentPuzzle,
     currentWords,
     placedLetters,

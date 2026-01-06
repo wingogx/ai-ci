@@ -1,5 +1,11 @@
 import type { Word } from '@/types'
 import { shuffle } from '@/utils/helpers'
+import {
+  getLevelType,
+  getThemeForLevel,
+  selectWordsFromTheme,
+  type ThemeData,
+} from './themeSelector'
 
 /**
  * 关卡单词选择结果
@@ -7,6 +13,7 @@ import { shuffle } from '@/utils/helpers'
 export interface LevelWords {
   words: Word[]
   hasRelearn: boolean // 是否包含需要重学的词
+  theme?: { id: string; name: string } | null // 主题信息（如果是主题关卡）
 }
 
 /**
@@ -227,6 +234,78 @@ export function updateProgressAfterLevel(
   return {
     learnedWords: newLearnedWords,
     helpedWords: newHelpedWords,
+  }
+}
+
+/**
+ * 统一的关卡选词入口
+ * 根据等级和关卡自动选择主题模式或普通模式
+ *
+ * @param allWords 完整词库
+ * @param learnedWords 已学单词 ID 集合
+ * @param helpedWords 需要重学的单词 ID 集合
+ * @param wordCount 本关需要的单词数量
+ * @param level 当前关卡
+ * @param grade 等级（用于判断是否启用主题模式）
+ * @param themeData 主题数据（如果启用主题模式）
+ */
+export function selectWordsForLevelWithTheme(
+  allWords: Word[],
+  learnedWords: Set<string>,
+  helpedWords: Set<string>,
+  wordCount: number = 4,
+  level: number = 1,
+  grade: string = '',
+  themeData: ThemeData | null = null
+): LevelWords {
+  // 判断是否启用主题模式（仅小学和初中）
+  const useThemeMode = (grade === 'primary' || grade === 'junior') && themeData !== null
+
+  if (!useThemeMode) {
+    // 使用普通模式
+    return selectWordsForLevel(allWords, learnedWords, helpedWords, wordCount, level)
+  }
+
+  // 判断关卡类型
+  const levelType = getLevelType(level)
+
+  if (levelType === 'challenge') {
+    // 难度关卡：使用普通选词逻辑（查漏补缺）
+    return {
+      ...selectWordsForLevel(allWords, learnedWords, helpedWords, wordCount, level),
+      theme: null,
+    }
+  }
+
+  // 主题关卡：从主题中选词
+  const theme = getThemeForLevel(level, themeData)
+
+  if (!theme) {
+    // 如果获取不到主题，降级为普通模式
+    return {
+      ...selectWordsForLevel(allWords, learnedWords, helpedWords, wordCount, level),
+      theme: null,
+    }
+  }
+
+  const words = selectWordsFromTheme(
+    allWords,
+    theme.words,
+    learnedWords,
+    helpedWords,
+    wordCount
+  )
+
+  // 检查是否有需要重学的词
+  const hasRelearn = words.some((w) => helpedWords.has(w.id) && !learnedWords.has(w.id))
+
+  return {
+    words,
+    hasRelearn,
+    theme: {
+      id: theme.id,
+      name: theme.name,
+    },
   }
 }
 

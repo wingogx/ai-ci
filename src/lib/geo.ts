@@ -3,6 +3,8 @@
  * 优先使用浏览器定位，降级使用 IP 定位
  */
 
+import { convertToChineseCity } from './cityMapping'
+
 interface GeoInfo {
   city: string | null
   region: string | null
@@ -105,10 +107,12 @@ async function fetchFromIpApiCo(): Promise<GeoInfo> {
 /**
  * 获取城市名称（简化版）
  * 返回格式：城市名（如 "北京"、"上海"、"深圳"）
+ * 自动转换拼音为中文
  */
 export async function getCityName(): Promise<string | null> {
   const geo = await getGeoByIP()
-  return geo.city
+  // 转换为中文城市名
+  return convertToChineseCity(geo.city)
 }
 
 /**

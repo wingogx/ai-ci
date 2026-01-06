@@ -12,6 +12,7 @@ interface GameHeaderProps {
   onRestart: () => void
   isChallenge?: boolean
   isTutorialLevel?: boolean
+  theme?: { id: string; name: string } | null
   className?: string
 }
 
@@ -24,6 +25,7 @@ export function GameHeader({
   onRestart,
   isChallenge = false,
   isTutorialLevel = false,
+  theme = null,
   className,
 }: GameHeaderProps) {
   return (
@@ -52,7 +54,14 @@ export function GameHeader({
             挑战
           </span>
         )}
-        <span className="font-bold text-gray-900 text-sm sm:text-base">第 {level} 关</span>
+        <div className="flex flex-col items-center">
+          <span className="font-bold text-gray-900 text-sm sm:text-base">第 {level} 关</span>
+          {theme && (
+            <span className="text-[10px] sm:text-xs text-blue-600 font-medium">
+              {theme.name}
+            </span>
+          )}
+        </div>
       </div>
 
       {/* 右侧按钮 */}

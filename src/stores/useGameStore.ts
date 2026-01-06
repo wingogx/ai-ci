@@ -5,7 +5,8 @@ import {
   validateWord,
   isWordComplete,
 } from '@/lib/puzzleGenerator'
-import { selectWordsForLevel } from '@/lib/wordSelector'
+import { selectWordsForLevelWithTheme } from '@/lib/wordSelector'
+import type { ThemeData } from '@/lib/themeSelector'
 import { getWordCountForLevel, getPreFillRatio, isChallengeLevel } from '@/utils'
 
 // 教学关卡数量（前N关自动显示答案）
@@ -19,6 +20,9 @@ interface GameState {
 
   // 当前使用的词库等级（用于检测等级切换）
   currentGrade: string | null
+
+  // 当前主题（如果是主题关卡）
+  currentTheme: { id: string; name: string } | null
 
   // 当前拼图
   currentPuzzle: PuzzleLayout | null
@@ -47,7 +51,8 @@ interface GameState {
     learnedWords: Set<string>,
     helpedWords: Set<string>,
     grade: string,
-    helpCount: number
+    helpCount: number,
+    themeData?: ThemeData | null
   ) => void
   placeLetter: (cellId: string, poolLetterId: string, letter: string) => void
   removeLetter: (cellId: string) => void
@@ -62,6 +67,7 @@ export const useGameStore = create<GameState>((set, get) => ({
   isChallenge: false,
   isTutorialLevel: true,
   currentGrade: null,
+  currentTheme: null,
   currentPuzzle: null,
   currentWords: [],
   placedLetters: new Map(),
@@ -73,7 +79,7 @@ export const useGameStore = create<GameState>((set, get) => ({
   isHelpUsed: false,
   revealedWords: [],
 
-  initLevel: (level, allWords, learnedWords, helpedWords, grade, helpCount) => {
+  initLevel: (level, allWords, learnedWords, helpedWords, grade, helpCount, themeData = null) => {
     const isChallenge = isChallengeLevel(level)
     const isTutorialLevel = level <= TUTORIAL_LEVELS
     const wordCount = getWordCountForLevel(level)
@@ -82,6 +88,7 @@ export const useGameStore = create<GameState>((set, get) => ({
     // 尝试生成拼图，最多重试 10 次（每次选不同的词）
     let puzzle = null
     let words: Word[] = []
+    let theme: { id: string; name: string } | null = null
     let attempts = 0
     const maxAttempts = 10
     const triedWordCombos = new Set<string>()
@@ -89,15 +96,18 @@ export const useGameStore = create<GameState>((set, get) => ({
     while (!puzzle && attempts < maxAttempts) {
       attempts++
 
-      // 选择单词（传入 level 控制词长）
-      const result = selectWordsForLevel(
+      // 选择单词（使用主题模式选词，传入 level 控制词长）
+      const result = selectWordsForLevelWithTheme(
         allWords,
         learnedWords,
         helpedWords,
         wordCount,
-        level
+        level,
+        grade,
+        themeData
       )
       words = result.words
+      theme = result.theme || null
 
       // 检查是否已尝试过相同的词组合
       const comboKey = words.map((w) => w.id).sort().join(',')
@@ -127,14 +137,17 @@ export const useGameStore = create<GameState>((set, get) => ({
       // 最后兜底：减少单词数量再试一次
       console.warn('尝试减少单词数量...')
       const reducedCount = Math.max(2, wordCount - 1)
-      const result = selectWordsForLevel(
+      const result = selectWordsForLevelWithTheme(
         allWords,
         new Set(), // 重置已学列表
         helpedWords,
         reducedCount,
-        level
+        level,
+        grade,
+        themeData
       )
       words = result.words
+      theme = result.theme || null
       const wordStrings = words.map((w) => w.word)
       try {
         puzzle = generatePuzzle(wordStrings, { preFillRatio, maxRetries: 200 })
@@ -149,6 +162,7 @@ export const useGameStore = create<GameState>((set, get) => ({
       isChallenge,
       isTutorialLevel,
       currentGrade: grade,
+      currentTheme: theme,
       currentPuzzle: puzzle,
       currentWords: words,
       placedLetters: new Map(),
@@ -309,6 +323,7 @@ export const useGameStore = create<GameState>((set, get) => ({
       isChallenge: false,
       isTutorialLevel: true,
       currentGrade: null,
+      currentTheme: null,
       currentPuzzle: null,
       currentWords: [],
       placedLetters: new Map(),

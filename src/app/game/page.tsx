@@ -49,6 +49,7 @@ export default function GamePage() {
     currentLevel,
     isChallenge,
     isTutorialLevel,
+    currentTheme,
     currentPuzzle,
     currentWords,
     placedLetters,
@@ -311,6 +312,7 @@ export default function GamePage() {
           onRestart={handleRestart}
           isChallenge={isChallenge}
           isTutorialLevel={isTutorialLevel}
+          theme={currentTheme}
         />
 
         {/* 帮助提示（显示单词） */}
